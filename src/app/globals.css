@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+.nav-link {
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-primary-red);
+}
+
 .btn-primary {
   background: linear-gradient(135deg, var(--color-primary-red) 0%, var(--color-dark-red) 100%);
   color: var(--color-text-light);
@@ -78,4 +86,221 @@ a {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* --- Navigation Dropdown Styles --- */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  min-width: 180px;
+  padding: 0.5rem 0;
+  z-index: 1000;
+  border-top: 3px solid var(--color-primary-red);
+}
+
+.has-dropdown:hover .dropdown-menu {
+  display: block;
+  animation: fadeIn 0.2s ease;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 0.7rem 1.5rem;
+  color: #333;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+  color: var(--color-primary-red);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Footer Styles --- */
+.footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 4rem 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-logo {
+  color: var(--color-primary-red);
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.footer-desc {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #b0b0b0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #333;
+  border-radius: 4px;
+  color: #b0b0b0;
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #b0b0b0;
+  color: #1a1a1a;
+}
+
+.footer-heading {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 40px;
+  height: 2px;
+  background-color: #b0b0b0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  color: #b0b0b0;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.contact-item {
+  margin-bottom: 1.2rem;
+}
+
+.contact-item strong {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+
+.contact-item p {
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+/* --- Standard Page Styles (Terms, Privacy, etc.) --- */
+.page-banner {
+  background-color: #f1f1f1;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.page-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumb {
+  font-size: 0.95rem;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb .separator {
+  color: #999;
+}
+
+.page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 5%;
+}
+
+.page-content h2 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+.page-content p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
