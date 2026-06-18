@@ -1,66 +1,48 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      <section className={styles.hero}>
+        <div className={styles.heroBackground}></div>
+        <div className={styles.heroContent}>
+          
+          <div className={styles.heroText}>
+            <h1 className={styles.title}>
+              Kerala’s Purest <br />
+              <span className="gradient-text-gold">For Your Kitchen</span>
+            </h1>
+            <p className={styles.subtitle}>
+              From authentic Oils to Millets & Essentials - Pavithram Delivers Trusted Quality for over 75 Years.
+            </p>
+            
+            <div className={styles.buttonGroup}>
+              <button className="btn-primary">Shop Retail</button>
+              <button className="btn-secondary">Bulk / Export Enquiry</button>
+            </div>
+
+            <div className={styles.trustBadges}>
+              <div className={styles.badge}>
+                <span>★</span> 75 Years of Trust
+              </div>
+              <div className={styles.badge}>
+                <span>✓</span> FSSAI Certified
+              </div>
+              <div className={styles.badge}>
+                <span>🌍</span> Exporting to 25+ Countries
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.heroImageContainer}>
+            {/* We will replace this with an actual optimized next/image later */}
+            <div style={{ width: '100%', height: '100%', background: 'rgba(255,255,255,0.1)', borderRadius: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px dashed var(--color-primary-gold)' }}>
+              <span style={{ color: 'var(--color-primary-gold)', fontWeight: 'bold' }}>[ Product Image Placeholder ]</span>
+            </div>
+          </div>
+
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
