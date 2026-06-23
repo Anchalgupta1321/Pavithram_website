@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Best Cooking Oils & Food Products | Pavithram Online",
   description: "Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -14,8 +17,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <nav style={{ padding: '1.2rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--color-background-albastor)', boxShadow: '0 2px 15px rgba(0,0,0,0.05)', position: 'sticky', top: 0, zIndex: 100 }}>
-          <div style={{ fontWeight: '800', fontSize: '1.8rem', color: 'var(--color-primary-red)', letterSpacing: '-0.5px' }}>
-            PAVITHRAM
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <img src="/logo_cropped.png" alt="Pavithram Logo" style={{ height: '70px', objectFit: 'contain' }} />
           </div>
           <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', fontWeight: '500', fontSize: '0.95rem' }}>
             <a href="/" className="nav-link">Home</a>

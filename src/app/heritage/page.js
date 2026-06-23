@@ -42,15 +42,22 @@ export default function HeritagePage() {
             <div className="timeline-content">
               <span className="timeline-year">1950s</span>
               <h3>The Beginning</h3>
-              <div className="timeline-image-grid">
-                <div className="timeline-image-wrapper">
-                  <img src="https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/Sri.%20P.%20A.%20Moideen%20Haji.jpg" alt="Sri. P. A. Moideen Haji" />
-                </div>
-                <div className="timeline-image-wrapper">
-                  <img src="https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/A.%20K.%20Aishu.jpg" alt="Smt. A. K. Aishu" />
-                </div>
+              <div className="timeline-image-wrapper single-img">
+                <img src="https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/Sri.%20P.%20A.%20Moideen%20Haji.jpg" alt="Sri. P. A. Moideen Haji" />
               </div>
-              <p>In the late 1950s, Sri. P. A. Moideen Haji, along with his three brothers, laid the foundation of the business by starting an Oil Mill in Aluva under the name Brothers’ Mill. They sourced only the best quality sesame seeds and coconuts to produce pure, traditional edible oils.</p>
+              <p>In the late 1950s, Sri. P. A. Moideen Haji, along with his three brothers, laid the foundation of the business by starting an Oil Mill in Aluva under the name Brothers’ Mill. They sourced only the best quality sesame seeds and coconuts to produce pure, traditional edible oils. Their oils quickly gained trust among local vendors and Ayurveda establishments, known for their natural aroma, taste, and authenticity.</p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <span className="timeline-year">1950s</span>
+              <h3>The Guiding Light</h3>
+              <div className="timeline-image-wrapper single-img">
+                <img src="https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/A.%20K.%20Aishu.jpg" alt="Smt. A. K. Aishu" />
+              </div>
+              <p>Smt. A. K. Aishu, the woman power behind the birth and growth of this business, was the guiding light of Pavithram’s journey. As the beloved better half of Sri. P. A. Moideen Haji, she stood beside him through every challenge and triumph. Her strength, wisdom, and unwavering support were instrumental in shaping what has now become a lasting legacy, an empire built on values, trust, and perseverance.</p>
             </div>
           </div>
 

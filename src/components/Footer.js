@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* Brand Column */}
         <div className="footer-col brand-col">
-          <h2 className="footer-logo">PAVITHRAM</h2>
+          <img src="/logo_cropped.png" alt="Pavithram Logo" style={{ height: '90px', marginBottom: '1.5rem', objectFit: 'contain' }} />
           <p className="footer-desc">
             Pavithram is a beloved food brand from Kerala, trusted for over 75 years and still going strong. Known for our pure coconut and gingelly oils, we now offer a range of authentic food products proudly exported to 25+ countries worldwide.
           </p>

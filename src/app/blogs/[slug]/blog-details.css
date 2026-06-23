@@ -1,0 +1,134 @@
+.blog-details-page {
+  background-color: #fcfcfc;
+  color: #1a1a1a;
+  min-height: 100vh;
+}
+
+/* --- Hero Banner --- */
+.blog-details-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  background-color: #000;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+}
+
+.blog-details-hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.hero-overlay-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-overlay-content .badge {
+  display: inline-block;
+  background: var(--color-primary-red);
+  color: white;
+  padding: 0.4rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-overlay-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.details-meta {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+/* --- Article Content --- */
+.article-container {
+  max-width: 800px;
+  margin: -4rem auto 4rem auto;
+  background: #fff;
+  position: relative;
+  z-index: 3;
+  padding: 4rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.article-content {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary-red);
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  transition: opacity 0.2s ease;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+}
+
+/* --- Related Posts --- */
+.related-posts-section {
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.related-posts-section h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blog-details-hero {
+    height: 50vh;
+  }
+  .hero-overlay-content h1 {
+    font-size: 2.2rem;
+  }
+  .article-container {
+    margin: 0;
+    border-radius: 0;
+    padding: 2rem 1.5rem;
+    box-shadow: none;
+  }
+  .article-content {
+    font-size: 1.05rem;
+  }
+}

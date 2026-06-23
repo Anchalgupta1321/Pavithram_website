@@ -1,0 +1,83 @@
+"use client";
+
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
+import { blogPosts } from '../../../data/blogData';
+import './blog-details.css';
+
+export default function BlogDetailsPage() {
+  const params = useParams();
+  const slug = params.slug;
+
+  const post = blogPosts.find(p => p.slug === slug);
+
+  if (!post) {
+    return (
+      <div style={{ textAlign: 'center', padding: '10rem 2rem' }}>
+        <h1>Article Not Found</h1>
+        <p>Sorry, the article you are looking for does not exist.</p>
+        <Link href="/blogs" style={{ color: 'var(--color-primary-red)', marginTop: '2rem', display: 'inline-block' }}>← Back to Blogs</Link>
+      </div>
+    );
+  }
+
+  // Get 3 random related posts
+  const relatedPosts = blogPosts.filter(p => p.slug !== slug).slice(0, 3);
+
+  return (
+    <main className="blog-details-page">
+      
+      {/* Hero Banner */}
+      <section className="blog-details-hero">
+        <img src={post.image} alt={post.title} />
+        <div className="hero-overlay-content">
+          <span className="badge">{post.category}</span>
+          <h1>{post.title}</h1>
+          <div className="details-meta">
+            <span>{post.date}</span> &nbsp;&nbsp;•&nbsp;&nbsp; <span>{post.readTime}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <article className="article-container">
+        <Link href="/blogs" className="back-btn">
+          ← Back to all articles
+        </Link>
+        <div className="article-content">
+          <p><strong>{post.excerpt}</strong></p>
+          <p>{post.content}</p>
+          <p>
+            <em>Note: This content was migrated from the original website. In the future, this page will be connected to a Headless CMS (like Sanity) so your non-technical team can easily write full, rich-text articles with multiple paragraphs, images, and embedded videos directly from an admin dashboard.</em>
+          </p>
+        </div>
+      </article>
+
+      {/* Related Posts */}
+      <section className="related-posts-section">
+        <h2>You Might Also Like</h2>
+        <div className="blog-grid">
+          {relatedPosts.map((relatedPost) => (
+            <div className="blog-card" key={relatedPost.id}>
+              <div className="card-img">
+                <Link href={`/blogs/${relatedPost.slug}`}>
+                  <img src={relatedPost.image} alt={relatedPost.title} />
+                </Link>
+              </div>
+              <div className="card-content">
+                <span className="card-badge">{relatedPost.category}</span>
+                <h3><Link href={`/blogs/${relatedPost.slug}`}>{relatedPost.title}</Link></h3>
+                <p className="card-excerpt">{relatedPost.excerpt}</p>
+                <div className="card-meta">
+                  <span>{relatedPost.date}</span>
+                  <span>{relatedPost.readTime}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+    </main>
+  );
+}
