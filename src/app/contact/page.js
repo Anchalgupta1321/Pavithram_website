@@ -1,11 +1,28 @@
 "use client";
 
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { useState } from 'react';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaSearch, FaStore } from 'react-icons/fa';
 import { BsStars } from 'react-icons/bs';
 import Link from 'next/link';
 import './contact.css';
 
+const dealers = [
+  { id: 1, name: "Kerala Mart Supermarket", city: "Kochi", address: "MG Road, Ernakulam, Kerala 682011", phone: "0484 2356789" },
+  { id: 2, name: "Daily Needs Hypermarket", city: "Thiruvananthapuram", address: "Pattom, Trivandrum, Kerala 695004", phone: "0471 2445566" },
+  { id: 3, name: "Malabar Traders", city: "Kozhikode", address: "SM Street, Calicut, Kerala 673001", phone: "0495 2721234" },
+  { id: 4, name: "Global Indian Grocers", city: "Dubai", address: "Al Karama, Dubai, UAE", phone: "+971 4 336 1234" },
+  { id: 5, name: "South Indian Store", city: "London", address: "East Ham, London, UK E6 1JD", phone: "+44 20 8472 5678" }
+];
+
 export default function ContactPage() {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredDealers = dealers.filter(dealer => 
+    dealer.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    dealer.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    dealer.address.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <>
       <main className="contact-page">
@@ -69,6 +86,46 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
+
+      {/* Dealer Locator Section */}
+      <section className="dealer-locator-section">
+        <div className="dealer-locator-header">
+          <h2>Find a Dealer Near You</h2>
+          <p>Search for certified Pavithram distributors and retail outlets in your area.</p>
+        </div>
+        
+        <div className="dealer-search-box">
+          <FaSearch className="search-icon" />
+          <input 
+            type="text" 
+            placeholder="Search by city, store name, or address..." 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+        </div>
+
+        <div className="dealer-grid">
+          {filteredDealers.length > 0 ? (
+            filteredDealers.map(dealer => (
+              <div key={dealer.id} className="dealer-card">
+                <div className="dealer-card-header">
+                  <FaStore className="store-icon" />
+                  <h3>{dealer.name}</h3>
+                </div>
+                <div className="dealer-info">
+                  <p><strong><FaMapMarkerAlt className="dealer-small-icon"/></strong> {dealer.address}</p>
+                  <p><strong><FaPhoneAlt className="dealer-small-icon"/></strong> {dealer.phone}</p>
+                </div>
+              </div>
+            ))
+          ) : (
+            <div className="no-dealers">
+              <p>No dealers found matching your search. Please try a different location or contact us directly.</p>
+            </div>
+          )}
+        </div>
+      </section>
+
       </main>
       
       {/* Full Width Map Section */}

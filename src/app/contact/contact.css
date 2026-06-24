@@ -158,3 +158,124 @@
 .terms-checkbox label {
   cursor: pointer;
 }
+
+/* Dealer Locator Section */
+.dealer-locator-section {
+  margin-top: 5rem;
+  padding-top: 4rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.dealer-locator-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.dealer-locator-header h2 {
+  font-size: 2.2rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.dealer-locator-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.dealer-search-box {
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dealer-search-box .search-icon {
+  position: absolute;
+  left: 20px;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.dealer-search-box input {
+  width: 100%;
+  padding: 18px 20px 18px 50px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.dealer-search-box input:focus {
+  outline: none;
+  border-color: var(--color-primary-red);
+  box-shadow: 0 4px 20px rgba(227, 30, 36, 0.1);
+}
+
+.dealer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.dealer-card {
+  background: white;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.dealer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-color: var(--color-primary-red);
+}
+
+.dealer-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.store-icon {
+  font-size: 1.8rem;
+  color: var(--color-primary-gold);
+}
+
+.dealer-card h3 {
+  font-size: 1.25rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.dealer-info p {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.dealer-small-icon {
+  color: var(--color-primary-red);
+  margin-top: 3px;
+}
+
+.no-dealers {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  background: #fdfbf9;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.1rem;
+}

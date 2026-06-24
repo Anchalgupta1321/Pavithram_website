@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { categories, products } from '../../data/productData';
 import './products.css';
 
@@ -44,7 +45,7 @@ export default function ProductsPage() {
         <div className="shop-content">
           <div className="products-grid">
             {filteredProducts.map((product) => (
-              <div className="product-card" key={product.id}>
+              <Link href={`/products/${product.slug}`} className="product-card" key={product.id} style={{ textDecoration: 'none' }}>
                 {product.badge && <span className="product-badge">{product.badge}</span>}
                 
                 <div className="product-img-wrapper">
@@ -54,10 +55,12 @@ export default function ProductsPage() {
                 <div className="product-details">
                   <span className="product-category">{product.category}</span>
                   <h4 className="product-name">{product.name}</h4>
-                  <div className="product-price">{product.price}</div>
-                  <button className="add-to-cart-btn">View Options</button>
+                  <div className="product-price">
+                    {product.isBulkOnly ? <span style={{fontSize: '0.9rem', color: '#666'}}>Wholesale / Export Only</span> : product.price}
+                  </div>
+                  <button className="add-to-cart-btn">View Details</button>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           

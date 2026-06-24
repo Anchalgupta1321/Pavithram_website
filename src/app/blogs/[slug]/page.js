@@ -1,15 +1,17 @@
-"use client";
-
-import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { blogPosts } from '../../../data/blogData';
+import { getWordPressPosts } from '../../../utils/wp';
 import './blog-details.css';
 
-export default function BlogDetailsPage() {
-  const params = useParams();
-  const slug = params.slug;
+// Revalidate this page every 60 seconds
+export const revalidate = 60;
 
-  const post = blogPosts.find(p => p.slug === slug);
+export default async function BlogDetailsPage({ params }) {
+  const { slug } = await params;
+
+  // Fetch all posts to find the current one and related ones
+  const allPosts = await getWordPressPosts();
+  
+  const post = allPosts.find(p => p.slug === slug);
 
   if (!post) {
     return (
@@ -21,8 +23,8 @@ export default function BlogDetailsPage() {
     );
   }
 
-  // Get 3 random related posts
-  const relatedPosts = blogPosts.filter(p => p.slug !== slug).slice(0, 3);
+  // Get 3 related posts (excluding the current one)
+  const relatedPosts = allPosts.filter(p => p.slug !== slug).slice(0, 3);
 
   return (
     <main className="blog-details-page">
@@ -44,13 +46,7 @@ export default function BlogDetailsPage() {
         <Link href="/blogs" className="back-btn">
           ← Back to all articles
         </Link>
-        <div className="article-content">
-          <p><strong>{post.excerpt}</strong></p>
-          <p>{post.content}</p>
-          <p>
-            <em>Note: This content was migrated from the original website. In the future, this page will be connected to a Headless CMS (like Sanity) so your non-technical team can easily write full, rich-text articles with multiple paragraphs, images, and embedded videos directly from an admin dashboard.</em>
-          </p>
-        </div>
+        <div className="article-content" dangerouslySetInnerHTML={{ __html: post.content }} />
       </article>
 
       {/* Related Posts */}
