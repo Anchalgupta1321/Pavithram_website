@@ -128,18 +128,31 @@ export default function ProductClient({ params }) {
           <div className="product-tabs">
             <div className="tab-headers">
               <button className={activeTab === 'description' ? 'active' : ''} onClick={() => setActiveTab('description')}>Description</button>
-              <button className={activeTab === 'ingredients' ? 'active' : ''} onClick={() => setActiveTab('ingredients')}>Ingredients</button>
-              <button className={activeTab === 'certifications' ? 'active' : ''} onClick={() => setActiveTab('certifications')}>Certifications</button>
+              {product.ingredients && <button className={activeTab === 'ingredients' ? 'active' : ''} onClick={() => setActiveTab('ingredients')}>Ingredients</button>}
+              {product.nutritionalInfo && <button className={activeTab === 'nutrition' ? 'active' : ''} onClick={() => setActiveTab('nutrition')}>Nutrition</button>}
+              {product.benefits && product.benefits.length > 0 && <button className={activeTab === 'benefits' ? 'active' : ''} onClick={() => setActiveTab('benefits')}>Benefits</button>}
+              <button className={activeTab === 'certifications' ? 'active' : ''} onClick={() => setActiveTab('certifications')}>Quality & Care</button>
             </div>
             <div className="tab-content">
-              {activeTab === 'description' && <p>{product.description}</p>}
+              {activeTab === 'description' && <p>{product.description || 'Premium quality product from Pavithram.'}</p>}
               {activeTab === 'ingredients' && <p>{product.ingredients}</p>}
-              {activeTab === 'certifications' && (
+              {activeTab === 'nutrition' && <p>{product.nutritionalInfo}</p>}
+              {activeTab === 'benefits' && (
                 <ul className="cert-list">
-                  {product.certifications.map((cert, i) => (
-                    <li key={i}><BsCheckCircleFill className="text-gold" /> {cert}</li>
+                  {product.benefits.map((benefit, i) => (
+                    <li key={i}><BsCheckCircleFill className="text-gold" /> {benefit}</li>
                   ))}
                 </ul>
+              )}
+              {activeTab === 'certifications' && (
+                <div>
+                  {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
+                  <ul className="cert-list" style={{marginTop: '1rem'}}>
+                    {product.certifications && product.certifications.map((cert, i) => (
+                      <li key={i}><BsShieldCheck className="text-gold" /> {cert}</li>
+                    ))}
+                  </ul>
+                </div>
               )}
             </div>
           </div>

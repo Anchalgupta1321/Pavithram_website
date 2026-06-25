@@ -14,11 +14,11 @@ export default function HomePage() {
   ];
 
   const products = [
-    { name: 'Pure Sesame Oil', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png' },
-    { name: 'Chicken Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
-    { name: 'Biriyani Masala 100g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' },
-    { name: 'Mutton Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Mutton-Masala-160g.jpg' },
-    { name: 'Pure Coconut Oil', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/coconut-oil-500ml.jpg' } // Assuming this exists or falls back gracefully
+    { name: 'Pure Sesame Oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', bg: 'linear-gradient(to bottom, #fdf6e3 50%, #f3c442 50%)' },
+    { name: 'Biriyani Masala 100g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg', bg: 'linear-gradient(to bottom, #f3ebfa 50%, #9c63d6 50%)' },
+    { name: 'Chicken Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', bg: 'linear-gradient(to bottom, #fae6e6 50%, #e33b3b 50%)' },
+    { name: 'Mutton Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Mutton-Masala-160g.jpg', bg: 'linear-gradient(to bottom, #f3ebfa 50%, #9c63d6 50%)' },
+    { name: 'Pure Coconut Oil', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png', bg: 'linear-gradient(to bottom, #fffceb 50%, #ffda59 50%)' }
   ];
 
   const offers = [
@@ -224,12 +224,19 @@ export default function HomePage() {
         <div className="spotlight-split">
           <motion.div 
             className="spotlight-img"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
           >
-            <img src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Pavithram Pure Sesame Oil" />
+            <motion.img 
+              src="/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png" 
+              alt="Pavithram Pure Sesame Oil" 
+              initial={{ x: -150, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
+            />
           </motion.div>
           <motion.div 
             className="spotlight-content"
@@ -279,8 +286,9 @@ export default function HomePage() {
               className="product-card" 
               key={i} 
               variants={fadeInUp}
+              style={{ background: prod.bg }}
             >
-              <img src={prod.image} alt={prod.name} onError={(e) => { e.target.src="https://www.pavithram.online/wp-content/uploads/2025/09/Model-Foreground-Hero.png" }} />
+              <img src={prod.image} alt={prod.name} style={{ mixBlendMode: 'multiply', backgroundColor: '#e5e5e5' }} onError={(e) => { e.target.src="https://www.pavithram.online/wp-content/uploads/2025/09/Model-Foreground-Hero.png" }} />
               <h3>{prod.name}</h3>
               <Link href="/products" className="view-btn">View Product</Link>
             </motion.div>
@@ -297,18 +305,37 @@ export default function HomePage() {
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          <span>Customer Love</span>
-          <h2>What Our Family Says</h2>
+          <span>Testimonials</span>
+          <h2>What Our Consumers Say About Us</h2>
         </motion.div>
         <motion.div 
-          className="testimonial-card"
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
+          className="testimonials-grid"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
         >
-          <p>"Pavithram sesame oil is the only oil my grandmother trusts. It tastes exactly like the traditional oils we used to get in our village decades ago. Absolutely pure!"</p>
-          <div className="testimonial-author">- Aisha M., Kerala</div>
+          {/* Testimonial 1 */}
+          <motion.div className="testimonial-card" variants={fadeInUp}>
+            <p>"Being away from Kerala, I always missed the authentic taste of home-cooked meals. Pavithram food products have completely changed that for me. From the aroma of their traditional spices to the freshness of their ingredients, every dish I make feels like a true taste of Kerala. It's comforting to enjoy my favourite dishes even while living thousands of miles away."</p>
+            <div className="testimonial-author-block">
+              <div className="author-info">
+                <strong>Anjali Menon</strong>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Testimonial 2 */}
+          <motion.div className="testimonial-card" variants={fadeInUp}>
+            <p>"As a professional chef, quality and consistency are non-negotiable in my kitchen. I've been using Pavithram oils for years, and they never disappoint. Their purity and authentic flavor elevate every dish, whether it's a simple stir-fry or a traditional Kerala feast. Pavithram is my trusted choice for delivering exceptional taste to my guests."</p>
+            <div className="testimonial-author-block">
+              <div className="author-info">
+                <strong>Raghav Nair</strong>
+                <span>Chef</span>
+              </div>
+            </div>
+          </motion.div>
         </motion.div>
       </section>
 

@@ -2,8 +2,33 @@
 
 import { FaGlobeAmericas, FaAward, FaShip, FaRegHandshake } from 'react-icons/fa';
 import { BsStars } from 'react-icons/bs';
-import { motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
+import { useRef, useEffect, useState } from 'react';
 import './bulk-enquiry.css';
+
+function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
+  const [count, setCount] = useState(from);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
+
+  useEffect(() => {
+    if (isInView) {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const p = Math.min((timestamp - startTimestamp) / (duration * 1000), 1);
+        const easeOut = 1 - (1 - p) * (1 - p);
+        setCount(Math.floor(easeOut * (to - from) + from));
+        if (p < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+  }, [isInView, from, to, duration]);
+
+  return <span ref={ref}>{count}{suffix}</span>;
+}
 
 export default function BulkEnquiryPage() {
   const fadeInUp = {
@@ -45,7 +70,7 @@ export default function BulkEnquiryPage() {
       >
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaGlobeAmericas className="stat-icon" />
-          <h3>25+</h3>
+          <h3><AnimatedCounter to={25} suffix="+" /></h3>
           <p>Countries Exported To</p>
         </motion.div>
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
@@ -55,12 +80,12 @@ export default function BulkEnquiryPage() {
         </motion.div>
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaShip className="stat-icon" />
-          <h3>200+</h3>
+          <h3><AnimatedCounter to={200} suffix="+" /></h3>
           <p>Containers Annually</p>
         </motion.div>
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaRegHandshake className="stat-icon" />
-          <h3>75+</h3>
+          <h3><AnimatedCounter to={75} suffix="+" /></h3>
           <p>Years of Trust</p>
         </motion.div>
       </motion.div>
