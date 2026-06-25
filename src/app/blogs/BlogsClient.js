@@ -2,11 +2,25 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import './blogs.css';
 
 export default function BlogsClient({ posts }) {
   const [activeFilter, setActiveFilter] = useState('Blogs');
   
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
   if (!posts || posts.length === 0) {
     return (
       <main className="blogs-page">
@@ -36,7 +50,12 @@ export default function BlogsClient({ posts }) {
       
       {/* Featured Hero Section */}
       {featuredPost && (
-        <section className="blog-hero">
+        <motion.section 
+          className="blog-hero"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+        >
           <div className="blog-hero-container">
             <div className="hero-img-wrapper">
               <Link href={`/blogs/${featuredPost.slug}`}>
@@ -55,11 +74,16 @@ export default function BlogsClient({ posts }) {
               <Link href={`/blogs/${featuredPost.slug}`} className="read-more-btn">Read Article</Link>
             </div>
           </div>
-        </section>
+        </motion.section>
       )}
 
       {/* Modern Filter Bar */}
-      <section className="filter-bar">
+      <motion.section 
+        className="filter-bar"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
         {categories.map((cat, index) => (
           <button 
             key={index} 
@@ -69,13 +93,24 @@ export default function BlogsClient({ posts }) {
             {cat}
           </button>
         ))}
-      </section>
+      </motion.section>
 
       {/* Blog Grid */}
       <section className="blog-grid-section">
-        <div className="blog-grid">
+        <motion.div 
+          className="blog-grid"
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+          key={activeFilter}
+        >
           {gridPosts.map((post) => (
-            <div className="blog-card" key={post.id}>
+            <motion.div 
+              className="blog-card" 
+              key={post.id}
+              variants={fadeInUp}
+              whileHover={{ y: -8, boxShadow: "0 15px 35px rgba(0,0,0,0.08)" }}
+            >
               <div className="card-img">
                 <Link href={`/blogs/${post.slug}`}>
                   <img src={post.image} alt={post.title} />
@@ -90,9 +125,9 @@ export default function BlogsClient({ posts }) {
                   <span>{post.readTime}</span>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </section>
 
     </main>

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaSearch, FaStore } from 'react-icons/fa';
 import { BsStars } from 'react-icons/bs';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import './contact.css';
 
 const dealers = [
@@ -23,19 +24,42 @@ export default function ContactPage() {
     dealer.address.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
   return (
     <>
       <main className="contact-page">
-      <div className="contact-header">
+      <motion.div 
+        className="contact-header"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="contact-subtitle">
           <BsStars className="sparkle-icon" /> Contact Us
         </div>
         <h1 className="contact-title">Contact Us For Any Query</h1>
-      </div>
+      </motion.div>
 
       <div className="contact-container">
         {/* Left Info Card */}
-        <div className="contact-info-card">
+        <motion.div 
+          className="contact-info-card"
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
           <h2>Address 1</h2>
           
           <div className="info-item">
@@ -54,10 +78,15 @@ export default function ContactPage() {
           </div>
 
           <div className="leaf-watermark"></div>
-        </div>
+        </motion.div>
 
         {/* Right Form */}
-        <div className="contact-form-wrapper">
+        <motion.div 
+          className="contact-form-wrapper"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
           <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
             <div className="form-group">
               <input type="text" placeholder="Name*" required />
@@ -79,22 +108,40 @@ export default function ContactPage() {
               <label htmlFor="terms">I agree to the <Link href="/terms" style={{ color: 'inherit', textDecoration: 'underline' }}><strong>Terms & Conditions</strong></Link> and <Link href="/privacy" style={{ color: 'inherit', textDecoration: 'underline' }}><strong>Privacy Policy</strong></Link></label>
             </div>
             <div className="form-group full-width">
-              <button type="submit" className="btn-primary" style={{ width: '100%', padding: '16px', fontSize: '1rem', marginTop: '10px' }}>
+              <motion.button 
+                type="submit" 
+                className="btn-primary" 
+                style={{ width: '100%', padding: '16px', fontSize: '1rem', marginTop: '10px' }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+              >
                 Send Message
-              </button>
+              </motion.button>
             </div>
           </form>
-        </div>
+        </motion.div>
       </div>
 
       {/* Dealer Locator Section */}
       <section className="dealer-locator-section">
-        <div className="dealer-locator-header">
+        <motion.div 
+          className="dealer-locator-header"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
           <h2>Find a Dealer Near You</h2>
           <p>Search for certified Pavithram distributors and retail outlets in your area.</p>
-        </div>
+        </motion.div>
         
-        <div className="dealer-search-box">
+        <motion.div 
+          className="dealer-search-box"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
           <FaSearch className="search-icon" />
           <input 
             type="text" 
@@ -102,12 +149,18 @@ export default function ContactPage() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-        </div>
+        </motion.div>
 
-        <div className="dealer-grid">
+        <motion.div 
+          className="dealer-grid"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
           {filteredDealers.length > 0 ? (
             filteredDealers.map(dealer => (
-              <div key={dealer.id} className="dealer-card">
+              <motion.div key={dealer.id} className="dealer-card" variants={fadeInUp}>
                 <div className="dealer-card-header">
                   <FaStore className="store-icon" />
                   <h3>{dealer.name}</h3>
@@ -116,20 +169,26 @@ export default function ContactPage() {
                   <p><strong><FaMapMarkerAlt className="dealer-small-icon"/></strong> {dealer.address}</p>
                   <p><strong><FaPhoneAlt className="dealer-small-icon"/></strong> {dealer.phone}</p>
                 </div>
-              </div>
+              </motion.div>
             ))
           ) : (
             <div className="no-dealers">
               <p>No dealers found matching your search. Please try a different location or contact us directly.</p>
             </div>
           )}
-        </div>
+        </motion.div>
       </section>
 
       </main>
       
       {/* Full Width Map Section */}
-      <div style={{ width: '100%', height: '450px' }}>
+      <motion.div 
+        style={{ width: '100%', height: '450px' }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
         <iframe
           src="https://maps.google.com/maps?q=Pavithram%20Oil%20Industries,%20Marampally,%20Aluva,%20Kerala&t=&z=14&ie=UTF8&iwloc=&output=embed"
           width="100%"
@@ -140,7 +199,7 @@ export default function ContactPage() {
           referrerPolicy="no-referrer-when-downgrade"
           title="Pavithram Oil Industries Location"
         ></iframe>
-      </div>
+      </motion.div>
     </>
   );
 }

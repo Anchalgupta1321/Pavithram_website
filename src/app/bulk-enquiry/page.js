@@ -2,12 +2,31 @@
 
 import { FaGlobeAmericas, FaAward, FaShip, FaRegHandshake } from 'react-icons/fa';
 import { BsStars } from 'react-icons/bs';
+import { motion } from 'framer-motion';
 import './bulk-enquiry.css';
 
 export default function BulkEnquiryPage() {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
   return (
     <main className="bulk-enquiry-page">
-      <div className="enquiry-header">
+      <motion.div 
+        className="enquiry-header"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="enquiry-subtitle">
           <BsStars className="sparkle-icon" /> Export & Wholesale
         </div>
@@ -15,34 +34,46 @@ export default function BulkEnquiryPage() {
         <p className="enquiry-desc">
           Join our global network. We export premium Kerala food products to over 25 countries, delivering quality and trust since 1950.
         </p>
-      </div>
+      </motion.div>
 
-      <div className="enquiry-stats">
-        <div className="stat-card">
+      <motion.div 
+        className="enquiry-stats"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={staggerContainer}
+      >
+        <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaGlobeAmericas className="stat-icon" />
           <h3>25+</h3>
           <p>Countries Exported To</p>
-        </div>
-        <div className="stat-card">
+        </motion.div>
+        <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaAward className="stat-icon" />
           <h3>One Star</h3>
           <p>Export House (DGFT)</p>
-        </div>
-        <div className="stat-card">
+        </motion.div>
+        <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaShip className="stat-icon" />
           <h3>200+</h3>
           <p>Containers Annually</p>
-        </div>
-        <div className="stat-card">
+        </motion.div>
+        <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaRegHandshake className="stat-icon" />
           <h3>75+</h3>
           <p>Years of Trust</p>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
       <div className="enquiry-container">
         {/* Left Info Card */}
-        <div className="enquiry-info-card">
+        <motion.div 
+          className="enquiry-info-card"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
           <h2>Why Choose Us?</h2>
           <ul className="benefits-list">
             <li><strong>Premium Quality:</strong> 100% pure ingredients sourced directly from farmers.</li>
@@ -58,10 +89,16 @@ export default function BulkEnquiryPage() {
             <p><strong>Phone:</strong> 0484 2678561</p>
           </div>
           <div className="leaf-watermark"></div>
-        </div>
+        </motion.div>
 
         {/* Right Form */}
-        <div className="enquiry-form-wrapper">
+        <motion.div 
+          className="enquiry-form-wrapper"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
           <h2>Request a Bulk Quote</h2>
           <form className="enquiry-form" onSubmit={(e) => e.preventDefault()}>
             <div className="form-row">
@@ -99,12 +136,18 @@ export default function BulkEnquiryPage() {
               <textarea placeholder="Tell us about your requirements (expected volume, packaging needs, etc.)" rows="6" required></textarea>
             </div>
             <div className="form-group full-width">
-              <button type="submit" className="btn-primary" style={{ width: '100%', padding: '16px', fontSize: '1.1rem', marginTop: '10px' }}>
+              <motion.button 
+                type="submit" 
+                className="btn-primary" 
+                style={{ width: '100%', padding: '16px', fontSize: '1.1rem', marginTop: '10px' }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+              >
                 Submit Enquiry
-              </button>
+              </motion.button>
             </div>
           </form>
-        </div>
+        </motion.div>
       </div>
     </main>
   );

@@ -2,31 +2,64 @@
 
 import './certifications.css';
 import { BsStars, BsShieldCheck } from 'react-icons/bs';
+import { motion } from 'framer-motion';
 
 export default function CertificationsPage() {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+  };
+
+  const slideInLeft = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6 } }
+  };
+
+  const slideInRight = {
+    hidden: { opacity: 0, x: 50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.6 } }
+  };
+
   return (
     <main className="certifications-page">
       {/* Reused Banner */}
-      <div className="page-banner">
+      <motion.div 
+        className="page-banner"
+        initial="hidden"
+        animate="visible"
+        variants={fadeInUp}
+      >
         <h1>Certifications & Achievements</h1>
         <div className="breadcrumb">
           <span>Home</span> <span className="separator">-</span> <span>Certifications</span>
         </div>
-      </div>
+      </motion.div>
 
       <div className="certifications-container">
         
         {/* Split Layout Section */}
         <div className="certification-split">
           
-          <div className="cert-image-wrapper">
+          <motion.div 
+            className="cert-image-wrapper"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={slideInLeft}
+          >
             <img 
               src="https://www.pavithram.online/wp-content/uploads/2026/01/pdfrendition1-1-1024x721.png" 
               alt="DGFT One Star Export House Certification" 
             />
-          </div>
+          </motion.div>
 
-          <div className="cert-content">
+          <motion.div 
+            className="cert-content"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={slideInRight}
+          >
             <h2>Government Recognised <br/><span className="highlight">One Star Export House</span></h2>
             
             <p>
@@ -42,17 +75,17 @@ export default function CertificationsPage() {
             </p>
 
             <div className="cert-badges">
-              <div className="cert-badge">
+              <motion.div className="cert-badge" whileHover={{ scale: 1.05 }}>
                 <BsStars style={{ color: 'var(--color-primary-gold)' }} />
                 DGFT Certified
-              </div>
-              <div className="cert-badge">
+              </motion.div>
+              <motion.div className="cert-badge" whileHover={{ scale: 1.05 }}>
                 <BsShieldCheck style={{ color: 'var(--color-primary-red)' }} />
                 Valid till Jan 2031
-              </div>
+              </motion.div>
             </div>
 
-          </div>
+          </motion.div>
 
         </div>
 

@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Footer from "../components/Footer";
+import { FaWhatsapp } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,9 +15,47 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pavithram Group",
+    "url": "https://www.pavithram.online",
+    "logo": "https://www.pavithram.online/logo_cropped.png",
+    "foundingDate": "1950",
+    "description": "Pavithram is a beloved food brand from Kerala, trusted for over 75 years. We export pure edible oils, ghee, and traditional foods to 25+ countries.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9745300600",
+      "contactType": "customer service"
+    }
+  };
+
   return (
     <html lang="en">
       <body className={inter.className}>
+        {/* Google Analytics Setup */}
+        <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXXXXXXXX', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+
         <nav style={{ padding: '1.2rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--color-background-albastor)', boxShadow: '0 2px 15px rgba(0,0,0,0.05)', position: 'sticky', top: 0, zIndex: 100 }}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <img src="/logo_cropped.png" alt="Pavithram Logo" style={{ height: '70px', objectFit: 'contain' }} />
@@ -55,6 +95,15 @@ export default function RootLayout({ children }) {
         </nav>
         {children}
         <Footer />
+        <a 
+          href="https://wa.me/919745300600" 
+          className="whatsapp-float" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Chat with us on WhatsApp"
+        >
+          <FaWhatsapp />
+        </a>
       </body>
     </html>
   );

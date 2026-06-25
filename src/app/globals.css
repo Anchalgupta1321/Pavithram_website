@@ -304,3 +304,100 @@ a {
   margin-bottom: 1.5rem;
   font-size: 1rem;
 }
+
+/* --- WhatsApp Floating Button --- */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.4);
+}
+
+/* --- Newsletter Section --- */
+.newsletter-section {
+  background-color: #262626;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.newsletter-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  min-width: 300px;
+  align-items: center;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background: #333;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.newsletter-form input:focus {
+  border-color: var(--color-primary-gold);
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+  
+  .newsletter-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+  }
+}
+

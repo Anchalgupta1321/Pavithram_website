@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { BsStars } from 'react-icons/bs';
 import { FaPlus, FaMinus } from 'react-icons/fa';
+import { motion, AnimatePresence } from 'framer-motion';
 import './faq.css';
 
 const faqData = [
@@ -35,9 +36,27 @@ export default function FAQPage() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+  };
+
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.1 }
+    }
+  };
+
   return (
     <main className="faq-page">
-      <div className="faq-header">
+      <motion.div 
+        className="faq-header"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="faq-subtitle">
           <BsStars className="sparkle-icon" /> Support & Info
         </div>
@@ -45,14 +64,21 @@ export default function FAQPage() {
         <p className="faq-desc">
           Have questions about our products, shipping, or heritage? Find your answers below.
         </p>
-      </div>
+      </motion.div>
 
-      <div className="faq-container">
+      <motion.div 
+        className="faq-container"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        variants={staggerContainer}
+      >
         {faqData.map((faq, index) => (
-          <div 
+          <motion.div 
             key={index} 
             className={`faq-item ${openIndex === index ? 'active' : ''}`}
             onClick={() => toggleFAQ(index)}
+            variants={fadeInUp}
           >
             <div className="faq-question">
               <h3>{faq.question}</h3>
@@ -60,12 +86,22 @@ export default function FAQPage() {
                 {openIndex === index ? <FaMinus /> : <FaPlus />}
               </span>
             </div>
-            <div className="faq-answer">
-              <p>{faq.answer}</p>
-            </div>
-          </div>
+            <AnimatePresence>
+              {openIndex === index && (
+                <motion.div 
+                  className="faq-answer"
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <p>{faq.answer}</p>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </main>
   );
 }

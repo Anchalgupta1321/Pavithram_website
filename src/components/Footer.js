@@ -1,12 +1,54 @@
+"use client";
+
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 export default function Footer() {
+  const staggerContainer = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+  };
+
   return (
     <footer className="footer">
-      <div className="footer-container">
+      {/* Newsletter Section */}
+      <motion.div 
+        className="newsletter-section"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={fadeInUp}
+      >
+        <div className="newsletter-content">
+          <h3 style={{ color: 'white', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Subscribe to our Newsletter</h3>
+          <p style={{ color: '#b0b0b0' }}>Get the latest updates, heritage recipes, and exclusive offers straight to your inbox.</p>
+        </div>
+        <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit" className="btn-primary">Subscribe</button>
+        </form>
+      </motion.div>
+
+      <motion.div 
+        className="footer-container"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        variants={staggerContainer}
+      >
         
         {/* Brand Column */}
-        <div className="footer-col brand-col">
+        <motion.div className="footer-col brand-col" variants={fadeInUp}>
           <img src="/logo_cropped.png" alt="Pavithram Logo" style={{ height: '90px', marginBottom: '1.5rem', objectFit: 'contain' }} />
           <p className="footer-desc">
             Pavithram is a beloved food brand from Kerala, trusted for over 75 years and still going strong. Known for our pure coconut and gingelly oils, we now offer a range of authentic food products proudly exported to 25+ countries worldwide.
@@ -17,10 +59,10 @@ export default function Footer() {
             <a href="https://www.linkedin.com/company/pavithramgroup/" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedinIn /></a>
             <a href="https://www.youtube.com/@pavithram.online" target="_blank" rel="noopener noreferrer" className="social-icon"><FaYoutube /></a>
           </div>
-        </div>
+        </motion.div>
 
         {/* Quick Links Column */}
-        <div className="footer-col">
+        <motion.div className="footer-col" variants={fadeInUp}>
           <h3 className="footer-heading">Quick Links</h3>
           <ul className="footer-links">
             <li><a href="/">Home</a></li>
@@ -31,19 +73,19 @@ export default function Footer() {
             <li><a href="/faq">FAQ</a></li>
             <li><a href="/contact">Contact Us</a></li>
           </ul>
-        </div>
+        </motion.div>
 
         {/* Explore Column */}
-        <div className="footer-col">
+        <motion.div className="footer-col" variants={fadeInUp}>
           <h3 className="footer-heading">Explore</h3>
           <ul className="footer-links">
             <li><a href="/privacy-policy">Privacy Policy</a></li>
             <li><a href="/terms">Terms & Conditions</a></li>
           </ul>
-        </div>
+        </motion.div>
 
         {/* Contact Column */}
-        <div className="footer-col contact-col">
+        <motion.div className="footer-col contact-col" variants={fadeInUp}>
           <h3 className="footer-heading">Contact Us</h3>
           
           <div className="contact-item">
@@ -60,9 +102,9 @@ export default function Footer() {
             <strong style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}><FaMapMarkerAlt /> Address</strong>
             <p>Pazhangadi Oil Industries,<br />VI/523A, Kaipoorikkara,<br />Marampally P.O.,<br />Aluva, Kerala- 683107</p>
           </div>
-        </div>
+        </motion.div>
 
-      </div>
+      </motion.div>
       
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Pavithram Foods. All rights reserved.</p>
