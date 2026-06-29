@@ -404,28 +404,16 @@ a {
     font-size: 30px;
   }
   .heritage-badge {
-    width: 75px;
-    height: 75px;
-    bottom: 90px;
+    width: 70px;
+    height: 70px;
+    bottom: 85px;
     right: 10px;
   }
   .badge-svg text {
-    font-size: 7px;
+    font-size: 8px;
   }
   .badge-center {
-    font-size: 0.85rem;
-  }
-  .heritage-badge {
-    bottom: 90px;
-    right: 20px;
-    width: 80px;
-    height: 80px;
-  }
-  .badge-center {
-    font-size: 1.4rem;
-  }
-  .badge-svg text {
-    font-size: 13px;
+    font-size: 0.9rem;
   }
 }
 
@@ -487,9 +475,14 @@ a {
     padding: 2rem;
   }
   
+  .newsletter-content {
+    min-width: 0;
+  }
+  
   .newsletter-form {
     flex-direction: column;
     width: 100%;
+    min-width: 0;
   }
   
   .newsletter-form input,

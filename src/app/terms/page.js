@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function TermsPage() {
   const fadeInUp = {
@@ -31,6 +32,11 @@ export default function TermsPage() {
         variants={fadeInUp}
         transition={{ delay: 0.2 }}
       >
+        <div style={{ marginBottom: '2rem' }}>
+          <Link href="/contact" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--color-primary-red)', fontWeight: '600', textDecoration: 'none' }}>
+            ← Back to Contact Us
+          </Link>
+        </div>
         <h2>Terms & Conditions</h2>
         <p>Please read these Terms & Conditions and all our policies carefully before accessing or using our Website for shopping. By accessing or purchasing from our Website, you (“You”) agree to be bound by these Terms & Conditions and policies specified herein, which together constitute a valid and binding agreement between You and Us (Pavithramfoods). If you do not agree to all the terms of this agreement, you must not access or use any of the services offered on our Website. Pavithramfoods reserves the right to modify or update these Terms & Conditions and policies at any time, and therefore, you are advised to review them before making any new purchase.</p>
 

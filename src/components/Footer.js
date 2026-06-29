@@ -1,7 +1,10 @@
 "use client";
 
+import { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { submitForm } from '../services/wordpress';
+import FormMessage from './FormMessage';
 
 export default function Footer() {
   const staggerContainer = {
@@ -19,6 +22,28 @@ export default function Footer() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
   };
 
+  const [email, setEmail] = useState('');
+  const [formStatus, setFormStatus] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setFormStatus(null);
+    
+    const data = new FormData();
+    data.append('email', email);
+    
+    const result = await submitForm('MOCK_ID_NEWSLETTER', data); 
+    
+    setFormStatus({ status: result.status, message: result.message });
+    setIsLoading(false);
+    
+    if (result.status === 'mail_sent' || result.status === 'success') {
+      setEmail('');
+    }
+  };
+
   return (
     <footer className="footer">
       {/* Newsletter Section */}
@@ -33,9 +58,14 @@ export default function Footer() {
           <h3 style={{ color: 'white', marginBottom: '0.5rem', fontSize: '1.5rem' }}>Subscribe to our Newsletter</h3>
           <p style={{ color: '#b0b0b0' }}>Get the latest updates, heritage recipes, and exclusive offers straight to your inbox.</p>
         </div>
-        <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
-          <input type="email" placeholder="Enter your email address" required />
-          <button type="submit" className="btn-primary">Subscribe</button>
+        <form className="newsletter-form" onSubmit={handleSubscribe} style={{ flexWrap: 'wrap' }}>
+          <input type="email" placeholder="Enter your email address" required value={email} onChange={(e) => setEmail(e.target.value)} />
+          <button type="submit" className="btn-primary" disabled={isLoading} style={{ opacity: isLoading ? 0.7 : 1 }}>
+            {isLoading ? 'Subscribing...' : 'Subscribe'}
+          </button>
+          <div style={{ width: '100%', marginTop: '0.5rem' }}>
+            {formStatus && <FormMessage status={formStatus.status} message={formStatus.message} />}
+          </div>
         </form>
       </motion.div>
 
@@ -70,6 +100,7 @@ export default function Footer() {
             <li><a href="/products">Products</a></li>
             <li><a href="/certifications">Certifications</a></li>
             <li><a href="/blogs">Blogs</a></li>
+            <li><a href="/gallery">Gallery</a></li>
             <li><a href="/faq">FAQ</a></li>
             <li><a href="/contact">Contact Us</a></li>
           </ul>

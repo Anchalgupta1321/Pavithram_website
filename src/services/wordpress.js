@@ -41,9 +41,6 @@ export async function fetchGalleryImages() {
       }
     }
 
-    // Optional: If a gallery has no attachments but has a featured image, we could include it
-    // But usually, standard WP galleries rely on child attachments.
-
     return allImages;
   } catch (error) {
     console.error('Error fetching WordPress gallery:', error);
@@ -86,5 +83,31 @@ export async function fetchTestimonials() {
   } catch (error) {
     console.error('Error fetching WordPress testimonials:', error);
     return [];
+  }
+}
+
+/**
+ * Submits form data to WordPress Contact Form 7 REST API.
+ * @param {string|number} formId - The ID of the Contact Form 7 form.
+ * @param {FormData} formData - The FormData object containing the form fields.
+ */
+export async function submitForm(formId, formData) {
+  // Mock success if no form ID is provided yet (graceful fallback)
+  if (!formId || String(formId).startsWith('MOCK')) {
+    return new Promise((resolve) => {
+      setTimeout(() => resolve({ status: 'mail_sent', message: 'Thank you for your message. It has been sent.' }), 1500);
+    });
+  }
+
+  try {
+    const res = await fetch(`https://www.pavithram.online/wp-json/contact-form-7/v1/contact-forms/${formId}/feedback`, {
+      method: 'POST',
+      body: formData,
+    });
+    
+    return await res.json();
+  } catch (error) {
+    console.error('Error submitting form to CF7:', error);
+    return { status: 'mail_failed', message: 'There was an error trying to send your message. Please try again later.' };
   }
 }

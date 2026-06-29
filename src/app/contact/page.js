@@ -5,6 +5,8 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaSearch, FaStore } from 'react
 import { BsStars } from 'react-icons/bs';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { submitForm } from '../../services/wordpress';
+import FormMessage from '../../components/FormMessage';
 import './contact.css';
 
 const dealers = [
@@ -17,6 +19,34 @@ const dealers = [
 
 export default function ContactPage() {
   const [searchQuery, setSearchQuery] = useState('');
+  
+  // Form State
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', subject: '', message: '' });
+  const [formStatus, setFormStatus] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setFormStatus(null);
+    
+    const data = new FormData();
+    Object.keys(formData).forEach(key => data.append(key, formData[key]));
+    
+    const result = await submitForm('MOCK_ID', data); // Replace MOCK_ID later
+    
+    setFormStatus({ status: result.status, message: result.message });
+    setIsLoading(false);
+    
+    if (result.status === 'mail_sent' || result.status === 'success') {
+      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+    }
+  };
 
   const filteredDealers = dealers.filter(dealer => 
     dealer.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -87,21 +117,21 @@ export default function ContactPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <input type="text" placeholder="Name*" required />
+              <input type="text" name="name" placeholder="Name*" required value={formData.name} onChange={handleInputChange} />
             </div>
             <div className="form-group">
-              <input type="email" placeholder="Email*" required />
+              <input type="email" name="email" placeholder="Email*" required value={formData.email} onChange={handleInputChange} />
             </div>
             <div className="form-group">
-              <input type="tel" placeholder="Phone*" required />
+              <input type="tel" name="phone" placeholder="Phone*" required value={formData.phone} onChange={handleInputChange} />
             </div>
             <div className="form-group">
-              <input type="text" placeholder="Subject*" required />
+              <input type="text" name="subject" placeholder="Subject*" required value={formData.subject} onChange={handleInputChange} />
             </div>
             <div className="form-group full-width">
-              <textarea placeholder="Your Messages.." rows="8" required></textarea>
+              <textarea name="message" placeholder="Your Messages.." rows="8" required value={formData.message} onChange={handleInputChange}></textarea>
             </div>
             <div className="form-group full-width terms-checkbox">
               <input type="checkbox" id="terms" required />
@@ -111,13 +141,19 @@ export default function ContactPage() {
               <motion.button 
                 type="submit" 
                 className="btn-primary" 
-                style={{ width: '100%', padding: '16px', fontSize: '1rem', marginTop: '10px' }}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+                style={{ width: '100%', padding: '16px', fontSize: '1rem', marginTop: '10px', opacity: isLoading ? 0.7 : 1 }}
+                whileHover={isLoading ? {} : { scale: 1.02 }}
+                whileTap={isLoading ? {} : { scale: 0.98 }}
+                disabled={isLoading}
               >
-                Send Message
+                {isLoading ? 'Sending...' : 'Send Message'}
               </motion.button>
             </div>
+            {formStatus && (
+              <div className="form-group full-width" style={{ marginTop: '-10px' }}>
+                <FormMessage status={formStatus.status} message={formStatus.message} />
+              </div>
+            )}
           </form>
         </motion.div>
       </div>

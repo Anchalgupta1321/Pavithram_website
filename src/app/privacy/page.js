@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function PrivacyPage() {
   const fadeInUp = {
@@ -31,6 +32,11 @@ export default function PrivacyPage() {
         variants={fadeInUp}
         transition={{ delay: 0.2 }}
       >
+        <div style={{ marginBottom: '2rem' }}>
+          <Link href="/contact" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--color-primary-red)', fontWeight: '600', textDecoration: 'none' }}>
+            ← Back to Contact Us
+          </Link>
+        </div>
         <h2>Privacy & Policy</h2>
         
         <p>We are dedicated to safeguarding and respecting your privacy.</p>

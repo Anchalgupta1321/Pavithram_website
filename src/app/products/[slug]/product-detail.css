@@ -331,3 +331,57 @@
 .text-gold {
   color: var(--color-primary-gold);
 }
+
+@media (max-width: 900px) {
+  .product-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .product-gallery {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-detail-page {
+    padding: 1.5rem 1rem 3rem;
+  }
+  
+  .product-title {
+    font-size: 1.8rem;
+  }
+  
+  .main-image-container {
+    height: 300px;
+    padding: 1rem;
+  }
+  
+  .thumbnail-btn {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .tab-headers {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .tab-headers button {
+    font-size: 0.95rem;
+  }
+  
+  .retail-price {
+    font-size: 1.6rem;
+  }
+  
+  .bulk-price-label {
+    font-size: 1rem;
+  }
+  
+  .product-layout {
+    gap: 1.5rem;
+  }
+}

@@ -4,6 +4,8 @@ import { FaGlobeAmericas, FaAward, FaShip, FaRegHandshake } from 'react-icons/fa
 import { BsStars } from 'react-icons/bs';
 import { motion, useInView } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
+import { submitForm } from '../../services/wordpress';
+import FormMessage from '../../components/FormMessage';
 import './bulk-enquiry.css';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
@@ -41,6 +43,33 @@ export default function BulkEnquiryPage() {
     visible: {
       opacity: 1,
       transition: { staggerChildren: 0.15 }
+    }
+  };
+
+  const [formData, setFormData] = useState({ name: '', company: '', email: '', phone: '', country: '', interest: '', message: '' });
+  const [formStatus, setFormStatus] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setFormStatus(null);
+    
+    const data = new FormData();
+    Object.keys(formData).forEach(key => data.append(key, formData[key]));
+    
+    const result = await submitForm('MOCK_ID_ENQUIRY', data); 
+    
+    setFormStatus({ status: result.status, message: result.message });
+    setIsLoading(false);
+    
+    if (result.status === 'mail_sent' || result.status === 'success') {
+      setFormData({ name: '', company: '', email: '', phone: '', country: '', interest: '', message: '' });
     }
   };
 
@@ -125,29 +154,29 @@ export default function BulkEnquiryPage() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <h2>Request a Bulk Quote</h2>
-          <form className="enquiry-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="enquiry-form" onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="form-group">
-                <input type="text" placeholder="Full Name*" required />
+                <input type="text" name="name" placeholder="Full Name*" required value={formData.name} onChange={handleInputChange} />
               </div>
               <div className="form-group">
-                <input type="text" placeholder="Company Name*" required />
+                <input type="text" name="company" placeholder="Company Name*" required value={formData.company} onChange={handleInputChange} />
               </div>
             </div>
             <div className="form-row">
               <div className="form-group">
-                <input type="email" placeholder="Email Address*" required />
+                <input type="email" name="email" placeholder="Email Address*" required value={formData.email} onChange={handleInputChange} />
               </div>
               <div className="form-group">
-                <input type="tel" placeholder="Phone Number*" required />
+                <input type="tel" name="phone" placeholder="Phone Number*" required value={formData.phone} onChange={handleInputChange} />
               </div>
             </div>
             <div className="form-row">
               <div className="form-group">
-                <input type="text" placeholder="Country / Region*" required />
+                <input type="text" name="country" placeholder="Country / Region*" required value={formData.country} onChange={handleInputChange} />
               </div>
               <div className="form-group">
-                <select required defaultValue="">
+                <select name="interest" required value={formData.interest} onChange={handleInputChange}>
                   <option value="" disabled>Interested In*</option>
                   <option value="edible-oils">Edible Oils & Ghee</option>
                   <option value="spices">Blended & Straight Spices</option>
@@ -158,19 +187,25 @@ export default function BulkEnquiryPage() {
               </div>
             </div>
             <div className="form-group full-width">
-              <textarea placeholder="Tell us about your requirements (expected volume, packaging needs, etc.)" rows="6" required></textarea>
+              <textarea name="message" placeholder="Tell us about your requirements (expected volume, packaging needs, etc.)" rows="6" required value={formData.message} onChange={handleInputChange}></textarea>
             </div>
             <div className="form-group full-width">
               <motion.button 
                 type="submit" 
                 className="btn-primary" 
-                style={{ width: '100%', padding: '16px', fontSize: '1.1rem', marginTop: '10px' }}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+                style={{ width: '100%', padding: '16px', fontSize: '1.1rem', marginTop: '10px', opacity: isLoading ? 0.7 : 1 }}
+                whileHover={isLoading ? {} : { scale: 1.02 }}
+                whileTap={isLoading ? {} : { scale: 0.98 }}
+                disabled={isLoading}
               >
-                Submit Enquiry
+                {isLoading ? 'Submitting...' : 'Submit Enquiry'}
               </motion.button>
             </div>
+            {formStatus && (
+              <div className="form-group full-width" style={{ marginTop: '-10px' }}>
+                <FormMessage status={formStatus.status} message={formStatus.message} />
+              </div>
+            )}
           </form>
         </motion.div>
       </div>
