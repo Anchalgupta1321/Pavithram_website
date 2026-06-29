@@ -1,0 +1,65 @@
+[
+    {
+        "key": "group_product_details",
+        "title": "Product Details",
+        "fields": [
+            {
+                "key": "field_product_price",
+                "label": "Price",
+                "name": "price",
+                "type": "text",
+                "instructions": "Enter the price (e.g., ₹150)"
+            },
+            {
+                "key": "field_product_ingredients",
+                "label": "Ingredients",
+                "name": "ingredients",
+                "type": "textarea"
+            },
+            {
+                "key": "field_product_nutritional_info",
+                "label": "Nutritional Info",
+                "name": "nutritional_info",
+                "type": "textarea"
+            },
+            {
+                "key": "field_product_benefits",
+                "label": "Benefits",
+                "name": "benefits",
+                "type": "textarea"
+            },
+            {
+                "key": "field_product_pack_sizes",
+                "label": "Pack Sizes",
+                "name": "pack_sizes",
+                "type": "text",
+                "instructions": "e.g., 200ml, 500ml"
+            },
+            {
+                "key": "field_product_buy_link",
+                "label": "Buy Link",
+                "name": "buy_link",
+                "type": "url",
+                "instructions": "Amazon or Flipkart URL"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    }
+]

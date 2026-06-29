@@ -1,11 +1,12 @@
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata = {
   title: "Best Cooking Oils & Food Products | Pavithram Online",
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         {/* Google Analytics Setup */}
         <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} />
         <Script
@@ -59,6 +60,17 @@ export default function RootLayout({ children }) {
 
         <Navbar />
         {children}
+        <div className="heritage-badge" title="75 Years of Trust">
+          <svg viewBox="0 0 100 100" className="badge-svg">
+            <path id="curve" d="M 50,50 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="transparent" />
+            <text>
+              <textPath href="#curve" startOffset="0%">
+                PAVITHRAM FOODS • SINCE 1950 •
+              </textPath>
+            </text>
+          </svg>
+          <div className="badge-center">75<br/><span>YRS</span></div>
+        </div>
         <Footer />
         <a 
           href="https://wa.me/919745300600" 

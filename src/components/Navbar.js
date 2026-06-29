@@ -69,6 +69,10 @@ export default function Navbar() {
             <Link href="/blogs" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Recipes & Blogs</Link>
           </div>
 
+          <div className="nav-item">
+            <Link href="/gallery" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Gallery</Link>
+          </div>
+
           <div className={`nav-item has-dropdown ${openDropdown === 'contact' ? 'open' : ''}`} onClick={(e) => toggleDropdown('contact', e)}>
             <span className="nav-link">Contact Us ▾</span>
             <div className="dropdown-menu">

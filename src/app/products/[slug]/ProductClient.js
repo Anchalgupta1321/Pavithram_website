@@ -14,7 +14,6 @@ export default function ProductClient({ params }) {
   const [product, setProduct] = useState(null);
   const [mainImage, setMainImage] = useState('');
   const [activeTab, setActiveTab] = useState('description');
-  const [quantity, setQuantity] = useState(1);
   const [selectedPack, setSelectedPack] = useState('');
 
   useEffect(() => {
@@ -67,13 +66,11 @@ export default function ProductClient({ params }) {
           {product.badge && <span className="product-badge">{product.badge}</span>}
           <h1 className="product-title">{product.name}</h1>
           
-          <div className="product-pricing">
-            {product.isBulkOnly ? (
+          {product.isBulkOnly && (
+            <div className="product-pricing">
               <span className="bulk-price-label">Wholesale / Export Only</span>
-            ) : (
-              <span className="retail-price">{product.price}</span>
-            )}
-          </div>
+            </div>
+          )}
 
           {/* Quick Value Props */}
           <ul className="quick-props">
@@ -84,7 +81,7 @@ export default function ProductClient({ params }) {
           {/* Pack Size Selector */}
           {product.packSizes && product.packSizes.length > 0 && (
             <div className="variant-selector">
-              <label>Select Pack Size:</label>
+              <label>Available Pack Size:</label>
               <div className="pack-options">
                 {product.packSizes.map((size, idx) => (
                   <button 
@@ -101,20 +98,16 @@ export default function ProductClient({ params }) {
 
           {/* CTA Actions */}
           <div className="product-actions">
-            {!product.isBulkOnly && (
-              <div className="quantity-selector">
-                <button onClick={() => setQuantity(q => Math.max(1, q - 1))}><BsDash /></button>
-                <input type="number" value={quantity} readOnly />
-                <button onClick={() => setQuantity(q => q + 1)}><BsPlus /></button>
-              </div>
-            )}
-            
             {product.isBulkOnly ? (
               <Link href="/bulk-enquiry" className="btn-primary w-100 text-center">
                 Request Bulk Quote
               </Link>
             ) : (
-              <button className="btn-primary w-100">Add to Cart</button>
+              <div className="ecommerce-buttons" style={{ width: '100%' }}>
+                <a href={product.buyLink || "#"} target="_blank" rel="noopener noreferrer" className="btn-primary w-100 text-center" style={{ display: 'block' }}>
+                  Buy NOW
+                </a>
+              </div>
             )}
           </div>
           

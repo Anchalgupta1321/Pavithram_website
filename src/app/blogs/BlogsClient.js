@@ -62,7 +62,7 @@ export default function BlogsClient({ posts }) {
                 <img src={featuredPost.image} alt={featuredPost.title} />
               </Link>
             </div>
-            <div className="hero-content">
+            <div className="blog-hero-content">
               <span className="badge">Featured</span>
               <h1><Link href={`/blogs/${featuredPost.slug}`}>{featuredPost.title}</Link></h1>
               <div className="hero-meta">
