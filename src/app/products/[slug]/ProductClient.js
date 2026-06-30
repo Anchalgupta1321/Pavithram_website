@@ -104,9 +104,9 @@ export default function ProductClient({ params }) {
               </Link>
             ) : (
               <div className="ecommerce-buttons" style={{ width: '100%' }}>
-                <a href={product.buyLink || "#"} target="_blank" rel="noopener noreferrer" className="btn-primary w-100 text-center" style={{ display: 'block' }}>
+                {/* <a href={product.buyLink || "#"} target="_blank" rel="noopener noreferrer" className="btn-primary w-100 text-center" style={{ display: 'block' }}>
                   Buy NOW
-                </a>
+                </a> */}
               </div>
             )}
           </div>
@@ -129,7 +129,30 @@ export default function ProductClient({ params }) {
             <div className="tab-content">
               {activeTab === 'description' && <p>{product.description || 'Premium quality product from Pavithram.'}</p>}
               {activeTab === 'ingredients' && <p>{product.ingredients}</p>}
-              {activeTab === 'nutrition' && <p>{product.nutritionalInfo}</p>}
+              {activeTab === 'nutrition' && (
+                <div className="nutrition-table-container">
+                  <table className="nutrition-table">
+                    <tbody>
+                      {product.nutritionalInfo.split(',').map((item, index) => {
+                        const parts = item.split(':');
+                        if (parts.length === 2) {
+                          return (
+                            <tr key={index}>
+                              <td><strong>{parts[0].trim()}</strong></td>
+                              <td>{parts[1].trim()}</td>
+                            </tr>
+                          );
+                        }
+                        return (
+                          <tr key={index}>
+                            <td colSpan="2">{item.trim()}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              )}
               {activeTab === 'benefits' && (
                 <ul className="cert-list">
                   {product.benefits.map((benefit, i) => (

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import './blogs.css';
 
 export default function BlogsClient({ posts }) {
-  const [activeFilter, setActiveFilter] = useState('Blogs');
+  const [activeFilter, setActiveFilter] = useState('All');
   
   const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -77,23 +77,7 @@ export default function BlogsClient({ posts }) {
         </motion.section>
       )}
 
-      {/* Modern Filter Bar */}
-      <motion.section 
-        className="filter-bar"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
-        {categories.map((cat, index) => (
-          <button 
-            key={index} 
-            className={`filter-btn ${activeFilter === cat ? 'active' : ''}`}
-            onClick={() => setActiveFilter(cat)}
-          >
-            {cat}
-          </button>
-        ))}
-      </motion.section>
+      {/* Modern Filter Bar Removed */}
 
       {/* Blog Grid */}
       <section className="blog-grid-section">

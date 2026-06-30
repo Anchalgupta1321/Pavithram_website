@@ -54,7 +54,7 @@ function ProductsContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h1>Shop Our Products</h1>
+        <h1>Explore Our Products</h1>
         <p>Discover our range of 100% pure edible oils, traditional Kerala spices, authentic breakfast essentials, and crunchy snacks.</p>
       </motion.section>
 

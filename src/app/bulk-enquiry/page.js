@@ -86,7 +86,7 @@ export default function BulkEnquiryPage() {
         </div>
         <h1 className="enquiry-title">Partner With Pavithram</h1>
         <p className="enquiry-desc">
-          Join our global network. We export premium Kerala food products to over 25 countries, delivering quality and trust since 1950.
+          Join our global network. We export premium Kerala food products to over 28 countries, delivering quality and trust since 1950.
         </p>
       </motion.div>
 
@@ -99,7 +99,7 @@ export default function BulkEnquiryPage() {
       >
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>
           <FaGlobeAmericas className="stat-icon" />
-          <h3><AnimatedCounter to={25} suffix="+" /></h3>
+          <h3><AnimatedCounter to={28} suffix="+" /></h3>
           <p>Countries Exported To</p>
         </motion.div>
         <motion.div className="stat-card" variants={fadeInUp} whileHover={{ y: -5 }}>

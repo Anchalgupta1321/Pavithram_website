@@ -13,7 +13,7 @@ const faqData = [
   },
   {
     question: "Do you ship internationally?",
-    answer: "Yes! We are a DGFT-certified One Star Export House. We currently export our premium edible oils, ghee, spices, millets, and Cochin Snacks to over 25 countries worldwide. For export orders, please visit our Bulk Enquiry page."
+    answer: "Yes! We are a DGFT-certified One Star Export House. We currently export our premium edible oils, ghee, spices, millets, and Cochin Snacks to over 28 countries worldwide. For export orders, please visit our Bulk Enquiry page."
   },
   {
     question: "Are your products certified?",

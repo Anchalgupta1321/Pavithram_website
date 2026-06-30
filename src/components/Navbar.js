@@ -56,7 +56,7 @@ export default function Navbar() {
           </div>
 
           <div className={`nav-item has-dropdown ${openDropdown === 'shop' ? 'open' : ''}`} onClick={(e) => toggleDropdown('shop', e)}>
-            <span className="nav-link">Shop ▾</span>
+            <span className="nav-link">Products ▾</span>
             <div className="dropdown-menu">
               <Link href="/products" className="dropdown-item" onClick={() => setIsMobileMenuOpen(false)}>All Products</Link>
               {categories.map(cat => (
@@ -66,7 +66,7 @@ export default function Navbar() {
           </div>
 
           <div className="nav-item">
-            <Link href="/blogs" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Recipes & Blogs</Link>
+            <Link href="/blogs" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Blogs</Link>
           </div>
 
           <div className="nav-item">

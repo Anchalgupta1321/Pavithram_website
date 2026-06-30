@@ -96,7 +96,7 @@ export default function HeritagePage() {
             },
             {
               year: "Present & Beyond", title: "Reaching the World", img: "https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/container2.png", alt: "Global Export Containers",
-              desc: "By 2025, Pavithram proudly exports around 200 containers every year to more than 25 countries. Looking ahead, Pavithram is gearing up to introduce new product ranges, including breakfast items and ready-to-eat meals."
+              desc: "By 2025, Pavithram proudly exports around 200 containers every year to more than 28 countries. Looking ahead, Pavithram is gearing up to introduce new product ranges, including breakfast items and ready-to-eat meals."
             }
           ].map((item, index) => (
             <motion.div 

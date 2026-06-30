@@ -60,7 +60,7 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
           variants={staggerContainer}
         >
           <motion.h1 variants={fadeInUp}>Kerala’s Purest <br/><span>For Your Kitchen</span></motion.h1>
-          <motion.p variants={fadeInUp}>From a humble oil mill in 1950 to a global brand exported to 25+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.</motion.p>
+          <motion.p variants={fadeInUp}>From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.</motion.p>
           <motion.div variants={fadeInUp}>
             <Link href="/products" className="hero-btn">Explore Products</Link>
           </motion.div>
@@ -108,7 +108,7 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
           <BsGlobe className="trust-icon" />
           <div className="trust-text">
             <h4>Global Reach</h4>
-            <p>Exported to 25+ Countries</p>
+            <p>Exported to 28+ Countries</p>
           </div>
         </motion.div>
       </motion.div>
