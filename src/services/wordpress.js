@@ -111,3 +111,34 @@ export async function submitForm(formId, formData) {
     return { status: 'mail_failed', message: 'There was an error trying to send your message. Please try again later.' };
   }
 }
+
+/**
+ * Fetches the latest promotional banner from a specific WordPress category "Homepage Banner" (or fallback).
+ */
+export async function fetchPromoBanner() {
+  try {
+    // Assuming "Homepage Banner" is a category. We search by category name or slug if needed. 
+    // Here we just fetch posts. For a robust solution, you'd use ?categories=YOUR_CAT_ID
+    const res = await fetch(`${WP_API_BASE}/posts?_embed=1&per_page=1`, {
+      next: { revalidate: 60 }
+    });
+    
+    if (!res.ok) {
+      return null;
+    }
+
+    const posts = await res.json();
+    if (posts.length > 0) {
+      const post = posts[0];
+      // Check if it has a specific tag/category or just use the latest post's featured image for now
+      // In production, you'd filter by category ID specifically.
+      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+        return post._embedded['wp:featuredmedia'][0].source_url;
+      }
+    }
+    return null;
+  } catch (error) {
+    console.error('Error fetching promo banner:', error);
+    return null;
+  }
+}

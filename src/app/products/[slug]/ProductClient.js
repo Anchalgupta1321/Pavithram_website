@@ -15,6 +15,7 @@ export default function ProductClient({ params }) {
   const [mainImage, setMainImage] = useState('');
   const [activeTab, setActiveTab] = useState('description');
   const [selectedPack, setSelectedPack] = useState('');
+  const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
   useEffect(() => {
     const foundProduct = products.find(p => p.slug === slug);
@@ -28,6 +29,17 @@ export default function ProductClient({ params }) {
       notFound();
     }
   }, [slug]);
+
+  // Handle escape key to close modal
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setIsImageModalOpen(false);
+    };
+    if (isImageModalOpen) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isImageModalOpen]);
 
   if (!product) return <div className="loading-state">Loading...</div>;
 
@@ -45,7 +57,7 @@ export default function ProductClient({ params }) {
       <div className="product-layout">
         {/* Left: Image Gallery */}
         <div className="product-gallery">
-          <div className="main-image-container">
+          <div className="main-image-container" onClick={() => setIsImageModalOpen(true)}>
             <img src={mainImage} alt={product.name} className="main-image" />
           </div>
           <div className="thumbnail-list">
@@ -127,7 +139,21 @@ export default function ProductClient({ params }) {
               <button className={activeTab === 'certifications' ? 'active' : ''} onClick={() => setActiveTab('certifications')}>Quality & Care</button>
             </div>
             <div className="tab-content">
-              {activeTab === 'description' && <p>{product.description || 'Premium quality product from Pavithram.'}</p>}
+              {activeTab === 'description' && (
+                <div className="product-description">
+                  <p>{product.description || 'Premium quality product from Pavithram.'}</p>
+                  <div className="additional-info" style={{ marginTop: '2rem' }}>
+                    <h4 style={{ marginBottom: '1rem', color: 'var(--color-primary-red)' }}>Product Details</h4>
+                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                      {product.origin && <li><strong>Country of Origin:</strong> {product.origin}</li>}
+                      {product.manufacturer && <li><strong>Manufacturer:</strong> {product.manufacturer}</li>}
+                      {product.storage && <li><strong>Storage Instructions:</strong> {product.storage}</li>}
+                      {product.fssai && <li><strong>FSSAI Number:</strong> {product.fssai}</li>}
+                      {product.sku && <li><strong>SKU Code:</strong> {product.sku}</li>}
+                    </ul>
+                  </div>
+                </div>
+              )}
               {activeTab === 'ingredients' && <p>{product.ingredients}</p>}
               {activeTab === 'nutrition' && (
                 <div className="nutrition-table-container">
@@ -175,6 +201,16 @@ export default function ProductClient({ params }) {
 
         </div>
       </div>
+      
+      {/* Image Modal */}
+      {isImageModalOpen && (
+        <div className="image-modal-overlay" onClick={() => setIsImageModalOpen(false)}>
+          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="image-modal-close" onClick={() => setIsImageModalOpen(false)}>&times;</button>
+            <img src={mainImage} alt={product.name} />
+          </div>
+        </div>
+      )}
     </main>
   );
 }

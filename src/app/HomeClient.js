@@ -2,15 +2,81 @@
 
 import './home.css';
 import Link from 'next/link';
-import { BsShieldCheck, BsGlobe, BsAward, BsClockHistory, BsCheckCircleFill, BsTree, BsDroplet, BsBoxSeam, BsInstagram, BsFacebook } from 'react-icons/bs';
-import { motion } from 'framer-motion';
+import { BsShieldCheck, BsGlobe, BsAward, BsClockHistory, BsCheckCircleFill, BsTree, BsDroplet, BsBoxSeam, BsInstagram, BsFacebook, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
+import React, { useState, useRef, useEffect } from 'react';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
 
-export default function HomeClient({ testimonials, galleryPreview = [] }) {
+function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
+  const [count, setCount] = useState(from);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
+
+  useEffect(() => {
+    if (isInView) {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const p = Math.min((timestamp - startTimestamp) / (duration * 1000), 1);
+        const easeOut = 1 - (1 - p) * (1 - p);
+        setCount(Math.floor(easeOut * (to - from) + from));
+        if (p < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+  }, [isInView, from, to, duration]);
+
+  return <span ref={ref}>{count}{suffix}</span>;
+}
+
+export default function HomeClient({ testimonials, galleryPreview = [], promoBannerUrl }) {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const heroSlides = [
+    {
+      id: 1,
+      image: promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
+      title: "Kerala’s Purest\nFor Your Kitchen",
+      subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
+      buttonText: "Explore Products",
+      buttonLink: "/products"
+    },
+    {
+      id: 2,
+      image: "https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg",
+      title: "Authentic Spices\n& Masalas",
+      subtitle: "Experience the true taste of tradition with our handpicked spices and perfectly blended masalas.",
+      buttonText: "Shop Spices",
+      buttonLink: "/products"
+    },
+    {
+      id: 3,
+      image: "https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png",
+      title: "Healthy Millets\n& Pulses",
+      subtitle: "Nourish your family with our premium quality grains, sourced directly from trusted farmers.",
+      buttonText: "Shop Millets",
+      buttonLink: "/products"
+    }
+  ];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [heroSlides.length]);
+
+  const nextSlide = () => setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
+  const prevSlide = () => setCurrentSlide((prev) => (prev === 0 ? heroSlides.length - 1 : prev - 1));
+
   const categories = [
     { name: 'Edible Oils & Ghee', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png' },
     { name: 'Cochin Snacks', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png' },
     { name: 'Millets', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png' },
-    { name: 'Jams & Pickles', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png' }
+    { name: 'Jams & Pickles', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png' },
+    { name: 'Spices & Masalas', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
+    { name: 'Ready to Cook', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' }
   ];
 
   const products = [
@@ -21,16 +87,29 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
     { name: 'Pure Coconut Oil', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png', bg: 'linear-gradient(to bottom, #fffceb 50%, #ffda59 50%)' }
   ];
 
-  const offers = [
-    { title: 'Festive Special', description: 'Get 20% off on all Premium Ghee.', code: 'FESTIVE20', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png' },
-    { title: 'Bulk Offer', description: 'Buy 5L Oil and get 1kg Millets free.', code: 'BULK5', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png' }
-  ];
-
   const socialFeed = [
     'https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png',
     'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg',
     'https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png',
     'https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png'
+  ];
+
+  const countries = [
+    { name: "UK", code: "gb" },
+    { name: "Norway", code: "no" },
+    { name: "Netherlands", code: "nl" },
+    { name: "Bahrain", code: "bh" },
+    { name: "Qatar", code: "qa" },
+    { name: "UAE", code: "ae" },
+    { name: "Sweden", code: "se" },
+    { name: "Kuwait", code: "kw" },
+    { name: "Australia", code: "au" },
+    { name: "Oman", code: "om" },
+    { name: "Saudi Arabia", code: "sa" },
+    { name: "USA", code: "us" },
+    { name: "Canada", code: "ca" },
+    { name: "Malta", code: "mt" },
+    { name: "New Zealand", code: "nz" }
   ];
 
   const fadeInUp = {
@@ -40,39 +119,64 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
 
   const staggerContainer = {
     hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.3
-      }
-    }
+    visible: { opacity: 1, transition: { staggerChildren: 0.3 } }
   };
 
   return (
     <main className="home-page">
       
-      {/* Hero Section */}
-      <section className="hero-section">
-        <motion.div 
-          className="hero-content"
-          initial="hidden"
-          animate="visible"
-          variants={staggerContainer}
-        >
-          <motion.h1 variants={fadeInUp}>Kerala’s Purest <br/><span>For Your Kitchen</span></motion.h1>
-          <motion.p variants={fadeInUp}>From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.</motion.p>
-          <motion.div variants={fadeInUp}>
-            <Link href="/products" className="hero-btn">Explore Products</Link>
-          </motion.div>
-        </motion.div>
-        <motion.div 
-          className="hero-image"
-          initial={{ opacity: 0, scale: 1.05, x: 30 }}
-          animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 1.5, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-        >
-          <img src="https://www.pavithram.online/wp-content/uploads/2025/09/Model-Foreground-Hero.png" alt="Pavithram Products" />
-        </motion.div>
+      {/* Hero Carousel Section */}
+      <section className="hero-carousel-section">
+        <div className="carousel-track">
+          <AnimatePresence initial={false}>
+            <motion.div
+              key={currentSlide}
+              className="carousel-slide"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1.2, ease: "easeInOut" }}
+            >
+              <div className="carousel-bg">
+                <img src={heroSlides[currentSlide].image} alt="Hero Banner" />
+                <div className="carousel-overlay"></div>
+              </div>
+              <div className="carousel-content">
+                <motion.div 
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3, duration: 0.8 }}
+                  className="carousel-text"
+                >
+                  <h1 dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
+                  <p>{heroSlides[currentSlide].subtitle}</p>
+                  <Link href={heroSlides[currentSlide].buttonLink} className="hero-btn">
+                    {heroSlides[currentSlide].buttonText}
+                  </Link>
+                </motion.div>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+
+        {/* Navigation Arrows */}
+        <button className="carousel-arrow left" onClick={prevSlide}>
+          <BsChevronLeft />
+        </button>
+        <button className="carousel-arrow right" onClick={nextSlide}>
+          <BsChevronRight />
+        </button>
+
+        {/* Navigation Dots */}
+        <div className="carousel-dots">
+          {heroSlides.map((_, index) => (
+            <button 
+              key={index} 
+              className={`dot ${currentSlide === index ? 'active' : ''}`}
+              onClick={() => setCurrentSlide(index)}
+            />
+          ))}
+        </div>
       </section>
 
       {/* Trust Bar */}
@@ -150,39 +254,29 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
         </motion.div>
       </section>
 
-      {/* Seasonal Offers / Promotions */}
-      <section className="offers-section">
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Limited Time</span>
-          <h2>Seasonal Offers</h2>
-        </motion.div>
-        <motion.div 
-          className="offers-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={staggerContainer}
-        >
-          {offers.map((offer, i) => (
-            <motion.div className="offer-card" key={i} variants={fadeInUp} whileHover={{ scale: 1.02 }}>
-              <div className="offer-content">
-                <h3>{offer.title}</h3>
-                <p>{offer.description}</p>
-                <div className="offer-code">Use Code: <strong>{offer.code}</strong></div>
-                <Link href="/products" className="hero-btn" style={{ padding: '0.8rem 1.5rem', fontSize: '0.9rem', marginTop: '1rem' }}>Shop Now</Link>
-              </div>
-              <div className="offer-img">
-                <img src={offer.image} alt={offer.title} />
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
+      {/* Global Reach Section */}
+      <section className="global-reach-section">
+        <div className="global-reach-content">
+          <motion.div 
+            className="section-heading"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+          >
+            <span>Our Global Footprint</span>
+            <h2>Exported to <span className="highlight-count"><AnimatedCounter to={28} suffix="+" /></span> Countries</h2>
+          </motion.div>
+          <div className="marquee-container">
+            <div className="marquee">
+              {countries.concat(countries).map((country, idx) => (
+                <div className="country-tag" key={idx}>
+                  <img src={`https://flagcdn.com/w40/${country.code}.png`} alt={`${country.name} flag`} className="country-flag" /> {country.name}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Categories Grid */}
@@ -218,6 +312,7 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
           ))}
         </motion.div>
       </section>
+
 
       {/* Hero Product Spotlight */}
       <section className="spotlight-section">
@@ -262,43 +357,7 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
         </div>
       </section>
 
-      {/* Trending Products Slider */}
-      <section className="products-section">
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Bestsellers</span>
-          <h2>Loved by Generations</h2>
-        </motion.div>
-        <motion.div 
-          className="products-scroller"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={staggerContainer}
-        >
-          {products.map((prod, i) => (
-            <motion.div 
-              className="product-card premium-card" 
-              key={i} 
-              variants={fadeInUp}
-              style={{ background: prod.bg }}
-            >
-              <div className="product-badges">
-                <span className="badge-quality">100% Pure</span>
-                <span className="badge-export">Export Quality</span>
-              </div>
-              <img src={prod.image} alt={prod.name} style={{ mixBlendMode: 'multiply', backgroundColor: '#e5e5e5' }} onError={(e) => { e.target.src="https://www.pavithram.online/wp-content/uploads/2025/09/Model-Foreground-Hero.png" }} />
-              <h3>{prod.name}</h3>
-              <Link href="/products" className="view-btn premium-btn">View Product</Link>
-            </motion.div>
-          ))}
-        </motion.div>
-      </section>
+
 
       {/* Testimonials */}
       <section className="testimonials-section">
@@ -336,42 +395,6 @@ export default function HomeClient({ testimonials, galleryPreview = [] }) {
           ) : (
             <p>Loading testimonials...</p>
           )}
-        </motion.div>
-      </section>
-
-      {/* Gallery Section */}
-      <section className="home-gallery-section">
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Glimpses of Pavithram</span>
-          <h2>Inside Our World</h2>
-        </motion.div>
-        <motion.div 
-          className="home-gallery-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={staggerContainer}
-        >
-          {galleryPreview.map((img, i) => (
-            <motion.div className="home-gallery-item" key={`gallery-${i}`} variants={fadeInUp} whileHover={{ scale: 1.02 }}>
-              <img src={img.url} alt="Pavithram Gallery" />
-            </motion.div>
-          ))}
-        </motion.div>
-        <motion.div 
-          style={{ textAlign: 'center', marginTop: '3rem' }}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <Link href="/gallery" className="hero-btn">View Full Gallery</Link>
         </motion.div>
       </section>
 

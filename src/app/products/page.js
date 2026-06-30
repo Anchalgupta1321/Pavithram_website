@@ -116,9 +116,7 @@ function ProductsContent() {
                     <div className="product-details">
                       <span className="product-category">{product.category}</span>
                       <h4 className="product-name">{product.name}</h4>
-                      <div className="product-price">
-                        {product.isBulkOnly ? <span style={{fontSize: '0.9rem', color: '#666'}}>Wholesale / Export Only</span> : product.price}
-                      </div>
+
                       <button className="add-to-cart-btn">View Details</button>
                     </div>
                   </Link>

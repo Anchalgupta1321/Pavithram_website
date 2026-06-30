@@ -357,3 +357,51 @@
     height: auto;
   }
 }
+
+/* --- Image Modal --- */
+.image-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  cursor: zoom-out;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 70vw;
+  max-height: 70vh;
+}
+
+.image-modal-content img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  cursor: default;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.image-modal-close:hover {
+  color: var(--color-primary-gold);
+}
+
+.main-image-container img {
+  cursor: zoom-in;
+}
