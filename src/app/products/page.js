@@ -56,6 +56,16 @@ function ProductsContent() {
       >
         <h1>Explore Our Products</h1>
         <p>Discover our range of 100% pure edible oils, traditional Kerala spices, authentic breakfast essentials, and crunchy snacks.</p>
+        
+        <motion.div 
+          className="global-product-info" 
+          whileHover={{ scale: 1.02, boxShadow: '0 10px 25px rgba(218,37,29,0.15)', borderColor: 'var(--color-primary-red)' }}
+          whileTap={{ scale: 0.95 }}
+          style={{ marginTop: '2rem', padding: '1rem 2rem', background: 'rgba(255,255,255,0.8)', border: '1px solid #e0e0e0', borderRadius: '50px', display: 'inline-flex', gap: '2rem', flexWrap: 'wrap', justifyContent: 'center', boxShadow: '0 5px 15px rgba(0,0,0,0.05)', cursor: 'pointer', transition: 'border-color 0.3s ease' }}
+        >
+          <p style={{ fontSize: '0.9rem', color: '#555', margin: 0 }}><strong>Product Origin:</strong> India</p>
+          <p style={{ fontSize: '0.9rem', color: '#555', margin: 0 }}><strong>Manufacturer:</strong> Pavithram Foods Pvt. Ltd., Kerala, India</p>
+        </motion.div>
       </motion.section>
 
       {/* Main Layout */}

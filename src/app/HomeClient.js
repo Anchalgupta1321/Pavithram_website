@@ -138,7 +138,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               transition={{ duration: 1.2, ease: "easeInOut" }}
             >
               <div className="carousel-bg">
-                <img src={heroSlides[currentSlide].image} alt="Hero Banner" />
+                <img src={heroSlides[currentSlide].image} alt={`Pavithram - ${heroSlides[currentSlide].title.replace('\n', ' ')}`} />
                 <div className="carousel-overlay"></div>
               </div>
               <div className="carousel-content">
@@ -176,6 +176,13 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               onClick={() => setCurrentSlide(index)}
             />
           ))}
+        </div>
+
+        {/* Wavy Section Divider */}
+        <div className="hero-wave-divider">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
+          </svg>
         </div>
       </section>
 
@@ -256,6 +263,11 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
       {/* Global Reach Section */}
       <section className="global-reach-section">
+        <div className="reach-wave-divider-top">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
+            </svg>
+        </div>
         <div className="global-reach-content">
           <motion.div 
             className="section-heading"
@@ -281,6 +293,13 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
       {/* Categories Grid */}
       <section className="categories-section">
+        {/* Floating Decorative Elements */}
+        <div className="floating-elements">
+          <div className="floating-shape shape-1"></div>
+          <div className="floating-shape shape-2"></div>
+          <div className="floating-shape shape-3"></div>
+        </div>
+
         <motion.div 
           className="section-heading"
           initial="hidden"

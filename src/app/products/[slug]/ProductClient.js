@@ -143,10 +143,9 @@ export default function ProductClient({ params }) {
                 <div className="product-description">
                   <p>{product.description || 'Premium quality product from Pavithram.'}</p>
                   <div className="additional-info" style={{ marginTop: '2rem' }}>
-                    <h4 style={{ marginBottom: '1rem', color: 'var(--color-primary-red)' }}>Product Details</h4>
+
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                      {product.origin && <li><strong>Country of Origin:</strong> {product.origin}</li>}
-                      {product.manufacturer && <li><strong>Manufacturer:</strong> {product.manufacturer}</li>}
+
                       {product.storage && <li><strong>Storage Instructions:</strong> {product.storage}</li>}
                       {product.fssai && <li><strong>FSSAI Number:</strong> {product.fssai}</li>}
                       {product.sku && <li><strong>SKU Code:</strong> {product.sku}</li>}
