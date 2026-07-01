@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { BsShieldCheck, BsGlobe, BsAward, BsClockHistory, BsCheckCircleFill, BsTree, BsDroplet, BsBoxSeam, BsInstagram, BsFacebook, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
+import SplashScreen from '../components/SplashScreen';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
   const [count, setCount] = useState(from);
@@ -124,6 +125,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
   return (
     <main className="home-page">
+      <SplashScreen />
       
       {/* Hero Carousel Section */}
       <section className="hero-carousel-section">
