@@ -78,7 +78,7 @@ export default function HeritagePage() {
           </motion.div>
           <div className="heritage-logo-divider"></div>
           <motion.div className="heritage-logo-right" variants={fadeInUp}>
-            <Image src="/Gemini_Generated_Image_pwbb8zpwbb8zpwbb.png" alt="75 Years of Inspiring Tradition" width={300} height={150} style={{ objectFit: 'contain', width: 'auto', height: '150px' }} />
+            <Image src="/75_years_logo_new.png" alt="75 Years of Inspiring Tradition" width={300} height={150} style={{ objectFit: 'contain', width: 'auto', height: '150px' }} />
           </motion.div>
         </motion.div>
       </section>
@@ -230,35 +230,6 @@ export default function HeritagePage() {
         </motion.div>
       </section>
 
-      {/* Our Pillars Visual Banner */}
-      <section className="visual-pillars">
-        <motion.div 
-          className="pillars-container"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={staggerContainer}
-        >
-          <motion.div className="pillar-card" variants={fadeInUp}>
-            <Image src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tradition" layout="fill" objectFit="cover" />
-            <div className="pillar-content">
-              <h3>Tradition</h3>
-            </div>
-          </motion.div>
-          <motion.div className="pillar-card" variants={fadeInUp}>
-            <Image src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Purity" layout="fill" objectFit="cover" />
-            <div className="pillar-content">
-              <h3>Purity</h3>
-            </div>
-          </motion.div>
-          <motion.div className="pillar-card" variants={fadeInUp}>
-            <Image src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Global Reach" layout="fill" objectFit="cover" />
-            <div className="pillar-content">
-              <h3>Global Reach</h3>
-            </div>
-          </motion.div>
-        </motion.div>
-      </section>
 
       {/* Video Section */}
       <section className="video-section">
