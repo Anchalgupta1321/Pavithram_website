@@ -2,6 +2,7 @@
 
 import './heritage.css';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function HeritagePage() {
   const leaders = [
@@ -113,7 +114,7 @@ export default function HeritagePage() {
                 <h3>{item.title}</h3>
                 {item.img && (
                   <div className="timeline-image-wrapper single-img">
-                    <img src={item.img} alt={item.alt} />
+                    <Image src={item.img} alt={item.alt} width={500} height={300} style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
                   </div>
                 )}
                 <p>{item.desc}</p>
@@ -150,7 +151,7 @@ export default function HeritagePage() {
               whileHover={{ y: -10 }}
             >
               <div className="leader-img-wrapper">
-                <img src={leader.image} alt={leader.name} />
+                <Image src={leader.image} alt={leader.name} width={400} height={400} style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
               </div>
               <div className="leader-info">
                 <h4>{leader.name}</h4>

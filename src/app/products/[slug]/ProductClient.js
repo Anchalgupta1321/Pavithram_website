@@ -3,6 +3,7 @@
 import { useState, useEffect, use } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BsCheckCircleFill, BsShieldCheck, BsPlus, BsDash } from 'react-icons/bs';
 import { products } from '../../../data/productData';
 import './product-detail.css';
@@ -58,7 +59,7 @@ export default function ProductClient({ params }) {
         {/* Left: Image Gallery */}
         <div className="product-gallery">
           <div className="main-image-container" onClick={() => setIsImageModalOpen(true)}>
-            <img src={mainImage} alt={product.name} className="main-image" />
+            <Image src={mainImage} alt={product.name} className="main-image" width={600} height={600} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} priority />
           </div>
           <div className="thumbnail-list">
             {product.images.map((img, index) => (
@@ -67,7 +68,7 @@ export default function ProductClient({ params }) {
                 className={`thumbnail-btn ${mainImage === img ? 'active' : ''}`}
                 onClick={() => setMainImage(img)}
               >
-                <img src={img} alt={`${product.name} view ${index + 1}`} />
+                <Image src={img} alt={`${product.name} view ${index + 1}`} width={100} height={100} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
               </div>
             ))}
           </div>
@@ -206,7 +207,7 @@ export default function ProductClient({ params }) {
         <div className="image-modal-overlay" onClick={() => setIsImageModalOpen(false)}>
           <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="image-modal-close" onClick={() => setIsImageModalOpen(false)}>&times;</button>
-            <img src={mainImage} alt={product.name} />
+            <Image src={mainImage} alt={product.name} width={800} height={800} style={{ width: '100%', height: 'auto', maxHeight: '90vh', objectFit: 'contain' }} />
           </div>
         </div>
       )}

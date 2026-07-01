@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { products } from '../data/productData';
 
@@ -32,7 +33,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link href="/">
-            <img src="/logo_cropped.png" alt="Pavithram Logo" />
+            <Image src="/logo_cropped.png" alt="Pavithram Logo" width={180} height={60} priority />
           </Link>
         </div>
 

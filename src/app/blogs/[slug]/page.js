@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getWordPressPosts } from '../../../utils/wp';
 import './blog-details.css';
 
@@ -31,7 +32,7 @@ export default async function BlogDetailsPage({ params }) {
       
       {/* Hero Banner */}
       <section className="blog-details-hero">
-        <img src={post.image} alt={post.title} />
+        <Image src={post.image} alt={post.title} width={1200} height={600} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority />
         <div className="hero-overlay-content">
           <span className="badge">{post.category}</span>
           <h1>{post.title}</h1>
@@ -57,7 +58,7 @@ export default async function BlogDetailsPage({ params }) {
             <div className="blog-card" key={relatedPost.id}>
               <div className="card-img">
                 <Link href={`/blogs/${relatedPost.slug}`}>
-                  <img src={relatedPost.image} alt={relatedPost.title} />
+                  <Image src={relatedPost.image} alt={relatedPost.title} width={400} height={300} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </Link>
               </div>
               <div className="card-content">

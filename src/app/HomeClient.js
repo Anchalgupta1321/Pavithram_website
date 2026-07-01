@@ -2,6 +2,7 @@
 
 import './home.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BsShieldCheck, BsGlobe, BsAward, BsClockHistory, BsCheckCircleFill, BsTree, BsDroplet, BsBoxSeam, BsInstagram, BsFacebook, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
@@ -140,7 +141,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               transition={{ duration: 1.2, ease: "easeInOut" }}
             >
               <div className="carousel-bg">
-                <img src={heroSlides[currentSlide].image} alt={`Pavithram - ${heroSlides[currentSlide].title.replace('\n', ' ')}`} />
+                <Image src={heroSlides[currentSlide].image} alt={`Pavithram - ${heroSlides[currentSlide].title.replace('\n', ' ')}`} fill style={{ objectFit: 'cover' }} priority={true} sizes="100vw" />
                 <div className="carousel-overlay"></div>
               </div>
               <div className="carousel-content">
@@ -285,7 +286,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
             <div className="marquee">
               {countries.concat(countries).map((country, idx) => (
                 <div className="country-tag" key={idx}>
-                  <img src={`https://flagcdn.com/w40/${country.code}.png`} alt={`${country.name} flag`} className="country-flag" /> {country.name}
+                  <Image src={`https://flagcdn.com/w40/${country.code}.png`} alt={`${country.name} flag`} width={40} height={30} className="country-flag" /> {country.name}
                 </div>
               ))}
             </div>
@@ -327,7 +328,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               whileHover={{ y: -10, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <img src={cat.image} alt={cat.name} />
+              <Image src={cat.image} alt={cat.name} width={400} height={400} />
               <h3>{cat.name}</h3>
             </motion.div>
           ))}
@@ -345,14 +346,20 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
           >
-            <motion.img 
-              src="/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png" 
-              alt="Pavithram Pure Sesame Oil" 
+            <motion.div 
               initial={{ x: -150, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
-            />
+            >
+              <Image 
+                src="/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png" 
+                alt="Pavithram Pure Sesame Oil" 
+                width={500}
+                height={500}
+                style={{ width: '100%', height: 'auto' }}
+              />
+            </motion.div>
           </motion.div>
           <motion.div 
             className="spotlight-content"
@@ -405,7 +412,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                 <p>"{test.content}"</p>
                 <div className="testimonial-author-block">
                   {test.image && (
-                    <img src={test.image} alt={test.name} className="testimonial-author-img" />
+                    <Image src={test.image} alt={test.name} width={60} height={60} className="testimonial-author-img" />
                   )}
                   <div className="author-info">
                     <strong>{test.name}</strong>
@@ -449,7 +456,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               variants={fadeInUp}
               whileHover={{ scale: 1.05 }}
             >
-              <img src={img} alt="Social Feed Post" />
+              <Image src={img} alt="Social Feed Post" width={300} height={300} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className="social-overlay">
                 <BsInstagram className="overlay-icon" />
               </div>
@@ -480,7 +487,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <img src="https://www.pavithram.online/wp-content/uploads/2025/09/about-img-1.png" alt="Pavithram Heritage" />
+          <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/about-img-1.png" alt="Pavithram Heritage" width={600} height={600} style={{ width: '100%', height: 'auto' }} />
         </motion.div>
       </section>
 

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import './blogs.css';
 
 export default function BlogsClient({ posts }) {
@@ -59,7 +60,7 @@ export default function BlogsClient({ posts }) {
           <div className="blog-hero-container">
             <div className="hero-img-wrapper">
               <Link href={`/blogs/${featuredPost.slug}`}>
-                <img src={featuredPost.image} alt={featuredPost.title} />
+                <Image src={featuredPost.image} alt={featuredPost.title} width={800} height={500} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority />
               </Link>
             </div>
             <div className="blog-hero-content">
@@ -97,7 +98,7 @@ export default function BlogsClient({ posts }) {
             >
               <div className="card-img">
                 <Link href={`/blogs/${post.slug}`}>
-                  <img src={post.image} alt={post.title} />
+                  <Image src={post.image} alt={post.title} width={400} height={300} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </Link>
               </div>
               <div className="card-content">

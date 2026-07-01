@@ -3,6 +3,7 @@
 import './certifications.css';
 import { BsStars, BsShieldCheck } from 'react-icons/bs';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function CertificationsPage() {
   const fadeInUp = {
@@ -47,9 +48,12 @@ export default function CertificationsPage() {
             viewport={{ once: true }}
             variants={slideInLeft}
           >
-            <img 
+            <Image 
               src="https://www.pavithram.online/wp-content/uploads/2026/01/pdfrendition1-1-1024x721.png" 
               alt="DGFT One Star Export House Certification" 
+              width={1024}
+              height={721}
+              style={{ width: '100%', height: 'auto' }}
             />
           </motion.div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { submitForm } from '../services/wordpress';
@@ -79,7 +80,7 @@ export default function Footer() {
         
         {/* Brand Column */}
         <motion.div className="footer-col brand-col" variants={fadeInUp}>
-          <img src="/logo_cropped.png" alt="Pavithram Logo" style={{ height: '90px', marginBottom: '1.5rem', objectFit: 'contain' }} />
+          <Image src="/logo_cropped.png" alt="Pavithram Logo" width={270} height={90} style={{ height: '90px', width: 'auto', marginBottom: '1.5rem', objectFit: 'contain' }} />
           <p className="footer-desc">
             Pavithram is a beloved food brand from Kerala, trusted for over 75 years and still going strong. Known for our pure coconut and gingelly oils, we now offer a range of authentic food products proudly exported to 25+ countries worldwide.
           </p>

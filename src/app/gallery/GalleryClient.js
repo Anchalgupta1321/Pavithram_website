@@ -3,6 +3,7 @@
 import './gallery.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BsZoomIn } from 'react-icons/bs';
+import Image from 'next/image';
 import { useState, useMemo } from 'react';
 
 export default function GalleryClient({ images }) {
@@ -88,7 +89,7 @@ export default function GalleryClient({ images }) {
               variants={fadeInUp}
               onClick={() => setSelectedImage(img)}
             >
-              <img src={img.url} alt={img.title || "Pavithram Gallery Image"} />
+              <Image src={img.url} alt={img.title || "Pavithram Gallery Image"} width={600} height={400} style={{ width: '100%', height: 'auto', display: 'block' }} />
               <div className="overlay">
                 <BsZoomIn />
               </div>
@@ -117,7 +118,7 @@ export default function GalleryClient({ images }) {
               <button className="modal-close" onClick={() => setSelectedImage(null)}>
                 &times;
               </button>
-              <img src={selectedImage.url} alt={selectedImage.title} />
+              <Image src={selectedImage.url} alt={selectedImage.title} width={1200} height={800} style={{ width: '100%', height: 'auto', maxHeight: '90vh', objectFit: 'contain' }} />
             </motion.div>
           </motion.div>
         )}

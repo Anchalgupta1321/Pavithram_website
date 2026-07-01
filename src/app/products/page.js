@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '../../data/productData';
@@ -120,7 +121,7 @@ function ProductsContent() {
                     {product.badge && <span className="product-badge">{product.badge}</span>}
                     
                     <div className="product-img-wrapper">
-                      <img src={product.images ? product.images[0] : ''} alt={product.name} />
+                      <Image src={product.images ? product.images[0] : ''} alt={product.name} width={400} height={400} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
                     </div>
                     
                     <div className="product-details">

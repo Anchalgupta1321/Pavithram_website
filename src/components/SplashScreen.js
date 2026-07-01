@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import './SplashScreen.css';
 
@@ -41,7 +42,7 @@ export default function SplashScreen({ onFinish }) {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            <img src="/logo_cropped.png" alt="Pavithram Logo" className="splash-logo" />
+            <Image src="/logo_cropped.png" alt="Pavithram Logo" className="splash-logo" width={400} height={133} priority />
             <div className="splash-shimmer"></div>
           </motion.div>
         </motion.div>
