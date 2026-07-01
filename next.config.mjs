@@ -4,6 +4,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: 'https', hostname: 'flagcdn.com' },
       { protocol: 'https', hostname: 'www.pavithram.online' },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
   },
 };

@@ -357,7 +357,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                 alt="Pavithram Pure Sesame Oil" 
                 width={500}
                 height={500}
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '70%', maxWidth: '350px', height: 'auto', margin: '0 auto', display: 'block' }}
               />
             </motion.div>
           </motion.div>
@@ -378,9 +378,6 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               <motion.li variants={fadeInUp}><BsCheckCircleFill /> Perfect for cooking and Ayurveda</motion.li>
               <motion.li variants={fadeInUp}><BsCheckCircleFill /> Trusted by generations since 1950</motion.li>
             </motion.ul>
-            <motion.div variants={fadeInUp}>
-              <Link href="/products" className="hero-btn">Buy Now</Link>
-            </motion.div>
           </motion.div>
         </div>
       </section>

@@ -3,6 +3,7 @@
 import './heritage.css';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { BsGeoAltFill } from 'react-icons/bs';
 
 export default function HeritagePage() {
   const leaders = [
@@ -48,11 +49,75 @@ export default function HeritagePage() {
         animate="visible"
         variants={staggerContainer}
       >
-        <motion.h1 variants={fadeInUp}>A Legacy Born in Aluva</motion.h1>
-        <motion.p variants={fadeInUp}>
+        <div className="hero-video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/lh2vZLgutII?autoplay=1&mute=1&loop=1&playlist=lh2vZLgutII&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1" 
+            title="Pavithram Story Background" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+          <div className="hero-video-overlay"></div>
+        </div>
+
+        <motion.h1 variants={fadeInUp} style={{ position: 'relative', zIndex: 3 }}>A Legacy Born in Aluva</motion.h1>
+        <motion.p variants={fadeInUp} style={{ position: 'relative', zIndex: 3 }}>
           Started as a small family business in Aluva, Pavithram comes from a traditional family whose roots run deep in Kerala’s heritage of purity and hard work. What began as a humble oil mill has now grown into a global brand loved by thousands, exporting to 25+ countries around the world.
         </motion.p>
       </motion.section>
+
+      {/* Heritage Logos Section */}
+      <section className="heritage-logos-section">
+        <motion.div 
+          className="heritage-logos-container"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
+          <motion.div className="heritage-logo-left" variants={fadeInUp}>
+            <Image src="/logo.png" alt="Pavithram Logo" width={300} height={150} style={{ objectFit: 'contain', width: 'auto', height: '120px' }} />
+          </motion.div>
+          <div className="heritage-logo-divider"></div>
+          <motion.div className="heritage-logo-right" variants={fadeInUp}>
+            <Image src="/Gemini_Generated_Image_pwbb8zpwbb8zpwbb.png" alt="75 Years of Inspiring Tradition" width={300} height={150} style={{ objectFit: 'contain', width: 'auto', height: '150px' }} />
+          </motion.div>
+        </motion.div>
+      </section>
+
+      {/* Global Reach Stats Section */}
+      <section className="heritage-stats-section">
+        <motion.div 
+          className="stats-container"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
+          <motion.div className="stat-box" variants={fadeInUp}>
+            <h2>150+</h2>
+            <p>SKUs</p>
+          </motion.div>
+          <div className="stat-divider"></div>
+          <motion.div className="stat-box" variants={fadeInUp}>
+            <h2>140+</h2>
+            <p>Cities in<br />India</p>
+          </motion.div>
+          <div className="stat-divider"></div>
+          <motion.div className="stat-box" variants={fadeInUp}>
+            <h2>28+</h2>
+            <p>Countries</p>
+          </motion.div>
+        </motion.div>
+        
+        <motion.div 
+          className="world-map-container"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
+          <Image src="/Gemini_Generated_Image_y9n24ny9n24ny9n2.png" alt="Global Reach Map" width={1200} height={600} style={{ width: '100%', height: 'auto', opacity: 1, display: 'block' }} />
+        </motion.div>
+      </section>
 
       {/* Modern Timeline */}
       <section className="timeline-section">
@@ -124,6 +189,8 @@ export default function HeritagePage() {
         </div>
       </section>
 
+
+
       {/* Leaders Section */}
       <section className="leaders-section">
         <motion.div 
@@ -160,6 +227,36 @@ export default function HeritagePage() {
               </div>
             </motion.div>
           ))}
+        </motion.div>
+      </section>
+
+      {/* Our Pillars Visual Banner */}
+      <section className="visual-pillars">
+        <motion.div 
+          className="pillars-container"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
+          <motion.div className="pillar-card" variants={fadeInUp}>
+            <Image src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tradition" layout="fill" objectFit="cover" />
+            <div className="pillar-content">
+              <h3>Tradition</h3>
+            </div>
+          </motion.div>
+          <motion.div className="pillar-card" variants={fadeInUp}>
+            <Image src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Purity" layout="fill" objectFit="cover" />
+            <div className="pillar-content">
+              <h3>Purity</h3>
+            </div>
+          </motion.div>
+          <motion.div className="pillar-card" variants={fadeInUp}>
+            <Image src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Global Reach" layout="fill" objectFit="cover" />
+            <div className="pillar-content">
+              <h3>Global Reach</h3>
+            </div>
+          </motion.div>
         </motion.div>
       </section>
 
