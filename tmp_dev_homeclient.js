@@ -1,10 +1,10 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { BsArrowRight, BsPlayFill, BsAwardFill, BsAward, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube, BsClockHistory } from 'react-icons/bs';
+import { BsArrowRight, BsPlayFill, BsAwardFill, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
 import './home.css';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
@@ -31,54 +31,15 @@ function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
   return <span ref={ref}>{count}{suffix}</span>;
 }
 
-export default function HomeClient({ testimonials, galleryPreview = [], promoBannerData = null }) {
+export default function HomeClient({ testimonials, galleryPreview = [], promoBannerUrl }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [activeEditorialTab, setActiveEditorialTab] = useState('Breakfast');
-
-  const editorialData = [
-    {
-      id: 'Breakfast',
-      title: 'Morning Rituals',
-      story: 'The perfect start to your morning. Soft appams, wholesome puttu, and the authentic taste of a traditional Kerala breakfast, ready in minutes.',
-      image: '/images/hero_breakfast_appam.png',
-      link: '/products?category=Breakfast',
-      products: [
-        { name: 'Palappam Podi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg' },
-        { name: 'Chemba Puttu', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg' },
-        { name: 'Broken Wheat', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Broken%20Wheat%20Mockup.jpg' }
-      ]
-    },
-    {
-      id: 'Oils',
-      title: 'Liquid Gold',
-      story: 'Extracted using traditional methods to preserve every ounce of nutrition and aroma. Our pure oils are the heart of every great meal.',
-      image: '/images/hero_kerala_kitchen.png',
-      link: '/products?category=Oils',
-      products: [
-        { name: 'Roasted Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
-        { name: 'Pure Sesame Oil', img: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png' },
-        { name: 'Mustard Oil', img: '/images/products/Pavithram%20Mockups/Oils/mustard%20400ml%20side%201.jpg' }
-      ]
-    },
-    {
-      id: 'Spices',
-      title: 'Aromatic Spices',
-      story: 'Handpicked from the finest farms in Kerala, our spices bring warmth, depth, and vibrant color to your everyday cooking.',
-      image: '/images/spices_bg.png',
-      link: '/products?category=Spices',
-      products: [
-        { name: 'Chicken Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
-        { name: 'Biriyani Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' },
-        { name: 'Meat Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Meat-Masala-160g.jpg' }
-      ]
-    }
-  ];
 
   const heroSlides = [
     {
       id: 1,
-      image: promoBannerData || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
-      title: "Kerala’s Purest\nFor Your Kitchen",
+      image: promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
+      title: "Kerala's Purest\nFor Your Kitchen",
       subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",
       buttonLink: "/products"
@@ -128,12 +89,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } }
+    visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease: [0.33, 1, 0.68, 1] } }
   };
 
   const staggerContainer = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
+    visible: { opacity: 1, transition: { staggerChildren: 0.3 } }
   };
 
   const bestSellers = [
@@ -145,6 +106,45 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     { name: 'Biriyani Masala', slug: 'biriyani-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg', category: 'Masalas' },
     { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
     { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
+  ];
+
+  const editorialData = [
+    {
+      id: 'Breakfast',
+      title: 'Morning Rituals',
+      story: 'The perfect start to your morning. Soft appams, wholesome puttu, and the authentic taste of a traditional Kerala breakfast, ready in minutes.',
+      image: '/images/hero_breakfast_appam.png',
+      link: '/products?category=Breakfast',
+      products: [
+        { name: 'Palappam Podi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg' },
+        { name: 'Chemba Puttu', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg' },
+        { name: 'Broken Wheat', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Broken%20Wheat%20Mockup.jpg' }
+      ]
+    },
+    {
+      id: 'Oils',
+      title: 'Liquid Gold',
+      story: 'Extracted using traditional methods to preserve every ounce of nutrition and aroma. Our pure oils are the heart of every great meal.',
+      image: '/images/hero_kerala_kitchen_v2.png',
+      link: '/products?category=Edible%20Oils',
+      products: [
+        { name: 'Roasted Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
+        { name: 'Pure Sesame Oil', img: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png' },
+        { name: 'Mustard Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' }
+      ]
+    },
+    {
+      id: 'Spices',
+      title: 'Aromatic Spices',
+      story: 'Handpicked from the finest farms in Kerala, our spices bring warmth, depth, and vibrant color to your everyday cooking.',
+      image: '/images/spices_bg.png',
+      link: '/products?category=Spices',
+      products: [
+        { name: 'Chicken Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
+        { name: 'Biriyani Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' },
+        { name: 'Sambar Powder', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' }
+      ]
+    }
   ];
 
   const collections = [
@@ -237,42 +237,29 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 2. Trust Banner */}
-      <section className="trust-banner-section">
-        <div className="trust-banner-container">
-          <div className="trust-item">
-            <BsClockHistory className="trust-icon" />
-            <div className="trust-text">
-              <h4>75+ Years Legacy</h4>
-              <p>Trusted since 1950</p>
-            </div>
+      {/* 2. Promotional Banner */}
+      <section className="promo-banner-stats">
+        <div className="stats-container">
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsAwardFill className="stat-icon" /></div>
+            <h3>100+</h3>
+            <p>Premium Products</p>
           </div>
-          <div className="trust-item">
-            <BsShieldCheck className="trust-icon" />
-            <div className="trust-text">
-              <h4>100% Pure &amp; Natural</h4>
-              <p>Farm to kitchen quality</p>
-            </div>
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsLeaf className="stat-icon" /></div>
+            <h3>Made in</h3>
+            <p>Kerala</p>
           </div>
-          <div className="trust-item">
-            <BsAward className="trust-icon" />
-            <div className="trust-text">
-              <h4>One Star Export House</h4>
-              <p>DGFT Government Certified</p>
-            </div>
-          </div>
-          <div className="trust-item">
-            <BsGlobe className="trust-icon" />
-            <div className="trust-text">
-              <h4>Global Reach</h4>
-              <p>Exported to 28+ Countries</p>
-            </div>
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsGlobe className="stat-icon" /></div>
+            <h3>Exported to</h3>
+            <p>28+ Countries</p>
           </div>
         </div>
       </section>
 
-      {/* 2.5 Explore Every Meal */}
-      <section className="explore-every-meal" style={{ padding: '6rem 5%', background: 'var(--color-warm-beige, #f9f5f0)' }}>
+      {/* 3. Magazine-Style Categories */}
+      <section className="magazine-categories">
         <motion.div 
           className="section-header center"
           initial="hidden"
@@ -280,10 +267,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          <span className="subtitle">Authentic Kerala flavours for every moment</span>
-          <h2 style={{ textTransform: 'uppercase' }}>INSPIRED BY EVERY MEAL</h2>
+          <span className="subtitle">Shop by Category</span>
+          <h2>Explore Our Range</h2>
         </motion.div>
-
+        
         <div className="editorial-category-layout">
           <div className="editorial-tabs">
             {editorialData.map(tab => (
@@ -309,7 +296,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
                 >
                   <div className="editorial-main-image-container">
-                    <Image src={tab.image} alt={tab.title} fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'cover' }} className="editorial-main-image" />
+                    <Image src={tab.image} alt={tab.title} layout="fill" objectFit="cover" className="editorial-main-image" />
                     <div className="editorial-image-overlay"></div>
                   </div>
                   
@@ -321,7 +308,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                       {tab.products.map((prod, idx) => (
                         <div className="editorial-mini-card" key={idx}>
                           <div className="mini-card-img-wrapper">
-                            <Image src={prod.img} alt={prod.name} fill sizes="130px" style={{ objectFit: 'contain' }} />
+                            <Image src={prod.img} alt={prod.name} layout="fill" objectFit="contain" />
                           </div>
                           <span className="mini-card-name">{prod.name}</span>
                         </div>
@@ -329,113 +316,13 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                     </div>
 
                     <Link href={tab.link} className="premium-btn" style={{ marginTop: '2rem' }}>
-                      EXPLORE {tab.id.toUpperCase()}
+                      Explore {tab.id}
                     </Link>
                   </div>
                 </motion.div>
               ))}
             </AnimatePresence>
           </div>
-        </div>
-      </section>
-
-      {/* 3. Magazine-Style Categories */}
-      <section className="magazine-categories">
-        <motion.div 
-          className="section-header center"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span className="subtitle">Shop by Category</span>
-          <h2>Explore Our Range</h2>
-        </motion.div>
-        
-        <div className="bento-grid">
-          {/* Large Item (Rice/Breakfast) */}
-          <motion.div className="bento-item large" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Rice">
-              <div className="bento-img">
-                <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Ready to Cook</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Tall Item (Spices) */}
-          <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Spices">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Authentic Spices</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Small Item (Oils) */}
-          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Edible%20Oils">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Pure Oils</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Small Item (Pickles) - Fills the blank space! */}
-          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Pickles">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Jams & Pickles</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Wide Item (Snacks) */}
-          <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Cochin%20Snacks">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png" alt="Snacks" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Cochin Snacks</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Large Item (Millets) */}
-          <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Millets">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Millets & Pulses</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
         </div>
       </section>
 
@@ -508,9 +395,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           variants={staggerContainer}
           style={{ color: '#fff', position: 'relative', zIndex: 2 }}
         >
-          <motion.h2 variants={fadeInUp} style={{ color: '#fff', fontSize: '3rem', marginBottom: '2rem' }}>Traditional Taste.<br/>Modern Packaging.</motion.h2>
+          <motion.span variants={fadeInUp} style={{ color: 'var(--color-gold)', letterSpacing: '4px', textTransform: 'uppercase', display: 'block', marginBottom: '1rem', fontWeight: 600 }}>Since 1950</motion.span>
+          <motion.h2 variants={fadeInUp} style={{ color: '#fff', fontSize: '3.5rem', marginBottom: '2.5rem', textShadow: '0 4px 15px rgba(0,0,0,0.3)' }}>AUTHENTIC TASTE<br/>OF KERALA</motion.h2>
           <motion.div variants={fadeInUp}>
-            <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)' }}>Explore Range</Link>
+            <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)', padding: '1rem 3rem', fontSize: '1.1rem' }}>Explore Collection</Link>
           </motion.div>
         </motion.div>
       </section>
@@ -537,16 +425,16 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         >
           {bestSellers.map((item, idx) => (
             <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>
-              <div className="product-img-wrapper">
-                <Image src={item.image} alt={item.name} layout="fill" objectFit="contain" />
-                <div className="product-hover-overlay">
-                  <Link href={`/products/${item.slug}`} className="quick-view-btn">View Product</Link>
+              <Link href={`/products/${item.slug}`} className="product-link-wrapper">
+                <div className="product-img-wrapper">
+                  <Image src={item.image} alt={item.name} layout="fill" objectFit="contain" className="product-image-zoom" />
                 </div>
-              </div>
-              <div className="product-info-premium">
-                <span className="product-cat">{item.category}</span>
-                <h4>{item.name}</h4>
-              </div>
+                <div className="product-info-premium">
+                  <span className="product-cat">{item.category}</span>
+                  <h4>{item.name}</h4>
+                  <span className="view-details-link">View Details <BsArrowRight /></span>
+                </div>
+              </Link>
             </motion.div>
           ))}
         </motion.div>
@@ -701,28 +589,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 10. Footer CTA */}
-      <section className="pre-footer-cta" style={{
-        position: 'relative',
-        backgroundImage: 'url("https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png")',
-        backgroundAttachment: 'fixed',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        color: '#fff',
-        overflow: 'hidden'
-      }}>
-        <div style={{
-          position: 'absolute',
-          top: 0, left: 0, width: '100%', height: '100%',
-          background: 'linear-gradient(135deg, rgba(193, 25, 31, 0.9), rgba(212, 175, 55, 0.8))',
-          zIndex: 1
-        }}></div>
-        <div className="cta-content" style={{ position: 'relative', zIndex: 2 }}>
-          <h2 style={{ color: '#fff', textShadow: '0 2px 10px rgba(0,0,0,0.2)' }}>Experience Kerala's Finest</h2>
-          <p style={{ color: '#f8f8f8', fontSize: '1.2rem', marginBottom: '2.5rem' }}>Bring the authentic taste of tradition to your home today.</p>
-          <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)', border: 'none' }}>Explore 100+ Products</Link>
-        </div>
-      </section>
+
 
     </main>
   );
