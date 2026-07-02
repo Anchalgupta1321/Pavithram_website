@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { BsArrowRight, BsPlayFill, BsAwardFill, BsAward, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube, BsClockHistory } from 'react-icons/bs';
+import { GiChiliPepper, GiWheat } from 'react-icons/gi';
 import './home.css';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
@@ -272,19 +273,39 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 2.5 Explore Every Meal */}
-      <section className="explore-every-meal" style={{ padding: '6rem 5%', background: 'var(--color-warm-beige, #f9f5f0)' }}>
+      <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: 'var(--color-warm-beige, #f9f5f0)' }}>
+        {/* Background Decorative Icons */}
+        <div style={{ position: 'absolute', top: '10%', left: '2%', opacity: 0.05, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <BsLeaf size={280} />
+        </div>
+        <div style={{ position: 'absolute', top: '35%', right: '-2%', opacity: 0.05, transform: 'rotate(15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiChiliPepper size={300} />
+        </div>
+        <div style={{ position: 'absolute', bottom: '15%', left: '-5%', opacity: 0.05, transform: 'rotate(10deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiWheat size={350} />
+        </div>
+        <div style={{ position: 'absolute', bottom: '5%', right: '15%', opacity: 0.05, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <BsLeaf size={200} />
+        </div>
+        <div style={{ position: 'absolute', top: '55%', left: '15%', opacity: 0.03, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiWheat size={250} />
+        </div>
+        <div style={{ position: 'absolute', top: '80%', right: '2%', opacity: 0.04, transform: 'rotate(-35deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiChiliPepper size={220} />
+        </div>
         <motion.div 
           className="section-header center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInUp}
+          style={{ position: 'relative', zIndex: 10 }}
         >
           <span className="subtitle">Authentic Kerala flavours for every moment</span>
           <h2 style={{ textTransform: 'uppercase' }}>INSPIRED BY EVERY MEAL</h2>
         </motion.div>
 
-        <div className="editorial-category-layout">
+        <div className="editorial-category-layout" style={{ position: 'relative', zIndex: 10 }}>
           <div className="editorial-tabs">
             {editorialData.map(tab => (
               <button 
@@ -516,13 +537,34 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 6. Best Sellers */}
-      <section className="best-sellers">
+      <section className="best-sellers" style={{ position: 'relative', overflow: 'hidden' }}>
+        {/* Background Decorative Icons */}
+        <div style={{ position: 'absolute', top: '5%', left: '-2%', opacity: 0.04, transform: 'rotate(20deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <BsLeaf size={300} />
+        </div>
+        <div style={{ position: 'absolute', top: '25%', right: '-5%', opacity: 0.03, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiWheat size={400} />
+        </div>
+        <div style={{ position: 'absolute', top: '50%', left: '-4%', opacity: 0.04, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiChiliPepper size={350} />
+        </div>
+        <div style={{ position: 'absolute', top: '65%', right: '2%', opacity: 0.03, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <BsLeaf size={280} />
+        </div>
+        <div style={{ position: 'absolute', bottom: '10%', left: '10%', opacity: 0.03, transform: 'rotate(30deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiWheat size={300} />
+        </div>
+        <div style={{ position: 'absolute', bottom: '2%', right: '5%', opacity: 0.04, transform: 'rotate(-40deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiChiliPepper size={220} />
+        </div>
+        
         <motion.div 
           className="section-header center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInUp}
+          style={{ position: 'relative', zIndex: 10 }}
         >
           <span className="subtitle">Customer Favorites</span>
           <h2>Best Sellers</h2>
@@ -534,6 +576,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
+          style={{ position: 'relative', zIndex: 10 }}
         >
           {bestSellers.map((item, idx) => (
             <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>

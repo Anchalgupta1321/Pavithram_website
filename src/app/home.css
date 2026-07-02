@@ -518,7 +518,11 @@ body {
 .product-img-wrapper {
   position: relative;
   height: 350px;
-  background: #eaeaea;
+  background: transparent;
+}
+.product-img-wrapper img {
+  mix-blend-mode: multiply;
+  filter: contrast(1.05); /* Slight contrast boost to compensate for blend mode */
 }
 .product-hover-overlay {
   position: absolute;
