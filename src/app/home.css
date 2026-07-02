@@ -38,7 +38,7 @@ body {
 }
 .section-header h2 {
   font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: var(--color-dark);
   margin: 0;
 }
@@ -104,102 +104,70 @@ body {
   margin-bottom: 2rem;
 }
 
-/* 2. Promotional Banner Stats */
-.promo-banner-stats {
-  background: linear-gradient(135deg, var(--color-primary-red), #9e1418);
-  color: #fff;
-  padding: 5rem 5%;
+/* 2. Trust Banner */
+.trust-banner-section {
   position: relative;
-  overflow: hidden;
-  border-top: 2px solid var(--color-gold);
-  border-bottom: 2px solid var(--color-gold);
-  box-shadow: inset 0 0 50px rgba(0,0,0,0.3);
+  margin-top: -60px;
+  z-index: 10;
+  padding: 0;
 }
 
-.promo-banner-stats::before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -5%;
-  width: 30%;
-  height: 150%;
-  background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, transparent 70%);
-  transform: rotate(30deg);
-  pointer-events: none;
-}
-
-.promo-banner-stats::after {
-  content: "";
-  position: absolute;
-  bottom: -20%;
-  right: -5%;
-  width: 40%;
-  height: 150%;
-  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 60%);
-  transform: rotate(-15deg);
-  pointer-events: none;
-}
-
-.stats-container {
+.trust-banner-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
+  gap: 1.5rem;
+  background: #ffffff;
+  padding: 2.5rem 5%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
-.stat-item {
-  text-align: center;
-  padding: 2rem;
-  border-radius: 16px;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 1px solid transparent;
-  cursor: default;
-}
-.stat-item.interactive:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-}
-.stat-icon-wrapper {
+
+.trust-item {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background: rgba(255,255,255,0.15);
-  border-radius: 50%;
-  margin: 0 auto 1.5rem auto;
-  transition: all 0.4s ease;
+  gap: 1.2rem;
+  flex: 1;
+  min-width: 220px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-.stat-icon {
-  font-size: 1.8rem;
+
+.trust-item:hover {
+  background: rgba(218, 37, 29, 0.05); /* very light red */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.trust-icon {
+  font-size: 2.8rem;
   color: var(--color-gold);
+  flex-shrink: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
-.stat-item.interactive:hover .stat-icon-wrapper {
-  background: var(--color-gold);
+
+.trust-item:hover .trust-icon {
+  color: var(--color-primary-red);
+  transform: scale(1.1);
 }
-.stat-item.interactive:hover .stat-icon {
-  color: var(--color-dark);
-}
-.stat-item h3 {
-  font-size: 3.5rem;
-  margin: 0;
+
+.trust-text h4 {
   font-family: var(--font-heading);
-  color: var(--color-gold);
-  transition: color 0.3s ease;
+  font-size: 1.25rem;
+  color: var(--color-dark);
+  margin: 0 0 0.3rem 0;
+  font-weight: 700;
 }
-.stat-item.interactive:hover h3 {
-  color: #fff;
-}
-.stat-item p {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 0.5rem;
+
+.trust-text p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
 }
 
 /* 3. Magazine-Style Categories (Bento Grid) */
@@ -262,6 +230,8 @@ body {
   font-family: var(--font-heading);
   font-size: 1.8rem;
   margin: 0 0 0.5rem 0;
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 .bento-item.large .bento-content h3 {
   font-size: 2.5rem;
@@ -271,6 +241,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 0;

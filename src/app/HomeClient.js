@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { BsArrowRight, BsPlayFill, BsAwardFill, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
+import { BsArrowRight, BsPlayFill, BsAwardFill, BsAward, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube, BsClockHistory } from 'react-icons/bs';
 import './home.css';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
@@ -197,23 +197,36 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 2. Promotional Banner */}
-      <section className="promo-banner-stats">
-        <div className="stats-container">
-          <div className="stat-item interactive">
-            <div className="stat-icon-wrapper"><BsAwardFill className="stat-icon" /></div>
-            <h3>100+</h3>
-            <p>Premium Products</p>
+      {/* 2. Trust Banner */}
+      <section className="trust-banner-section">
+        <div className="trust-banner-container">
+          <div className="trust-item">
+            <BsClockHistory className="trust-icon" />
+            <div className="trust-text">
+              <h4>75+ Years Legacy</h4>
+              <p>Trusted since 1950</p>
+            </div>
           </div>
-          <div className="stat-item interactive">
-            <div className="stat-icon-wrapper"><BsLeaf className="stat-icon" /></div>
-            <h3>Made in</h3>
-            <p>Kerala</p>
+          <div className="trust-item">
+            <BsShieldCheck className="trust-icon" />
+            <div className="trust-text">
+              <h4>100% Pure &amp; Natural</h4>
+              <p>Farm to kitchen quality</p>
+            </div>
           </div>
-          <div className="stat-item interactive">
-            <div className="stat-icon-wrapper"><BsGlobe className="stat-icon" /></div>
-            <h3>Exported to</h3>
-            <p>28+ Countries</p>
+          <div className="trust-item">
+            <BsAward className="trust-icon" />
+            <div className="trust-text">
+              <h4>One Star Export House</h4>
+              <p>DGFT Government Certified</p>
+            </div>
+          </div>
+          <div className="trust-item">
+            <BsGlobe className="trust-icon" />
+            <div className="trust-text">
+              <h4>Global Reach</h4>
+              <p>Exported to 28+ Countries</p>
+            </div>
           </div>
         </div>
       </section>
