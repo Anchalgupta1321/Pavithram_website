@@ -4,7 +4,7 @@ import { useState, useEffect, use } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { BsCheckCircleFill, BsShieldCheck, BsPlus, BsDash } from 'react-icons/bs';
+import { BsPatchCheckFill, BsLeaf, BsCheck2Circle, BsAwardFill, BsPlus, BsDash } from 'react-icons/bs';
 import { products } from '../../../data/productData';
 import './product-detail.css';
 
@@ -87,8 +87,8 @@ export default function ProductClient({ params }) {
 
           {/* Quick Value Props */}
           <ul className="quick-props">
-            <li><BsShieldCheck className="prop-icon" /> Guaranteed Purity & Quality</li>
-            <li><BsCheckCircleFill className="prop-icon" /> Sourced from Traditional Farms</li>
+            <li><BsPatchCheckFill className="prop-icon" /> Guaranteed Purity & Quality</li>
+            <li><BsLeaf className="prop-icon" /> Sourced from Traditional Farms</li>
           </ul>
 
           {/* Pack Size Selector */}
@@ -182,7 +182,7 @@ export default function ProductClient({ params }) {
               {activeTab === 'benefits' && (
                 <ul className="cert-list">
                   {product.benefits.map((benefit, i) => (
-                    <li key={i}><BsCheckCircleFill className="text-gold" /> {benefit}</li>
+                    <li key={i}><BsCheck2Circle className="text-gold" style={{ flexShrink: 0, fontSize: '1.2em' }} /> {benefit}</li>
                   ))}
                 </ul>
               )}
@@ -191,7 +191,7 @@ export default function ProductClient({ params }) {
                   {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
                   <ul className="cert-list" style={{marginTop: '1rem'}}>
                     {product.certifications && product.certifications.map((cert, i) => (
-                      <li key={i}><BsShieldCheck className="text-gold" /> {cert}</li>
+                      <li key={i}><BsAwardFill className="text-gold" style={{ flexShrink: 0 }} /> {cert}</li>
                     ))}
                   </ul>
                 </div>

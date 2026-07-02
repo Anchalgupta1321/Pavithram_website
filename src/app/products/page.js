@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
 import { products } from '../../data/productData';
 import './products.css';
 
@@ -60,12 +61,64 @@ function ProductsContent() {
         
         <motion.div 
           className="global-product-info" 
-          whileHover={{ scale: 1.02, boxShadow: '0 10px 25px rgba(218,37,29,0.15)', borderColor: 'var(--color-primary-red)' }}
-          whileTap={{ scale: 0.95 }}
-          style={{ marginTop: '2rem', padding: '1rem 2rem', background: 'rgba(255,255,255,0.8)', border: '1px solid #e0e0e0', borderRadius: '50px', display: 'inline-flex', gap: '2rem', flexWrap: 'wrap', justifyContent: 'center', boxShadow: '0 5px 15px rgba(0,0,0,0.05)', cursor: 'pointer', transition: 'border-color 0.3s ease' }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          whileHover={{ 
+            scale: 1.03, 
+            boxShadow: '0 15px 35px rgba(218,37,29,0.2)',
+            y: -5
+          }}
+          whileTap={{ scale: 0.98 }}
+          style={{ 
+            marginTop: '2rem', 
+            padding: '1.2rem 2.5rem', 
+            background: 'linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%)', 
+            border: '1px solid rgba(218,37,29,0.1)', 
+            borderRadius: '50px', 
+            display: 'inline-flex', 
+            gap: '3rem', 
+            flexWrap: 'wrap', 
+            justifyContent: 'center', 
+            boxShadow: '0 8px 20px rgba(0,0,0,0.06)', 
+            cursor: 'pointer', 
+            transition: 'all 0.3s ease',
+            position: 'relative',
+            overflow: 'hidden'
+          }}
         >
-          <p style={{ fontSize: '0.9rem', color: '#555', margin: 0 }}><strong>Product Origin:</strong> India</p>
-          <p style={{ fontSize: '0.9rem', color: '#555', margin: 0 }}><strong>Manufacturer:</strong> Pavithram Foods Pvt. Ltd., Kerala, India</p>
+          {/* Subtle background glow */}
+          <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--color-primary-red), #ff7b00)', opacity: 0.8 }}></div>
+          
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+            <div style={{ 
+              display: 'flex', alignItems: 'center', justifyContent: 'center', 
+              width: '36px', height: '36px', borderRadius: '50%', 
+              background: 'rgba(218,37,29,0.1)', color: 'var(--color-primary-red)' 
+            }}>
+              <FaGlobeAsia size={18} />
+            </div>
+            <div style={{ textAlign: 'left' }}>
+              <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px', color: '#888', margin: 0, fontWeight: 600 }}>Product Origin</p>
+              <p style={{ fontSize: '1rem', color: '#333', margin: 0, fontWeight: 700 }}>India</p>
+            </div>
+          </div>
+
+          <div style={{ width: '1px', background: '#e0e0e0', margin: '0.5rem 0' }}></div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+            <div style={{ 
+              display: 'flex', alignItems: 'center', justifyContent: 'center', 
+              width: '36px', height: '36px', borderRadius: '50%', 
+              background: 'rgba(218,37,29,0.1)', color: 'var(--color-primary-red)' 
+            }}>
+              <FaIndustry size={18} />
+            </div>
+            <div style={{ textAlign: 'left' }}>
+              <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px', color: '#888', margin: 0, fontWeight: 600 }}>Manufacturer</p>
+              <p style={{ fontSize: '1rem', color: '#333', margin: 0, fontWeight: 700 }}>Pavithram Foods Pvt. Ltd.</p>
+            </div>
+          </div>
         </motion.div>
       </motion.section>
 
@@ -136,6 +189,35 @@ function ProductsContent() {
             </AnimatePresence>
           </motion.div>
           
+          {activeCategory === "Cochin Snacks" && (
+            <motion.div 
+              style={{ textAlign: 'center', marginTop: '3rem', marginBottom: '1rem', width: '100%' }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+            >
+              <a 
+                href="https://www.cochinsnacks.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-block',
+                  padding: '1rem 2.5rem',
+                  backgroundColor: 'var(--color-primary-red, #da251d)',
+                  color: 'white',
+                  textDecoration: 'none',
+                  borderRadius: '50px',
+                  fontWeight: 'bold',
+                  fontSize: '1.1rem',
+                  boxShadow: '0 5px 15px rgba(218,37,29,0.3)',
+                  transition: 'all 0.3s ease'
+                }}
+              >
+                Check More on Cochin Snacks
+              </a>
+            </motion.div>
+          )}
+
           {totalPages > 1 && (
             <motion.div 
               className="pagination"

@@ -1,12 +1,11 @@
 "use client";
 
-import './home.css';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { BsShieldCheck, BsGlobe, BsAward, BsClockHistory, BsCheckCircleFill, BsTree, BsDroplet, BsBoxSeam, BsInstagram, BsFacebook, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import React, { useState, useRef, useEffect } from 'react';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
-import SplashScreen from '../components/SplashScreen';
+import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { BsArrowRight, BsPlayFill, BsAwardFill, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
+import './home.css';
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
   const [count, setCount] = useState(from);
@@ -46,54 +45,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     },
     {
       id: 2,
-      image: "https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg",
-      title: "Authentic Spices\n& Masalas",
-      subtitle: "Experience the true taste of tradition with our handpicked spices and perfectly blended masalas.",
-      buttonText: "Shop Spices",
-      buttonLink: "/products"
-    },
-    {
-      id: 3,
       image: "https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png",
       title: "Healthy Millets\n& Pulses",
       subtitle: "Nourish your family with our premium quality grains, sourced directly from trusted farmers.",
       buttonText: "Shop Millets",
-      buttonLink: "/products"
+      buttonLink: "/products?category=Millets"
     }
-  ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
-    }, 5000);
-    return () => clearInterval(timer);
-  }, [heroSlides.length]);
-
-  const nextSlide = () => setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
-  const prevSlide = () => setCurrentSlide((prev) => (prev === 0 ? heroSlides.length - 1 : prev - 1));
-
-  const categories = [
-    { name: 'Edible Oils & Ghee', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png' },
-    { name: 'Cochin Snacks', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png' },
-    { name: 'Millets', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png' },
-    { name: 'Jams & Pickles', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png' },
-    { name: 'Spices & Masalas', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
-    { name: 'Ready to Cook', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' }
-  ];
-
-  const products = [
-    { name: 'Pure Sesame Oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', bg: 'linear-gradient(to bottom, #fdf6e3 50%, #f3c442 50%)' },
-    { name: 'Biriyani Masala 100g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg', bg: 'linear-gradient(to bottom, #f3ebfa 50%, #9c63d6 50%)' },
-    { name: 'Chicken Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', bg: 'linear-gradient(to bottom, #fae6e6 50%, #e33b3b 50%)' },
-    { name: 'Mutton Masala 160g', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Mutton-Masala-160g.jpg', bg: 'linear-gradient(to bottom, #f3ebfa 50%, #9c63d6 50%)' },
-    { name: 'Pure Coconut Oil', image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png', bg: 'linear-gradient(to bottom, #fffceb 50%, #ffda59 50%)' }
-  ];
-
-  const socialFeed = [
-    'https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png',
-    'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg',
-    'https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png',
-    'https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png'
   ];
 
   const countries = [
@@ -114,20 +71,71 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     { name: "New Zealand", code: "nz" }
   ];
 
+  const socialFeed = [
+    'https://www.youtube.com/embed/5aLh6yC72OQ?controls=0',
+    'https://www.youtube.com/embed/tgbNymZ7vqY?controls=0',
+    'https://www.youtube.com/embed/K1-O9_M-U9w?controls=0',
+    'https://www.youtube.com/embed/7xG432iTjR0?controls=0'
+  ];
+
+  const nextSlide = () => setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
+  const prevSlide = () => setCurrentSlide((prev) => (prev === 0 ? heroSlides.length - 1 : prev - 1));
+
+  useEffect(() => {
+    const timer = setInterval(nextSlide, 5000);
+    return () => clearInterval(timer);
+  }, [heroSlides.length]);
+
   const fadeInUp = {
-    hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.0, ease: [0.22, 1, 0.36, 1] } }
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } }
   };
 
   const staggerContainer = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.3 } }
+    visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
   };
 
+  const bestSellers = [
+    { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', category: 'Oils' },
+    { name: 'Chicken Masala', slug: 'chicken-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', category: 'Spices' },
+    { name: 'Broken Wheat', slug: 'broken-wheat', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Broken%20Wheat%20Mockup.jpg', category: 'Breakfast' },
+    { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
+    { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
+    { name: 'Biriyani Masala', slug: 'biriyani-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg', category: 'Masalas' },
+    { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
+    { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
+  ];
+
+  const collections = [
+    { title: 'Breakfast Essentials', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg', link: '/products?category=Breakfast' },
+    { title: 'Beverages', image: '/images/products/Pavithram%20Mockups/Tea%20Coffee%20Mockups/Tea%20Powder%20Mockup.jpg', link: '/products?category=Beverages' },
+    { title: 'Condiments', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', link: '/products?category=Condiments' },
+    { title: 'Premium Pulses', image: '/images/products/Pavithram%20Mockups/Pulses%20Mockups/Black%20Channa%20Mockup.jpg', link: '/products?category=Pulses' },
+    { title: 'Everyday Grocery', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Jaggery%20Ball.jpg', link: '/products?category=Grocery' }
+  ];
+
+  const mapPins = [
+    { left: '20%', top: '35%', label: 'USA' },
+    { left: '25%', top: '30%', label: 'Canada' },
+    { left: '48%', top: '28%', label: 'UK' },
+    { left: '65%', top: '45%', label: 'Dubai' },
+    { left: '78%', top: '55%', label: 'Singapore' },
+    { left: '85%', top: '75%', label: 'Australia' }
+  ];
+
   return (
-    <main className="home-page">
-      <SplashScreen />
+    <main className="premium-home">
       
+      {/* Floating Interactive Background Elements */}
+      <div className="floating-bg-elements">
+        <div className="floating-element el-1"><BsLeaf /></div>
+        <div className="floating-element el-2"><div className="blob"></div></div>
+        <div className="floating-element el-3"><BsLeaf /></div>
+        <div className="floating-element el-4"><div className="blob-alt"></div></div>
+        <div className="floating-element el-5"><BsLeaf /></div>
+      </div>
+
       {/* Hero Carousel Section */}
       <section className="hero-carousel-section">
         <div className="carousel-track">
@@ -141,7 +149,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               transition={{ duration: 1.2, ease: "easeInOut" }}
             >
               <div className="carousel-bg">
-                <Image src={heroSlides[currentSlide].image} alt={`Pavithram - ${heroSlides[currentSlide].title.replace('\n', ' ')}`} fill style={{ objectFit: 'cover' }} priority={true} sizes="100vw" />
+                <Image src={heroSlides[currentSlide].image} alt="Pavithram Carousel Background" fill style={{ objectFit: 'cover' }} priority={true} sizes="100vw" />
                 <div className="carousel-overlay"></div>
               </div>
               <div className="carousel-content">
@@ -151,7 +159,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ delay: 0.3, duration: 0.8 }}
                   className="carousel-text"
                 >
-                  <h1 dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
+                  <h1 style={{ color: 'var(--color-primary-red)' }} dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
                   <p>{heroSlides[currentSlide].subtitle}</p>
                   <Link href={heroSlides[currentSlide].buttonLink} className="hero-btn">
                     {heroSlides[currentSlide].buttonText}
@@ -184,82 +192,269 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         {/* Wavy Section Divider */}
         <div className="hero-wave-divider">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#f9f9f9"></path>
           </svg>
         </div>
       </section>
 
-      {/* Trust Bar */}
-      <motion.div 
-        className="trust-bar"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={staggerContainer}
-      >
-        <motion.div className="trust-item" variants={fadeInUp}>
-          <BsClockHistory className="trust-icon" />
-          <div className="trust-text">
-            <h4>75+ Years Legacy</h4>
-            <p>Trusted since 1950</p>
+      {/* 2. Promotional Banner */}
+      <section className="promo-banner-stats">
+        <div className="stats-container">
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsAwardFill className="stat-icon" /></div>
+            <h3>100+</h3>
+            <p>Premium Products</p>
           </div>
-        </motion.div>
-        <motion.div className="trust-item" variants={fadeInUp}>
-          <BsShieldCheck className="trust-icon" />
-          <div className="trust-text">
-            <h4>100% Pure & Natural</h4>
-            <p>Farm to kitchen quality</p>
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsLeaf className="stat-icon" /></div>
+            <h3>Made in</h3>
+            <p>Kerala</p>
           </div>
-        </motion.div>
-        <motion.div className="trust-item" variants={fadeInUp}>
-          <BsAward className="trust-icon" />
-          <div className="trust-text">
-            <h4>One Star Export House</h4>
-            <p>DGFT Government Certified</p>
+          <div className="stat-item interactive">
+            <div className="stat-icon-wrapper"><BsGlobe className="stat-icon" /></div>
+            <h3>Exported to</h3>
+            <p>28+ Countries</p>
           </div>
-        </motion.div>
-        <motion.div className="trust-item" variants={fadeInUp}>
-          <BsGlobe className="trust-icon" />
-          <div className="trust-text">
-            <h4>Global Reach</h4>
-            <p>Exported to 28+ Countries</p>
-          </div>
-        </motion.div>
-      </motion.div>
+        </div>
+      </section>
 
-      {/* Farm to Kitchen Process */}
-      <section className="process-section">
+      {/* 3. Magazine-Style Categories */}
+      <section className="magazine-categories">
         <motion.div 
-          className="section-heading"
+          className="section-header center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInUp}
         >
-          <span>Our Process</span>
-          <h2>Purity in Every Drop</h2>
+          <span className="subtitle">Shop by Category</span>
+          <h2>Explore Our Range</h2>
         </motion.div>
+        
+        <div className="bento-grid">
+          {/* Large Item (Rice/Breakfast) */}
+          <motion.div className="bento-item large" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Rice">
+              <div className="bento-img">
+                <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Ready to Cook</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Tall Item (Spices) */}
+          <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Spices">
+              <div className="bento-img">
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Authentic Spices</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Small Item (Oils) */}
+          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Edible%20Oils">
+              <div className="bento-img">
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Pure Oils</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Small Item (Pickles) - Fills the blank space! */}
+          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Pickles">
+              <div className="bento-img">
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Jams & Pickles</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Wide Item (Snacks) */}
+          <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Cochin%20Snacks">
+              <div className="bento-img">
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png" alt="Snacks" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Cochin Snacks</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+
+          {/* Large Item (Millets) */}
+          <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/products?category=Millets">
+              <div className="bento-img">
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
+                <div className="bento-overlay"></div>
+              </div>
+              <div className="bento-content">
+                <h3>Millets & Pulses</h3>
+                <span className="bento-link">Discover <BsArrowRight /></span>
+              </div>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* 4. Featured Collections */}
+      <section className="featured-collections-fmcg">
         <motion.div 
-          className="process-grid"
+          className="section-header center"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
+          <span className="subtitle">Curated for you</span>
+          <h2>Featured Collections</h2>
+        </motion.div>
+        
+        <div className="fmcg-category-grid">
+          {collections.map((category, idx) => (
+            <motion.div 
+              className="fmcg-category-card" 
+              key={idx}
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              <Link href={category.link} className="category-link-wrapper">
+                <div className="category-image-container">
+                  <Image 
+                    src={category.image} 
+                    alt={category.title} 
+                    layout="fill" 
+                    objectFit="cover" 
+                    className="category-image"
+                  />
+                  <div className="category-overlay"></div>
+                </div>
+                <div className="category-content">
+                  <h3>{category.title}</h3>
+                  <span className="explore-btn-slide">Explore <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Mid-Page Promotional Banner */}
+      <section className="mid-promo-banner" style={{
+        position: 'relative',
+        backgroundImage: 'url("https://www.pavithram.online/wp-content/uploads/2025/10/Spices_.png")',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        padding: '6rem 5%',
+        textAlign: 'center',
+        overflow: 'hidden'
+      }}>
+        <div style={{
+          position: 'absolute',
+          top: 0, left: 0, width: '100%', height: '100%',
+          background: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4))',
+          zIndex: 1
+        }}></div>
+        <motion.div 
+          className="promo-content"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={staggerContainer}
+          style={{ color: '#fff', position: 'relative', zIndex: 2 }}
+        >
+          <motion.h2 variants={fadeInUp} style={{ color: '#fff', fontSize: '3rem', marginBottom: '2rem' }}>Traditional Taste.<br/>Modern Packaging.</motion.h2>
+          <motion.div variants={fadeInUp}>
+            <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)' }}>Explore Range</Link>
+          </motion.div>
+        </motion.div>
+      </section>
+
+      {/* 6. Best Sellers */}
+      <section className="best-sellers">
+        <motion.div 
+          className="section-header center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
+          <span className="subtitle">Customer Favorites</span>
+          <h2>Best Sellers</h2>
+        </motion.div>
+        
+        <motion.div 
+          className="products-grid-premium"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
         >
-          <motion.div className="process-step" variants={fadeInUp}>
-            <BsTree className="process-icon" />
-            <h3>1. Sourced with Care</h3>
-            <p>We handpick the finest sesame seeds and coconuts directly from trusted local farmers across India.</p>
+          {bestSellers.map((item, idx) => (
+            <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>
+              <div className="product-img-wrapper">
+                <Image src={item.image} alt={item.name} layout="fill" objectFit="contain" />
+                <div className="product-hover-overlay">
+                  <Link href={`/products/${item.slug}`} className="quick-view-btn">View Product</Link>
+                </div>
+              </div>
+              <div className="product-info-premium">
+                <span className="product-cat">{item.category}</span>
+                <h4>{item.name}</h4>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </section>
+
+      {/* 7. Why Pavithram */}
+      <section className="why-pavithram">
+        <motion.div 
+          className="why-grid"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={staggerContainer}
+        >
+          <motion.div className="why-item" variants={fadeInUp}>
+            <BsLeaf className="why-icon" />
+            <h3>Farm Fresh</h3>
           </motion.div>
-          <motion.div className="process-step" variants={fadeInUp}>
-            <BsDroplet className="process-icon" />
-            <h3>2. Traditional Extraction</h3>
-            <p>Our oils are extracted using traditional, temperature-controlled methods to retain maximum nutrients and aroma.</p>
+          <motion.div className="why-item" variants={fadeInUp}>
+            <BsAwardFill className="why-icon" />
+            <h3>Authentic</h3>
           </motion.div>
-          <motion.div className="process-step" variants={fadeInUp}>
-            <BsBoxSeam className="process-icon" />
-            <h3>3. Hygienic Packaging</h3>
-            <p>Processed and bottled in our state-of-the-art, fully automatic facility ensuring zero human touch.</p>
+          <motion.div className="why-item" variants={fadeInUp}>
+            <BsShieldCheck className="why-icon" />
+            <h3>Quality Tested</h3>
+          </motion.div>
+          <motion.div className="why-item" variants={fadeInUp}>
+            <BsGlobe className="why-icon" />
+            <h3>Export Quality</h3>
           </motion.div>
         </motion.div>
       </section>
@@ -294,198 +489,118 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* Categories Grid */}
-      <section className="categories-section">
-        {/* Floating Decorative Elements */}
-        <div className="floating-elements">
-          <div className="floating-shape shape-1"></div>
-          <div className="floating-shape shape-2"></div>
-          <div className="floating-shape shape-3"></div>
-        </div>
-
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Shop by Category</span>
-          <h2>Explore Our Range</h2>
-        </motion.div>
-        <motion.div 
-          className="categories-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-          variants={staggerContainer}
-        >
-          {categories.map((cat, i) => (
-            <motion.div 
-              className="cat-card" 
-              key={i} 
-              variants={fadeInUp}
-              whileHover={{ y: -10, scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <Image src={cat.image} alt={cat.name} width={400} height={400} />
-              <h3>{cat.name}</h3>
-            </motion.div>
-          ))}
-        </motion.div>
-      </section>
-
-
-      {/* Hero Product Spotlight */}
-      <section className="spotlight-section">
-        <div className="spotlight-split">
-          <motion.div 
-            className="spotlight-img"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6 }}
-          >
-            <motion.div 
-              initial={{ x: -150, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
-            >
-              <Image 
-                src="/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png" 
-                alt="Pavithram Pure Sesame Oil" 
-                width={500}
-                height={500}
-                style={{ width: '70%', maxWidth: '350px', height: 'auto', margin: '0 auto', display: 'block' }}
-              />
-            </motion.div>
-          </motion.div>
-          <motion.div 
-            className="spotlight-content"
+      {/* Heritage Summary Section */}
+      <section className="heritage-summary-section">
+        <div className="heritage-summary-content">
+          <motion.h1 
+            style={{ color: 'var(--color-primary-red)', fontFamily: 'var(--font-heading)', fontSize: '3rem', marginBottom: '1.5rem', lineHeight: '1.2' }}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            variants={staggerContainer}
+            variants={fadeInUp}
           >
-            <motion.div className="section-heading" style={{ textAlign: 'left', marginBottom: '1rem' }} variants={fadeInUp}>
-              <span>Signature Product</span>
-            </motion.div>
-            <motion.h2 variants={fadeInUp}>Pavithram Pure Sesame Oil</motion.h2>
-            <motion.ul className="spotlight-list" variants={staggerContainer}>
-              <motion.li variants={fadeInUp}><BsCheckCircleFill /> 100% Pure & Unadulterated</motion.li>
-              <motion.li variants={fadeInUp}><BsCheckCircleFill /> Rich in natural antioxidants</motion.li>
-              <motion.li variants={fadeInUp}><BsCheckCircleFill /> Perfect for cooking and Ayurveda</motion.li>
-              <motion.li variants={fadeInUp}><BsCheckCircleFill /> Trusted by generations since 1950</motion.li>
-            </motion.ul>
+            From a humble mill in Aluva to millions of kitchens worldwide.
+          </motion.h1>
+          <motion.p
+            style={{ color: '#555', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '2rem' }}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+          >
+            Founded in the 1950s as Pazhangadi Oil Industries, the Pavithram Group of Companies has grown from a trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. We ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.
+          </motion.p>
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <Link href="/heritage" className="premium-btn">Discover Our Story</Link>
           </motion.div>
+        </div>
+        <motion.div 
+          className="heritage-summary-image"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
+          <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Pavithram Edible Oils" width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} />
+        </motion.div>
+      </section>
+
+      {/* 9. Join Community */}
+      <section className="community-section">
+        <motion.div 
+          className="section-header center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
+          <span className="subtitle">Join Our Community</span>
+          <h2>Stories from the Kitchen</h2>
+          <div className="social-icons-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '1rem auto 0 auto', gap: '20px' }}>
+            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#E1306C', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsInstagram /></a>
+            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#1877F2', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsFacebook /></a>
+            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#FF0000', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsYoutube /></a>
+          </div>
+        </motion.div>
+
+        <div className="reels-container">
+          {socialFeed.map((videoUrl, idx) => (
+            <motion.div 
+              className="reel-card" 
+              key={idx} 
+              variants={fadeInUp}
+              onMouseEnter={(e) => {
+                const iframe = e.currentTarget.querySelector('iframe');
+                if (iframe && !iframe.src.includes('autoplay=1')) {
+                  iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'autoplay=1&mute=1';
+                }
+              }}
+              onMouseLeave={(e) => {
+                const iframe = e.currentTarget.querySelector('iframe');
+                if (iframe) {
+                  iframe.src = iframe.src.replace('&autoplay=1&mute=1', '').replace('?autoplay=1&mute=1', '');
+                }
+              }}
+            >
+              <iframe 
+                src={videoUrl}
+                className="reel-video"
+                style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', border: 'none' }}
+                allow="autoplay; encrypted-media"
+                title="Social Media Reel"
+              />
+              <div className="reel-overlay">
+                <BsPlayFill className="play-icon" />
+                <div className="reel-stats">
+                  <span><BsInstagram /></span>
+                </div>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </section>
 
-
-
-      {/* Testimonials */}
-      <section className="testimonials-section">
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Testimonials</span>
-          <h2>What Our Consumers Say About Us</h2>
-        </motion.div>
-        <motion.div 
-          className="testimonials-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={staggerContainer}
-        >
-          {testimonials && testimonials.length > 0 ? (
-            testimonials.map((test, i) => (
-              <motion.div className="testimonial-card" key={i} variants={fadeInUp}>
-                <p>"{test.content}"</p>
-                <div className="testimonial-author-block">
-                  {test.image && (
-                    <Image src={test.image} alt={test.name} width={60} height={60} className="testimonial-author-img" />
-                  )}
-                  <div className="author-info">
-                    <strong>{test.name}</strong>
-                  </div>
-                </div>
-              </motion.div>
-            ))
-          ) : (
-            <p>Loading testimonials...</p>
-          )}
-        </motion.div>
-      </section>
-
-      {/* Embedded Social Feed */}
-      <section className="social-feed-section">
-        <motion.div 
-          className="section-heading"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span>Follow Us</span>
-          <h2>Join Our Community <BsInstagram style={{ color: '#E1306C', marginLeft: '10px' }} /> <BsFacebook style={{ color: '#1877F2' }} /></h2>
-          <p style={{ marginTop: '1rem', color: '#666' }}>Follow @pavithram_foods for the latest recipes, offers, and heritage stories.</p>
-        </motion.div>
-        <motion.div 
-          className="social-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-          variants={staggerContainer}
-        >
-          {socialFeed.map((img, i) => (
-            <motion.a 
-              href="https://www.instagram.com/pavithram_foods/?hl=en" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="social-card" 
-              key={i} 
-              variants={fadeInUp}
-              whileHover={{ scale: 1.05 }}
-            >
-              <Image src={img} alt="Social Feed Post" width={300} height={300} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <div className="social-overlay">
-                <BsInstagram className="overlay-icon" />
-              </div>
-            </motion.a>
-          ))}
-        </motion.div>
-      </section>
-
-      {/* Heritage Teaser */}
-      <section className="heritage-teaser">
-        <motion.div 
-          className="heritage-teaser-content"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={staggerContainer}
-        >
-          <motion.h2 variants={fadeInUp}>From a humble mill in Aluva to <span>millions of kitchens</span> worldwide.</motion.h2>
-          <motion.p variants={fadeInUp}>Founded in the 1950s as Pazhangadi Oil Industries, the Pavithram Group of Companies has grown from a trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. We ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.</motion.p>
-          <motion.div variants={fadeInUp}>
-            <Link href="/heritage" className="hero-btn">Discover Our Story</Link>
-          </motion.div>
-        </motion.div>
-        <motion.div 
-          className="heritage-teaser-img"
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/about-img-1.png" alt="Pavithram Heritage" width={600} height={600} style={{ width: '100%', height: 'auto' }} />
-        </motion.div>
+      {/* 10. Footer CTA */}
+      <section className="pre-footer-cta" style={{
+        position: 'relative',
+        backgroundImage: 'url("https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png")',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        color: '#fff',
+        overflow: 'hidden'
+      }}>
+        <div style={{
+          position: 'absolute',
+          top: 0, left: 0, width: '100%', height: '100%',
+          background: 'linear-gradient(135deg, rgba(193, 25, 31, 0.9), rgba(212, 175, 55, 0.8))',
+          zIndex: 1
+        }}></div>
+        <div className="cta-content" style={{ position: 'relative', zIndex: 2 }}>
+          <h2 style={{ color: '#fff', textShadow: '0 2px 10px rgba(0,0,0,0.2)' }}>Experience Kerala's Finest</h2>
+          <p style={{ color: '#f8f8f8', fontSize: '1.2rem', marginBottom: '2.5rem' }}>Bring the authentic taste of tradition to your home today.</p>
+          <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)', border: 'none' }}>Explore 100+ Products</Link>
+        </div>
       </section>
 
     </main>

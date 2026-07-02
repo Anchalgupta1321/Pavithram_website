@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import './heritage.css';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -23,6 +24,21 @@ export default function HeritagePage() {
       image: "https://www.pavithram.online/wp-content/themes/pavithram/assets/img/about/Abdul%20Samad.jpg"
     }
   ];
+
+  const [testimonials, setTestimonials] = useState([]);
+
+  useEffect(() => {
+    async function loadTestimonials() {
+      try {
+        const { fetchTestimonials } = await import('@/services/wordpress');
+        const data = await fetchTestimonials();
+        setTestimonials(data);
+      } catch (error) {
+        console.error("Failed to fetch testimonials", error);
+      }
+    }
+    loadTestimonials();
+  }, []);
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
@@ -230,6 +246,45 @@ export default function HeritagePage() {
         </motion.div>
       </section>
 
+
+      {/* Testimonials */}
+      <section className="testimonials-section">
+        <motion.div 
+          className="section-heading"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+        >
+          <span>Testimonials</span>
+          <h2>What Our Consumers Say About Us</h2>
+        </motion.div>
+        <motion.div 
+          className="testimonials-grid"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={staggerContainer}
+        >
+          {testimonials && testimonials.length > 0 ? (
+            testimonials.map((test, i) => (
+              <motion.div className="testimonial-card" key={i} variants={fadeInUp}>
+                <p>"{test.content}"</p>
+                <div className="testimonial-author-block">
+                  {test.image && (
+                    <Image src={test.image} alt={test.name} width={60} height={60} className="testimonial-author-img" />
+                  )}
+                  <div className="author-info">
+                    <strong>{test.name}</strong>
+                  </div>
+                </div>
+              </motion.div>
+            ))
+          ) : (
+            <p>Loading testimonials...</p>
+          )}
+        </motion.div>
+      </section>
 
       {/* Video Section */}
       <section className="video-section">

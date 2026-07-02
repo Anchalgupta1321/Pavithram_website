@@ -2151,7 +2151,7 @@ export const products = [
     "id": 62,
     "name": "Madras Pappdam",
     "slug": "madras-pappdam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2186,7 +2186,7 @@ export const products = [
     "id": 63,
     "name": "Pappadam",
     "slug": "pappadam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2222,7 +2222,7 @@ export const products = [
     "id": 64,
     "name": "Cumin pappad",
     "slug": "cumin-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2257,7 +2257,7 @@ export const products = [
     "id": 65,
     "name": "Pepper pappad",
     "slug": "pepper-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2292,7 +2292,7 @@ export const products = [
     "id": 66,
     "name": "Chilly pappad",
     "slug": "chilly-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2327,7 +2327,7 @@ export const products = [
     "id": 67,
     "name": "Rice Pappad",
     "slug": "rice-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2362,7 +2362,7 @@ export const products = [
     "id": 68,
     "name": "Kappa Pappad",
     "slug": "kappa-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2397,7 +2397,7 @@ export const products = [
     "id": 69,
     "name": "Spicy Rice Pappad",
     "slug": "spicy-rice-pappad",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2432,7 +2432,7 @@ export const products = [
     "id": 70,
     "name": "Rice Vadagam Stick",
     "slug": "rice-vadagam-stick",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2467,7 +2467,7 @@ export const products = [
     "id": 71,
     "name": "Rice Vadagam Murukku",
     "slug": "rice-vadagam-murukku",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2502,7 +2502,7 @@ export const products = [
     "id": 72,
     "name": "Sago Vadagam",
     "slug": "sago-vadagam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2537,7 +2537,7 @@ export const products = [
     "id": 73,
     "name": "Tomato Vadagam",
     "slug": "tomato-vadagam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2572,7 +2572,7 @@ export const products = [
     "id": 74,
     "name": "Omam Vadam",
     "slug": "omam-vadam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2607,7 +2607,7 @@ export const products = [
     "id": 75,
     "name": "Garlic Vadam",
     "slug": "garlic-vadam",
-    "category": "Snacks",
+    "category": "Cochin Snacks",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
