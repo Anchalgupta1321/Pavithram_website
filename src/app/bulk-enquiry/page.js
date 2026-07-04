@@ -84,9 +84,9 @@ export default function BulkEnquiryPage() {
         <div className="enquiry-subtitle">
           <BsStars className="sparkle-icon" /> Export & Wholesale
         </div>
-        <h1 className="enquiry-title">Partner With Pavithram</h1>
+        <h1 className="enquiry-title">Taking Kerala's Finest Products to Global Markets</h1>
         <p className="enquiry-desc">
-          Join our global network. We export premium Kerala food products to over 28 countries, delivering quality and trust since 1950.
+          Pavithram Foods serves customers across international markets through a growing export network. We work with importers, distributors, wholesalers, supermarkets, and retail chains seeking authentic Indian food products.
         </p>
       </motion.div>
 
@@ -128,13 +128,16 @@ export default function BulkEnquiryPage() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h2>Why Choose Us?</h2>
+          <h2>Our Export Strengths</h2>
           <ul className="benefits-list">
-            <li><strong>Premium Quality:</strong> 100% pure ingredients sourced directly from farmers.</li>
-            <li><strong>Global Standards:</strong> Fully compliant with international food safety regulations.</li>
-            <li><strong>Reliable Supply:</strong> State-of-the-art facilities ensuring consistent supply chains.</li>
-            <li><strong>Authentic Taste:</strong> Traditional Kerala recipes and extraction methods.</li>
+            <li><strong>International quality standards</strong></li>
+            <li><strong>Consistent supply capabilities</strong></li>
+            <li><strong>Wide product portfolio</strong></li>
+            <li><strong>Private label opportunities</strong></li>
+            <li><strong>Export-ready packaging</strong></li>
+            <li><strong>Dedicated business support</strong></li>
           </ul>
+          <p style={{ marginTop: '1.5rem', marginBottom: '1.5rem', fontSize: '1.05rem' }}>For export enquiries, connect with our international business team.</p>
           
           <div className="contact-direct">
             <h3>Direct Export Contact</h3>

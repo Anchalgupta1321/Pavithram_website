@@ -2,8 +2,28 @@
 
 import './certifications.css';
 import { BsStars, BsShieldCheck } from 'react-icons/bs';
+import { FaFilePdf, FaDownload } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+
+const pdfCerts = [
+  "APEDA Certificate-Brothers Oil Mill.pdf",
+  "APEDA-Pazhangadi Oil Industries.pdf",
+  "Coconut Development Board Cerificate-Brothers Oil Mill.pdf",
+  "FSSAI Licence-Pazhangadi Oil Industries.pdf",
+  "FSSAI License Brothers oil mill.pdf",
+  "FSSAI License Cochin Snacks (1).pdf",
+  "GMP-Brothers Oil Mill.pdf",
+  "ISO 22000-Brothers Oil Mill.pdf",
+  "ISO 22000-Pazhangadi Oil Industries.pdf",
+  "ISO 22716-Pazhangadi Oil Industries.pdf",
+  "ISO-Cochin Snacks.pdf",
+  "Spices Board Certificate-Pazhangadi Oil Industries.pdf",
+  "Tea Board Certificate-Pazhangadi Oil Industries.pdf",
+  "USFDA-Brothers Oil Mill.pdf",
+  "USFDA-Pavithram Snacks.pdf",
+  "USFDA-Pazhangadi Oil Industries.pdf"
+];
 
 export default function CertificationsPage() {
   const fadeInUp = {
@@ -91,6 +111,48 @@ export default function CertificationsPage() {
 
           </motion.div>
 
+        </div>
+
+        {/* Certificate Gallery Grid */}
+        <div className="pdf-gallery-section">
+          <motion.div 
+            className="gallery-header"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+          >
+            <h2>Our Full Range of Certifications</h2>
+            <p>Download and view our complete list of quality, safety, and export certifications.</p>
+          </motion.div>
+
+          <div className="pdf-grid">
+            {pdfCerts.map((cert, index) => (
+              <motion.a 
+                href={`/certifications/${cert}`} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pdf-card"
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.05 }}
+                whileHover={{ y: -5, scale: 1.02 }}
+              >
+                <div className="pdf-icon-wrapper">
+                  <FaFilePdf className="pdf-icon" />
+                </div>
+                <div className="pdf-info">
+                  <h3>{cert.replace('.pdf', '').replace(/-/g, ' ')}</h3>
+                  <div className="pdf-download">
+                    <span>View Document</span>
+                    <FaDownload />
+                  </div>
+                </div>
+              </motion.a>
+            ))}
+          </div>
         </div>
 
       </div>

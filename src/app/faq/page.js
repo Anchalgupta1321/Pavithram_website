@@ -26,6 +26,26 @@ const faqData = [
   {
     question: "Do you accept wholesale or bulk orders?",
     answer: "Yes, we handle wholesale and bulk export orders. Please use our Export Enquiry form to reach our B2B sales team for custom quotes and shipping details."
+  },
+  {
+    question: "Are Pavithram products manufactured in India?",
+    answer: "Yes. Our products are manufactured in India following strict quality and hygiene standards."
+  },
+  {
+    question: "How can I become a distributor?",
+    answer: "You can submit the distributor enquiry form available on our website. Our team will review your application and contact you."
+  },
+  {
+    question: "Do you export internationally?",
+    answer: "Yes. We work with export partners across multiple international markets."
+  },
+  {
+    question: "How can I contact customer support?",
+    answer: "You can reach us through our contact page, email, or customer support phone number."
+  },
+  {
+    question: "Where can I buy Pavithram products?",
+    answer: "Our products are available through retailers, distributors, and selected online channels."
   }
 ];
 

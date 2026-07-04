@@ -118,10 +118,16 @@ export default function RootLayout({ children }) {
           rel="noopener noreferrer"
           title="Discover Cochin Snacks by Pavithram"
         >
-          <img src="/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg" alt="Cochin Snacks" className="cochin-float-img" />
-          <div className="cochin-float-text">
-            <span>A Pavithram Brand</span>
-            <strong>Cochin Snacks</strong>
+          <svg viewBox="0 0 100 100" className="cochin-badge-svg">
+            <path id="cochin-curve" d="M 50,50 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="transparent" />
+            <text>
+              <textPath href="#cochin-curve" startOffset="10%">
+                A PRODUCT OF PAVITHRAM
+              </textPath>
+            </text>
+          </svg>
+          <div className="cochin-badge-center">
+             <img src="/Cochin_snacks_logo.png" alt="Cochin Snacks" className="cochin-float-img" />
           </div>
         </a>
       </body>

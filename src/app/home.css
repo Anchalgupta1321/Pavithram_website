@@ -538,6 +538,7 @@ body {
 .product-img-wrapper img {
   mix-blend-mode: multiply;
   filter: brightness(1.08) contrast(1.05); /* Blow out light grey to white so multiply makes it transparent */
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .product-hover-overlay {
   position: absolute;
@@ -548,6 +549,14 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+.product-card-premium:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(218, 165, 32, 0.15);
+  border-color: rgba(218, 165, 32, 0.4);
+}
+.product-card-premium:hover .product-img-wrapper img {
+  transform: scale(1.08);
 }
 .product-card-premium:hover .product-hover-overlay {
   opacity: 1;

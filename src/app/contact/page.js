@@ -90,21 +90,26 @@ export default function ContactPage() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h2>Address 1</h2>
-          
-          <div className="info-item">
-            <FaMapMarkerAlt className="info-icon" />
-            <p>Pazhangadi Oil Industries,<br />VI/523A, Kaipoorikkara, Marampally P.O.,<br />Aluva, Kerala- 683107</p>
-          </div>
+          <p style={{ marginBottom: '1.5rem', lineHeight: '1.6', color: 'var(--color-dark)' }}>
+            We would love to hear from you.<br/><br/>
+            Whether you are a customer, distributor, retailer, exporter, or business partner, our team is ready to assist you.<br/><br/>
+            Get in touch with our team for product enquiries, distributorship opportunities, exports, and business partnerships.<br/><br/>
+            Our team will respond at the earliest.
+          </p>
           
           <div className="info-item">
             <FaPhoneAlt className="info-icon" />
-            <p>+91 9745300600</p>
+            <p>0484 2678561, +91 9745 300 600</p>
           </div>
           
           <div className="info-item">
             <FaEnvelope className="info-icon" />
             <p>care@pavithramfoods.com</p>
+          </div>
+
+          <div className="info-item" style={{ alignItems: 'flex-start' }}>
+            <FaMapMarkerAlt className="info-icon" style={{ marginTop: '5px' }} />
+            <p>Pazhangadi Oil Industries,<br />VI/523A, Kaipoorikkara,<br />Marampally P.O.,<br />Aluva, Kerala- 683107</p>
           </div>
 
           <div className="leaf-watermark"></div>
