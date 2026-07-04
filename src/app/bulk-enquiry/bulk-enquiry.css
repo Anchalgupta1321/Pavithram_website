@@ -75,6 +75,7 @@
   font-size: 2rem;
   color: var(--color-primary-red);
   margin-bottom: 0.5rem;
+  font-variant-numeric: lining-nums;
 }
 
 .stat-card p {

@@ -1,14 +1,13 @@
 .gallery-page {
   padding-bottom: 5rem;
-  background-color: #fdfaf5;
+  background: transparent;
   min-height: 100vh;
 }
 
 .gallery-banner {
   text-align: center;
   padding: 6rem 2rem 4rem;
-  background: white;
-  border-bottom: 1px solid #eaeaea;
+  background: #FCF8EE;
   margin-bottom: 3rem;
 }
 

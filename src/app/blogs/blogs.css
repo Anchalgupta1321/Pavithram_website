@@ -1,14 +1,13 @@
 .blogs-page {
-  background-color: #fcfcfc;
+  background: transparent;
   color: #1a1a1a;
   min-height: 100vh;
 }
 
 /* --- Blog Hero / Featured Post --- */
 .blog-hero {
-  padding: 4rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #eaeaea;
+  padding: 6rem 5%;
+  background: #FFFDF8;
 }
 
 .blog-hero-container {
@@ -132,15 +131,16 @@
 
 /* --- Blog Grid --- */
 .blog-grid-section {
-  padding: 4rem 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 6rem 5%;
+  background: #F9F5EB;
 }
 
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .blog-card {

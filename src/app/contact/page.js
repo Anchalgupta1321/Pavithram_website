@@ -68,7 +68,7 @@ export default function ContactPage() {
   };
 
   return (
-    <>
+    <div className="contact-page-wrapper">
       <main className="contact-page">
       <motion.div 
         className="contact-header"
@@ -180,6 +180,6 @@ export default function ContactPage() {
           title="Pavithram Oil Industries Location"
         ></iframe>
       </motion.div>
-    </>
+    </div>
   );
 }

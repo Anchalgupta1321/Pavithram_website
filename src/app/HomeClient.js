@@ -239,7 +239,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 2. Trust Banner */}
-      <section className="trust-banner-section">
+      <section className="trust-banner-section" style={{ background: '#FFFDF8' }}>
         <div className="trust-banner-container">
           <div className="trust-item">
             <BsClockHistory className="trust-icon" />
@@ -273,7 +273,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 2.5 Explore Every Meal */}
-      <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: 'transparent' }}>
+      <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: '#F9F5EB' }}>
         {/* Background Decorative Icons */}
         <div style={{ position: 'absolute', top: '10%', left: '2%', opacity: 0.01, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={280} />
@@ -302,7 +302,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           style={{ position: 'relative', zIndex: 10 }}
         >
           <span className="subtitle">Authentic Kerala flavours for every moment</span>
-          <h2 style={{ textTransform: 'uppercase' }}>INSPIRED BY EVERY MEAL</h2>
+          <h2>Inspired by Every Meal</h2>
         </motion.div>
 
         <div className="editorial-category-layout" style={{ position: 'relative', zIndex: 10 }}>
@@ -366,7 +366,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 3. Magazine-Style Categories */}
-      <section className="magazine-categories">
+      <section className="magazine-categories" style={{ background: '#FCF8EE' }}>
         <motion.div 
           className="section-header center"
           initial="hidden"
@@ -477,7 +477,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 6. Best Sellers */}
-      <section className="best-sellers" style={{ position: 'relative', overflow: 'hidden' }}>
+      <section className="best-sellers" style={{ position: 'relative', overflow: 'hidden', background: '#FFFDF8' }}>
         {/* Background Decorative Icons */}
         <div style={{ position: 'absolute', top: '5%', left: '-2%', opacity: 0.01, transform: 'rotate(20deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={300} />
@@ -548,7 +548,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 7. Why Pavithram */}
-      <section className="why-pavithram">
+      <section className="why-pavithram" style={{ background: '#F9F5EB' }}>
         <motion.div 
           className="why-grid"
           initial="hidden"
@@ -607,7 +607,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
 
       {/* 9. Join Community */}
-      <section className="community-section" style={{ background: 'transparent' }}>
+      <section className="community-section" style={{ background: '#FFFDF8' }}>
         <motion.div 
           className="section-header center"
           initial="hidden"

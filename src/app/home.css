@@ -317,9 +317,23 @@ body {
   grid-column: span 2;
   grid-row: span 2;
 }
+.bento-item.large .bento-img {
+  background: linear-gradient(135deg, #fae3ed, #f3d0dd);
+}
+.bento-item.large .bento-img img {
+  mix-blend-mode: multiply;
+  filter: brightness(1.05);
+}
 .bento-item.tall {
   grid-column: span 1;
   grid-row: span 2;
+}
+.bento-item.tall .bento-img {
+  background: linear-gradient(135deg, #fce4d6, #f7d2b7);
+}
+.bento-item.tall .bento-img img {
+  mix-blend-mode: multiply;
+  filter: brightness(1.08) contrast(1.05);
 }
 .bento-item.small {
   grid-column: span 1;
@@ -509,9 +523,11 @@ body {
   margin: 0 auto;
 }
 .product-card-premium {
-  background: var(--color-light-bg);
-  border-radius: 8px;
+  background: #FFFDF8;
+  border-radius: 16px;
   overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  border: 1px solid rgba(218, 165, 32, 0.1);
   transition: all 0.3s ease;
 }
 .product-img-wrapper {
@@ -521,7 +537,7 @@ body {
 }
 .product-img-wrapper img {
   mix-blend-mode: multiply;
-  filter: contrast(1.05); /* Slight contrast boost to compensate for blend mode */
+  filter: brightness(1.08) contrast(1.05); /* Blow out light grey to white so multiply makes it transparent */
 }
 .product-hover-overlay {
   position: absolute;
@@ -1064,7 +1080,8 @@ body {
 .product-card {
   min-width: 300px;
   scroll-snap-align: start;
-  background: #f9f9f9;
+  background: #ffffff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.03);
   border-radius: 12px;
   padding: 2rem;
   position: relative;
@@ -1313,7 +1330,8 @@ body {
 .product-card {
   min-width: 300px;
   scroll-snap-align: start;
-  background: #f9f9f9;
+  background: #ffffff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.03);
   border-radius: 12px;
   padding: 2rem;
   position: relative;
