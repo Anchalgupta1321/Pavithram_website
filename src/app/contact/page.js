@@ -158,62 +158,6 @@ export default function ContactPage() {
         </motion.div>
       </div>
 
-      {/* Dealer Locator Section */}
-      <section className="dealer-locator-section">
-        <motion.div 
-          className="dealer-locator-header"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <h2>Find a Dealer Near You</h2>
-          <p>Search for certified Pavithram distributors and retail outlets in your area.</p>
-        </motion.div>
-        
-        <motion.div 
-          className="dealer-search-box"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <FaSearch className="search-icon" />
-          <input 
-            type="text" 
-            placeholder="Search by city, store name, or address..." 
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-        </motion.div>
-
-        <motion.div 
-          className="dealer-grid"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={staggerContainer}
-        >
-          {filteredDealers.length > 0 ? (
-            filteredDealers.map(dealer => (
-              <motion.div key={dealer.id} className="dealer-card" variants={fadeInUp}>
-                <div className="dealer-card-header">
-                  <FaStore className="store-icon" />
-                  <h3>{dealer.name}</h3>
-                </div>
-                <div className="dealer-info">
-                  <p><strong><FaMapMarkerAlt className="dealer-small-icon"/></strong> {dealer.address}</p>
-                  <p><strong><FaPhoneAlt className="dealer-small-icon"/></strong> {dealer.phone}</p>
-                </div>
-              </motion.div>
-            ))
-          ) : (
-            <div className="no-dealers">
-              <p>No dealers found matching your search. Please try a different location or contact us directly.</p>
-            </div>
-          )}
-        </motion.div>
-      </section>
 
       </main>
       

@@ -32,29 +32,17 @@ function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
   return <span ref={ref}>{count}{suffix}</span>;
 }
 
-export default function HomeClient({ testimonials, galleryPreview = [], promoBannerData = null }) {
+export default function HomeClient({ testimonials, galleryPreview = [], promoBannerUrl = null }) {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [activeEditorialTab, setActiveEditorialTab] = useState('Breakfast');
+  const [activeEditorialTab, setActiveEditorialTab] = useState('Oils');
 
   const editorialData = [
-    {
-      id: 'Breakfast',
-      title: 'Morning Rituals',
-      story: 'The perfect start to your morning. Soft appams, wholesome puttu, and the authentic taste of a traditional Kerala breakfast, ready in minutes.',
-      image: '/images/hero_breakfast_appam.png',
-      link: '/products?category=Breakfast',
-      products: [
-        { name: 'Palappam Podi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg' },
-        { name: 'Chemba Puttu', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg' },
-        { name: 'Broken Wheat', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Broken%20Wheat%20Mockup.jpg' }
-      ]
-    },
     {
       id: 'Oils',
       title: 'Liquid Gold',
       story: 'Extracted using traditional methods to preserve every ounce of nutrition and aroma. Our pure oils are the heart of every great meal.',
       image: '/images/hero_kerala_kitchen.png',
-      link: '/products?category=Oils',
+      link: '/products?category=Edible Oils',
       products: [
         { name: 'Roasted Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
         { name: 'Pure Sesame Oil', img: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png' },
@@ -72,13 +60,25 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         { name: 'Biriyani Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' },
         { name: 'Meat Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Meat-Masala-160g.jpg' }
       ]
+    },
+    {
+      id: 'Snacks',
+      title: 'Authentic Kerala Snacks',
+      story: 'Enjoy the crispy, savory, and authentic taste of Kerala with our traditional snacks. Perfect for your tea time cravings.',
+      image: '/images/hero_snacks.png',
+      link: 'https://cochinsnacks.com/',
+      products: [
+        { name: 'Kerala Mixture', img: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg' },
+        { name: 'Butter Murukku', img: '/images/products/Pavithram%20Mockups/Snacks/Butter%20Murukku%20Mockup.jpg' },
+        { name: 'Tapioca Chilli Garlic', img: '/images/products/Pavithram%20Mockups/Snacks/Tapioca%20Chilli%20Garlic%20%20Mockup.jpg' }
+      ]
     }
   ];
 
   const heroSlides = [
     {
       id: 1,
-      image: promoBannerData || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
+      image: promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
       title: "Kerala’s Purest\nFor Your Kitchen",
       subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",
@@ -139,11 +139,11 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
   const bestSellers = [
     { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', category: 'Oils' },
-    { name: 'Chicken Masala', slug: 'chicken-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', category: 'Spices' },
-    { name: 'Broken Wheat', slug: 'broken-wheat', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Broken%20Wheat%20Mockup.jpg', category: 'Breakfast' },
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
+    { name: 'Rice Bran Oil', slug: 'rice-bran-oil', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
+    { name: 'Chicken Masala', slug: 'chicken-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', category: 'Spices' },
     { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
-    { name: 'Biriyani Masala', slug: 'biriyani-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg', category: 'Masalas' },
+    { name: 'Kerala Murukku', slug: 'kerala-murukku', image: '/images/products/Pavithram%20Mockups/Snacks/Star%20Murukku%20Mockup.jpg', category: 'Snacks' },
     { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
     { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
   ];
@@ -244,14 +244,14 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           <div className="trust-item">
             <BsClockHistory className="trust-icon" />
             <div className="trust-text">
-              <h4>75+ Years Legacy</h4>
+              <h4><span style={{ fontSize: '1.3em' }}>75</span>+ Years Legacy</h4>
               <p>Trusted since 1950</p>
             </div>
           </div>
           <div className="trust-item">
             <BsShieldCheck className="trust-icon" />
             <div className="trust-text">
-              <h4>100% Pure &amp; Natural</h4>
+              <h4><span style={{ fontSize: '1.3em' }}>100</span>% Pure &amp; Natural</h4>
               <p>Farm to kitchen quality</p>
             </div>
           </div>
@@ -273,24 +273,24 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       </section>
 
       {/* 2.5 Explore Every Meal */}
-      <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: 'var(--color-warm-beige, #f9f5f0)' }}>
+      <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: 'var(--color-background-albastor, #FDF8EE)' }}>
         {/* Background Decorative Icons */}
-        <div style={{ position: 'absolute', top: '10%', left: '2%', opacity: 0.05, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '10%', left: '2%', opacity: 0.01, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={280} />
         </div>
-        <div style={{ position: 'absolute', top: '35%', right: '-2%', opacity: 0.05, transform: 'rotate(15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '35%', right: '-2%', opacity: 0.01, transform: 'rotate(15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiChiliPepper size={300} />
         </div>
-        <div style={{ position: 'absolute', bottom: '15%', left: '-5%', opacity: 0.05, transform: 'rotate(10deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', bottom: '15%', left: '-5%', opacity: 0.01, transform: 'rotate(10deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiWheat size={350} />
         </div>
-        <div style={{ position: 'absolute', bottom: '5%', right: '15%', opacity: 0.05, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', bottom: '5%', right: '15%', opacity: 0.01, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={200} />
         </div>
-        <div style={{ position: 'absolute', top: '55%', left: '15%', opacity: 0.03, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '55%', left: '15%', opacity: 0.008, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiWheat size={250} />
         </div>
-        <div style={{ position: 'absolute', top: '80%', right: '2%', opacity: 0.04, transform: 'rotate(-35deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '80%', right: '2%', opacity: 0.008, transform: 'rotate(-35deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiChiliPepper size={220} />
         </div>
         <motion.div 
@@ -349,7 +349,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                       ))}
                     </div>
 
-                    <Link href={tab.link} className="premium-btn" style={{ marginTop: '2rem' }}>
+                    <Link 
+                      href={tab.link} 
+                      className="premium-btn" 
+                      style={{ marginTop: '2rem' }}
+                      {...(tab.link.startsWith('http') ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    >
                       EXPLORE {tab.id.toUpperCase()}
                     </Link>
                   </div>
@@ -460,101 +465,36 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 4. Featured Collections */}
-      <section className="featured-collections-fmcg">
-        <motion.div 
-          className="section-header center"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span className="subtitle">Curated for you</span>
-          <h2>Featured Collections</h2>
-        </motion.div>
-        
-        <div className="fmcg-category-grid">
-          {collections.map((category, idx) => (
-            <motion.div 
-              className="fmcg-category-card" 
-              key={idx}
-              variants={fadeInUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <Link href={category.link} className="category-link-wrapper">
-                <div className="category-image-container">
-                  <Image 
-                    src={category.image} 
-                    alt={category.title} 
-                    layout="fill" 
-                    objectFit="cover" 
-                    className="category-image"
-                  />
-                  <div className="category-overlay"></div>
-                </div>
-                <div className="category-content">
-                  <h3>{category.title}</h3>
-                  <span className="explore-btn-slide">Explore <BsArrowRight /></span>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* 5. Mid-Page Promotional Banner */}
-      <section className="mid-promo-banner" style={{
-        position: 'relative',
-        backgroundImage: 'url("https://www.pavithram.online/wp-content/uploads/2025/10/Spices_.png")',
-        backgroundAttachment: 'fixed',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        padding: '6rem 5%',
-        textAlign: 'center',
-        overflow: 'hidden'
-      }}>
-        <div style={{
-          position: 'absolute',
-          top: 0, left: 0, width: '100%', height: '100%',
-          background: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4))',
-          zIndex: 1
-        }}></div>
-        <motion.div 
-          className="promo-content"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={staggerContainer}
-          style={{ color: '#fff', position: 'relative', zIndex: 2 }}
-        >
-          <motion.h2 variants={fadeInUp} style={{ color: '#fff', fontSize: '3rem', marginBottom: '2rem' }}>Traditional Taste.<br/>Modern Packaging.</motion.h2>
-          <motion.div variants={fadeInUp}>
-            <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)' }}>Explore Range</Link>
-          </motion.div>
-        </motion.div>
+      <section className="mid-promo-banner" style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
+        <a href="/products" style={{ display: 'block' }}>
+          <img 
+            src={promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Spices_.png'} 
+            alt="Promotional Banner" 
+            style={{ width: '100%', height: 'auto', display: 'block' }} 
+          />
+        </a>
       </section>
 
       {/* 6. Best Sellers */}
       <section className="best-sellers" style={{ position: 'relative', overflow: 'hidden' }}>
         {/* Background Decorative Icons */}
-        <div style={{ position: 'absolute', top: '5%', left: '-2%', opacity: 0.04, transform: 'rotate(20deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '5%', left: '-2%', opacity: 0.01, transform: 'rotate(20deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={300} />
         </div>
-        <div style={{ position: 'absolute', top: '25%', right: '-5%', opacity: 0.03, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '25%', right: '-5%', opacity: 0.008, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiWheat size={400} />
         </div>
-        <div style={{ position: 'absolute', top: '50%', left: '-4%', opacity: 0.04, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '50%', left: '-4%', opacity: 0.01, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiChiliPepper size={350} />
         </div>
-        <div style={{ position: 'absolute', top: '65%', right: '2%', opacity: 0.03, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '65%', right: '2%', opacity: 0.008, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={280} />
         </div>
-        <div style={{ position: 'absolute', bottom: '10%', left: '10%', opacity: 0.03, transform: 'rotate(30deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', bottom: '10%', left: '10%', opacity: 0.008, transform: 'rotate(30deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiWheat size={300} />
         </div>
-        <div style={{ position: 'absolute', bottom: '2%', right: '5%', opacity: 0.04, transform: 'rotate(-40deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', bottom: '2%', right: '5%', opacity: 0.01, transform: 'rotate(-40deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiChiliPepper size={220} />
         </div>
         
@@ -581,9 +521,21 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           {bestSellers.map((item, idx) => (
             <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>
               <div className="product-img-wrapper">
-                <Image src={item.image} alt={item.name} layout="fill" objectFit="contain" />
+                <Image 
+                  src={item.image} 
+                  alt={item.name} 
+                  layout="fill" 
+                  objectFit="contain" 
+                  style={{ transform: item.name === 'Chemba Puttupodi' ? 'scale(0.75)' : 'none' }}
+                />
                 <div className="product-hover-overlay">
-                  <Link href={`/products/${item.slug}`} className="quick-view-btn">View Product</Link>
+                  <Link 
+                    href={item.category === 'Snacks' ? 'https://cochinsnacks.com/' : `/products/${item.slug}`} 
+                    className="quick-view-btn"
+                    {...(item.category === 'Snacks' ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    View Product
+                  </Link>
                 </div>
               </div>
               <div className="product-info-premium">
@@ -653,44 +605,9 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* Heritage Summary Section */}
-      <section className="heritage-summary-section">
-        <div className="heritage-summary-content">
-          <motion.h1 
-            style={{ color: 'var(--color-primary-red)', fontFamily: 'var(--font-heading)', fontSize: '3rem', marginBottom: '1.5rem', lineHeight: '1.2' }}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-          >
-            From a humble mill in Aluva to millions of kitchens worldwide.
-          </motion.h1>
-          <motion.p
-            style={{ color: '#555', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '2rem' }}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-          >
-            Founded in the 1950s as Pazhangadi Oil Industries, the Pavithram Group of Companies has grown from a trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. We ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.
-          </motion.p>
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/heritage" className="premium-btn">Discover Our Story</Link>
-          </motion.div>
-        </div>
-        <motion.div 
-          className="heritage-summary-image"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Pavithram Edible Oils" width={600} height={600} style={{ objectFit: 'contain', width: '100%', height: 'auto' }} />
-        </motion.div>
-      </section>
 
       {/* 9. Join Community */}
-      <section className="community-section">
+      <section className="community-section" style={{ background: 'var(--color-primary-gold, #EAC95A)' }}>
         <motion.div 
           className="section-header center"
           initial="hidden"
@@ -744,28 +661,6 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 10. Footer CTA */}
-      <section className="pre-footer-cta" style={{
-        position: 'relative',
-        backgroundImage: 'url("https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png")',
-        backgroundAttachment: 'fixed',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        color: '#fff',
-        overflow: 'hidden'
-      }}>
-        <div style={{
-          position: 'absolute',
-          top: 0, left: 0, width: '100%', height: '100%',
-          background: 'linear-gradient(135deg, rgba(193, 25, 31, 0.9), rgba(212, 175, 55, 0.8))',
-          zIndex: 1
-        }}></div>
-        <div className="cta-content" style={{ position: 'relative', zIndex: 2 }}>
-          <h2 style={{ color: '#fff', textShadow: '0 2px 10px rgba(0,0,0,0.2)' }}>Experience Kerala's Finest</h2>
-          <p style={{ color: '#f8f8f8', fontSize: '1.2rem', marginBottom: '2.5rem' }}>Bring the authentic taste of tradition to your home today.</p>
-          <Link href="/products" className="premium-btn light" style={{ background: '#fff', color: 'var(--color-primary-red)', border: 'none' }}>Explore 100+ Products</Link>
-        </div>
-      </section>
 
     </main>
   );

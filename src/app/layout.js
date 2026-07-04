@@ -109,6 +109,21 @@ export default function RootLayout({ children }) {
         >
           <FaWhatsapp />
         </a>
+
+        {/* Cochin Snacks Pop-up Button */}
+        <a 
+          href="https://cochinsnacks.com/" 
+          className="cochin-snacks-float" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          title="Discover Cochin Snacks by Pavithram"
+        >
+          <img src="/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg" alt="Cochin Snacks" className="cochin-float-img" />
+          <div className="cochin-float-text">
+            <span>A Pavithram Brand</span>
+            <strong>Cochin Snacks</strong>
+          </div>
+        </a>
       </body>
     </html>
   );

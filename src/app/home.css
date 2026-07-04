@@ -1499,6 +1499,7 @@ body {
   color: var(--color-gold);
   font-size: inherit;
   font-weight: inherit;
+  font-variant-numeric: lining-nums;
   display: inline-block;
   margin: 0 8px;
 }
@@ -1714,6 +1715,7 @@ body {
   color: var(--color-gold);
   font-size: inherit;
   font-weight: inherit;
+  font-variant-numeric: lining-nums;
   display: inline-block;
   margin: 0 8px;
 }
@@ -1847,7 +1849,7 @@ body {
 
 .floating-element {
   position: absolute;
-  opacity: 0.05;
+  opacity: 0.002;
   animation: float-anim 15s infinite ease-in-out alternate;
   will-change: transform;
 }
@@ -1887,7 +1889,7 @@ body {
 }
 
 .floating-element.el-1 { top: 12%; left: 3%; width: 120px; height: 120px; color: var(--color-primary-green); animation-duration: 18s; }
-.floating-element.el-2 { top: 35%; right: -2%; width: 250px; height: 250px; color: var(--color-primary-gold); opacity: 0.03; animation-duration: 22s; animation-delay: 2s; }
-.floating-element.el-3 { top: 58%; left: -3%; width: 180px; height: 180px; color: var(--color-primary-red); opacity: 0.04; animation-duration: 25s; animation-delay: 1s; }
+.floating-element.el-2 { top: 35%; right: -2%; width: 250px; height: 250px; color: var(--color-primary-gold); opacity: 0.001; animation-duration: 22s; animation-delay: 2s; }
+.floating-element.el-3 { top: 58%; left: -3%; width: 180px; height: 180px; color: var(--color-primary-red); opacity: 0.001; animation-duration: 25s; animation-delay: 1s; }
 .floating-element.el-4 { top: 78%; right: 4%; width: 90px; height: 90px; color: var(--color-primary-green); animation-duration: 15s; animation-delay: 5s; }
-.floating-element.el-5 { top: 88%; left: 10%; width: 300px; height: 300px; color: var(--color-primary-gold); opacity: 0.03; animation-duration: 30s; animation-delay: 3s; }
+.floating-element.el-5 { top: 88%; left: 10%; width: 300px; height: 300px; color: var(--color-primary-gold); opacity: 0.001; animation-duration: 30s; animation-delay: 3s; }

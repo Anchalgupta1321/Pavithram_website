@@ -26,6 +26,9 @@ export default function ProductClient({ params }) {
       if(foundProduct.packSizes && foundProduct.packSizes.length > 0) {
         setSelectedPack(foundProduct.packSizes[0]);
       }
+      
+      // Force scroll to top when product is loaded
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     } else {
       notFound();
     }
@@ -130,32 +133,32 @@ export default function ProductClient({ params }) {
             </div>
           )}
 
-          {/* Tabs for Details */}
-          <div className="product-tabs">
-            <div className="tab-headers">
-              <button className={activeTab === 'description' ? 'active' : ''} onClick={() => setActiveTab('description')}>Description</button>
-              {product.ingredients && <button className={activeTab === 'ingredients' ? 'active' : ''} onClick={() => setActiveTab('ingredients')}>Ingredients</button>}
-              {product.nutritionalInfo && <button className={activeTab === 'nutrition' ? 'active' : ''} onClick={() => setActiveTab('nutrition')}>Nutrition</button>}
-              {product.benefits && product.benefits.length > 0 && <button className={activeTab === 'benefits' ? 'active' : ''} onClick={() => setActiveTab('benefits')}>Benefits</button>}
-              <button className={activeTab === 'certifications' ? 'active' : ''} onClick={() => setActiveTab('certifications')}>Quality & Care</button>
-            </div>
-            <div className="tab-content">
-              {activeTab === 'description' && (
-                <div className="product-description">
-                  <p>{product.description || 'Premium quality product from Pavithram.'}</p>
-                  <div className="additional-info" style={{ marginTop: '2rem' }}>
-
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-
-                      {product.storage && <li><strong>Storage Instructions:</strong> {product.storage}</li>}
-                      {product.fssai && <li><strong>FSSAI Number:</strong> {product.fssai}</li>}
-                      {product.sku && <li><strong>SKU Code:</strong> {product.sku}</li>}
-                    </ul>
-                  </div>
+          {/* Vertical Details Sections */}
+          <div className="product-details-vertical" style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginTop: '2rem' }}>
+            <div className="detail-section">
+              <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Description</h3>
+              <div className="product-description">
+                <p>{product.description || 'Premium quality product from Pavithram.'}</p>
+                <div className="additional-info" style={{ marginTop: '1.5rem' }}>
+                  <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                    {product.storage && <li><strong>Storage Instructions:</strong> {product.storage}</li>}
+                    {product.fssai && <li><strong>FSSAI Number:</strong> {product.fssai}</li>}
+                    {product.sku && <li><strong>SKU Code:</strong> {product.sku}</li>}
+                  </ul>
                 </div>
-              )}
-              {activeTab === 'ingredients' && <p>{product.ingredients}</p>}
-              {activeTab === 'nutrition' && (
+              </div>
+            </div>
+
+            {product.ingredients && (
+              <div className="detail-section">
+                <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Ingredients</h3>
+                <p>{product.ingredients}</p>
+              </div>
+            )}
+
+            {product.nutritionalInfo && (
+              <div className="detail-section">
+                <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Nutrition</h3>
                 <div className="nutrition-table-container">
                   <table className="nutrition-table">
                     <tbody>
@@ -178,24 +181,30 @@ export default function ProductClient({ params }) {
                     </tbody>
                   </table>
                 </div>
-              )}
-              {activeTab === 'benefits' && (
+              </div>
+            )}
+
+            {product.benefits && product.benefits.length > 0 && (
+              <div className="detail-section">
+                <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Benefits</h3>
                 <ul className="cert-list">
                   {product.benefits.map((benefit, i) => (
                     <li key={i}><BsCheck2Circle className="text-gold" style={{ flexShrink: 0, fontSize: '1.2em' }} /> {benefit}</li>
                   ))}
                 </ul>
-              )}
-              {activeTab === 'certifications' && (
-                <div>
-                  {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
-                  <ul className="cert-list" style={{marginTop: '1rem'}}>
-                    {product.certifications && product.certifications.map((cert, i) => (
-                      <li key={i}><BsAwardFill className="text-gold" style={{ flexShrink: 0 }} /> {cert}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              </div>
+            )}
+
+            <div className="detail-section">
+              <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Quality & Care</h3>
+              <div>
+                {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
+                <ul className="cert-list" style={{marginTop: '1rem'}}>
+                  {product.certifications && product.certifications.map((cert, i) => (
+                    <li key={i}><BsAwardFill className="text-gold" style={{ flexShrink: 0 }} /> {cert}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
 
