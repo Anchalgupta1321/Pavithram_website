@@ -112,9 +112,11 @@ export default function CertificationsPage() {
           </motion.div>
 
         </div>
+      </div>
 
-        {/* Certificate Gallery Grid */}
-        <div className="pdf-gallery-section">
+      {/* Certificate Gallery Grid */}
+      <div className="pdf-gallery-section">
+        <div className="certifications-container" style={{ paddingTop: 0, paddingBottom: 0 }}>
           <motion.div 
             className="gallery-header"
             initial="hidden"
@@ -154,7 +156,6 @@ export default function CertificationsPage() {
             ))}
           </div>
         </div>
-
       </div>
     </main>
   );

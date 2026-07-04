@@ -96,7 +96,10 @@
   }
 }
 .pdf-gallery-section {
-  margin-top: 6rem;
+  margin-top: 2rem;
+  background: radial-gradient(circle at top right, #fffdf5, #fff4e6 80%);
+  padding: 6rem 5%;
+  border-top: 1px solid #eaeaea;
 }
 
 .gallery-header {
