@@ -1919,3 +1919,14 @@ body {
 .floating-element.el-3 { top: 58%; left: -3%; width: 180px; height: 180px; color: var(--color-primary-red); opacity: 0.001; animation-duration: 25s; animation-delay: 1s; }
 .floating-element.el-4 { top: 78%; right: 4%; width: 90px; height: 90px; color: var(--color-primary-green); animation-duration: 15s; animation-delay: 5s; }
 .floating-element.el-5 { top: 88%; left: 10%; width: 300px; height: 300px; color: var(--color-primary-gold); opacity: 0.001; animation-duration: 30s; animation-delay: 3s; }
+
+/* Section-wise Scroll Snapping for Premium Effect */
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.premium-home section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}

@@ -159,6 +159,9 @@ export default function ProductClient({ params }) {
             {product.nutritionalInfo && (
               <div className="detail-section">
                 <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Nutrition</h3>
+                <p style={{ fontStyle: 'italic', color: '#555', marginBottom: '1rem', fontSize: '0.95rem' }}>
+                  Approximate Nutritional Values (per {['Oils', 'Edible Oils', 'Beverages'].includes(product.category) ? '100 ml' : '100 g'}):
+                </p>
                 <div className="nutrition-table-container">
                   <table className="nutrition-table">
                     <tbody>

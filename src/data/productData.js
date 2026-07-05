@@ -4758,5 +4758,32 @@ export const products = [
       "100% Natural",
       "Export Quality"
     ]
+  },
+  {
+    "name": "Chicken Masala",
+    "slug": "chicken-masala",
+    "category": "Spices",
+    "price": "₹0.00",
+    "description": "Pavithram Chicken Masala is a perfect blend of aromatic spices to create the authentic taste of Kerala-style chicken curry. Handpicked and ground to perfection.",
+    "ingredients": "Coriander, Chilli, Turmeric, Cumin, Pepper, Garlic, Cardamom, Cloves, Cinnamon, Fennel.",
+    "nutritionalInfo": "",
+    "image": "https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg",
+    "benefits": [
+      "Authentic Kerala taste",
+      "Rich aroma and flavor",
+      "No artificial colors",
+      "Premium quality spices"
+    ],
+    "origin": "India",
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "primaryPackSize": "160g",
+    "fssai": "",
+    "sku": "",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural",
+      "Export Quality"
+    ]
   }
 ];

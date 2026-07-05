@@ -528,6 +528,7 @@
   color: #2e5927; /* Dark green matching reference */
   margin-bottom: 0.5rem;
   line-height: 1;
+  font-variant-numeric: lining-nums;
 }
 
 .stat-box p {
@@ -722,6 +723,7 @@
   color: #2e5927; /* Dark green matching reference */
   margin-bottom: 0.5rem;
   line-height: 1;
+  font-variant-numeric: lining-nums;
 }
 
 .stat-box p {

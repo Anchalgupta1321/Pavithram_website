@@ -141,7 +141,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', category: 'Oils' },
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
     { name: 'Rice Bran Oil', slug: 'rice-bran-oil', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
-    { name: 'Chicken Masala', slug: 'chicken-masala', image: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg', category: 'Spices' },
+    { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
     { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
     { name: 'Kerala Murukku', slug: 'kerala-murukku', image: '/images/products/Pavithram%20Mockups/Snacks/Star%20Murukku%20Mockup.jpg', category: 'Snacks' },
     { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
@@ -387,7 +387,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                 <div className="bento-overlay"></div>
               </div>
               <div className="bento-content">
-                <h3>Ready to Cook</h3>
+                <h3>Rice</h3>
                 <span className="bento-link">Discover <BsArrowRight /></span>
               </div>
             </Link>
@@ -526,7 +526,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   alt={item.name} 
                   layout="fill" 
                   objectFit="contain" 
-                  style={{ transform: item.name === 'Chemba Puttupodi' ? 'scale(0.75)' : 'none' }}
+                  style={{ transform: ['Chemba Puttupodi', 'Ginger Garlic Paste'].includes(item.name) ? 'scale(0.75)' : 'none' }}
                 />
                 <div className="product-hover-overlay">
                   <Link 
