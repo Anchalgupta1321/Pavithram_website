@@ -1,19 +1,29 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
 import { products } from '../data/productData';
 
 const categories = Array.from(new Set(products.map(p => p.category).filter(Boolean)));
 
-export default function Navbar() {
+export function NavbarContent() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const currentSearch = searchParams.get('search');
+    if (currentSearch !== null) {
+      setSearchQuery(currentSearch);
+    } else {
+      setSearchQuery('');
+    }
+  }, [searchParams]);
 
   const toggleMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -114,5 +124,13 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+  );
+}
+
+export default function Navbar() {
+  return (
+    <Suspense fallback={<nav className="navbar"><div className="navbar-container"></div></nav>}>
+      <NavbarContent />
+    </Suspense>
   );
 }

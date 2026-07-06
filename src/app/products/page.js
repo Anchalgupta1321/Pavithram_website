@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
 import { products } from '../../data/productData';
@@ -13,6 +13,7 @@ const categories = ["All", ...Array.from(new Set(products.map(p => p.category).f
 
 function ProductsContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const categoryParam = searchParams.get('category');
   const searchQueryParam = searchParams.get('search');
   const [activeCategory, setActiveCategory] = useState(categoryParam || "All");
@@ -25,6 +26,15 @@ function ProductsContent() {
       setActiveCategory("All");
     }
     setCurrentPage(1);
+
+    // Robust scroll to top: scroll the header into view to guarantee visibility
+    const header = document.getElementById('shop-header');
+    if (header) {
+      // Use a small timeout to let Next.js finish its DOM updates
+      setTimeout(() => {
+        header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    }
   }, [categoryParam, searchQueryParam]);
   const ITEMS_PER_PAGE = 9;
 
@@ -58,6 +68,7 @@ function ProductsContent() {
       
       {/* Header */}
       <motion.section 
+        id="shop-header"
         className="shop-header"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -146,6 +157,12 @@ function ProductsContent() {
                 <button 
                   className={activeCategory === cat ? 'active' : ''}
                   onClick={() => {
+                    // Always navigate to clear the search query and update the URL properly
+                    if (cat === "All") {
+                      router.push('/products');
+                    } else {
+                      router.push(`/products?category=${encodeURIComponent(cat)}`);
+                    }
                     setActiveCategory(cat);
                     setCurrentPage(1);
                   }}
