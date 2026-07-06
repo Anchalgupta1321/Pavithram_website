@@ -79,7 +79,7 @@ const detailedCerts = [
     desc2: "Through rigorous monitoring of our entire production process, we prevent potential hazards and guarantee the highest standards of product integrity and consumer safety.",
     badge1: "HACCP Certified",
     badge2: "Global Standards",
-    pdf: "/certifications/HACCP Certificate Original Copy Scanned (1).pdf"
+    image: "/certifications/HACCP Certificate.png"
   },
   {
     title: "ISO 22000 Certified",
@@ -88,7 +88,7 @@ const detailedCerts = [
     desc2: "This international standard ensures that our products are consistently safe for consumption worldwide, meeting strict statutory and regulatory food safety requirements.",
     badge1: "ISO 22000",
     badge2: "Food Safety",
-    pdf: "/certifications/ISO 22000-Brothers Oil Mill.pdf"
+    image: "/certifications/ISO 22000-Brothers Oil Mill.png"
   },
   {
     title: "ISO 22000 Certified",
@@ -106,7 +106,7 @@ const detailedCerts = [
     desc2: "This certification validates our dedication to maintaining the highest quality, safety, and hygiene standards in our advanced manufacturing processes.",
     badge1: "ISO 22716",
     badge2: "GMP Certified",
-    pdf: "/certifications/ISO 22716-Pazhangadi Oil Industries.pdf"
+    image: "/certifications/ISO 22716-Pazhangadi Oil Industries.png"
   },
   {
     title: "ISO Certified",
@@ -115,7 +115,7 @@ const detailedCerts = [
     desc2: "Our certification underscores our focus on operational excellence, hygienic processing, and absolute customer satisfaction.",
     badge1: "ISO Certified",
     badge2: "Quality Assured",
-    pdf: "/certifications/ISO-Cochin Snacks.pdf"
+    image: "/certifications/ISO-Cochin Snacks.png"
   }
 ];
 
