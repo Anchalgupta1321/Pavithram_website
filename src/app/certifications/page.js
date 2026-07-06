@@ -4,17 +4,6 @@ import { BsStars, BsShieldCheck, BsChevronLeft, BsChevronRight } from 'react-ico
 import { FaFilePdf, FaDownload } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { Document, Page, pdfjs } from 'react-pdf';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
-import 'react-pdf/dist/Page/TextLayer.css';
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
-
-const pdfOptions = {
-  cMapUrl: `//unpkg.com/pdfjs-dist@${pdfjs.version}/cmaps/`,
-  cMapPacked: true,
-  standardFontDataUrl: `//unpkg.com/pdfjs-dist@${pdfjs.version}/standard_fonts/`
-};
 
 const CertificateSlider = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
