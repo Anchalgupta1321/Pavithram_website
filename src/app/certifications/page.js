@@ -221,26 +221,12 @@ export default function CertificationsPage() {
                   <img src={cert.image} alt={cert.title} style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
                 </div>
               ) : cert.pdf ? (
-                <div style={{ width: '100%', display: 'flex', justifyContent: 'center', background: 'transparent' }}>
-                  <Document
-                    file={cert.pdf}
-                    options={pdfOptions}
-                    loading={
-                      <div style={{ padding: '2rem', textAlign: 'center', color: '#666' }}>Loading Certificate...</div>
-                    }
-                    error={
-                      <div style={{ padding: '2rem', textAlign: 'center', color: '#d93025' }}>Failed to render PDF.</div>
-                    }
-                  >
-                    <Page 
-                      pageNumber={1} 
-                      width={550}
-                      renderTextLayer={false}
-                      renderAnnotationLayer={false}
-                      renderMode="svg"
-                      className="pdf-page-canvas"
-                    />
-                  </Document>
+                <div style={{ width: '100%', display: 'flex', justifyContent: 'center', background: 'transparent', height: '600px' }}>
+                  <iframe 
+                    src={`${cert.pdf}#toolbar=0`} 
+                    style={{ width: '100%', height: '100%', border: 'none', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}
+                    title={cert.title}
+                  />
                 </div>
               ) : (
                 <div style={{ width: '100%', height: 'auto', aspectRatio: '1 / 1.414', backgroundColor: '#f9f9f9', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '8px' }}>
