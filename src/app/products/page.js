@@ -14,20 +14,27 @@ const categories = ["All", ...Array.from(new Set(products.map(p => p.category).f
 function ProductsContent() {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get('category');
+  const searchQueryParam = searchParams.get('search');
   const [activeCategory, setActiveCategory] = useState(categoryParam || "All");
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     if (categoryParam) {
       setActiveCategory(categoryParam);
-      setCurrentPage(1);
+    } else {
+      setActiveCategory("All");
     }
-  }, [categoryParam]);
+    setCurrentPage(1);
+  }, [categoryParam, searchQueryParam]);
   const ITEMS_PER_PAGE = 9;
 
-  const filteredProducts = activeCategory === "All" 
-    ? products 
-    : products.filter(product => product.category === activeCategory);
+  const filteredProducts = products.filter(product => {
+    const matchesCategory = activeCategory === "All" || product.category === activeCategory;
+    const matchesSearch = searchQueryParam 
+      ? product.name.toLowerCase().includes(searchQueryParam.toLowerCase())
+      : true;
+    return matchesCategory && matchesSearch;
+  });
 
   const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;

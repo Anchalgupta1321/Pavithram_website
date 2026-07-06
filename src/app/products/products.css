@@ -40,7 +40,7 @@
   width: 280px;
   flex-shrink: 0;
   position: sticky;
-  top: 100px; /* Offset for fixed navbar */
+  top: 160px; /* Offset for fixed two-tier navbar */
   background: #fff;
   padding: 2rem;
   border-radius: 12px;

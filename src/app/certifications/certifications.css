@@ -1,4 +1,4 @@
-.certifications-page {
+.certifications-page {
   background: #F9F5EB;
 }
 
@@ -16,6 +16,15 @@
   padding: 4rem;
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+  margin-bottom: 4rem;
+}
+
+.certification-split.reverse {
+  flex-direction: row-reverse;
+}
+
+.certification-split:last-child {
+  margin-bottom: 0;
 }
 
 .cert-image-wrapper {
@@ -24,7 +33,6 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  border: 1px solid #eaeaea;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -119,61 +127,41 @@
   font-size: 1.1rem;
 }
 
-.pdf-grid {
+.cert-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.pdf-card {
+.cert-list-item {
   background: white;
   border-radius: 12px;
-  padding: 2rem;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  padding: 1.5rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
+  gap: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
   border: 1px solid #eaeaea;
   transition: all 0.3s ease;
 }
 
-.pdf-icon-wrapper {
-  background: #fdf5f5;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-.pdf-icon {
-  font-size: 2rem;
-  color: var(--color-primary-red);
-}
-
-.pdf-info h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 1rem;
-  line-height: 1.4;
-}
-
-.pdf-download {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--color-primary-red);
-  font-size: 0.9rem;
-  font-weight: 600;
-  justify-content: center;
-}
-
-.pdf-card:hover {
+.cert-list-item:hover {
   border-color: var(--color-primary-red);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+}
+
+.cert-list-icon {
+  font-size: 1.5rem;
+  color: var(--color-primary-gold);
+  flex-shrink: 0;
+}
+
+.cert-list-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.4;
 }

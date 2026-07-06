@@ -122,7 +122,7 @@ export default function Footer() {
           
           <div className="contact-item">
             <strong style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}><FaPhoneAlt /> Phone</strong>
-            <p>0484 2678561,<br />+91 9745 300 600</p>
+            <p>+91 9745 300 600</p>
           </div>
           
           <div className="contact-item">

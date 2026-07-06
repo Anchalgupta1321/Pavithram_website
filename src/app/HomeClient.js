@@ -113,10 +113,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   ];
 
   const socialFeed = [
-    'https://www.youtube.com/embed/5aLh6yC72OQ?controls=0',
-    'https://www.youtube.com/embed/tgbNymZ7vqY?controls=0',
-    'https://www.youtube.com/embed/K1-O9_M-U9w?controls=0',
-    'https://www.youtube.com/embed/7xG432iTjR0?controls=0'
+    '/videos/VID-20260706-WA0014.mp4',
+    '/videos/VID-20260706-WA0014.mp4',
+    '/videos/VID-20260706-WA0014.mp4',
+    '/videos/VID-20260706-WA0014.mp4'
   ];
 
   const nextSlide = () => setCurrentSlide((prev) => (prev === heroSlides.length - 1 ? 0 : prev + 1));
@@ -618,9 +618,9 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           <span className="subtitle">Join Our Community</span>
           <h2>Stories from the Kitchen</h2>
           <div className="social-icons-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '1rem auto 0 auto', gap: '20px' }}>
-            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#E1306C', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsInstagram /></a>
-            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#1877F2', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsFacebook /></a>
-            <a href="#" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#FF0000', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsYoutube /></a>
+            <a href="https://www.instagram.com/pavithram_foods/?hl=en" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#E1306C', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsInstagram /></a>
+            <a href="https://www.facebook.com/pavithramfoodskerala" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#1877F2', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsFacebook /></a>
+            <a href="https://www.youtube.com/@pavithram.online" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#FF0000', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsYoutube /></a>
           </div>
         </motion.div>
 
@@ -635,26 +635,41 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                 if (iframe && !iframe.src.includes('autoplay=1')) {
                   iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'autoplay=1&mute=1';
                 }
+                const video = e.currentTarget.querySelector('video');
+                if (video) video.play();
               }}
               onMouseLeave={(e) => {
                 const iframe = e.currentTarget.querySelector('iframe');
                 if (iframe) {
                   iframe.src = iframe.src.replace('&autoplay=1&mute=1', '').replace('?autoplay=1&mute=1', '');
                 }
+                const video = e.currentTarget.querySelector('video');
+                if (video) {
+                  video.pause();
+                  video.currentTime = 0;
+                }
               }}
             >
-              <iframe 
-                src={videoUrl}
-                className="reel-video"
-                style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', border: 'none' }}
-                allow="autoplay; encrypted-media"
-                title="Social Media Reel"
-              />
+              {videoUrl.endsWith('.mp4') ? (
+                <video 
+                  src={videoUrl}
+                  className="reel-video"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }}
+                  muted
+                  loop
+                  playsInline
+                />
+              ) : (
+                <iframe 
+                  src={videoUrl}
+                  className="reel-video"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', border: 'none' }}
+                  allow="autoplay; encrypted-media"
+                  title="Social Media Reel"
+                />
+              )}
               <div className="reel-overlay">
                 <BsPlayFill className="play-icon" />
-                <div className="reel-stats">
-                  <span><BsInstagram /></span>
-                </div>
               </div>
             </motion.div>
           ))}

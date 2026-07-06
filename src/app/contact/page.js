@@ -99,7 +99,7 @@ export default function ContactPage() {
           
           <div className="info-item">
             <FaPhoneAlt className="info-icon" />
-            <p>0484 2678561, +91 9745 300 600</p>
+            <p>+91 9745 300 600</p>
           </div>
           
           <div className="info-item">

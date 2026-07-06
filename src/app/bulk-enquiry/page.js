@@ -141,9 +141,8 @@ export default function BulkEnquiryPage() {
           
           <div className="contact-direct">
             <h3>Direct Export Contact</h3>
-            <p><strong>Email:</strong> care@pavithramfoods.com</p>
-            <p><strong>Phone:</strong> +91 9745300600</p>
-            <p><strong>Phone:</strong> 0484 2678561</p>
+            <p><strong>Email:</strong> export@pavithramoil.com</p>
+            <p><strong>Phone:</strong> +91 8606365571</p>
           </div>
           <div className="leaf-watermark"></div>
         </motion.div>

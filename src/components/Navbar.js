@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
+import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
 import { products } from '../data/productData';
 
 const categories = Array.from(new Set(products.map(p => p.category).filter(Boolean)));
@@ -11,6 +12,8 @@ const categories = Array.from(new Set(products.map(p => p.category).filter(Boole
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -18,7 +21,6 @@ export default function Navbar() {
   };
 
   const toggleDropdown = (name, e) => {
-    // Only toggle on mobile; desktop relies on hover. 
     if (window.innerWidth <= 992) {
       if (openDropdown === name) {
         setOpenDropdown(null);
@@ -28,22 +30,49 @@ export default function Navbar() {
     }
   };
 
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+    } else {
+      router.push('/products');
+    }
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">
-          <Link href="/">
-            <Image src="/logo_cropped.png" alt="Pavithram Logo" width={180} height={60} priority />
-          </Link>
+        
+        {/* Top Tier: Logo Only */}
+        <div className="navbar-top" style={{ justifyContent: 'center', position: 'relative' }}>
+          <div className="navbar-logo">
+            <Link href="/">
+              <Image src="/logo_cropped.png" alt="Pavithram Logo" width={180} height={60} priority />
+            </Link>
+          </div>
+
+          {/* Hamburger Icon */}
+          <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '2rem' }}>
+            {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+          </div>
         </div>
 
-        {/* Hamburger Icon */}
-        <div className="mobile-menu-icon" onClick={toggleMenu}>
-          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
-        </div>
+        <div className="navbar-divider"></div>
 
-        {/* Nav Links */}
-        <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
+        {/* Bottom Tier: Search + Nav Links */}
+        <div className={`navbar-bottom navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
+          
+          <form className="navbar-search" onSubmit={handleSearch}>
+            <FaSearch className="search-icon" onClick={handleSearch} style={{ cursor: 'pointer' }} />
+            <input 
+              type="text" 
+              placeholder="Search products..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="navbar-search-input"
+            />
+          </form>
           <div className="nav-item">
             <Link href="/" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
           </div>
