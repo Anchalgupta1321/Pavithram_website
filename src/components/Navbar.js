@@ -13,6 +13,7 @@ export function NavbarContent() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -23,6 +24,12 @@ export function NavbarContent() {
     } else {
       setSearchQuery('');
     }
+
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [searchParams]);
 
   const toggleMenu = () => {
@@ -51,27 +58,23 @@ export function NavbarContent() {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+      <div className="navbar-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', position: 'relative' }}>
         
-        {/* Top Tier: Logo Only */}
-        <div className="navbar-top" style={{ justifyContent: 'center', position: 'relative' }}>
-          <div className="navbar-logo">
-            <Link href="/">
-              <Image src="/logo_cropped.png" alt="Pavithram Logo" width={180} height={60} priority />
-            </Link>
-          </div>
-
-          {/* Hamburger Icon */}
-          <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '2rem' }}>
-            {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
-          </div>
+        {/* Logo */}
+        <div className="navbar-logo">
+          <Link href="/">
+            <Image src="/logo_cropped.png" alt="Pavithram Logo" width={140} height={45} priority />
+          </Link>
         </div>
 
-        <div className="navbar-divider"></div>
+        {/* Hamburger Icon */}
+        <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '0' }}>
+          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+        </div>
 
-        {/* Bottom Tier: Search + Nav Links */}
-        <div className={`navbar-bottom navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
+        {/* Search + Nav Links */}
+        <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
           
           <form className="navbar-search" onSubmit={handleSearch}>
             <FaSearch className="search-icon" onClick={handleSearch} style={{ cursor: 'pointer' }} />

@@ -19,7 +19,7 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow-x: clip;
   font-family: var(--font-family-sans);
   background: linear-gradient(
       180deg,
@@ -603,7 +603,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background: #ffffff;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   border-bottom: 2px solid var(--color-primary-gold);
   position: sticky;
   top: 0;
@@ -612,60 +612,25 @@ a {
 
 .navbar-container {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-.navbar-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0.2rem 2rem;
-}
-
-.navbar-top-left, .navbar-top-right {
-  flex: 1;
-}
-
-.navbar-top-left {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.navbar-top-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .navbar-logo {
-  flex: 1;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .navbar-logo img {
-  height: 70px;
+  max-height: 50px;
+  width: auto;
   object-fit: contain;
 }
 
-.navbar-divider {
-  width: 100%;
-  height: 1px;
-  background-color: #eaeaea;
-}
 
-.navbar-bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 0.4rem 0 0.8rem 0;
-  position: relative;
-}
 
 .navbar-links {
   display: flex;
@@ -729,7 +694,6 @@ a {
   }
   
   .navbar-links {
-    position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
@@ -741,6 +705,7 @@ a {
     overflow: hidden;
     transition: max-height 0.3s ease;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    position: absolute;
   }
   
   .navbar-links.active {
