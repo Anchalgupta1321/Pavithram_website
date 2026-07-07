@@ -70,7 +70,9 @@ export default function FAQPage() {
   };
 
   return (
-    <main className="faq-page">
+    <main className="faq-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-spices" style={{ top: '10%', left: '-25%', transform: 'rotate(15deg)', backgroundPosition: 'top left' }}></div>
+      <div className="global-watermark wm-wheat" style={{ bottom: '10%', right: '-25%', transform: 'rotate(-10deg)', backgroundPosition: 'bottom right' }}></div>
       <motion.div 
         className="faq-header"
         initial={{ opacity: 0, y: -20 }}

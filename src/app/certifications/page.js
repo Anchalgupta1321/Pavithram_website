@@ -262,8 +262,11 @@ export default function CertificationsPage() {
       </div>
 
       {/* Certificate Gallery Grid */}
-      <div className="pdf-gallery-section">
-        <div className="certifications-container" style={{ paddingTop: 0, paddingBottom: 0 }}>
+      <div className="pdf-gallery-section" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-wheat" style={{ top: '10%', left: '-10%', transform: 'rotate(-10deg)', backgroundPosition: 'top left' }}></div>
+        <div className="global-watermark wm-spices" style={{ bottom: '10%', right: '-10%', transform: 'rotate(15deg)', backgroundPosition: 'bottom right' }}></div>
+        
+        <div className="certifications-container" style={{ paddingTop: 0, paddingBottom: 0, position: 'relative', zIndex: 1 }}>
           <motion.div 
             className="gallery-header"
             initial="hidden"

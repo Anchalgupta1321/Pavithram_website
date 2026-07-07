@@ -47,7 +47,10 @@ export default function BlogsClient({ posts }) {
   const gridPosts = filteredPosts.slice(1);
 
   return (
-    <main className="blogs-page">
+    <main className="blogs-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-wheat" style={{ top: '10%', right: '-5%', transform: 'rotate(10deg)', backgroundPosition: 'top right' }}></div>
+      <div className="global-watermark wm-spices" style={{ top: '50%', left: '-10%', transform: 'rotate(-15deg)', backgroundPosition: 'center left' }}></div>
+      <div className="global-watermark wm-coconut" style={{ bottom: '10%', right: '-5%', transform: 'rotate(5deg)', backgroundPosition: 'bottom right' }}></div>
       
       {/* Featured Hero Section */}
       {featuredPost && (
@@ -58,9 +61,9 @@ export default function BlogsClient({ posts }) {
           transition={{ duration: 0.6 }}
         >
           <div className="blog-hero-container">
-            <div className="hero-img-wrapper">
-              <Link href={`/blogs/${featuredPost.slug}`}>
-                <Image src={featuredPost.image} alt={featuredPost.title} width={800} height={500} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority />
+            <div className="hero-img-wrapper" style={{ background: '#FFFDF8' }}>
+              <Link href={`/blogs/${featuredPost.slug}`} style={{ display: 'block', width: '100%', height: '100%' }}>
+                <Image src={featuredPost.image} alt={featuredPost.title} width={800} height={500} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} priority />
               </Link>
             </div>
             <div className="blog-hero-content">
@@ -96,9 +99,9 @@ export default function BlogsClient({ posts }) {
               variants={fadeInUp}
               whileHover={{ y: -8, boxShadow: "0 15px 35px rgba(0,0,0,0.08)" }}
             >
-              <div className="card-img">
-                <Link href={`/blogs/${post.slug}`}>
-                  <Image src={post.image} alt={post.title} width={400} height={300} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <div className="card-img" style={{ background: '#FFFDF8' }}>
+                <Link href={`/blogs/${post.slug}`} style={{ display: 'block', width: '100%', height: '100%' }}>
+                  <Image src={post.image} alt={post.title} width={400} height={250} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </Link>
               </div>
               <div className="card-content">

@@ -69,7 +69,10 @@ export default function ContactPage() {
 
   return (
     <div className="contact-page-wrapper">
-      <main className="contact-page">
+      <main className="contact-page" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-spices" style={{ top: '5%', right: '-5%', transform: 'rotate(-10deg)', backgroundPosition: 'top right' }}></div>
+        <div className="global-watermark wm-coconut" style={{ top: '35%', left: '-5%', transform: 'rotate(15deg)', backgroundPosition: 'center left' }}></div>
+        <div className="global-watermark wm-herbs" style={{ bottom: '5%', right: '-10%', transform: 'rotate(-5deg)', backgroundPosition: 'bottom right' }}></div>
       <motion.div 
         className="contact-header"
         initial={{ opacity: 0, y: -20 }}

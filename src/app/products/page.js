@@ -76,7 +76,10 @@ function ProductsContent() {
   };
 
   return (
-    <main className="products-page">
+    <main className="products-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-wheat" style={{ top: '5%', right: '-5%', transform: 'rotate(10deg)', backgroundPosition: 'top right' }}></div>
+      <div className="global-watermark wm-snacks" style={{ top: '40%', left: '-10%', transform: 'rotate(-15deg)', backgroundPosition: 'center left' }}></div>
+      <div className="global-watermark wm-coconut" style={{ bottom: '5%', right: '-5%', transform: 'rotate(5deg)', backgroundPosition: 'bottom right' }}></div>
       
       {/* Header */}
       <motion.section 

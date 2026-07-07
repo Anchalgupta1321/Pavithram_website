@@ -48,7 +48,10 @@ export default function ProductClient({ params }) {
   if (!product) return <div className="loading-state">Loading...</div>;
 
   return (
-    <main className="product-detail-page">
+    <main className="product-detail-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-herbs" style={{ top: '10%', right: '-10%', transform: 'rotate(15deg)', backgroundPosition: 'top right' }}></div>
+      <div className="global-watermark wm-coconut" style={{ bottom: '10%', left: '-10%', transform: 'rotate(-10deg)', backgroundPosition: 'bottom left' }}></div>
+      
       {/* Breadcrumbs */}
       <div className="breadcrumb">
         <Link href="/">Home</Link>

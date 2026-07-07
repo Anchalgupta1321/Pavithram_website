@@ -74,7 +74,9 @@ export default function BulkEnquiryPage() {
   };
 
   return (
-    <main className="bulk-enquiry-page">
+    <main className="bulk-enquiry-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-wheat" style={{ top: '10%', left: '-5%', transform: 'rotate(10deg)', backgroundPosition: 'top left' }}></div>
+      <div className="global-watermark wm-spices" style={{ bottom: '10%', right: '-10%', transform: 'rotate(-15deg)', backgroundPosition: 'bottom right' }}></div>
       <motion.div 
         className="enquiry-header"
         initial={{ opacity: 0, y: -20 }}

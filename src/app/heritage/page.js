@@ -136,7 +136,11 @@ export default function HeritagePage() {
       </section>
 
       {/* Modern Timeline */}
-      <section className="timeline-section">
+      <section className="timeline-section" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-spices" style={{ top: '5%', right: '-5%', transform: 'rotate(-15deg)', backgroundPosition: 'top right' }}></div>
+        <div className="global-watermark wm-herbs" style={{ top: '45%', left: '-5%', transform: 'rotate(10deg)', backgroundPosition: 'center left' }}></div>
+        <div className="global-watermark wm-coconut" style={{ bottom: '5%', left: '-10%', transform: 'rotate(20deg)', backgroundPosition: 'bottom left' }}></div>
+
         <motion.h2 
           initial="hidden"
           whileInView="visible"

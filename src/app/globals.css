@@ -753,6 +753,55 @@ a {
   }
 }
 
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.8rem; }
+  .subtitle { font-size: 0.9rem; }
+}
+
+/* ==============================================================
+   GLOBAL WATERMARK UTILITIES
+   ============================================================== */
+.global-watermark {
+  position: absolute;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.wm-coconut {
+  background-image: url('/images/watermarks/coconut_bg.png');
+  width: 60vw; height: 60vw; max-width: 600px; max-height: 600px;
+}
+
+.wm-spices {
+  background-image: url('/images/watermarks/spices_bg.png');
+  width: 60vw; height: 60vw; max-width: 600px; max-height: 600px;
+}
+
+.wm-herbs {
+  background-image: url('/images/watermarks/herbs_bg.png');
+  width: 60vw; height: 60vw; max-width: 600px; max-height: 600px;
+}
+
+.wm-snacks {
+  background-image: url('/images/watermarks/snacks_bg.png');
+  width: 70vw; height: 70vw; max-width: 700px; max-height: 700px;
+}
+
+.wm-millets {
+  background-image: url('/images/watermarks/millets_bg.png');
+  width: 60vw; height: 60vw; max-width: 600px; max-height: 600px;
+}
+
+.wm-wheat {
+  background-image: url('/images/watermarks/wheat_spices_bg.png');
+  width: 70vw; height: 70vw; max-width: 700px; max-height: 700px;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 14px;
