@@ -9,6 +9,18 @@ import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
 import { products } from '../../data/productData';
 import './products.css';
 
+const getCategoryColor = (category) => {
+  if (!category) return 'transparent';
+  const cat = category.toLowerCase();
+  if (cat.includes('oil')) return '#FFF0CC'; // Soft warm gold/yellow, distinct from background
+  if (cat.includes('snack')) return '#EAF5EA'; // Light fresh green
+  if (cat.includes('spice') || cat.includes('masala')) return '#F5EFEA'; // Light warm brown
+  if (cat.includes('millet') || cat.includes('pulse')) return '#E6F4F1'; // Light teal/cyan
+  if (cat.includes('rice') || cat.includes('breakfast')) return '#F3E8F5'; // Light soft purple/violet
+  if (cat.includes('condiment') || cat.includes('jam') || cat.includes('pickle') || cat.includes('paste')) return '#FDEAEA'; // Light warm red
+  return '#F9F9F9'; // Default light gray
+};
+
 const categories = ["All", ...Array.from(new Set(products.map(p => p.category).filter(Boolean)))];
 
 function ProductsContent() {
@@ -197,7 +209,7 @@ function ProductsContent() {
                   <Link href={`/products/${product.slug}`} className="product-card" style={{ textDecoration: 'none', height: '100%', display: 'block' }}>
                     {product.badge && <span className="product-badge">{product.badge}</span>}
                     
-                    <div className="product-img-wrapper">
+                    <div className="product-img-wrapper" style={{ backgroundColor: getCategoryColor(product.category) }}>
                       <Image src={product.images ? product.images[0] : ''} alt={product.name} width={400} height={400} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
                     </div>
                     

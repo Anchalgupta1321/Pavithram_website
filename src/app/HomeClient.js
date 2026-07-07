@@ -5,8 +5,20 @@ import Link from 'next/link';
 import Image from "next/legacy/image";
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { BsArrowRight, BsPlayFill, BsAwardFill, BsAward, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube, BsClockHistory } from 'react-icons/bs';
-import { GiChiliPepper, GiWheat } from 'react-icons/gi';
+import { GiChiliPepper, GiWheat, GiCoconuts, GiGarlic, GiSaltShaker, GiBowlOfRice, GiCookingPot, GiTeapot } from 'react-icons/gi';
 import './home.css';
+
+const getCategoryColor = (category) => {
+  if (!category) return 'transparent';
+  const cat = category.toLowerCase();
+  if (cat.includes('oil')) return '#FFF0CC'; // Soft warm gold/yellow, distinct from background
+  if (cat.includes('snack')) return '#EAF5EA'; // Light fresh green
+  if (cat.includes('spice') || cat.includes('masala')) return '#F5EFEA'; // Light warm brown
+  if (cat.includes('millet') || cat.includes('pulse')) return '#E6F4F1'; // Light teal/cyan
+  if (cat.includes('rice') || cat.includes('breakfast')) return '#F3E8F5'; // Light soft purple/violet
+  if (cat.includes('condiment') || cat.includes('jam') || cat.includes('pickle') || cat.includes('paste')) return '#FDEAEA'; // Light warm red
+  return '#F9F9F9'; // Default light gray
+};
 
 function AnimatedCounter({ from = 0, to, suffix = "", duration = 2 }) {
   const [count, setCount] = useState(from);
@@ -142,8 +154,8 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
     { name: 'Rice Bran Oil', slug: 'rice-bran-oil', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
     { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
-    { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
     { name: 'Kerala Murukku', slug: 'kerala-murukku', image: '/images/products/Pavithram%20Mockups/Snacks/Star%20Murukku%20Mockup.jpg', category: 'Snacks' },
+    { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
     { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
     { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
   ];
@@ -168,13 +180,21 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   return (
     <main className="premium-home">
       
+      {/* Scrollable Page Watermarks */}
+      <div className="page-watermarks">
+        <div className="watermark-img wm-1"></div>
+        <div className="watermark-img wm-4"></div>
+        <div className="watermark-img wm-5"></div>
+      </div>
+      
       {/* Floating Interactive Background Elements */}
       <div className="floating-bg-elements">
-        <div className="floating-element el-1"><BsLeaf /></div>
-        <div className="floating-element el-2"><div className="blob"></div></div>
-        <div className="floating-element el-3"><BsLeaf /></div>
-        <div className="floating-element el-4"><div className="blob-alt"></div></div>
-        <div className="floating-element el-5"><BsLeaf /></div>
+        <div className="floating-element el-1"><GiChiliPepper /></div>
+        <div className="floating-element el-2"><GiWheat /></div>
+        <div className="floating-element el-3"><GiCoconuts /></div>
+        <div className="floating-element el-4"><GiGarlic /></div>
+        <div className="floating-element el-5"><GiBowlOfRice /></div>
+        <div className="floating-element el-6"><GiSaltShaker /></div>
       </div>
 
       {/* Hero Carousel Section */}
@@ -274,6 +294,15 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
       {/* 2.5 Explore Every Meal */}
       <section className="explore-every-meal" style={{ position: 'relative', overflow: 'hidden', padding: '6rem 5%', background: '#F9F5EB' }}>
+        {/* Photographic Watermarks */}
+        <div className="watermark-img wm-2"></div>
+        <div className="watermark-img wm-3"></div>
+        <div className="watermark-img wm-6"></div>
+
+        {/* Animated Floating Food Icons */}
+        <div className="floating-element el-7" style={{ zIndex: 1 }}><GiCookingPot /></div>
+        <div className="floating-element el-8" style={{ zIndex: 1 }}><GiTeapot /></div>
+
         {/* Background Decorative Icons */}
         <div style={{ position: 'absolute', top: '10%', left: '2%', opacity: 0.01, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={280} />
@@ -365,103 +394,116 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         </div>
       </section>
 
-      {/* 3. Magazine-Style Categories */}
-      <section className="magazine-categories" style={{ background: '#FCF8EE' }}>
-        <motion.div 
-          className="section-header center"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-        >
-          <span className="subtitle">Shop by Category</span>
-          <h2>Explore Our Range</h2>
-        </motion.div>
+      {/* 4. Explore Our Range (Category Grid) */}
+      <section className="magazine-categories" style={{ position: 'relative', overflow: 'hidden', background: '#FCF8EE' }}>
+        <div className="watermark-img wm-explore-range"></div>
+        <div className="watermark-img wm-explore-range-top"></div>
         
-        <div className="bento-grid">
-          {/* Large Item (Rice/Breakfast) */}
-          <motion.div className="bento-item large" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Rice">
-              <div className="bento-img">
-                <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Rice</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
+        {/* Decorative Icons */}
+        <div style={{ position: 'absolute', top: '8%', right: '5%', opacity: 0.015, transform: 'rotate(25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <BsLeaf size={250} />
+        </div>
+        <div style={{ position: 'absolute', top: '40%', left: '-2%', opacity: 0.01, transform: 'rotate(-15deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+          <GiWheat size={300} />
+        </div>
 
-          {/* Tall Item (Spices) */}
-          <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Spices">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Authentic Spices</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
+        <div className="container">
+          <motion.div 
+            className="section-header center"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeInUp}
+          >
+            <span className="subtitle">Shop by Category</span>
+            <h2>Explore Our Range</h2>
           </motion.div>
+          
+          <div className="bento-grid">
+            {/* Large Item (Rice/Breakfast) */}
+            <motion.div className="bento-item large" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Rice">
+                <div className="bento-img">
+                  <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Rice</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
 
-          {/* Small Item (Oils) */}
-          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Edible%20Oils">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" priority />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Pure Oils</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
+            {/* Tall Item (Spices) */}
+            <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Spices">
+                <div className="bento-img">
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Authentic Spices</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
 
-          {/* Small Item (Pickles) - Fills the blank space! */}
-          <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Pickles">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Jams & Pickles</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
+            {/* Small Item (Oils) */}
+            <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Edible%20Oils">
+                <div className="bento-img">
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" priority />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Pure Oils</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
 
-          {/* Wide Item (Snacks) */}
-          <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Cochin%20Snacks">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png" alt="Snacks" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Cochin Snacks</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
+            {/* Small Item (Pickles) - Fills the blank space! */}
+            <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Pickles">
+                <div className="bento-img">
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Jams & Pickles</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
 
-          {/* Large Item (Millets) */}
-          <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <Link href="/products?category=Millets">
-              <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
-                <div className="bento-overlay"></div>
-              </div>
-              <div className="bento-content">
-                <h3>Millets & Pulses</h3>
-                <span className="bento-link">Discover <BsArrowRight /></span>
-              </div>
-            </Link>
-          </motion.div>
+            {/* Wide Item (Snacks) */}
+            <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Cochin%20Snacks">
+                <div className="bento-img">
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png" alt="Snacks" layout="fill" objectFit="cover" />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Cochin Snacks</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
+
+            {/* Large Item (Millets) */}
+            <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Millets">
+                <div className="bento-img">
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
+                  <div className="bento-overlay"></div>
+                </div>
+                <div className="bento-content">
+                  <h3>Millets & Pulses</h3>
+                  <span className="bento-link">Discover <BsArrowRight /></span>
+                </div>
+              </Link>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -478,6 +520,9 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
       {/* 6. Best Sellers */}
       <section className="best-sellers" style={{ position: 'relative', overflow: 'hidden', background: '#FFFDF8' }}>
+        {/* Photographic Watermark */}
+        <div className="watermark-img wm-best-seller"></div>
+
         {/* Background Decorative Icons */}
         <div style={{ position: 'absolute', top: '5%', left: '-2%', opacity: 0.01, transform: 'rotate(20deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={300} />
@@ -488,7 +533,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         <div style={{ position: 'absolute', top: '50%', left: '-4%', opacity: 0.01, transform: 'rotate(45deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <GiChiliPepper size={350} />
         </div>
-        <div style={{ position: 'absolute', top: '65%', right: '2%', opacity: 0.008, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
+        <div style={{ position: 'absolute', top: '50%', right: '2%', opacity: 0.008, transform: 'rotate(-25deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
           <BsLeaf size={280} />
         </div>
         <div style={{ position: 'absolute', bottom: '10%', left: '10%', opacity: 0.008, transform: 'rotate(30deg)', pointerEvents: 'none', color: '#000', zIndex: 0 }}>
@@ -519,7 +564,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           style={{ position: 'relative', zIndex: 10 }}
         >
           {bestSellers.map((item, idx) => (
-            <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>
+            <motion.div className="product-card-premium" key={idx} variants={fadeInUp} style={{ backgroundColor: getCategoryColor(item.category) }}>
               <div className="product-img-wrapper">
                 <Image 
                   src={item.image} 

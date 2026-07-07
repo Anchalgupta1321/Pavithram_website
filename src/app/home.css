@@ -310,7 +310,7 @@ body {
 
 /* 3. Magazine-Style Categories (Bento Grid) */
 .magazine-categories {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fff;
 }
 .bento-grid {
@@ -411,7 +411,7 @@ body {
 
 /* 4. Featured Collections */
 .featured-collections-fmcg {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fdfbf7;
 }
 .fmcg-category-grid {
@@ -526,7 +526,7 @@ body {
 
 /* 6. Best Sellers */
 .best-sellers {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fff;
 }
 .products-grid-premium {
@@ -639,7 +639,7 @@ body {
 
 /* 8. Global Presence */
 .global-presence-map {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fff;
   text-align: center;
 }
@@ -703,14 +703,14 @@ body {
 
 /* 9. Join Community */
 .community-section {
-  padding: 8rem 5% 5rem 5%;
+  padding: 5rem 5% 3rem 5%;
   background: var(--color-light-bg);
 }
 .community-section h2 {
   color: var(--color-dark);
 }
 .community-reels {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: var(--color-light-bg);
   color: var(--color-dark);
 }
@@ -770,7 +770,7 @@ body {
 
 /* 10. Footer CTA */
 .pre-footer-cta {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: var(--color-gold);
   text-align: center;
   color: var(--color-dark);
@@ -1001,7 +1001,7 @@ body {
 
 /* --- Categories Grid --- */
 .categories-section {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: radial-gradient(circle at top right, #fffdf5, #fff4e6 80%);
   position: relative;
   overflow: hidden;
@@ -1094,7 +1094,7 @@ body {
 
 /* --- Products Slider --- */
 .products-section {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: white;
 }
 
@@ -1205,7 +1205,7 @@ body {
 .heritage-teaser {
   background: #fdfdfd;
   color: #1a1a1a;
-  padding: 8rem 5%;
+  padding: 5rem 5%;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -1251,7 +1251,7 @@ body {
 
 /* --- Categories Grid --- */
 .categories-section {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: radial-gradient(circle at top right, #fffdf5, #fff4e6 80%);
   position: relative;
   overflow: hidden;
@@ -1344,7 +1344,7 @@ body {
 
 /* --- Products Slider --- */
 .products-section {
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: white;
 }
 
@@ -1455,7 +1455,7 @@ body {
 .heritage-teaser {
   background: #fdfdfd;
   color: #1a1a1a;
-  padding: 8rem 5%;
+  padding: 5rem 5%;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -1502,7 +1502,7 @@ body {
 /* --- Global Reach Section --- */
 .global-reach-section {
   position: relative;
-  padding: 8rem 0 5rem 0;
+  padding: 5rem 0 3rem 0;
   background: linear-gradient(135deg, #C1191F, #E31E24);
   color: white;
   text-align: center;
@@ -1638,7 +1638,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fff;
   gap: 4rem;
   max-width: 1400px;
@@ -1651,7 +1651,7 @@ body {
 .heritage-summary-image {
   background: #fdfdfd;
   color: #1a1a1a;
-  padding: 8rem 5%;
+  padding: 5rem 5%;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -1698,7 +1698,7 @@ body {
 /* --- Global Reach Section --- */
 .global-reach-section {
   position: relative;
-  padding: 8rem 0 5rem 0;
+  padding: 5rem 0 3rem 0;
   background: linear-gradient(135deg, #C1191F, #E31E24);
   color: white;
   text-align: center;
@@ -1854,7 +1854,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6rem 5%;
+  padding: 4rem 5%;
   background: #fff;
   gap: 4rem;
   max-width: 1400px;
@@ -1887,6 +1887,144 @@ body {
   background-size: 30px 30px;
 }
 
+.page-watermarks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.watermark-img {
+  position: absolute;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Position 4 distinct watermarks down the page */
+.wm-1 {
+  top: 5%;
+  left: -5%;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+  background-image: url('/images/watermarks/coconut_bg.png');
+  background-position: top left;
+  transform: rotate(-15deg);
+}
+
+.wm-2 {
+  top: -10%;
+  right: -10%;
+  width: 70vw;
+  height: 70vw;
+  max-width: 700px;
+  max-height: 700px;
+  background-image: url('/images/watermarks/wheat_spices_bg.png');
+  background-position: center right;
+  transform: rotate(5deg);
+  z-index: 0;
+}
+
+.wm-3 {
+  top: auto;
+  bottom: -10%;
+  left: -15%;
+  width: 80vw;
+  height: 80vw;
+  max-width: 800px;
+  max-height: 800px;
+  background-image: url('/images/watermarks/snacks_bg.png');
+  background-position: center left;
+  transform: rotate(10deg);
+  z-index: 0;
+}
+
+.wm-6 {
+  top: auto;
+  bottom: -5%;
+  right: -10%;
+  width: 70vw;
+  height: 70vw;
+  max-width: 700px;
+  max-height: 700px;
+  background-image: url('/images/watermarks/coconut_bg.png');
+  background-position: bottom right;
+  transform: rotate(-15deg);
+  z-index: 0;
+}
+
+.wm-explore-range {
+  top: auto;
+  bottom: -2%;
+  right: -5%;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+  background-image: url('/images/watermarks/herbs_bg.png');
+  background-position: bottom right;
+  transform: rotate(5deg);
+  z-index: 0;
+}
+
+.wm-explore-range-top {
+  top: -5%;
+  left: -5%;
+  width: 50vw;
+  height: 50vw;
+  max-width: 500px;
+  max-height: 500px;
+  background-image: url('/images/watermarks/coconut_bg.png');
+  background-position: top left;
+  transform: rotate(-10deg);
+  z-index: 0;
+}
+
+.wm-best-seller {
+  top: -5%;
+  left: -10%;
+  width: 70vw;
+  height: 70vw;
+  max-width: 700px;
+  max-height: 700px;
+  background-image: url('/images/watermarks/spices_bg.png');
+  background-position: top left;
+  transform: rotate(-10deg);
+  z-index: 0;
+}
+
+.wm-4 {
+  top: 85%;
+  right: -5%;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+  background-image: url('/images/watermarks/millets_bg.png');
+  background-position: bottom right;
+  transform: rotate(-10deg);
+}
+
+.wm-5 {
+  top: auto;
+  bottom: -2%;
+  left: -5%;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+  background-image: url('/images/watermarks/coconut_bg.png');
+  background-position: bottom left;
+  transform: rotate(15deg);
+}
+
 .floating-bg-elements {
   position: absolute;
   top: 0;
@@ -1900,7 +2038,7 @@ body {
 
 .floating-element {
   position: absolute;
-  opacity: 0.002;
+  opacity: 0.04;
   animation: float-anim 15s infinite ease-in-out alternate;
   will-change: transform;
 }
@@ -1911,39 +2049,20 @@ body {
   fill: currentColor;
 }
 
-.blob {
-  width: 100%;
-  height: 100%;
-  background: currentColor;
-  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  animation: morph 8s ease-in-out infinite both alternate;
-}
-
-.blob-alt {
-  width: 100%;
-  height: 100%;
-  background: currentColor;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  animation: morph 8s ease-in-out infinite both alternate-reverse;
-}
-
-@keyframes morph {
-  0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
-  34% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
-  67% { border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; }
-}
-
 @keyframes float-anim {
   0% { transform: translateY(0) rotate(0deg) scale(1); }
   50% { transform: translateY(-40px) rotate(20deg) scale(1.05); }
   100% { transform: translateY(10px) rotate(-10deg) scale(0.95); }
 }
 
-.floating-element.el-1 { top: 12%; left: 3%; width: 120px; height: 120px; color: var(--color-primary-green); animation-duration: 18s; }
-.floating-element.el-2 { top: 35%; right: -2%; width: 250px; height: 250px; color: var(--color-primary-gold); opacity: 0.001; animation-duration: 22s; animation-delay: 2s; }
-.floating-element.el-3 { top: 58%; left: -3%; width: 180px; height: 180px; color: var(--color-primary-red); opacity: 0.001; animation-duration: 25s; animation-delay: 1s; }
-.floating-element.el-4 { top: 78%; right: 4%; width: 90px; height: 90px; color: var(--color-primary-green); animation-duration: 15s; animation-delay: 5s; }
-.floating-element.el-5 { top: 88%; left: 10%; width: 300px; height: 300px; color: var(--color-primary-gold); opacity: 0.001; animation-duration: 30s; animation-delay: 3s; }
+.floating-element.el-1 { top: 12%; left: 3%; width: 120px; height: 120px; color: var(--color-primary-red); animation-duration: 18s; }
+.floating-element.el-2 { top: 35%; right: 4%; width: 150px; height: 150px; color: var(--color-primary-gold); opacity: 0.03; animation-duration: 22s; animation-delay: 2s; }
+.floating-element.el-3 { top: 58%; left: 5%; width: 180px; height: 180px; color: #8B4513; opacity: 0.03; animation-duration: 25s; animation-delay: 1s; }
+.floating-element.el-4 { top: 78%; right: 8%; width: 90px; height: 90px; color: #A9A9A9; animation-duration: 15s; animation-delay: 5s; }
+.floating-element.el-5 { top: 88%; left: 10%; width: 200px; height: 200px; color: #8A2E60; opacity: 0.03; animation-duration: 30s; animation-delay: 3s; }
+.floating-element.el-6 { top: 25%; left: 80%; width: 80px; height: 80px; color: #555; opacity: 0.04; animation-duration: 20s; animation-delay: 4s; }
+.floating-element.el-7 { top: 15%; right: 10%; width: 250px; height: 250px; color: var(--color-primary-green); opacity: 0.05; animation-duration: 22s; animation-delay: 1s; }
+.floating-element.el-8 { top: 60%; right: 40%; width: 180px; height: 180px; color: var(--color-primary-gold); opacity: 0.06; animation-duration: 18s; animation-delay: 2s; }
 
 /* Section-wise Scroll Snapping for Premium Effect */
 html {
