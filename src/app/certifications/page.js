@@ -3,7 +3,7 @@ import { useState } from 'react';import './certifications.css';
 import { BsStars, BsShieldCheck, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { FaFilePdf, FaDownload } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const CertificateSlider = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

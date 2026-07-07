@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { BsArrowRight, BsPlayFill, BsAwardFill, BsAward, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube, BsClockHistory } from 'react-icons/bs';
 import { GiChiliPepper, GiWheat } from 'react-icons/gi';
@@ -190,7 +190,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               transition={{ duration: 1.2, ease: "easeInOut" }}
             >
               <div className="carousel-bg">
-                <Image src={heroSlides[currentSlide].image} alt="Pavithram Carousel Background" fill style={{ objectFit: 'cover' }} priority={true} sizes="100vw" />
+                <Image src={heroSlides[currentSlide].image} alt="Pavithram Carousel Background" layout="fill" objectFit="cover" priority={true} sizes="100vw" />
                 <div className="carousel-overlay"></div>
               </div>
               <div className="carousel-content">
@@ -330,7 +330,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
                 >
                   <div className="editorial-main-image-container">
-                    <Image src={tab.image} alt={tab.title} fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'cover' }} className="editorial-main-image" />
+                    <Image src={tab.image} alt={tab.title} layout="fill" objectFit="cover" sizes="(max-width: 768px) 100vw, 50vw" className="editorial-main-image" />
                     <div className="editorial-image-overlay"></div>
                   </div>
                   
@@ -342,7 +342,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                       {tab.products.map((prod, idx) => (
                         <div className="editorial-mini-card" key={idx}>
                           <div className="mini-card-img-wrapper">
-                            <Image src={prod.img} alt={prod.name} fill sizes="130px" style={{ objectFit: 'contain' }} />
+                            <Image src={prod.img} alt={prod.name} layout="fill" objectFit="contain" sizes="130px" unoptimized={true} />
                           </div>
                           <span className="mini-card-name">{prod.name}</span>
                         </div>
@@ -411,7 +411,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
             <Link href="/products?category=Edible%20Oils">
               <div className="bento-img">
-                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" />
+                <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" priority />
                 <div className="bento-overlay"></div>
               </div>
               <div className="bento-content">
@@ -658,6 +658,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   muted
                   loop
                   playsInline
+                  onError={(e) => console.warn('Video failed to load:', e.target.error)}
                 />
               ) : (
                 <iframe 

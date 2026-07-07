@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import './heritage.css';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { BsGeoAltFill } from 'react-icons/bs';
 
 export default function HeritagePage() {

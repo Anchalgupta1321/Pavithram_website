@@ -3,7 +3,7 @@
 import './gallery.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BsZoomIn } from 'react-icons/bs';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { useState, useMemo } from 'react';
 
 export default function GalleryClient({ images }) {

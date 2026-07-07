@@ -2,7 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { useRouter, useSearchParams } from 'next/navigation';
 import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
 import { products } from '../data/productData';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { motion, AnimatePresence } from 'framer-motion';
 import './SplashScreen.css';
 

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { BsArrowRight, BsPlayFill, BsAwardFill, BsShieldCheck, BsGlobe, BsCheckCircleFill, BsLeaf, BsChevronLeft, BsChevronRight, BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
 import './home.css';

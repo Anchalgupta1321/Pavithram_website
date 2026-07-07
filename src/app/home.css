@@ -293,6 +293,19 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
   }
+  .editorial-title {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .editorial-story {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .editorial-mini-products {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
 
 /* 3. Magazine-Style Categories (Bento Grid) */
@@ -742,6 +755,17 @@ body {
 .reel-card:hover .play-icon {
   opacity: 0;
   transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .reels-container {
+    justify-content: flex-start;
+    padding: 0 1rem 2rem 1rem;
+  }
+  .reel-card {
+    min-width: 240px;
+    height: 400px;
+  }
 }
 
 /* 10. Footer CTA */

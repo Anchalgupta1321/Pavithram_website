@@ -3,7 +3,7 @@
 import { useState, useEffect, use } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { BsPatchCheckFill, BsLeaf, BsCheck2Circle, BsAwardFill, BsPlus, BsDash } from 'react-icons/bs';
 import { products } from '../../../data/productData';
 import './product-detail.css';
