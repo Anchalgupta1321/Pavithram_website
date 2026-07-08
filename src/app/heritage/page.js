@@ -252,7 +252,9 @@ export default function HeritagePage() {
 
 
       {/* Testimonials */}
-      <section className="testimonials-section">
+      <section className="testimonials-section" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-coconut" style={{ top: '5%', left: '-25%', transform: 'rotate(-10deg)', backgroundPosition: 'top left' }}></div>
+        <div className="global-watermark wm-herbs" style={{ bottom: '5%', right: '-25%', transform: 'rotate(10deg)', backgroundPosition: 'bottom right' }}></div>
         <motion.div 
           className="section-heading"
           initial="hidden"
@@ -291,7 +293,9 @@ export default function HeritagePage() {
       </section>
 
       {/* Video Section */}
-      <section className="video-section">
+      <section className="video-section" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-wheat" style={{ top: '5%', left: '-25%', transform: 'rotate(15deg)', backgroundPosition: 'top left' }}></div>
+        <div className="global-watermark wm-spices" style={{ bottom: '5%', right: '-25%', transform: 'rotate(-15deg)', backgroundPosition: 'bottom right' }}></div>
         <motion.div
           initial="hidden"
           whileInView="visible"
