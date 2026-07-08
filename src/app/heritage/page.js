@@ -212,7 +212,9 @@ export default function HeritagePage() {
 
 
       {/* Leaders Section */}
-      <section className="leaders-section">
+      <section className="leaders-section" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="global-watermark wm-coconut" style={{ top: '5%', left: '-25%', transform: 'rotate(-10deg)', backgroundPosition: 'top left' }}></div>
+        <div className="global-watermark wm-spices" style={{ bottom: '5%', right: '-25%', transform: 'rotate(10deg)', backgroundPosition: 'bottom right' }}></div>
         <motion.div 
           initial="hidden"
           whileInView="visible"

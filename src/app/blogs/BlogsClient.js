@@ -48,6 +48,7 @@ export default function BlogsClient({ posts }) {
 
   return (
     <main className="blogs-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="global-watermark wm-millets" style={{ top: '0%', left: '-20%', transform: 'rotate(-10deg)', backgroundPosition: 'top left' }}></div>
       <div className="global-watermark wm-wheat" style={{ top: '10%', right: '-5%', transform: 'rotate(10deg)', backgroundPosition: 'top right' }}></div>
       <div className="global-watermark wm-spices" style={{ top: '50%', left: '-10%', transform: 'rotate(-15deg)', backgroundPosition: 'center left' }}></div>
       <div className="global-watermark wm-coconut" style={{ bottom: '10%', right: '-5%', transform: 'rotate(5deg)', backgroundPosition: 'bottom right' }}></div>

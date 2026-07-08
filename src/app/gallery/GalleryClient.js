@@ -38,6 +38,7 @@ export default function GalleryClient({ images }) {
   return (
     <main className="gallery-page" style={{ position: 'relative', overflow: 'hidden' }}>
       <div className="global-watermark wm-coconut" style={{ top: '5%', left: '-25%', transform: 'rotate(-10deg)', backgroundPosition: 'top left' }}></div>
+      <div className="global-watermark wm-spices" style={{ top: '0%', right: '-20%', transform: 'rotate(15deg)', backgroundPosition: 'top right' }}></div>
       <div className="global-watermark wm-wheat" style={{ top: '40%', right: '-25%', transform: 'rotate(10deg)', backgroundPosition: 'center right' }}></div>
       <div className="global-watermark wm-herbs" style={{ bottom: '5%', left: '-25%', transform: 'rotate(15deg)', backgroundPosition: 'bottom left' }}></div>
       
