@@ -59,17 +59,19 @@ export function NavbarContent() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="navbar-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', position: 'relative' }}>
-        
-        {/* Logo */}
+      {/* Top Row: Centered Logo */}
+      <div className="navbar-top-row">
         <div className="navbar-logo">
           <Link href="/">
-            <Image src="/logo_cropped.png" alt="Pavithram Logo" width={140} height={45} priority />
+            <Image src="/logo_cropped.png" alt="Pavithram Logo" width={160} height={55} priority />
           </Link>
         </div>
+      </div>
 
+      {/* Bottom Row: Search + Nav Links */}
+      <div className="navbar-container">
         {/* Hamburger Icon */}
-        <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '0' }}>
+        <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '1.5rem' }}>
           {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
         </div>
 

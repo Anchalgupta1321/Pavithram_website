@@ -10,16 +10,9 @@ import { products } from '../../data/productData';
 import './products.css';
 
 const getCategoryColor = (category) => {
-  if (!category) return 'transparent';
-  const cat = category.toLowerCase();
-  if (cat.includes('oil')) return '#FFF0CC'; // Soft warm gold/yellow, distinct from background
-  if (cat.includes('snack')) return '#EAF5EA'; // Light fresh green
-  if (cat.includes('spice') || cat.includes('masala')) return '#F5EFEA'; // Light warm brown
-  if (cat.includes('millet') || cat.includes('pulse')) return '#E6F4F1'; // Light teal/cyan
-  if (cat.includes('rice') || cat.includes('breakfast')) return '#F3E8F5'; // Light soft purple/violet
-  if (cat.includes('condiment') || cat.includes('jam') || cat.includes('pickle') || cat.includes('paste')) return '#FDEAEA'; // Light warm red
-  return '#F9F9F9'; // Default light gray
+  return '#FFF0CC'; // Uniform warm golden oil background for all products
 };
+
 
 const categories = ["All", ...Array.from(new Set(products.map(p => p.category).filter(Boolean)))];
 
