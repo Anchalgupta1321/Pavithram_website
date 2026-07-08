@@ -61,9 +61,15 @@ export default function BulkEnquiryPage() {
     setFormStatus(null);
     
     const data = new FormData();
-    Object.keys(formData).forEach(key => data.append(key, formData[key]));
+    data.append('your-name', formData.name);
+    data.append('your-company', formData.company);
+    data.append('your-email', formData.email);
+    data.append('your-phone', formData.phone);
+    data.append('your-country', formData.country);
+    data.append('your-interest', formData.interest);
+    data.append('your-message', formData.message);
     
-    const result = await submitForm('MOCK_ID_ENQUIRY', data); 
+    const result = await submitForm('8a4303a', data); 
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);

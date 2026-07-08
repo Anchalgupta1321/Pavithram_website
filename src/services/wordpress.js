@@ -117,9 +117,8 @@ export async function submitForm(formId, formData) {
  */
 export async function fetchPromoBanner() {
   try {
-    // Assuming "Homepage Banner" is a category. We search by category name or slug if needed. 
-    // Here we just fetch posts. For a robust solution, you'd use ?categories=YOUR_CAT_ID
-    const res = await fetch(`${WP_API_BASE}/posts?_embed=1&per_page=1`, {
+    // We fetch a specific Page to avoid affecting the live website's blog feed
+    const res = await fetch(`${WP_API_BASE}/pages?slug=promo-banner&_embed=1`, {
       next: { revalidate: 60 }
     });
     
@@ -127,13 +126,11 @@ export async function fetchPromoBanner() {
       return null;
     }
 
-    const posts = await res.json();
-    if (posts.length > 0) {
-      const post = posts[0];
-      // Check if it has a specific tag/category or just use the latest post's featured image for now
-      // In production, you'd filter by category ID specifically.
-      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
-        return post._embedded['wp:featuredmedia'][0].source_url;
+    const pages = await res.json();
+    if (pages.length > 0) {
+      const page = pages[0];
+      if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]) {
+        return page._embedded['wp:featuredmedia'][0].source_url;
       }
     }
     return null;

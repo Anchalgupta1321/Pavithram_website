@@ -497,8 +497,7 @@ body {
 /* 5. Mid-Page Promo Banner */
 .mid-promo-banner {
   position: relative;
-  height: 60vh;
-  min-height: 400px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

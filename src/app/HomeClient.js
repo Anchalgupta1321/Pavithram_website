@@ -90,7 +90,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const heroSlides = [
     {
       id: 1,
-      image: promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
+      image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
       title: "Kerala’s Purest\nFor Your Kitchen",
       subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",

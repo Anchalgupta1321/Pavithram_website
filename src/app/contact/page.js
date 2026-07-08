@@ -36,9 +36,13 @@ export default function ContactPage() {
     setFormStatus(null);
     
     const data = new FormData();
-    Object.keys(formData).forEach(key => data.append(key, formData[key]));
+    data.append('your-name', formData.name);
+    data.append('your-email', formData.email);
+    data.append('your-phone', formData.phone);
+    data.append('your-subject', formData.subject);
+    data.append('message', formData.message);
     
-    const result = await submitForm('MOCK_ID', data); // Replace MOCK_ID later
+    const result = await submitForm('a02837c', data); // ID for Process Form
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);

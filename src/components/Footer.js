@@ -35,7 +35,7 @@ export default function Footer() {
     const data = new FormData();
     data.append('email', email);
     
-    const result = await submitForm('MOCK_ID_NEWSLETTER', data); 
+    const result = await submitForm('d652723', data); 
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);
