@@ -508,11 +508,11 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
       {/* 5. Mid-Page Promotional Banner */}
       <section className="mid-promo-banner" style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
-        <a href="/products" style={{ display: 'block' }}>
+        <a href="/products" style={{ display: 'block', width: '100%' }}>
           <img 
             src={promoBannerUrl || 'https://www.pavithram.online/wp-content/uploads/2025/10/Spices_.png'} 
             alt="Promotional Banner" 
-            style={{ width: '100%', height: 'auto', display: 'block' }} 
+            style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }} 
           />
         </a>
       </section>
