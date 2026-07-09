@@ -91,10 +91,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     },
     {
       id: 2,
-      image: '/images/Hero_banner2.jpg',
-      title: "",
-      subtitle: "",
-      buttonText: "",
+      image: '/images/Banner2.png',
+      title: "The Goodness of\nPure Sesame Oil",
+      subtitle: "Crafted to preserve the natural aroma and nutritional value of premium sesame seeds.",
+      buttonText: "Shop All Products",
       buttonLink: "/products"
     }
   ];
