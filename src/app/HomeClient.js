@@ -50,7 +50,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       link: '/products?category=Edible Oils',
       products: [
         { name: 'Roasted Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
-        { name: 'Pure Sesame Oil', img: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png' },
+        { name: 'Pure Sesame Oil', img: '/images/Sesame_oil.jpg' },
         { name: 'Mustard Oil', img: '/images/products/Pavithram%20Mockups/Oils/mustard%20400ml%20side%201.jpg' }
       ]
     },
@@ -70,7 +70,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       id: 'Snacks',
       title: 'Authentic Kerala Snacks',
       story: 'Enjoy the crispy, savory, and authentic taste of Kerala with our traditional snacks. Perfect for your tea time cravings.',
-      image: '/images/hero_snacks.png',
+      image: '/images/snack_home.jpg',
       link: 'https://cochinsnacks.com/',
       products: [
         { name: 'Kerala Mixture', img: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg' },
@@ -143,7 +143,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   };
 
   const bestSellers = [
-    { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/products/Pavithram%20Mockups/Oils/sesame%20oil_500ml-Photoroom.png', category: 'Oils' },
+    { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/Sesame_oil.jpg', category: 'Oils' },
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
     { name: 'Rice Bran Oil', slug: 'rice-bran-oil', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
     { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
