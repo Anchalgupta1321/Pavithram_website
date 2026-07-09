@@ -46,7 +46,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       id: 'Oils',
       title: 'Liquid Gold',
       story: 'Extracted using traditional methods to preserve every ounce of nutrition and aroma. Our pure oils are the heart of every great meal.',
-      image: '/images/hero_kerala_kitchen.png',
+      image: '/images/oils_home_page.jpg',
       link: '/products?category=Edible Oils',
       products: [
         { name: 'Pure Sesame Oil', img: '/images/Sesame_oil.jpg' },
