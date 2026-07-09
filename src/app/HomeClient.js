@@ -49,8 +49,8 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       image: '/images/hero_kerala_kitchen.png',
       link: '/products?category=Edible Oils',
       products: [
-        { name: 'Roasted Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
         { name: 'Pure Sesame Oil', img: '/images/Sesame_oil.jpg' },
+        { name: 'Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
         { name: 'Mustard Oil', img: '/images/products/Pavithram%20Mockups/Oils/mustard%20400ml%20side%201.jpg' }
       ]
     },
@@ -58,12 +58,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       id: 'Breakfast',
       title: 'Traditional Breakfast',
       story: 'Start your day right with our authentic Kerala breakfast mixes. Quick to prepare and packed with traditional nutrition for the whole family.',
-      image: '/images/breakfast_bg.png',
+      image: '/images/brkfst1.jpg',
       link: '/products?category=Breakfast',
       products: [
-        { name: 'Palappam Mix', img: '/images/brkfst1.jpg' },
-        { name: 'Chemba Puttupodi', img: '/images/brkfst2.jpg' },
-        { name: 'White Puttupodi', img: '/images/brkfst3.jpg' }
+        { name: 'Palappam Mix', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg' },
+        { name: 'Chemba Puttupodi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg' },
+        { name: 'Wheat Puttupodi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Wheat%20Puttupodi%20Mockup.jpg' }
       ]
     },
     {
@@ -352,7 +352,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ duration: 0.8, ease: [0.33, 1, 0.68, 1] }}
                 >
                   <div className="editorial-main-image-container">
-                    <Image src={tab.image} alt={tab.title} layout="fill" objectFit="cover" sizes="(max-width: 768px) 100vw, 50vw" className="editorial-main-image" />
+                    <Image src={tab.image} alt={tab.title} layout="fill" objectFit="cover" sizes="(max-width: 768px) 100vw, 50vw" className="editorial-main-image" unoptimized={true} />
                     <div className="editorial-image-overlay"></div>
                   </div>
                   
@@ -414,7 +414,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           
           <div className="bento-grid">
             {/* Large Item (Rice/Breakfast) */}
-            <motion.div className="bento-item large" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
               <Link href="/products?category=Rice">
                 <div className="bento-img">
                   <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
@@ -441,22 +441,22 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               </Link>
             </motion.div>
 
-            {/* Small Item (Oils) */}
-            <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Edible%20Oils">
+            {/* Large Item (Millets) */}
+            <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Millets">
                 <div className="bento-img">
-                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png" alt="Oils" layout="fill" objectFit="cover" priority />
+                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
                 </div>
                 <div className="bento-content">
-                  <h3>Pure Oils</h3>
+                  <h3>Millets & Pulses</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
               </Link>
             </motion.div>
 
             {/* Small Item (Pickles) - Fills the blank space! */}
-            <motion.div className="bento-item small" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+            <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
               <Link href="/products?category=Pickles">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
@@ -483,15 +483,15 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               </Link>
             </motion.div>
 
-            {/* Large Item (Millets) */}
-            <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Millets">
+            {/* Small Item (Oils) */}
+            <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+              <Link href="/products?category=Edible%20Oils">
                 <div className="bento-img">
-                  <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
+                  <Image src="/images/Pure_oil.jpg" alt="Oils" layout="fill" objectFit="cover" unoptimized={true} priority />
                   <div className="bento-overlay"></div>
                 </div>
                 <div className="bento-content">
-                  <h3>Millets & Pulses</h3>
+                  <h3>Pure Oils</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
               </Link>

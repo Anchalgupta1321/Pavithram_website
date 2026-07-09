@@ -315,7 +315,7 @@ body {
 }
 .bento-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1.3fr 0.9fr 0.9fr 0.9fr;
   grid-auto-rows: 250px;
   gap: 1.5rem;
   max-width: 1400px;
