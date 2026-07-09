@@ -203,7 +203,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
               transition={{ duration: 1.2, ease: "easeInOut" }}
             >
               <div className="carousel-bg">
-                <Image src={heroSlides[currentSlide].image} alt="Pavithram Carousel Background" layout="fill" objectFit="cover" priority={true} sizes="100vw" />
+                <Image src={heroSlides[currentSlide].image} alt="Pavithram Carousel Background" layout="fill" objectFit="cover" priority={true} sizes="100vw" quality={100} unoptimized={true} />
                 <div className="carousel-overlay"></div>
               </div>
               <div className="carousel-content">
