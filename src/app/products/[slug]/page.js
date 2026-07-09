@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
-import { products } from '../../../data/productData';
+import { products as fallbackProducts } from '../../../data/productData';
+import { fetchProductBySlug } from '../../../services/wordpress';
 import ProductClient from './ProductClient';
 
 // Generate Dynamic Meta Tags
@@ -7,7 +8,11 @@ export async function generateMetadata({ params }) {
   // Wait for the params promise
   const unwrappedParams = await params;
   const slug = unwrappedParams.slug;
-  const product = products.find(p => p.slug === slug);
+  
+  let product = await fetchProductBySlug(slug);
+  if (!product) {
+    product = fallbackProducts.find(p => p.slug === slug);
+  }
 
   if (!product) {
     return {
@@ -23,7 +28,7 @@ export async function generateMetadata({ params }) {
       description: product.description,
       images: [
         {
-          url: product.image,
+          url: product.images && product.images.length > 0 ? product.images[0] : '',
           alt: product.name,
         },
       ],
@@ -34,7 +39,11 @@ export async function generateMetadata({ params }) {
 export default async function ProductDetailPage({ params }) {
   const unwrappedParams = await params;
   const slug = unwrappedParams.slug;
-  const product = products.find(p => p.slug === slug);
+  
+  let product = await fetchProductBySlug(slug);
+  if (!product) {
+    product = fallbackProducts.find(p => p.slug === slug);
+  }
 
   if (!product) {
     notFound();

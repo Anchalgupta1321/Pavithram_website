@@ -55,15 +55,15 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       ]
     },
     {
-      id: 'Spices',
-      title: 'Aromatic Spices',
-      story: 'Handpicked from the finest farms in Kerala, our spices bring warmth, depth, and vibrant color to your everyday cooking.',
-      image: '/images/spices_bg.png',
-      link: '/products?category=Spices',
+      id: 'Breakfast',
+      title: 'Traditional Breakfast',
+      story: 'Start your day right with our authentic Kerala breakfast mixes. Quick to prepare and packed with traditional nutrition for the whole family.',
+      image: '/images/breakfast_bg.png',
+      link: '/products?category=Breakfast',
       products: [
-        { name: 'Chicken Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg' },
-        { name: 'Biriyani Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg' },
-        { name: 'Meat Masala', img: 'https://www.pavithram.online/wp-content/uploads/2025/09/Meat-Masala-160g.jpg' }
+        { name: 'Palappam Mix', img: '/images/brkfst1.jpg' },
+        { name: 'Chemba Puttupodi', img: '/images/brkfst2.jpg' },
+        { name: 'White Puttupodi', img: '/images/brkfst3.jpg' }
       ]
     },
     {
@@ -91,11 +91,11 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     },
     {
       id: 2,
-      image: "https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png",
-      title: "Healthy Millets\n& Pulses",
-      subtitle: "Nourish your family with our premium quality grains, sourced directly from trusted farmers.",
-      buttonText: "Shop Millets",
-      buttonLink: "/products?category=Millets"
+      image: "/images/Home_Top_Header.jpg",
+      title: "Authentic Taste\nof Kerala",
+      subtitle: "From farm-fresh spices and wholesome millets to pure oils and authentic pickles, experience the true taste of tradition.",
+      buttonText: "Shop All Products",
+      buttonLink: "/products"
     }
   ];
 
@@ -119,8 +119,8 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
   const socialFeed = [
     '/videos/VID-20260706-WA0014.mp4',
-    '/videos/VID-20260706-WA0014.mp4',
-    '/videos/VID-20260706-WA0014.mp4',
+    '/videos/Video2.mp4',
+    '/videos/Video1.mp4',
     '/videos/VID-20260706-WA0014.mp4'
   ];
 
@@ -213,7 +213,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ delay: 0.3, duration: 0.8 }}
                   className="carousel-text"
                 >
-                  <h1 style={{ color: 'var(--color-primary-red)' }} dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
+                  <h1 style={{ color: '#ffffff' }} dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
                   <p>{heroSlides[currentSlide].subtitle}</p>
                   <Link href={heroSlides[currentSlide].buttonLink} className="hero-btn">
                     {heroSlides[currentSlide].buttonText}
@@ -655,10 +655,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
         >
           <span className="subtitle">Join Our Community</span>
           <h2>Stories from the Kitchen</h2>
-          <div className="social-icons-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '1rem auto 0 auto', gap: '20px' }}>
-            <a href="https://www.instagram.com/pavithram_foods/?hl=en" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#E1306C', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsInstagram /></a>
-            <a href="https://www.facebook.com/pavithramfoodskerala" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#1877F2', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsFacebook /></a>
-            <a href="https://www.youtube.com/@pavithram.online" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#FF0000', fontSize: '2rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsYoutube /></a>
+          <div className="social-icons-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '1.5rem auto 0 auto', gap: '30px' }}>
+            <a href="https://www.instagram.com/pavithram_foods/?hl=en" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#E1306C', fontSize: '3rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsInstagram /></a>
+            <a href="https://www.facebook.com/pavithramfoodskerala" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#1877F2', fontSize: '3rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsFacebook /></a>
+            <a href="https://www.youtube.com/@pavithram.online" target="_blank" rel="noopener noreferrer" className="header-social-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent', color: '#FF0000', fontSize: '3rem', transition: 'transform 0.3s', margin: 0, padding: 0 }} onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.2)'} onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}><BsYoutube /></a>
           </div>
         </motion.div>
 
@@ -674,7 +674,16 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'autoplay=1&mute=1';
                 }
                 const video = e.currentTarget.querySelector('video');
-                if (video) video.play();
+                if (video) {
+                  const playPromise = video.play();
+                  if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                      console.warn("Browser blocked audio playback. Muting to allow video to play.", error);
+                      video.muted = true;
+                      video.play();
+                    });
+                  }
+                }
               }}
               onMouseLeave={(e) => {
                 const iframe = e.currentTarget.querySelector('iframe');
@@ -693,7 +702,6 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   src={videoUrl}
                   className="reel-video"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }}
-                  muted
                   loop
                   playsInline
                   onError={(e) => console.warn('Video failed to load:', e.target.error)}

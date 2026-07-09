@@ -6,23 +6,35 @@ import Image from "next/legacy/image";
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
-import { products } from '../../data/productData';
+import { products as fallbackProducts } from '../../data/productData';
+import { fetchProducts } from '../../services/wordpress';
 import './products.css';
 
 const getCategoryColor = (category) => {
   return '#FFF0CC'; // Uniform warm golden oil background for all products
 };
 
-
-const categories = ["All", ...Array.from(new Set(products.map(p => p.category).filter(Boolean)))];
-
 function ProductsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const categoryParam = searchParams.get('category');
   const searchQueryParam = searchParams.get('search');
+  
+  const [productsData, setProductsData] = useState(fallbackProducts);
   const [activeCategory, setActiveCategory] = useState(categoryParam || "All");
   const [currentPage, setCurrentPage] = useState(1);
+  const [categories, setCategories] = useState(["All", ...Array.from(new Set(fallbackProducts.map(p => p.category).filter(Boolean)))]);
+
+  useEffect(() => {
+    async function loadProducts() {
+      const wpProducts = await fetchProducts();
+      if (wpProducts && wpProducts.length > 0) {
+        setProductsData(wpProducts);
+        setCategories(["All", ...Array.from(new Set(wpProducts.map(p => p.category).filter(Boolean)))]);
+      }
+    }
+    loadProducts();
+  }, []);
 
   useEffect(() => {
     if (categoryParam) {
@@ -43,7 +55,7 @@ function ProductsContent() {
   }, [categoryParam, searchQueryParam]);
   const ITEMS_PER_PAGE = 9;
 
-  const filteredProducts = products.filter(product => {
+  const filteredProducts = productsData.filter(product => {
     const matchesCategory = activeCategory === "All" || product.category === activeCategory;
     const matchesSearch = searchQueryParam 
       ? product.name.toLowerCase().includes(searchQueryParam.toLowerCase())

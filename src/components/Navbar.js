@@ -59,16 +59,31 @@ export function NavbarContent() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      {/* Top Row: Centered Logo */}
+      {/* Top Row: Logo, Search, and Export (Desktop) */}
       <div className="navbar-top-row">
+        <form className="navbar-search top-search hidden-mobile" onSubmit={handleSearch}>
+          <FaSearch className="search-icon" onClick={handleSearch} style={{ cursor: 'pointer' }} />
+          <input 
+            type="text" 
+            placeholder="Search products..." 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="navbar-search-input"
+          />
+        </form>
+
         <div className="navbar-logo">
           <Link href="/">
             <Image src="/logo_cropped.png" alt="Pavithram Logo" width={160} height={55} priority />
           </Link>
         </div>
+
+        <Link href="/bulk-enquiry" className="btn-secondary nav-action-btn top-export hidden-mobile" onClick={() => setIsMobileMenuOpen(false)}>
+          Export Enquiry
+        </Link>
       </div>
 
-      {/* Bottom Row: Search + Nav Links */}
+      {/* Bottom Row: Nav Links */}
       <div className="navbar-container">
         {/* Hamburger Icon */}
         <div className="mobile-menu-icon" onClick={toggleMenu} style={{ position: 'absolute', right: '1.5rem' }}>
@@ -78,7 +93,7 @@ export function NavbarContent() {
         {/* Search + Nav Links */}
         <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
           
-          <form className="navbar-search" onSubmit={handleSearch}>
+          <form className="navbar-search hidden-desktop" onSubmit={handleSearch}>
             <FaSearch className="search-icon" onClick={handleSearch} style={{ cursor: 'pointer' }} />
             <input 
               type="text" 
@@ -88,6 +103,7 @@ export function NavbarContent() {
               className="navbar-search-input"
             />
           </form>
+
           <div className="nav-item">
             <Link href="/" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
           </div>
@@ -125,7 +141,8 @@ export function NavbarContent() {
               <Link href="/faq" className="dropdown-item" onClick={() => setIsMobileMenuOpen(false)}>FAQ</Link>
             </div>
           </div>
-          <Link href="/bulk-enquiry" className="btn-secondary nav-action-btn" onClick={() => setIsMobileMenuOpen(false)}>Export Enquiry</Link>
+          
+          <Link href="/bulk-enquiry" className="btn-secondary nav-action-btn hidden-desktop" onClick={() => setIsMobileMenuOpen(false)}>Export Enquiry</Link>
         </div>
       </div>
     </nav>

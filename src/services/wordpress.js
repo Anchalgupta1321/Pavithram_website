@@ -139,3 +139,140 @@ export async function fetchPromoBanner() {
     return null;
   }
 }
+
+/**
+ * Fetches products from WordPress Custom Post Type (product) and ACF.
+ */
+export async function fetchProducts() {
+  try {
+    const res = await fetch(`${WP_API_BASE}/product?_embed=1&per_page=100`, {
+      next: { revalidate: 60 }
+    });
+    
+    if (!res.ok) {
+      console.warn(`Failed to fetch WP products: ${res.status}`);
+      return null;
+    }
+
+    const posts = await res.json();
+    
+    // We use Promise.all because we might need to fetch media URLs if ACF returns IDs
+    const resolvedProducts = await Promise.all(posts.map(async post => {
+      const rawContent = post.content?.rendered || '';
+      
+      // Extract main image
+      let imageUrl = null;
+      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+        imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+      }
+      
+      // Fallback: Check if they inserted an image into the main content editor
+      if (!imageUrl && rawContent.includes('<img')) {
+        const match = rawContent.match(/src="([^"]+)"/);
+        if (match) {
+          imageUrl = match[1];
+        }
+      }
+
+      // Strip HTML tags from content for description
+      const cleanContent = rawContent.replace(/<[^>]+>/g, '').trim();
+      
+      const acf = post.acf || {};
+      
+      // Parse pack sizes
+      const packSizesRaw = acf.pack_sizes || '';
+      const packSizes = packSizesRaw.split(',').map(s => s.trim()).filter(Boolean);
+      
+      // Parse benefits & certs (newline separated)
+      const benefitsRaw = acf.benefits || '';
+      const benefits = benefitsRaw.split('\n').map(s => s.trim()).filter(Boolean);
+      
+      const certsRaw = acf.certifications || '';
+      const certifications = certsRaw.split('\n').map(s => s.trim()).filter(Boolean);
+      
+      // Helper to resolve ACF Image IDs to actual URLs if needed
+      const resolveImage = async (img) => {
+        if (!img) return null;
+        if (typeof img === 'string') return img;
+        if (typeof img === 'number') {
+          try {
+            const mediaRes = await fetch(`${WP_API_BASE}/media/${img}`);
+            if (mediaRes.ok) {
+              const mediaData = await mediaRes.json();
+              return mediaData.source_url;
+            }
+          } catch(e) { console.error('Failed to resolve image ID:', img); }
+        }
+        return null;
+      };
+
+      // Resolve secondary images
+      const img2 = await resolveImage(acf.image_2);
+      const img3 = await resolveImage(acf.image_3);
+
+      // Images array
+      const images = [];
+      if (imageUrl && typeof imageUrl === 'string') images.push(imageUrl);
+      if (img2) images.push(img2);
+      if (img3) images.push(img3);
+      
+      // We will fallback to a placeholder if absolutely no valid string image is found.
+      if (images.length === 0) {
+        images.push('/images/products/placeholder.png'); // Fallback to prevent crash
+      }
+
+      return {
+        id: post.id,
+        name: post.title.rendered,
+        slug: post.slug,
+        category: "Products", // Can map this to a taxonomy if added later
+        price: acf.price || '₹0.00',
+        isBulkOnly: !!acf.is_bulk_only,
+        images: images,
+        packSizes: packSizes,
+        description: cleanContent || acf.description,
+        ingredients: acf.ingredients || '',
+        nutritionalInfo: acf.nutritional_info || '',
+        benefits: benefits,
+        storage: acf.storage || '',
+        manufacturer: acf.manufacturer || 'Pavithram Foods Pvt. Ltd., Kerala, India',
+        certifications: certifications,
+        fssai: '',
+        sku: ''
+      };
+    }));
+    
+    console.log("FETCHED WP PRODUCTS:", JSON.stringify(resolvedProducts, null, 2));
+    return resolvedProducts;
+  } catch (error) {
+    console.error('Error fetching WP products:', error);
+    return null; // Return null so we can fallback to static productData.js if WP fails
+  }
+}
+
+/**
+ * Fetches a single product by slug
+ */
+export async function fetchProductBySlug(slug) {
+  try {
+    const res = await fetch(`${WP_API_BASE}/product?slug=${slug}&_embed=1`, {
+      next: { revalidate: 60 }
+    });
+    
+    if (!res.ok) {
+      return null;
+    }
+
+    const posts = await res.json();
+    if (posts.length > 0) {
+      // Just re-use fetchProducts mapping logic by passing the array to a helper if we wanted, 
+      // but since we only need one, we'll fetch all and filter for now to guarantee mapping is identical.
+      const allProducts = await fetchProducts();
+      return allProducts?.find(p => p.slug === slug) || null;
+    }
+    return null;
+  } catch (error) {
+    console.error(`Error fetching product ${slug}:`, error);
+    return null;
+  }
+}

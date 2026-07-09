@@ -5,7 +5,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from "next/legacy/image";
 import { BsPatchCheckFill, BsLeaf, BsCheck2Circle, BsAwardFill, BsPlus, BsDash } from 'react-icons/bs';
-import { products } from '../../../data/productData';
+import { fetchProductBySlug } from '../../../services/wordpress';
+import { products as fallbackProducts } from '../../../data/productData';
 import './product-detail.css';
 
 export default function ProductClient({ params }) {
@@ -19,19 +20,28 @@ export default function ProductClient({ params }) {
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
   useEffect(() => {
-    const foundProduct = products.find(p => p.slug === slug);
-    if (foundProduct) {
-      setProduct(foundProduct);
-      setMainImage(foundProduct.images[0]);
-      if(foundProduct.packSizes && foundProduct.packSizes.length > 0) {
-        setSelectedPack(foundProduct.packSizes[0]);
-      }
+    async function load() {
+      // Try WP first, fallback to static
+      let foundProduct = await fetchProductBySlug(slug);
       
-      // Force scroll to top when product is loaded
-      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-    } else {
-      notFound();
+      if (!foundProduct) {
+        foundProduct = fallbackProducts.find(p => p.slug === slug);
+      }
+
+      if (foundProduct) {
+        setProduct(foundProduct);
+        setMainImage(foundProduct.images[0]);
+        if(foundProduct.packSizes && foundProduct.packSizes.length > 0) {
+          setSelectedPack(foundProduct.packSizes[0]);
+        }
+        
+        // Force scroll to top when product is loaded
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      } else {
+        notFound();
+      }
     }
+    load();
   }, [slug]);
 
   // Handle escape key to close modal
@@ -85,11 +95,11 @@ export default function ProductClient({ params }) {
           {product.badge && <span className="product-badge">{product.badge}</span>}
           <h1 className="product-title">{product.name}</h1>
           
-          {product.isBulkOnly && (
+          {/* {product.isBulkOnly && (
             <div className="product-pricing">
               <span className="bulk-price-label">Wholesale / Export Only</span>
             </div>
-          )}
+          )} */}
 
           {/* Quick Value Props */}
           <ul className="quick-props">
@@ -115,26 +125,9 @@ export default function ProductClient({ params }) {
             </div>
           )}
 
-          {/* CTA Actions */}
-          <div className="product-actions">
-            {product.isBulkOnly ? (
-              <Link href="/bulk-enquiry" className="btn-primary w-100 text-center">
-                Request Bulk Quote
-              </Link>
-            ) : (
-              <div className="ecommerce-buttons" style={{ width: '100%' }}>
-                {/* <a href={product.buyLink || "#"} target="_blank" rel="noopener noreferrer" className="btn-primary w-100 text-center" style={{ display: 'block' }}>
-                  Buy NOW
-                </a> */}
-              </div>
-            )}
+          <div className="bulk-link-wrapper">
+            <p>Looking for larger quantities? <Link href="/contact">Request a wholesale quote</Link></p>
           </div>
-          
-          {!product.isBulkOnly && (
-            <div className="bulk-link-wrapper">
-              <p>Looking for larger quantities? <Link href="/bulk-enquiry">Request a wholesale quote</Link></p>
-            </div>
-          )}
 
           {/* Vertical Details Sections */}
           <div className="product-details-vertical" style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginTop: '2rem' }}>
@@ -162,13 +155,11 @@ export default function ProductClient({ params }) {
             {product.nutritionalInfo && (
               <div className="detail-section">
                 <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Nutrition</h3>
-                <p style={{ fontStyle: 'italic', color: '#555', marginBottom: '1rem', fontSize: '0.95rem' }}>
-                  Approximate Nutritional Values (per {['Oils', 'Edible Oils', 'Beverages'].includes(product.category) ? '100 ml' : '100 g'}):
-                </p>
                 <div className="nutrition-table-container">
                   <table className="nutrition-table">
                     <tbody>
-                      {product.nutritionalInfo.split(',').map((item, index) => {
+                      {product.nutritionalInfo.split(/,\s*|\n/).map((item, index) => {
+                        if (!item.trim()) return null;
                         const parts = item.split(':');
                         if (parts.length === 2) {
                           return (
