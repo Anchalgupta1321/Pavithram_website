@@ -14,7 +14,7 @@ export default function ProductClient({ params }) {
   const slug = unwrappedParams.slug;
 
   const [product, setProduct] = useState(null);
-  const [mainImage, setMainImage] = useState('');
+  const [mainImageIndex, setMainImageIndex] = useState(0);
   const [activeTab, setActiveTab] = useState('description');
   const [selectedPack, setSelectedPack] = useState('');
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function ProductClient({ params }) {
 
       if (foundProduct) {
         setProduct(foundProduct);
-        setMainImage(foundProduct.images[0]);
+        setMainImageIndex(0);
         if(foundProduct.packSizes && foundProduct.packSizes.length > 0) {
           setSelectedPack(foundProduct.packSizes[0]);
         }
@@ -57,6 +57,8 @@ export default function ProductClient({ params }) {
 
   if (!product) return <div className="loading-state">Loading...</div>;
 
+  const mainImage = product.images[mainImageIndex];
+
   return (
     <main className="product-detail-page" style={{ position: 'relative', overflow: 'hidden' }}>
       <div className="global-watermark wm-herbs" style={{ top: '10%', right: '-10%', transform: 'rotate(15deg)', backgroundPosition: 'top right' }}></div>
@@ -75,16 +77,16 @@ export default function ProductClient({ params }) {
         {/* Left: Image Gallery */}
         <div className="product-gallery">
           <div className="main-image-container" onClick={() => setIsImageModalOpen(true)}>
-            <Image src={mainImage} alt={product.name} className="main-image" width={600} height={600} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} priority />
+            <Image src={mainImage} alt={product.name} className="main-image" layout="fill" objectFit="cover" priority />
           </div>
           <div className="thumbnail-list">
             {product.images.map((img, index) => (
               <div 
                 key={index} 
-                className={`thumbnail-btn ${mainImage === img ? 'active' : ''}`}
-                onClick={() => setMainImage(img)}
+                className={`thumbnail-btn ${mainImageIndex === index ? 'active' : ''}`}
+                onClick={() => setMainImageIndex(index)}
               >
-                <Image src={img} alt={`${product.name} view ${index + 1}`} width={100} height={100} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                <Image src={img} alt={`${product.name} view ${index + 1}`} layout="fill" objectFit="cover" />
               </div>
             ))}
           </div>

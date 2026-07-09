@@ -52,15 +52,16 @@
 }
 
 .main-image-container {
-  background: #fdfbf9;
+  background: #fff;
   border-radius: 12px;
-  padding: 2rem;
+  overflow: hidden;
   margin-bottom: 1rem;
   border: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 500px;
+  position: relative;
 }
 
 .main-image {
@@ -88,6 +89,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .thumbnail-btn img {

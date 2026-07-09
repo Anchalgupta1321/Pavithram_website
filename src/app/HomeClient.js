@@ -83,7 +83,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const heroSlides = [
     {
       id: 1,
-      image: 'https://www.pavithram.online/wp-content/uploads/2025/10/Edible-Oils.png',
+      image: '/images/Hero_banner1.jpg',
       title: "Kerala’s Purest\nFor Your Kitchen",
       subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",
@@ -91,10 +91,10 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     },
     {
       id: 2,
-      image: "/images/Home_Top_Header.jpg",
-      title: "Authentic Taste\nof Kerala",
-      subtitle: "From farm-fresh spices and wholesome millets to pure oils and authentic pickles, experience the true taste of tradition.",
-      buttonText: "Shop All Products",
+      image: '/images/Hero_banner2.jpg',
+      title: "",
+      subtitle: "",
+      buttonText: "",
       buttonLink: "/products"
     }
   ];
@@ -213,11 +213,17 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   transition={{ delay: 0.3, duration: 0.8 }}
                   className="carousel-text"
                 >
-                  <h1 style={{ color: '#ffffff' }} dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
-                  <p>{heroSlides[currentSlide].subtitle}</p>
-                  <Link href={heroSlides[currentSlide].buttonLink} className="hero-btn">
-                    {heroSlides[currentSlide].buttonText}
-                  </Link>
+                  {heroSlides[currentSlide].title && (
+                    <h1 style={{ color: '#ffffff' }} dangerouslySetInnerHTML={{ __html: heroSlides[currentSlide].title.replace('\n', '<br/>') }} />
+                  )}
+                  {heroSlides[currentSlide].subtitle && (
+                    <p>{heroSlides[currentSlide].subtitle}</p>
+                  )}
+                  {heroSlides[currentSlide].buttonText && (
+                    <Link href={heroSlides[currentSlide].buttonLink} className="hero-btn">
+                      {heroSlides[currentSlide].buttonText}
+                    </Link>
+                  )}
                 </motion.div>
               </div>
             </motion.div>
