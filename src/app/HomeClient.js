@@ -83,7 +83,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const heroSlides = [
     {
       id: 1,
-      image: '/images/Hero_banner1.jpg',
+      image: '/images/Hero Banner.jpg',
       title: "Kerala’s Purest\nFor Your Kitchen",
       subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",
