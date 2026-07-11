@@ -15,17 +15,17 @@ export const metadata = {
   authors: [{ name: 'Pavithram Group' }],
   creator: 'Pavithram Group',
   publisher: 'Pavithram Group',
-  metadataBase: new URL('https://www.pavithram.online'),
+  metadataBase: new URL('https://www.pavithramfoods.com'),
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://www.pavithram.online',
+    url: 'https://www.pavithramfoods.com',
     siteName: 'Pavithram Online',
     title: 'Best Cooking Oils & Food Products | Pavithram Online',
     description: 'Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.',
     images: [
       {
-        url: 'https://www.pavithram.online/logo_cropped.png',
+        url: 'https://www.pavithramfoods.com/logo_cropped.png',
         width: 1200,
         height: 630,
         alt: 'Pavithram Foods - Since 1950',
@@ -36,7 +36,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Best Cooking Oils & Food Products | Pavithram Online',
     description: 'Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.',
-    images: ['https://www.pavithram.online/logo_cropped.png'],
+    images: ['https://www.pavithramfoods.com/logo_cropped.png'],
   },
   icons: {
     icon: '/icon.png',
@@ -49,8 +49,8 @@ export default function RootLayout({ children }) {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Pavithram Group",
-    "url": "https://www.pavithram.online",
-    "logo": "https://www.pavithram.online/logo_cropped.png",
+    "url": "https://www.pavithramfoods.com",
+    "logo": "https://www.pavithramfoods.com/logo_cropped.png",
     "foundingDate": "1950",
     "description": "Pavithram is a beloved food brand from Kerala, trusted for over 75 years. We export pure edible oils, ghee, and traditional foods to 25+ countries.",
     "contactPoint": {

@@ -1,0 +1,4 @@
+# Cloudflare Pages redirect rules
+# (replaces next.config redirects(), which is unsupported with output: 'export')
+/certificate    /certifications   301
+/certificates   /certifications   301

@@ -3,8 +3,17 @@ import Image from "next/legacy/image";
 import { getWordPressPosts } from '../../../utils/wp';
 import './blog-details.css';
 
-// Revalidate this page every 60 seconds
-export const revalidate = 60;
+// Only pages listed by generateStaticParams are built; unknown slugs 404.
+// Required for `output: 'export'` and keeps the build from failing if WP is
+// briefly unreachable (it just builds zero blog pages that run instead).
+export const dynamicParams = false;
+
+// Enumerate every blog post page at build time.
+// New posts appear after the next build (triggered by the WordPress deploy hook).
+export async function generateStaticParams() {
+  const posts = await getWordPressPosts();
+  return posts.map((post) => ({ slug: post.slug }));
+}
 
 export default async function BlogDetailsPage({ params }) {
   const { slug } = await params;

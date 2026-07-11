@@ -1,7 +1,10 @@
 import { products } from '../data/productData';
 
+// Render the sitemap statically at build time (required for `output: 'export'`).
+export const dynamic = 'force-static';
+
 export default function sitemap() {
-  const baseUrl = 'https://www.pavithram.online'; // Using the URL from PRD
+  const baseUrl = 'https://www.pavithramfoods.com'; // Canonical frontend domain
 
   // Core pages
   const coreRoutes = [

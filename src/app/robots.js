@@ -1,9 +1,12 @@
+// Render robots.txt statically at build time (required for `output: 'export'`).
+export const dynamic = 'force-static';
+
 export default function robots() {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.pavithram.online/sitemap.xml',
+    sitemap: 'https://www.pavithramfoods.com/sitemap.xml',
   };
 }
