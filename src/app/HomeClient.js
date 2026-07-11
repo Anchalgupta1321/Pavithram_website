@@ -61,9 +61,9 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       image: '/images/brkfst1.jpg',
       link: '/products?category=Breakfast',
       products: [
-        { name: 'Palappam Mix', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg' },
-        { name: 'Chemba Puttupodi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg' },
-        { name: 'Wheat Puttupodi', img: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Wheat%20Puttupodi%20Mockup.jpg' }
+        { name: 'Appam Podi', img: '/images/Appam_podi.jpg' },
+        { name: 'Idiyappam Podi', img: '/images/Idiyappam_podi.jpg' },
+        { name: 'Puttu Podi', img: '/images/Puttu_podi.jpg' }
       ]
     },
     {
@@ -85,13 +85,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       id: 1,
       image: '/images/Hero Banner.jpg',
       title: "Kerala’s Purest\nFor Your Kitchen",
-      subtitle: "From a humble oil mill in 1950 to a global brand exported to 28+ countries. We deliver trusted quality, uncompromised purity, and the authentic taste of tradition.",
       buttonText: "Explore Products",
       buttonLink: "/products"
     },
     {
       id: 2,
-      image: '/images/Banner2.png',
+      image: '/images/Banner2.jpg',
       title: "The Goodness of\nPure Sesame Oil",
       subtitle: "Crafted to preserve the natural aroma and nutritional value of premium sesame seeds.",
       buttonText: "Shop All Products",
@@ -149,7 +148,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
     { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
     { name: 'Kerala Murukku', slug: 'kerala-murukku', image: '/images/products/Pavithram%20Mockups/Snacks/Star%20Murukku%20Mockup.jpg', category: 'Snacks' },
     { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
-    { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Chemba%20Puttupodi%20Mockup.jpg', category: 'Breakfast' },
+    { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/Puttu_podi.jpg', category: 'Breakfast' },
     { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
   ];
 
