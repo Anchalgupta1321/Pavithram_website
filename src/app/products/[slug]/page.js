@@ -1,27 +1,16 @@
 import { notFound } from 'next/navigation';
-import { products as fallbackProducts } from '../../../data/productData';
-import { fetchProductBySlug, fetchProducts } from '../../../services/wordpress';
+import { getAllProducts, getProductBySlug } from '../../../services/wordpress';
 import ProductClient from './ProductClient';
 
 // Only pages listed by generateStaticParams are built; unknown slugs 404.
 export const dynamicParams = false;
 
 // Enumerate every product page at build time (required for `output: 'export'`).
-// Pulls slugs from WordPress; falls back to the static product data if WP is
-// unreachable during the build so the build never fails on a backend hiccup.
+// Resolves from the same cached product list the pages use, so the slug set and
+// the rendered data always agree (live WP when reachable, static fallback else).
 export async function generateStaticParams() {
-  const wpProducts = await fetchProducts();
-  const source = wpProducts && wpProducts.length > 0 ? wpProducts : fallbackProducts;
-
-  const slugs = new Set(
-    source.map((product) => product.slug).filter(Boolean)
-  );
-  // Always include the static fallback slugs too, so nothing 404s if WP is
-  // missing a product the static data still covers.
-  for (const product of fallbackProducts) {
-    if (product.slug) slugs.add(product.slug);
-  }
-
+  const products = await getAllProducts();
+  const slugs = new Set(products.map((product) => product.slug).filter(Boolean));
   return Array.from(slugs).map((slug) => ({ slug }));
 }
 
@@ -31,10 +20,7 @@ export async function generateMetadata({ params }) {
   const unwrappedParams = await params;
   const slug = unwrappedParams.slug;
   
-  let product = await fetchProductBySlug(slug);
-  if (!product) {
-    product = fallbackProducts.find(p => p.slug === slug);
-  }
+  const product = await getProductBySlug(slug);
 
   if (!product) {
     return {
@@ -62,10 +48,7 @@ export default async function ProductDetailPage({ params }) {
   const unwrappedParams = await params;
   const slug = unwrappedParams.slug;
   
-  let product = await fetchProductBySlug(slug);
-  if (!product) {
-    product = fallbackProducts.find(p => p.slug === slug);
-  }
+  const product = await getProductBySlug(slug);
 
   if (!product) {
     notFound();

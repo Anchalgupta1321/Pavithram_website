@@ -1,11 +1,16 @@
 import { wpFetchJson } from './wpFetch';
+import blogFallback from '../data/blogFallback.json';
 
 export async function getWordPressPosts() {
   try {
     const wpPosts = await wpFetchJson(
       'https://www.pavithram.online/wp-json/wp/v2/posts?_embed&per_page=100',
-      { next: { revalidate: 60 } } // Revalidate every 60 seconds
+      { next: { revalidate: 60 }, retries: 5, timeoutMs: 20000 }
     );
+
+    if (!Array.isArray(wpPosts) || wpPosts.length === 0) {
+      return blogFallback;
+    }
 
     return wpPosts.map(post => {
       // Extract featured image
@@ -51,7 +56,9 @@ export async function getWordPressPosts() {
       };
     });
   } catch (error) {
-    console.error('Error in getWordPressPosts:', error);
-    return [];
+    // WP unreachable (WAF block / connection timeout at build time): fall back to
+    // the committed snapshot so the static export never fails on a WP hiccup.
+    console.error('Error in getWordPressPosts, using blog fallback snapshot:', error?.message || error);
+    return blogFallback;
   }
 }

@@ -1,6 +1,39 @@
 import { wpFetchJson } from '@/utils/wpFetch';
+import { products as fallbackProducts } from '@/data/productData';
 
 const WP_API_BASE = 'https://www.pavithram.online/wp-json/wp/v2';
+
+// Module-level cache for the full product list. The product response is ~2.4MB,
+// which is over Next.js's 2MB data-cache limit, so Next re-fetches it on every
+// call — during a static export that means ~150 identical requests, which trips
+// the WordPress WAF rate-limiter and starts timing out. Memoizing the promise
+// here collapses that to one request per build worker.
+let _allProductsPromise = null;
+
+/**
+ * Returns the full product list, fetched once per process. Uses live WordPress
+ * data when reachable, otherwise the committed static fallback so the build
+ * never fails on a backend hiccup. Both generateStaticParams and the product
+ * pages resolve from this same list, keeping slugs and rendering consistent.
+ */
+export async function getAllProducts() {
+  if (!_allProductsPromise) {
+    _allProductsPromise = (async () => {
+      const wp = await fetchProducts();
+      return wp && wp.length > 0 ? wp : fallbackProducts;
+    })();
+  }
+  return _allProductsPromise;
+}
+
+/**
+ * Resolves a single product by slug from the cached list, falling back to the
+ * static data if the live list is missing it.
+ */
+export async function getProductBySlug(slug) {
+  const all = await getAllProducts();
+  return all.find((p) => p.slug === slug) || fallbackProducts.find((p) => p.slug === slug) || null;
+}
 
 /**
  * Fetches gallery items from WordPress.
