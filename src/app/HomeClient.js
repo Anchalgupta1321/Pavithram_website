@@ -119,7 +119,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const socialFeed = [
     '/videos/VID-20260706-WA0014.mp4',
     '/videos/Video2.mp4',
-    '/videos/Video1.mp4',
+    '/videos/Video3.mp4',
     '/videos/VID-20260706-WA0014.mp4'
   ];
 
