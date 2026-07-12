@@ -1,3 +1,5 @@
+import { wpFetchJson } from '@/utils/wpFetch';
+
 const WP_API_BASE = 'https://www.pavithram.online/wp-json/wp/v2';
 
 /**
@@ -7,26 +9,19 @@ const WP_API_BASE = 'https://www.pavithram.online/wp-json/wp/v2';
 export async function fetchGalleryImages() {
   try {
     // 1. Fetch all Gallery "Albums"
-    const res = await fetch(`${WP_API_BASE}/gallery?_embed=1&per_page=100`, {
+    const galleries = await wpFetchJson(`${WP_API_BASE}/gallery?_embed=1&per_page=100`, {
       next: { revalidate: 60 } // Revalidate every 60 seconds (Incremental Static Regeneration)
     });
-    
-    if (!res.ok) {
-      throw new Error(`Failed to fetch galleries: ${res.status}`);
-    }
 
-    const galleries = await res.json();
     let allImages = [];
 
     // 2. For each Gallery album, fetch all the photos uploaded inside it
     for (const gallery of galleries) {
-      const mediaRes = await fetch(`${WP_API_BASE}/media?parent=${gallery.id}&per_page=100`, {
-        next: { revalidate: 60 }
-      });
-      
-      if (mediaRes.ok) {
-        const mediaItems = await mediaRes.json();
-        
+      try {
+        const mediaItems = await wpFetchJson(`${WP_API_BASE}/media?parent=${gallery.id}&per_page=100`, {
+          next: { revalidate: 60 }
+        });
+
         // Extract the clean image URLs from the media attachments
         const photos = mediaItems.map(media => {
           return {
@@ -38,6 +33,9 @@ export async function fetchGalleryImages() {
         }).filter(img => img.url); // Remove any broken items
         
         allImages = [...allImages, ...photos];
+      } catch (mediaError) {
+        // Skip this album if its media fetch fails; keep the rest.
+        console.error(`Error fetching media for gallery ${gallery.id}:`, mediaError);
       }
     }
 
@@ -53,16 +51,10 @@ export async function fetchGalleryImages() {
  */
 export async function fetchTestimonials() {
   try {
-    const res = await fetch(`${WP_API_BASE}/testimonial?_embed=1&per_page=10`, {
+    const data = await wpFetchJson(`${WP_API_BASE}/testimonial?_embed=1&per_page=10`, {
       next: { revalidate: 60 }
     });
-    
-    if (!res.ok) {
-      throw new Error(`Failed to fetch testimonials: ${res.status}`);
-    }
 
-    const data = await res.json();
-    
     return data.map(post => {
       let imageUrl = null;
       if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
@@ -88,7 +80,14 @@ export async function fetchTestimonials() {
 
 /**
  * Submits form data to WordPress Contact Form 7 REST API.
- * @param {string|number} formId - The ID of the Contact Form 7 form.
+ *
+ * IMPORTANT: The CF7 REST feedback route is `/contact-forms/(\d+)/feedback` — it
+ * only matches the form's *numeric post ID*, NOT the shortcode hash (e.g. the
+ * `d652723` in `[contact-form-7 id="d652723" ...]` returns a 404 `rest_no_route`).
+ * CF7 also rejects the request with `wpcf7_unit_tag_not_found` unless the special
+ * `_wpcf7*` control fields are present, so we append them here for every caller.
+ *
+ * @param {string|number} formId - The NUMERIC post ID of the Contact Form 7 form.
  * @param {FormData} formData - The FormData object containing the form fields.
  */
 export async function submitForm(formId, formData) {
@@ -100,11 +99,18 @@ export async function submitForm(formId, formData) {
   }
 
   try {
+    // CF7 control fields required by the REST feedback endpoint.
+    formData.append('_wpcf7', String(formId));
+    formData.append('_wpcf7_version', '5.9');
+    formData.append('_wpcf7_locale', 'en_US');
+    formData.append('_wpcf7_unit_tag', `wpcf7-f${formId}-o1`);
+    formData.append('_wpcf7_container_post', '0');
+
     const res = await fetch(`https://www.pavithram.online/wp-json/contact-form-7/v1/contact-forms/${formId}/feedback`, {
       method: 'POST',
       body: formData,
     });
-    
+
     return await res.json();
   } catch (error) {
     console.error('Error submitting form to CF7:', error);
@@ -118,15 +124,10 @@ export async function submitForm(formId, formData) {
 export async function fetchPromoBanner() {
   try {
     // We fetch a specific Page to avoid affecting the live website's blog feed
-    const res = await fetch(`${WP_API_BASE}/pages?slug=promo-banner&_embed=1`, {
+    const pages = await wpFetchJson(`${WP_API_BASE}/pages?slug=promo-banner&_embed=1`, {
       next: { revalidate: 60 }
     });
-    
-    if (!res.ok) {
-      return null;
-    }
 
-    const pages = await res.json();
     if (pages.length > 0) {
       const page = pages[0];
       if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]) {
@@ -145,17 +146,10 @@ export async function fetchPromoBanner() {
  */
 export async function fetchProducts() {
   try {
-    const res = await fetch(`${WP_API_BASE}/product?_embed=1&per_page=100`, {
+    const posts = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=100`, {
       next: { revalidate: 60 }
     });
-    
-    if (!res.ok) {
-      console.warn(`Failed to fetch WP products: ${res.status}`);
-      return null;
-    }
 
-    const posts = await res.json();
-    
     // Extract mapping logic to a standalone function so it can be reused
     const mapWpProduct = async (post) => {
       const rawContent = post.content?.rendered || '';
@@ -196,11 +190,8 @@ export async function fetchProducts() {
         if (typeof img === 'string') return img;
         if (typeof img === 'number') {
           try {
-            const mediaRes = await fetch(`${WP_API_BASE}/media/${img}`);
-            if (mediaRes.ok) {
-              const mediaData = await mediaRes.json();
-              return mediaData.source_url;
-            }
+            const mediaData = await wpFetchJson(`${WP_API_BASE}/media/${img}`);
+            return mediaData.source_url;
           } catch(e) { console.error('Failed to resolve image ID:', img); }
         }
         return null;
@@ -269,15 +260,10 @@ export async function fetchProducts() {
  */
 export async function fetchProductBySlug(slug) {
   try {
-    const res = await fetch(`${WP_API_BASE}/product?slug=${slug}&_embed=1`, {
+    const posts = await wpFetchJson(`${WP_API_BASE}/product?slug=${slug}&_embed=1`, {
       next: { revalidate: 60 }
     });
-    
-    if (!res.ok) {
-      return null;
-    }
 
-    const posts = await res.json();
     if (posts.length > 0) {
       // Create a temporary inline map function for the single product to avoid duplicate code
       // We can use the same logic here.
@@ -313,11 +299,8 @@ export async function fetchProductBySlug(slug) {
         if (typeof img === 'string') return img;
         if (typeof img === 'number') {
           try {
-            const mediaRes = await fetch(`${WP_API_BASE}/media/${img}`);
-            if (mediaRes.ok) {
-              const mediaData = await mediaRes.json();
-              return mediaData.source_url;
-            }
+            const mediaData = await wpFetchJson(`${WP_API_BASE}/media/${img}`);
+            return mediaData.source_url;
           } catch(e) { console.error('Failed to resolve image ID:', img); }
         }
         return null;

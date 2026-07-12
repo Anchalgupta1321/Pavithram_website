@@ -1,16 +1,12 @@
+import { wpFetchJson } from './wpFetch';
+
 export async function getWordPressPosts() {
   try {
-    const res = await fetch('https://pavithram.online/wp-json/wp/v2/posts?_embed&per_page=100', {
-      next: { revalidate: 60 } // Revalidate every 60 seconds
-    });
-    
-    if (!res.ok) {
-      console.error('Failed to fetch posts from WordPress');
-      return [];
-    }
-    
-    const wpPosts = await res.json();
-    
+    const wpPosts = await wpFetchJson(
+      'https://www.pavithram.online/wp-json/wp/v2/posts?_embed&per_page=100',
+      { next: { revalidate: 60 } } // Revalidate every 60 seconds
+    );
+
     return wpPosts.map(post => {
       // Extract featured image
       let imageUrl = 'https://www.pavithram.online/wp-content/uploads/2025/10/Groceries_.png'; // Fallback

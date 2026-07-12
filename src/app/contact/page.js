@@ -42,7 +42,7 @@ export default function ContactPage() {
     data.append('your-subject', formData.subject);
     data.append('message', formData.message);
     
-    const result = await submitForm('a02837c', data); // ID for Process Form
+    const result = await submitForm('58', data); // Process Form (CF7 numeric post ID; shortcode hash a02837e)
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);

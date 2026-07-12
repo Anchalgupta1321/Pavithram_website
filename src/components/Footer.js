@@ -35,7 +35,7 @@ export default function Footer() {
     const data = new FormData();
     data.append('email', email);
     
-    const result = await submitForm('d652723', data); 
+    const result = await submitForm('871', data); // Newsletter Form (CF7 numeric post ID; shortcode hash d652723)
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);

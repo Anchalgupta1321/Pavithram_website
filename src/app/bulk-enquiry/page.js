@@ -69,7 +69,7 @@ export default function BulkEnquiryPage() {
     data.append('your-interest', formData.interest);
     data.append('your-message', formData.message);
     
-    const result = await submitForm('8a4303a', data); 
+    const result = await submitForm('870', data); // Bulk Enquiry Form (CF7 numeric post ID; shortcode hash 8a4303a)
     
     setFormStatus({ status: result.status, message: result.message });
     setIsLoading(false);
