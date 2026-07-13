@@ -42,33 +42,46 @@ export async function getProductBySlug(slug) {
  * dropdown so its categories always match the sidebar. Empty categories (count
  * 0, e.g. "Ghee", "Most Popular") are skipped to match the products shown.
  */
+// Memoized per build worker. fetchProductCategories runs in the root layout, so
+// it is called once per page (252×). Without this it would re-hit WordPress on
+// every page and, when the WAF blocks, burn the retry budget 252 times over —
+// slowing or timing out the whole build. Fetched once, reused everywhere.
+let _categoriesPromise = null;
+
 export async function fetchProductCategories() {
-  // Fallback derives from the committed product snapshot so the nav dropdown
-  // still matches the products page sidebar when WordPress is unreachable.
-  const fallback = () => Array.from(new Set(fallbackProducts.map((p) => p.category).filter(Boolean)));
-  try {
-    const terms = await wpFetchJson(`${WP_API_BASE}/product-cat?per_page=100&orderby=count&order=desc`, {
-      next: { revalidate: 60 },
-      retries: 6,
-      timeoutMs: 20000
-    });
-    if (!Array.isArray(terms)) return fallback();
-    const decodeHtml = (html) => (html || '')
-      .replace(/&#8211;/g, '-')
-      .replace(/&amp;/g, '&')
-      .replace(/&#038;/g, '&')
-      .replace(/&#8217;/g, "'")
-      .replace(/&#8220;/g, '"')
-      .replace(/&#8221;/g, '"');
-    const live = terms
-      .filter((t) => (t.count ?? 0) > 0)
-      .map((t) => decodeHtml(t.name))
-      .filter(Boolean);
-    return live.length > 0 ? live : fallback();
-  } catch (error) {
-    console.error('Error fetching product categories, using snapshot fallback:', error?.message || error);
-    return fallback();
-  }
+  if (_categoriesPromise) return _categoriesPromise;
+
+  _categoriesPromise = (async () => {
+    // Fallback derives from the committed product snapshot so the nav dropdown
+    // still matches the products page sidebar when WordPress is unreachable. The
+    // snapshot is accurate, so we fail fast (few retries) rather than stalling.
+    const fallback = () => Array.from(new Set(fallbackProducts.map((p) => p.category).filter(Boolean)));
+    try {
+      const terms = await wpFetchJson(`${WP_API_BASE}/product-cat?per_page=100&orderby=count&order=desc`, {
+        next: { revalidate: 60 },
+        retries: 3,
+        timeoutMs: 12000
+      });
+      if (!Array.isArray(terms)) return fallback();
+      const decodeHtml = (html) => (html || '')
+        .replace(/&#8211;/g, '-')
+        .replace(/&amp;/g, '&')
+        .replace(/&#038;/g, '&')
+        .replace(/&#8217;/g, "'")
+        .replace(/&#8220;/g, '"')
+        .replace(/&#8221;/g, '"');
+      const live = terms
+        .filter((t) => (t.count ?? 0) > 0)
+        .map((t) => decodeHtml(t.name))
+        .filter(Boolean);
+      return live.length > 0 ? live : fallback();
+    } catch (error) {
+      console.error('Error fetching product categories, using snapshot fallback:', error?.message || error);
+      return fallback();
+    }
+  })();
+
+  return _categoriesPromise;
 }
 
 /**
@@ -227,14 +240,14 @@ export async function fetchProducts() {
       let batch;
       try {
         // The product response is ~2.4MB (over Next's 2MB fetch-cache limit), so
-        // it is NOT cached and every build worker re-fetches it independently.
-        // A single WAF 503 on any worker would otherwise drop that whole page to
-        // the static fallback and mix stale categories into the output — so we
-        // retry hard here to make each worker reliably land the live WP data.
+        // it is NOT cached and every build worker re-fetches it. The static
+        // fallback (productData.js) is an accurate current snapshot, so if the
+        // WAF blocks we fail fast to it rather than burning a long retry budget
+        // per worker (which would slow or time out the build).
         batch = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=${perPage}&page=${page}`, {
           next: { revalidate: 60 },
-          retries: 6,
-          timeoutMs: 30000
+          retries: 3,
+          timeoutMs: 15000
         });
       } catch (pageError) {
         console.error(`Stopped product pagination at page ${page}:`, pageError?.message || pageError);
