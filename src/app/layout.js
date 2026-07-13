@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
+import { fetchProductCategories } from "../services/wordpress";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
@@ -44,7 +45,13 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  // Nav dropdown categories come from the lightweight `product-cat` taxonomy
+  // (small + cacheable, so it's reliable across all build workers) rather than
+  // the heavy product fetch. These names match the products page sidebar and the
+  // ?category= filters exactly.
+  const productCategories = await fetchProductCategories();
+
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -86,7 +93,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
 
-        <Navbar />
+        <Navbar categories={productCategories} />
         {children}
         <div className="heritage-badge" title="75 Years of Trust">
           <svg viewBox="0 0 100 100" className="badge-svg">
