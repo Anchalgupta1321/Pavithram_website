@@ -86,7 +86,7 @@ export default async function ProductDetailPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
-      <ProductClient params={params} />
+      <ProductClient product={product} />
     </>
   );
 }

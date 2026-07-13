@@ -179,9 +179,40 @@ export async function fetchPromoBanner() {
  */
 export async function fetchProducts() {
   try {
-    const posts = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=100`, {
-      next: { revalidate: 60 }
-    });
+    // WordPress caps `per_page` at 100, so page through the `product` CPT until
+    // every item is collected (the store has 200+ products). Requesting a page
+    // past the last one returns HTTP 400, which wpFetchJson throws on — so we
+    // stop the loop on any page error and keep whatever was gathered. A failure
+    // on page 1 leaves `posts` empty and we return null → static fallback.
+    const perPage = 100;
+    let page = 1;
+    let posts = [];
+    while (true) {
+      let batch;
+      try {
+        // The product response is ~2.4MB (over Next's 2MB fetch-cache limit), so
+        // it is NOT cached and every build worker re-fetches it independently.
+        // A single WAF 503 on any worker would otherwise drop that whole page to
+        // the static fallback and mix stale categories into the output — so we
+        // retry hard here to make each worker reliably land the live WP data.
+        batch = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=${perPage}&page=${page}`, {
+          next: { revalidate: 60 },
+          retries: 6,
+          timeoutMs: 30000
+        });
+      } catch (pageError) {
+        console.error(`Stopped product pagination at page ${page}:`, pageError?.message || pageError);
+        break;
+      }
+      if (!Array.isArray(batch) || batch.length === 0) break;
+      posts = posts.concat(batch);
+      if (batch.length < perPage) break; // reached the last page
+      page += 1;
+    }
+
+    if (posts.length === 0) {
+      return null; // Nothing fetched — let getAllProducts fall back to static data.
+    }
 
     // Extract mapping logic to a standalone function so it can be reused
     const mapWpProduct = async (post) => {
@@ -205,7 +236,21 @@ export async function fetchProducts() {
       const cleanContent = rawContent.replace(/<[^>]+>/g, '').trim();
       
       const acf = post.acf || {};
-      
+
+      // Category comes from the product's `product-cat` taxonomy (the "Categories"
+      // column in WP admin), embedded via `_embed`. There is no ACF category field,
+      // so we read the first embedded term and decode its name below.
+      let categoryName = '';
+      const termGroups = post._embedded?.['wp:term'];
+      if (Array.isArray(termGroups)) {
+        for (const group of termGroups) {
+          if (Array.isArray(group) && group[0]?.name) {
+            categoryName = group[0].name;
+            break;
+          }
+        }
+      }
+
       // Parse pack sizes
       const packSizesRaw = acf.pack_sizes || '';
       const packSizes = packSizesRaw.split(',').map(s => s.trim()).filter(Boolean);
@@ -260,7 +305,7 @@ export async function fetchProducts() {
         id: post.id,
         name: decodeHtml(post.title.rendered),
         slug: post.slug,
-        category: acf.category || "Products", // Use ACF category
+        category: decodeHtml(categoryName) || acf.category || "Products", // Taxonomy term, then ACF, then default
         price: acf.price || '₹0.00',
         isBulkOnly: !!acf.is_bulk_only,
         images: images,
@@ -279,8 +324,8 @@ export async function fetchProducts() {
 
     // We use Promise.all because we might need to fetch media URLs if ACF returns IDs
     const resolvedProducts = await Promise.all(posts.map(mapWpProduct));
-    
-    console.log("FETCHED WP PRODUCTS:", JSON.stringify(resolvedProducts, null, 2));
+
+    console.log(`Fetched ${resolvedProducts.length} products from WordPress across ${page} page(s).`);
     return resolvedProducts;
   } catch (error) {
     console.error('Error fetching WP products:', error);
@@ -288,102 +333,7 @@ export async function fetchProducts() {
   }
 }
 
-/**
- * Fetches a single product by slug
- */
-export async function fetchProductBySlug(slug) {
-  try {
-    const posts = await wpFetchJson(`${WP_API_BASE}/product?slug=${slug}&_embed=1`, {
-      next: { revalidate: 60 }
-    });
-
-    if (posts.length > 0) {
-      // Create a temporary inline map function for the single product to avoid duplicate code
-      // We can use the same logic here.
-      const post = posts[0];
-      const rawContent = post.content?.rendered || '';
-      
-      let imageUrl = null;
-      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
-        imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
-      }
-      
-      if (!imageUrl && rawContent.includes('<img')) {
-        const match = rawContent.match(/src="([^"]+)"/);
-        if (match) {
-          imageUrl = match[1];
-        }
-      }
-
-      const cleanContent = rawContent.replace(/<[^>]+>/g, '').trim();
-      const acf = post.acf || {};
-      
-      const packSizesRaw = acf.pack_sizes || '';
-      const packSizes = packSizesRaw.split(',').map(s => s.trim()).filter(Boolean);
-      
-      const benefitsRaw = acf.benefits || '';
-      const benefits = benefitsRaw.split('\n').map(s => s.trim()).filter(Boolean);
-      
-      const certsRaw = acf.certifications || '';
-      const certifications = certsRaw.split('\n').map(s => s.trim()).filter(Boolean);
-      
-      const resolveImage = async (img) => {
-        if (!img) return null;
-        if (typeof img === 'string') return img;
-        if (typeof img === 'number') {
-          try {
-            const mediaData = await wpFetchJson(`${WP_API_BASE}/media/${img}`);
-            return mediaData.source_url;
-          } catch(e) { console.error('Failed to resolve image ID:', img); }
-        }
-        return null;
-      };
-
-      const img2 = await resolveImage(acf.image_2);
-      const img3 = await resolveImage(acf.image_3);
-
-      const images = [];
-      if (imageUrl && typeof imageUrl === 'string') images.push(imageUrl);
-      if (img2) images.push(img2);
-      if (img3) images.push(img3);
-      
-      if (images.length === 0) {
-        images.push('/images/products/placeholder.png');
-      }
-
-      const decodeHtml = (html) => {
-        return (html || '')
-          .replace(/&#8211;/g, '-')
-          .replace(/&amp;/g, '&')
-          .replace(/&#038;/g, '&')
-          .replace(/&#8217;/g, "'")
-          .replace(/&#8220;/g, '"')
-          .replace(/&#8221;/g, '"');
-      };
-
-      return {
-        id: post.id,
-        name: decodeHtml(post.title.rendered),
-        slug: post.slug,
-        category: acf.category || "Products",
-        price: acf.price || '₹0.00',
-        isBulkOnly: !!acf.is_bulk_only,
-        images: images,
-        packSizes: packSizes,
-        description: cleanContent || acf.description,
-        ingredients: acf.ingredients || '',
-        nutritionalInfo: acf.nutritional_info || '',
-        benefits: benefits,
-        storage: acf.storage || '',
-        manufacturer: acf.manufacturer || 'Pavithram Foods Pvt. Ltd., Kerala, India',
-        certifications: certifications,
-        fssai: '',
-        sku: ''
-      };
-    }
-    return null;
-  } catch (error) {
-    console.error(`Error fetching product ${slug}:`, error);
-    return null;
-  }
-}
+// Single-product resolution now goes through getProductBySlug() → getAllProducts(),
+// which shares one cached, paginated fetch and the mapWpProduct mapping (including
+// the taxonomy-based category). The old standalone fetchProductBySlug() has been
+// removed to avoid a second, divergent copy of that mapping.

@@ -1,48 +1,27 @@
 "use client";
 
-import { useState, useEffect, use } from 'react';
-import { notFound } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from "next/legacy/image";
 import { BsPatchCheckFill, BsLeaf, BsCheck2Circle, BsAwardFill, BsPlus, BsDash } from 'react-icons/bs';
-import { fetchProductBySlug } from '../../../services/wordpress';
-import { products as fallbackProducts } from '../../../data/productData';
 import './product-detail.css';
 
-export default function ProductClient({ params }) {
-  const unwrappedParams = use(params);
-  const slug = unwrappedParams.slug;
-
-  const [product, setProduct] = useState(null);
+export default function ProductClient({ product }) {
+  // `product` is fully resolved at build time in the server page and passed in
+  // as a prop, so the page renders instantly. Previously this component threw
+  // that away and re-fetched from WordPress in the browser, which hit the WAF,
+  // retried with backoff, and made "View Details" slow to open.
   const [mainImageIndex, setMainImageIndex] = useState(0);
   const [activeTab, setActiveTab] = useState('description');
-  const [selectedPack, setSelectedPack] = useState('');
+  const [selectedPack, setSelectedPack] = useState(
+    product?.packSizes?.length > 0 ? product.packSizes[0] : ''
+  );
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
+  // Reset scroll to top when the product page mounts.
   useEffect(() => {
-    async function load() {
-      // Try WP first, fallback to static
-      let foundProduct = await fetchProductBySlug(slug);
-      
-      if (!foundProduct) {
-        foundProduct = fallbackProducts.find(p => p.slug === slug);
-      }
-
-      if (foundProduct) {
-        setProduct(foundProduct);
-        setMainImageIndex(0);
-        if(foundProduct.packSizes && foundProduct.packSizes.length > 0) {
-          setSelectedPack(foundProduct.packSizes[0]);
-        }
-        
-        // Force scroll to top when product is loaded
-        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-      } else {
-        notFound();
-      }
-    }
-    load();
-  }, [slug]);
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, []);
 
   // Handle escape key to close modal
   useEffect(() => {
@@ -55,7 +34,7 @@ export default function ProductClient({ params }) {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isImageModalOpen]);
 
-  if (!product) return <div className="loading-state">Loading...</div>;
+  if (!product) return null;
 
   const mainImage = product.images[mainImageIndex];
 
