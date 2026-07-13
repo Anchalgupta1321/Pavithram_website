@@ -5,11 +5,8 @@ import Link from 'next/link';
 import Image from "next/legacy/image";
 import { useRouter, useSearchParams } from 'next/navigation';
 import { FaBars, FaTimes, FaSearch } from 'react-icons/fa';
-import { products } from '../data/productData';
 
-const categories = Array.from(new Set(products.map(p => p.category).filter(Boolean)));
-
-export function NavbarContent() {
+export function NavbarContent({ categories = [] }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -149,10 +146,10 @@ export function NavbarContent() {
   );
 }
 
-export default function Navbar() {
+export default function Navbar({ categories = [] }) {
   return (
     <Suspense fallback={<nav className="navbar"><div className="navbar-container"></div></nav>}>
-      <NavbarContent />
+      <NavbarContent categories={categories} />
     </Suspense>
   );
 }

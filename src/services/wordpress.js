@@ -36,6 +36,42 @@ export async function getProductBySlug(slug) {
 }
 
 /**
+ * Fetches the product category names from the `product-cat` taxonomy. This is a
+ * small (~90KB), cacheable response — unlike the ~2.4MB product fetch — so it is
+ * reliable at build time and shared across all workers. Used for the global nav
+ * dropdown so its categories always match the sidebar. Empty categories (count
+ * 0, e.g. "Ghee", "Most Popular") are skipped to match the products shown.
+ */
+export async function fetchProductCategories() {
+  // Fallback derives from the committed product snapshot so the nav dropdown
+  // still matches the products page sidebar when WordPress is unreachable.
+  const fallback = () => Array.from(new Set(fallbackProducts.map((p) => p.category).filter(Boolean)));
+  try {
+    const terms = await wpFetchJson(`${WP_API_BASE}/product-cat?per_page=100&orderby=count&order=desc`, {
+      next: { revalidate: 60 },
+      retries: 6,
+      timeoutMs: 20000
+    });
+    if (!Array.isArray(terms)) return fallback();
+    const decodeHtml = (html) => (html || '')
+      .replace(/&#8211;/g, '-')
+      .replace(/&amp;/g, '&')
+      .replace(/&#038;/g, '&')
+      .replace(/&#8217;/g, "'")
+      .replace(/&#8220;/g, '"')
+      .replace(/&#8221;/g, '"');
+    const live = terms
+      .filter((t) => (t.count ?? 0) > 0)
+      .map((t) => decodeHtml(t.name))
+      .filter(Boolean);
+    return live.length > 0 ? live : fallback();
+  } catch (error) {
+    console.error('Error fetching product categories, using snapshot fallback:', error?.message || error);
+    return fallback();
+  }
+}
+
+/**
  * Fetches gallery items from WordPress.
  * Extracts the featured image URL from the embedded data.
  */
