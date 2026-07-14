@@ -9,7 +9,7 @@ import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
 import './products.css';
 
 const getCategoryColor = (category) => {
-  return '#FFF0CC'; // Uniform warm golden oil background for all products
+  return '#FFFFFF'; // White background for all products
 };
 
 // `products` is fetched from WordPress at build time in the server page and
@@ -45,7 +45,7 @@ function ProductsContent({ products }) {
       }, 50);
     }
   }, [categoryParam, searchQueryParam]);
-  const ITEMS_PER_PAGE = 9;
+  const ITEMS_PER_PAGE = 12;
 
   const filteredProducts = productsData.filter(product => {
     const matchesCategory = activeCategory === "All" || product.category === activeCategory;
@@ -146,11 +146,30 @@ function ProductsContent({ products }) {
             </div>
             <div style={{ textAlign: 'left' }}>
               <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px', color: '#888', margin: 0, fontWeight: 600 }}>Manufacturer</p>
-              <p style={{ fontSize: '1rem', color: '#333', margin: 0, fontWeight: 700 }}>Pavithram Foods Pvt. Ltd.</p>
+              <p style={{ fontSize: '1rem', color: '#333', margin: 0, fontWeight: 700 }}>Pavithram Foods</p>
             </div>
           </div>
         </motion.div>
       </motion.section>
+
+      {/* Category Title */}
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        key={`title-${activeCategory}`}
+        style={{ 
+          textAlign: 'center', 
+          marginTop: '3rem',
+          marginBottom: '1rem', 
+          fontSize: '2.5rem', 
+          color: 'var(--color-primary-red)', 
+          fontWeight: '800',
+          textTransform: 'uppercase',
+          letterSpacing: '1px'
+        }}
+      >
+        {activeCategory === "All" ? "All Products" : activeCategory}
+      </motion.h2>
 
       {/* Main Layout */}
       <section className="shop-container">
@@ -214,7 +233,6 @@ function ProductsContent({ products }) {
                     </div>
 
                     <div className="product-details">
-                      <span className="product-category">{product.category}</span>
                       <h4 className="product-name">{product.name}</h4>
 
                       <button className="add-to-cart-btn">View Details</button>
