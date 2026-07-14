@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
 import { fetchProductCategories } from "../services/wordpress";
 
-const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
+const inter = Inter({ subsets: ["latin"], variable: '--font-inter', display: 'swap' });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair', display: 'swap' });
 
 export const metadata = {
   title: "Best Cooking Oils & Food Products | Pavithram Online",

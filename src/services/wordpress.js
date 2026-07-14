@@ -17,6 +17,12 @@ let _allProductsPromise = null;
  * pages resolve from this same list, keeping slugs and rendering consistent.
  */
 export async function getAllProducts() {
+  // In local development, always fetch fresh data so you don't have to restart the server
+  if (process.env.NODE_ENV === 'development') {
+    const wp = await fetchProducts();
+    return wp && wp.length > 0 ? wp : fallbackProducts;
+  }
+
   if (!_allProductsPromise) {
     _allProductsPromise = (async () => {
       const wp = await fetchProducts();
@@ -32,7 +38,7 @@ export async function getAllProducts() {
  */
 export async function getProductBySlug(slug) {
   const all = await getAllProducts();
-  return all.find((p) => p.slug === slug) || fallbackProducts.find((p) => p.slug === slug) || null;
+  return all.find((p) => p.slug === slug || (p.allSlugs && p.allSlugs.includes(slug))) || fallbackProducts.find((p) => p.slug === slug) || null;
 }
 
 /**
@@ -245,12 +251,12 @@ export async function fetchProducts() {
         // WAF blocks we fail fast to it rather than burning a long retry budget
         // per worker (which would slow or time out the build).
         batch = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=${perPage}&page=${page}`, {
-          next: { revalidate: 60 },
+          next: { revalidate: 0 }, // Set to 0 so Cloudflare build cache doesn't serve stale data
           retries: 3,
           timeoutMs: 15000
         });
       } catch (pageError) {
-        console.error(`Stopped product pagination at page ${page}:`, pageError?.message || pageError);
+        console.warn(`Stopped product pagination at page ${page}:`, pageError?.message || pageError);
         break;
       }
       if (!Array.isArray(batch) || batch.length === 0) break;
@@ -374,10 +380,61 @@ export async function fetchProducts() {
     // We use Promise.all because we might need to fetch media URLs if ACF returns IDs
     const resolvedProducts = await Promise.all(posts.map(mapWpProduct));
 
-    console.log(`Fetched ${resolvedProducts.length} products from WordPress across ${page} page(s).`);
-    return resolvedProducts;
+    // ---- Group Products by Base Name ----
+    const finalProducts = [];
+    const productGroups = {}; // key: category + exact base name
+
+    for (const p of resolvedProducts) {
+
+      const name = p.name;
+      // Extract size from name (e.g. " - 500ml", " 1000ml", " 1L")
+      const sizeMatch = name.match(/[\-\s]*(\d+\s*(?:ml|ltr|l|kg|g))/i);
+      let size = '';
+      let baseName = name;
+
+      if (sizeMatch) {
+        size = sizeMatch[1].trim();
+        baseName = name.replace(sizeMatch[0], '').trim();
+      } else {
+        size = (p.packSizes && p.packSizes.length > 0) ? p.packSizes[0] : 'Standard';
+      }
+
+      // Explicitly treat "Pavithram Sesame Oil" as the same base as "Sesame Oil"
+      if (baseName.toLowerCase() === 'pavithram sesame oil') {
+        baseName = 'Sesame Oil';
+      }
+
+      const groupKey = p.category + '::' + baseName.trim().toLowerCase();
+
+      if (!productGroups[groupKey]) {
+        // create master
+        const displayName = baseName.toLowerCase() === 'sesame oil' ? 'Pavithram Sesame Oil' : baseName;
+        const master = {
+          ...p,
+          name: displayName, 
+          packSizes: [size],
+          images: p.images.length > 0 ? [p.images[0]] : [],
+          allSlugs: [p.slug] // keep track of all merged slugs so getProductBySlug works
+        };
+        productGroups[groupKey] = master;
+        finalProducts.push(master);
+      } else {
+        // merge
+        const master = productGroups[groupKey];
+        if (!master.packSizes.includes(size)) {
+          master.packSizes.push(size);
+          if (p.images.length > 0) {
+            master.images.push(p.images[0]);
+          }
+          master.allSlugs.push(p.slug);
+        }
+      }
+    }
+
+    console.log(`Fetched ${posts.length} products from WordPress across ${page} page(s). Grouped into ${finalProducts.length} final products.`);
+    return finalProducts;
   } catch (error) {
-    console.error('Error fetching WP products:', error);
+    console.warn('Warning fetching WP products:', error);
     return null; // Return null so we can fallback to static productData.js if WP fails
   }
 }

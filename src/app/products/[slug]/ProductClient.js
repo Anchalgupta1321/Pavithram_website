@@ -23,6 +23,17 @@ export default function ProductClient({ product }) {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   }, []);
 
+  // Auto-switch image when pack size changes
+  useEffect(() => {
+    if (product?.packSizes && product?.images) {
+      const idx = product.packSizes.indexOf(selectedPack);
+      // Only switch if we have an image for this index
+      if (idx !== -1 && idx < product.images.length) {
+        setMainImageIndex(idx);
+      }
+    }
+  }, [selectedPack, product]);
+
   // Handle escape key to close modal
   useEffect(() => {
     const handleKeyDown = (e) => {
