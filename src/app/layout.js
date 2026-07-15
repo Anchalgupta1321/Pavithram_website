@@ -69,6 +69,9 @@ export default async function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://www.pavithram.online" />
+      </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         {/* Google Analytics Setup */}
         <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`} />
