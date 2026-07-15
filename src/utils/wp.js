@@ -5,7 +5,7 @@ export async function getWordPressPosts() {
   try {
     const wpPosts = await wpFetchJson(
       'https://www.pavithram.online/wp-json/wp/v2/posts?_embed&per_page=100',
-      { next: { revalidate: 60 }, retries: 5, timeoutMs: 20000 }
+      { next: { revalidate: 60 }, retries: 2, timeoutMs: 5000 }
     );
 
     if (!Array.isArray(wpPosts) || wpPosts.length === 0) {
