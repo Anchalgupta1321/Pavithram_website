@@ -363,6 +363,21 @@
   }
 }
 
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .product-img-wrapper {
+    height: 250px;
+  }
+  
+  .shop-header h1 {
+    font-size: 1.8rem;
+  }
+}
+
 /* --- Image Modal --- */
 .image-modal-overlay {
   position: fixed;
