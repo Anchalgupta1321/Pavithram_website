@@ -1,5 +1,5 @@
 import { wpFetchJson } from '@/utils/wpFetch';
-import { products as fallbackProducts } from '@/data/productData';
+import { products as fallbackProducts, gallery as fallbackGallery, testimonials as fallbackTestimonials, promoBanner as fallbackPromo, homeVideos as fallbackHomeVideos } from '@/data/fallbackData';
 
 const WP_API_BASE = 'https://www.pavithram.online/wp-json/wp/v2';
 
@@ -130,7 +130,7 @@ export async function fetchGalleryImages() {
     return allImages;
   } catch (error) {
     console.error('Error fetching WordPress gallery:', error);
-    return [];
+    return fallbackGallery || [];
   }
 }
 
@@ -162,7 +162,7 @@ export async function fetchTestimonials() {
     });
   } catch (error) {
     console.error('Error fetching WordPress testimonials:', error);
-    return [];
+    return fallbackTestimonials || [];
   }
 }
 
@@ -225,7 +225,50 @@ export async function fetchPromoBanner() {
     return null;
   } catch (error) {
     console.error('Error fetching promo banner:', error);
-    return null;
+    return fallbackPromo || null;
+  }
+}
+
+/**
+ * Fetches the home videos from the "home_video" Custom Post Type (or fallback).
+ */
+export async function fetchHomeVideos() {
+  try {
+    const posts = await wpFetchJson(`${WP_API_BASE}/home_video?_embed=1&per_page=10`, {
+      next: { revalidate: 60 }
+    });
+
+    if (posts && posts.length > 0) {
+      return posts.map(post => {
+        let videoUrl = post.acf?.video_url;
+        
+        if (!videoUrl) {
+          const content = post.content?.rendered || '';
+          const title = post.title?.rendered || '';
+          const srcMatch = content.match(/src="([^"]+)"/i);
+          if (srcMatch) videoUrl = srcMatch[1];
+          else {
+            const urlMatch = content.match(/(https?:\/\/[^\s<]+)/i) || title.match(/(https?:\/\/[^\s<]+)/i);
+            if (urlMatch) videoUrl = urlMatch[1].replace(/&amp;/g, '&');
+          }
+        }
+        
+        if (videoUrl) {
+          // Format Instagram links for embed
+          if (videoUrl.includes('instagram.com/reel/')) {
+            const cleanUrl = videoUrl.split('?')[0]; // Remove utm params
+            return cleanUrl.endsWith('/') ? `${cleanUrl}embed/` : `${cleanUrl}/embed/`;
+          }
+          return videoUrl;
+        }
+        
+        return null;
+      }).filter(url => url);
+    }
+    return fallbackHomeVideos || null;
+  } catch (error) {
+    console.error('Error fetching home videos:', error);
+    return fallbackHomeVideos || null;
   }
 }
 
@@ -356,6 +399,13 @@ export async function fetchProducts() {
           .replace(/&#8221;/g, '"');
       };
 
+      // Yoast SEO processing
+      let seo = {};
+      if (post.yoast_head_json) {
+        const seoString = JSON.stringify(post.yoast_head_json).replace(/https:\/\/www\.pavithram\.online/g, 'https://www.pavithramfoods.com');
+        seo = JSON.parse(seoString);
+      }
+
       return {
         id: post.id,
         name: decodeHtml(post.title.rendered),
@@ -373,7 +423,8 @@ export async function fetchProducts() {
         manufacturer: acf.manufacturer || 'Pavithram Foods Pvt. Ltd., Kerala, India',
         certifications: certifications,
         fssai: '',
-        sku: ''
+        sku: '',
+        seo: seo
       };
     };
 
@@ -414,7 +465,8 @@ export async function fetchProducts() {
           name: displayName, 
           packSizes: [size],
           images: p.images.length > 0 ? [p.images[0]] : [],
-          allSlugs: [p.slug] // keep track of all merged slugs so getProductBySlug works
+          allSlugs: [p.slug], // keep track of all merged slugs so getProductBySlug works
+          seo: p.seo
         };
         productGroups[groupKey] = master;
         finalProducts.push(master);

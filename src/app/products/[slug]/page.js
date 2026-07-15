@@ -29,11 +29,13 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${product.name} | Pavithram Pure Food Products`,
-    description: product.description,
+    title: product.seo?.title || `${product.name} | Pavithram Pure Food Products`,
+    description: product.seo?.description || product.description,
     openGraph: {
-      title: `${product.name} | Pavithram`,
-      description: product.description,
+      title: product.seo?.og_title || `${product.name} | Pavithram`,
+      description: product.seo?.og_description || product.description,
+      url: product.seo?.og_url || `https://www.pavithramfoods.com/products/${slug}`,
+      siteName: product.seo?.og_site_name || 'Pavithram Foods',
       images: [
         {
           url: product.images && product.images.length > 0 ? product.images[0] : '',
@@ -41,6 +43,9 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
+    alternates: {
+      canonical: product.seo?.canonical || `https://www.pavithramfoods.com/products/${slug}`,
+    }
   };
 }
 
