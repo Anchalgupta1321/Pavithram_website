@@ -1,7 +1,7 @@
 import { getAllProducts } from '../../services/wordpress';
 import ProductsClient from './ProductsClient';
 
-export const dynamic = 'force-static';
+export const runtime = 'edge';
 
 // Fetch the full product list once at build time (live WordPress when reachable,
 // static fallback otherwise) and hand it to the client grid as a prop. This
