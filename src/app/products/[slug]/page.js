@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import { getAllProducts, getProductBySlug } from '../../../services/wordpress';
 import ProductClient from './ProductClient';
 
+export const runtime = 'edge';
+
 // Only pages listed by generateStaticParams are built; unknown slugs 404.
 export const dynamicParams = false;
 

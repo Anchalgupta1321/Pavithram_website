@@ -3,6 +3,8 @@ import Image from "next/legacy/image";
 import { getWordPressPosts } from '../../../utils/wp';
 import './blog-details.css';
 
+export const runtime = 'edge';
+
 // Only pages listed by generateStaticParams are built; unknown slugs 404.
 // Required for `output: 'export'` and keeps the build from failing if WP is
 // briefly unreachable (it just builds zero blog pages that run instead).

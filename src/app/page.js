@@ -1,6 +1,8 @@
 import HomeClient from './HomeClient';
 import { fetchTestimonials, fetchGalleryImages, fetchPromoBanner } from '@/services/wordpress';
 
+export const runtime = 'edge';
+
 export default async function HomePage() {
   const testimonials = await fetchTestimonials();
   const allGalleryImages = await fetchGalleryImages();

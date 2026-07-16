@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
 import { fetchProductCategories } from "../services/wordpress";
 
+export const runtime = 'edge';
+
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter', display: 'swap' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair', display: 'swap' });
 
