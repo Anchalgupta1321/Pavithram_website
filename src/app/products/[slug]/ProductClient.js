@@ -184,17 +184,21 @@ export default function ProductClient({ product }) {
               </div>
             )}
 
-            <div className="detail-section">
-              <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Quality & Care</h3>
-              <div>
-                {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
-                <ul className="cert-list" style={{marginTop: '1rem'}}>
-                  {product.certifications && product.certifications.map((cert, i) => (
-                    <li key={i}><BsAwardFill className="text-gold" style={{ flexShrink: 0 }} /> {cert}</li>
-                  ))}
-                </ul>
+            {(product.shelfLife || (product.certifications && product.certifications.length > 0)) && (
+              <div className="detail-section">
+                <h3 style={{ borderBottom: '2px solid var(--color-primary-red)', paddingBottom: '0.5rem', marginBottom: '1rem', color: 'var(--color-text-dark)' }}>Quality & Care</h3>
+                <div>
+                  {product.shelfLife && <p><strong>Shelf Life:</strong> {product.shelfLife}</p>}
+                  {product.certifications && product.certifications.length > 0 && (
+                    <ul className="cert-list" style={{marginTop: '1rem'}}>
+                      {product.certifications.map((cert, i) => (
+                        <li key={i}><BsAwardFill className="text-gold" style={{ flexShrink: 0 }} /> {cert}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
         </div>
