@@ -360,28 +360,8 @@ export async function fetchProducts() {
       const certsRaw = acf.certifications || '';
       const certifications = certsRaw.split('\n').map(s => s.trim()).filter(Boolean);
       
-      // Helper to resolve ACF Image IDs to actual URLs if needed
-      const resolveImage = async (img) => {
-        if (!img) return null;
-        if (typeof img === 'string') return img;
-        if (typeof img === 'number') {
-          try {
-            const mediaData = await wpFetchJson(`${WP_API_BASE}/media/${img}`);
-            return mediaData.source_url;
-          } catch(e) { console.error('Failed to resolve image ID:', img); }
-        }
-        return null;
-      };
-
-      // Resolve secondary images
-      const img2 = await resolveImage(acf.image_2);
-      const img3 = await resolveImage(acf.image_3);
-
-      // Images array
       const images = [];
       if (imageUrl && typeof imageUrl === 'string') images.push(imageUrl);
-      if (img2) images.push(img2);
-      if (img3) images.push(img3);
       
       // We will fallback to a placeholder if absolutely no valid string image is found.
       if (images.length === 0) {
@@ -428,8 +408,7 @@ export async function fetchProducts() {
       };
     };
 
-    // We use Promise.all because we might need to fetch media URLs if ACF returns IDs
-    const resolvedProducts = await Promise.all(posts.map(mapWpProduct));
+    const resolvedProducts = posts.map(mapWpProduct);
 
     // ---- Group Products by Base Name ----
     const finalProducts = [];
