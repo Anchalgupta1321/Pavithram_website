@@ -2,11 +2,6 @@ import { notFound } from 'next/navigation';
 import { getAllProducts, getProductBySlug } from '../../../services/wordpress';
 import ProductClient from './ProductClient';
 
-export const runtime = 'edge';
-
-// Only pages listed by generateStaticParams are built; unknown slugs 404.
-export const dynamicParams = false;
-
 // Enumerate every product page at build time (required for `output: 'export'`).
 // Resolves from the same cached product list the pages use, so the slug set and
 // the rendered data always agree (live WP when reachable, static fallback else).
