@@ -3,11 +3,5 @@
   // `npm run build` produces `out/`; `npx wrangler deploy` uploads it.
   "name": "pavithram-website",
   "compatibility_date": "2025-06-01",
-  "assets": {
-    "directory": "./out",
-    // Serve /products/mustard-oil from products/mustard-oil.html, etc.
-    "html_handling": "auto-trailing-slash",
-    // Unknown routes fall through to the exported 404 page.
-    "not_found_handling": "404-page"
-  }
+  "pages_build_output_dir": ".vercel/output/static"
 }
