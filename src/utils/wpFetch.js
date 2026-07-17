@@ -41,11 +41,16 @@ export async function wpFetchJson(url, options = {}) {
     const timer = setTimeout(() => controller.abort(), timeoutMs);
 
     try {
-      const res = await fetch(url, {
-        headers,
-        signal: controller.signal,
-        ...(next ? { next } : {}),
-      });
+      const res = await Promise.race([
+        fetch(url, {
+          headers,
+          signal: controller.signal,
+          ...(next ? { next } : {}),
+        }),
+        new Promise((_, reject) => 
+          setTimeout(() => reject(new Error('ManualTimeoutError')), timeoutMs)
+        )
+      ]);
 
       const body = await res.text();
 
@@ -62,7 +67,7 @@ export async function wpFetchJson(url, options = {}) {
       return JSON.parse(body);
     } catch (error) {
       lastError = error;
-      if (error.name === 'AbortError') {
+      if (error.name === 'AbortError' || error.message === 'ManualTimeoutError') {
         console.warn(`Attempt ${attempt + 1}/${retries + 1} timed out for ${url}`);
       }
       // Back off before retrying (200ms, 400ms, 600ms, ...) to let the WAF
