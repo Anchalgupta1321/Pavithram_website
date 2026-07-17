@@ -62,6 +62,9 @@ export async function wpFetchJson(url, options = {}) {
       return JSON.parse(body);
     } catch (error) {
       lastError = error;
+      if (error.name === 'AbortError') {
+        console.warn(`Attempt ${attempt + 1}/${retries + 1} timed out for ${url}`);
+      }
       // Back off before retrying (200ms, 400ms, 600ms, ...) to let the WAF
       // rate-limit window clear.
       if (attempt < retries) {
