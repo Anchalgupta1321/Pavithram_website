@@ -65,8 +65,7 @@ export async function fetchProductCategories() {
     try {
       const terms = await wpFetchJson(`${WP_API_BASE}/product-cat?per_page=100&orderby=count&order=desc`, {
         next: { revalidate: 60 },
-        retries: 2,
-        timeoutMs: 5000
+        retries: 2
       });
       if (!Array.isArray(terms)) return fallback();
       const decodeHtml = (html) => (html || '')
@@ -295,8 +294,7 @@ export async function fetchProducts() {
         // per worker (which would slow or time out the build).
         batch = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=${perPage}&page=${page}`, {
           next: { revalidate: 0 }, // Set to 0 so Cloudflare build cache doesn't serve stale data
-          retries: 2,
-          timeoutMs: 5000
+          retries: 2
         });
       } catch (pageError) {
         console.warn(`Stopped product pagination at page ${page}:`, pageError?.message || pageError);
