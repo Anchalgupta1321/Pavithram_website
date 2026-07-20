@@ -24,20 +24,33 @@
  * @returns {Promise<any>} Parsed JSON.
  * @throws {Error} If every attempt fails or never yields JSON.
  */
+
+// Simple mutex to ensure we don't bombard WordPress with 6 parallel heavy DB queries
+let _lock = Promise.resolve();
+async function acquireLock() {
+  let release;
+  const nextLock = new Promise(resolve => { release = resolve; });
+  const currentLock = _lock;
+  _lock = _lock.then(() => nextLock);
+  await currentLock;
+  return release;
+}
+
 export async function wpFetchJson(url, options = {}) {
   const { next, retries = 1, timeoutMs = 20000 } = options;
 
   const headers = {
     Accept: 'application/json',
-    // Custom header for Solution 1
     'X-Pavithram-Builder': 'true',
-    // Custom User-Agent for Solution 2
     'User-Agent': 'PavithramNextJSBuilder/1.0 (CloudflarePages)',
   };
 
+  // Wait for our turn in the queue to avoid overloading WordPress
+  const release = await acquireLock();
   let lastError;
-
-  for (let attempt = 0; attempt <= retries; attempt++) {
+  
+  try {
+    for (let attempt = 0; attempt <= retries; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -76,10 +89,13 @@ export async function wpFetchJson(url, options = {}) {
       if (attempt < retries) {
         await new Promise((r) => setTimeout(r, 200 * (attempt + 1)));
       }
-    } finally {
-      clearTimeout(timer);
+      } finally {
+        clearTimeout(timer);
+      }
     }
-  }
 
-  throw lastError ?? new Error(`Failed to fetch ${url}`);
+    throw lastError ?? new Error(`Failed to fetch ${url}`);
+  } finally {
+    release(); // Release the lock so the next fetch can proceed
+  }
 }
