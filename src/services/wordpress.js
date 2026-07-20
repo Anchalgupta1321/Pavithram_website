@@ -339,11 +339,10 @@ export async function fetchProducts() {
       let categoryName = '';
       const termGroups = post._embedded?.['wp:term'];
       if (Array.isArray(termGroups)) {
-        for (const group of termGroups) {
-          if (Array.isArray(group) && group[0]?.name) {
-            categoryName = group[0].name;
-            break;
-          }
+        // Find the specific term group that represents the product categories
+        const catGroup = termGroups.find(group => Array.isArray(group) && group.length > 0 && group[0].taxonomy === 'product-cat');
+        if (catGroup && catGroup[0]?.name) {
+          categoryName = catGroup[0].name;
         }
       }
 
