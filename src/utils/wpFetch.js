@@ -29,9 +29,10 @@ export async function wpFetchJson(url, options = {}) {
 
   const headers = {
     Accept: 'application/json',
-    'User-Agent':
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-      '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    // Custom header for Solution 1
+    'X-Pavithram-Builder': 'true',
+    // Custom User-Agent for Solution 2
+    'User-Agent': 'PavithramNextJSBuilder/1.0 (CloudflarePages)',
   };
 
   let lastError;
