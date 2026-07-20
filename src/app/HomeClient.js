@@ -259,34 +259,34 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       {/* 2. Trust Banner */}
       <section className="trust-banner-section" style={{ background: '#FFFDF8' }}>
         <div className="trust-banner-container">
-          <div className="trust-item">
+          <Link href="/heritage" className="trust-item" style={{ textDecoration: 'none', color: 'inherit' }}>
             <BsClockHistory className="trust-icon" />
             <div className="trust-text">
               <h4><span style={{ fontSize: '1.3em' }}>75</span>+ Years Legacy</h4>
               <p>Trusted since 1950</p>
             </div>
-          </div>
-          <div className="trust-item">
+          </Link>
+          <Link href="/products" className="trust-item" style={{ textDecoration: 'none', color: 'inherit' }}>
             <BsShieldCheck className="trust-icon" />
             <div className="trust-text">
               <h4><span style={{ fontSize: '1.3em' }}>100</span>% Pure &amp; Natural</h4>
               <p>Farm to kitchen quality</p>
             </div>
-          </div>
-          <div className="trust-item">
+          </Link>
+          <Link href="/certifications" className="trust-item" style={{ textDecoration: 'none', color: 'inherit' }}>
             <BsAward className="trust-icon" />
             <div className="trust-text">
               <h4>One Star Export House</h4>
               <p>DGFT Government Certified</p>
             </div>
-          </div>
-          <div className="trust-item">
+          </Link>
+          <Link href="/bulk-enquiry" className="trust-item" style={{ textDecoration: 'none', color: 'inherit' }}>
             <BsGlobe className="trust-icon" />
             <div className="trust-text">
               <h4>Global Reach</h4>
               <p>Exported to 28+ Countries</p>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter', display: 'sw
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair', display: 'swap' });
 
 export const metadata = {
-  title: "Best Cooking Oils & Food Products | Pavithram Online",
+  title: "Best Cooking Oils & Food Products | Pavithram Foods",
   description: "Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.",
   keywords: ["Kerala edible oils", "pure sesame oil", "authentic Indian spices", "premium ghee export", "coconut oil", "millets online", "Pavithram foods"],
   authors: [{ name: 'Pavithram Group' }],
@@ -21,8 +21,8 @@ export const metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://www.pavithramfoods.com',
-    siteName: 'Pavithram Online',
-    title: 'Best Cooking Oils & Food Products | Pavithram Online',
+    siteName: 'Pavithram Foods',
+    title: 'Best Cooking Oils & Food Products | Pavithram Foods',
     description: 'Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.',
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Cooking Oils & Food Products | Pavithram Online',
+    title: 'Best Cooking Oils & Food Products | Pavithram Foods',
     description: 'Pavithram offers pure edible cooking oils and ghee, and food products from millets, spices, pickles, jams, Kerala snacks and breakfast essentials online.',
     images: ['https://www.pavithramfoods.com/logo_cropped.png'],
   },
