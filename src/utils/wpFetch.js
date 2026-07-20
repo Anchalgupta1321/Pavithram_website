@@ -25,7 +25,7 @@
  * @throws {Error} If every attempt fails or never yields JSON.
  */
 export async function wpFetchJson(url, options = {}) {
-  const { next, retries = 2, timeoutMs = 15000 } = options;
+  const { next, retries = 0, timeoutMs = 8000 } = options;
 
   const headers = {
     Accept: 'application/json',
