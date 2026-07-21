@@ -40,9 +40,10 @@ export async function wpFetchJson(url, options = {}) {
   const { next, retries = 1, timeoutMs = 20000 } = options;
 
   const headers = {
-    Accept: 'application/json',
-    'X-Pavithram-Builder': 'true',
-    'User-Agent': 'PavithramNextJSBuilder/1.0 (CloudflarePages)',
+    'Accept': 'application/json, text/plain, */*',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache'
   };
 
   // Wait for our turn in the queue to avoid overloading WordPress
