@@ -150,7 +150,7 @@ export default function BulkEnquiryPage() {
           <div className="contact-direct">
             <h3>Direct Export Contact</h3>
             <p><strong>Email:</strong> export@pavithramoil.com</p>
-            <p><strong>Phone:</strong> +91 4842678192</p>
+            <p><strong>Phone:</strong> +91 9496143800</p>
           </div>
           <div className="leaf-watermark"></div>
         </motion.div>
