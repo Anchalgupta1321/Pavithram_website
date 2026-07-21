@@ -1,0 +1,33 @@
+name: Update WordPress Data
+
+on:
+  repository_dispatch:
+    types: [update_wp_data]
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *' # Automatically syncs every 30 minutes as a fallback
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run update-data script
+        run: node scripts/update-data.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add src/data/
+          git commit -m "Auto-update WordPress snapshot data" || echo "No changes to commit"
+          git push
