@@ -224,6 +224,4803 @@ export const gallery = [
 ];
 export const products = [
   {
+    "id": 1016,
+    "name": "UnRoasted White Rice Flour",
+    "slug": "unroasted-white-rice-flour",
+    "category": "Breakfast items",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram UnRoasted White Rice Flour is finely ground from selected rice to maintain its natural quality and freshness. Suitable for a variety of traditional dishes.",
+    "ingredients": "White Rice Flour",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Finely milled for consistency",
+      "Versatile ingredient",
+      "Easy to use",
+      "Suitable for traditional recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
+            "url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
+            "name": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T09:45:34+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "UnRoasted White Rice Flour"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "unroasted-white-rice-flour"
+    ]
+  },
+  {
+    "id": 1015,
+    "name": "Samba Wheat Rava",
+    "slug": "samba-wheat-rava",
+    "category": "Breakfast items",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Samba Wheat Rava is made from selected wheat grains and processed under quality standards. Ideal for wholesome breakfast and meal preparations.",
+    "ingredients": "Wheat",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:0.8g\r\nSaturated fat : 0.2g\r\nTrans fat:0 g\r\nCarbohydrates: 29 g\r\nProtein:5g\r\nCholesterol: 0mg \r\nSodium: 5 mg \r\nDietary fiber :4 g\r\nTotal sugar :1g (per serving)",
+    "benefits": [
+      "Made from quality wheat",
+      "Rich in natural goodness",
+      "Versatile ingredient",
+      "Suitable for traditional dishes",
+      "Ideal for daily use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
+            "url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
+            "name": "Samba Wheat Rava - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T09:40:47+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/samba-wheat-rava/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Samba Wheat Rava"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "samba-wheat-rava"
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "Idly Rava",
+    "slug": "idly-rava",
+    "category": "Breakfast items",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Idly Rava is processed from quality rice to help prepare soft and fluffy idlis. A convenient choice for everyday breakfast preparation.",
+    "ingredients": "Idli Rava",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:0.3g\r\nSaturated fat : 0.1g\r\nTrans fat:0 g\r\nCarbohydrates: 32g\r\nProtein:3g \r\nCholesterol: 0mg \r\nSodium: 0mg \r\nDietary fiber : 0.5g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Helps prepare soft idlis",
+      "Easy to use",
+      "Consistent texture",
+      "Suitable for breakfast recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Idly Rava - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Idly Rava - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/idly-rava/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/idly-rava/",
+            "url": "https://www.pavithramfoods.com/product/idly-rava/",
+            "name": "Idly Rava - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T09:38:55+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/idly-rava/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/idly-rava/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/idly-rava/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Idly Rava"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "idly-rava"
+    ]
+  },
+  {
+    "id": 1011,
+    "name": "Chick Peas",
+    "slug": "chick-peas",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Chick Peas are carefully processed to ensure quality and consistency. Ideal for curries, salads, and a variety of recipes.",
+    "ingredients": "Chick Peas",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Source of protein",
+      "Rich in dietary fibre",
+      "Naturally nutritious",
+      "Versatile ingredient",
+      "Suitable for balanced meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Chick Peas - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Chick Peas - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/chick-peas/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/chick-peas/",
+            "url": "https://www.pavithramfoods.com/product/chick-peas/",
+            "name": "Chick Peas - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:09:10+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/chick-peas/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/chick-peas/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/chick-peas/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Chick Peas"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "chick-peas"
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "Horse Gram",
+    "slug": "horse-gram",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Horse Gram is processed from premium-quality grains to retain freshness and natural goodness. Ideal for traditional recipes and everyday cooking.",
+    "ingredients": "Horse Gram",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in dietary fibre",
+      "Source of essential nutrients",
+      "Naturally nutritious",
+      "Suitable for traditional recipes",
+      "Ideal for balanced meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Horse Gram - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Horse Gram - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/horse-gram/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/horse-gram/",
+            "url": "https://www.pavithramfoods.com/product/horse-gram/",
+            "name": "Horse Gram - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:07:08+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/horse-gram/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/horse-gram/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/horse-gram/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Horse Gram"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "horse-gram"
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "Red Kidney Beans (Rajma)",
+    "slug": "red-kidney-beans-rajma",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Rajma is sourced from quality kidney beans and processed under strict quality standards. Perfect for traditional and contemporary recipes.",
+    "ingredients": "Red Kidney beans (Rajma)",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in natural goodness",
+      "Source of protein",
+      "Supports wholesome meals",
+      "Suitable for traditional dishes",
+      "Versatile ingredient"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Red Kidney Beans (Rajma) - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Red Kidney Beans (Rajma) - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/",
+            "url": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/",
+            "name": "Red Kidney Beans (Rajma) - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:05:46+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Red Kidney Beans (Rajma)"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "red-kidney-beans-rajma"
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "Fennel",
+    "slug": "fennel",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Fennel Seeds are selected for quality and freshness to provide a pleasant aroma and flavour. Suitable for cooking and spice blends.",
+    "ingredients": "Fennel",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich aroma and flavour",
+      "Enhances taste naturally",
+      "Versatile spice ingredient",
+      "Suitable for various recipes",
+      "Ideal for everyday use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Fennel - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Fennel - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/fennel/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/fennel/",
+            "url": "https://www.pavithramfoods.com/product/fennel/",
+            "name": "Fennel - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:04:13+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/fennel/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/fennel/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/fennel/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Fennel"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "fennel"
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "Fenugreek",
+    "slug": "fenugreek",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Fenugreek Seeds are processed under quality standards to ensure freshness and purity. Ideal for seasoning and traditional recipes.",
+    "ingredients": "Fenugreek",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in natural goodness",
+      "Distinctive flavour",
+      "Traditional kitchen essential",
+      "Suitable for seasoning",
+      "Versatile ingredient"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Fenugreek - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Fenugreek - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/fenugreek/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/fenugreek/",
+            "url": "https://www.pavithramfoods.com/product/fenugreek/",
+            "name": "Fenugreek - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:03:08+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/fenugreek/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Fenugreek"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "fenugreek"
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "Mustard Seed",
+    "slug": "mustard-seed",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Mustard Seeds are carefully processed to deliver freshness, aroma, and authentic flavour. Ideal for seasoning and tempering dishes.",
+    "ingredients": "Mustard Seed",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich aroma and flavour",
+      "Essential seasoning ingredient",
+      "Enhances taste",
+      "Suitable for various cuisines",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Mustard Seed - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Mustard Seed - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/mustard-seed/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/mustard-seed/",
+            "url": "https://www.pavithramfoods.com/product/mustard-seed/",
+            "name": "Mustard Seed - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T08:01:23+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/mustard-seed/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Mustard Seed"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "mustard-seed"
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "Green Moong",
+    "slug": "green-moong",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Green Moong is prepared from carefully sourced whole green gram and processed for quality and freshness. Ideal for traditional and wholesome recipes.",
+    "ingredients": "Green Moong",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Naturally nutritious",
+      "Source of protein",
+      "Rich in dietary fibre",
+      "Suitable for various dishes",
+      "Ideal for balanced meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Green Moong - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Green Moong - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/green-moong/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/green-moong/",
+            "url": "https://www.pavithramfoods.com/product/green-moong/",
+            "name": "Green Moong - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:56:52+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/green-moong/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/green-moong/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/green-moong/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Green Moong"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "green-moong"
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "Urad Split",
+    "slug": "urad-split",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Urad Split is prepared from quality urad beans and processed under strict quality standards. Ideal for preparing a range of traditional dishes.",
+    "ingredients": "Urad Split",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in plant-based protein",
+      "Source of dietary fibre",
+      "Easy to cook",
+      "Suitable for various recipes",
+      "Ideal for daily use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Urad Split - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Urad Split - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/urad-split/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T07:57:54+00:00",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/urad-split/",
+            "url": "https://www.pavithramfoods.com/product/urad-split/",
+            "name": "Urad Split - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:55:39+00:00",
+            "dateModified": "2026-07-16T07:57:54+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/urad-split/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Urad Split"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "urad-split"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Urad Ghotta",
+    "slug": "urad-ghotta",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Urad Ghotta is processed from premium-quality whole urad beans to ensure freshness and consistency. Suitable for a variety of traditional recipes and everyday cooking.",
+    "ingredients": "Urad Ghotta",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in plant-based protein",
+      "Source of dietary fibre",
+      "Versatile ingredient",
+      "Suitable for traditional recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Urad Ghotta - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Urad Ghotta - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/urad-ghotta/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T08:00:06+00:00",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/urad-ghotta/",
+            "url": "https://www.pavithramfoods.com/product/urad-ghotta/",
+            "name": "Urad Ghotta - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:54:22+00:00",
+            "dateModified": "2026-07-16T08:00:06+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/urad-ghotta/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Urad Ghotta"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "urad-ghotta"
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "Sago",
+    "slug": "sago",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Sago is processed from quality ingredients to deliver consistency and freshness. Suitable for desserts, snacks, and traditional recipes.",
+    "ingredients": "Sago",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Light and versatile ingredient",
+      "Easy to prepare",
+      "Suitable for various recipes",
+      "Consistent quality",
+      "Ideal for everyday use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Sago - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Sago - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/sago/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/sago/",
+            "url": "https://www.pavithramfoods.com/product/sago/",
+            "name": "Sago - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:52:02+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/sago/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/sago/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/sago/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sago"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "sago"
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "Soya Big",
+    "slug": "soya-big",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "500g"
+    ],
+    "description": "Pavithram Soya Big is made from quality soy protein and processed for excellent texture and consistency. Suitable for a variety of dishes.",
+    "ingredients": "Soya Big",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich source of protein",
+      "Versatile ingredient",
+      "Easy to prepare",
+      "Suitable for various dishes",
+      "Ideal for wholesome meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Soya Big - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Soya Big - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/soya-big/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/soya-big/",
+            "url": "https://www.pavithramfoods.com/product/soya-big/",
+            "name": "Soya Big - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:50:43+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/soya-big/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/soya-big/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/soya-big/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Soya Big"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "soya-big"
+    ]
+  },
+  {
+    "id": 999,
+    "name": "Soya Medium",
+    "slug": "soya-medium",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Soya Medium is processed from quality soy protein to ensure consistency and taste. Perfect for curries, gravies, and everyday cooking.",
+    "ingredients": "Soya Medium",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Source of protein",
+      "Easy to prepare",
+      "Versatile ingredient",
+      "Suitable for daily cooking",
+      "Ideal for balanced meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Soya Medium - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Soya Medium - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/soya-medium/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/soya-medium/",
+            "url": "https://www.pavithramfoods.com/product/soya-medium/",
+            "name": "Soya Medium - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:49:15+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/soya-medium/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/soya-medium/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/soya-medium/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Soya Medium"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "soya-medium"
+    ]
+  },
+  {
+    "id": 998,
+    "name": "Black Sesame Seed",
+    "slug": "black-sesame-seed",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Black Sesame Seeds are sourced from quality seeds and processed to maintain freshness and flavour. Suitable for traditional recipes and garnishing.",
+    "ingredients": "Black Sesame Seed",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Rich in natural goodness",
+      "Source of essential nutrients",
+      "Distinctive flavour",
+      "Suitable for various recipes",
+      "Ideal for everyday use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Black Sesame Seed - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Black Sesame Seed - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/black-sesame-seed/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/",
+            "url": "https://www.pavithramfoods.com/product/black-sesame-seed/",
+            "name": "Black Sesame Seed - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:47:31+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/black-sesame-seed/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Black Sesame Seed"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "black-sesame-seed"
+    ]
+  },
+  {
+    "id": 997,
+    "name": "Kokum",
+    "slug": "kokum",
+    "category": "Groceries",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "200g"
+    ],
+    "description": "Pavithram Kokum is sourced from quality kokum and processed to retain its natural flavour and freshness. Ideal for traditional recipes, curries, and beverages.",
+    "ingredients": "Cambodge",
+    "nutritionalInfo": "Energy: 38.09 kcal\r\nTotal Fat: 2.2 g\r\nCarbohydrates: 13.4 g\r\nProtein: 0.85 g\r\nCholesterol: 1mg\r\nDietary fibre 0.5 g(per 100g)",
+    "benefits": [
+      "Rich and distinctive flavour",
+      "Traditional culinary ingredient",
+      "Enhances taste naturally",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Kokum - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Kokum - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/kokum/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/kokum/",
+            "url": "https://www.pavithramfoods.com/product/kokum/",
+            "name": "Kokum - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:30:14+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/kokum/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kokum"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "kokum"
+    ]
+  },
+  {
+    "id": 994,
+    "name": "Garlic Vadam",
+    "slug": "garlic-vadam",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Garlic Vadam is prepared using quality ingredients and garlic to deliver a rich and savoury flavour. Perfect as a crunchy accompaniment to traditional dishes.",
+    "ingredients": "Rice Flour, Garlic, Red Chilli, Salt",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Rich garlic flavour",
+      "Crispy texture",
+      "Traditional taste",
+      "Easy to prepare",
+      "Ideal with rice dishes and meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Garlic Vadam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Garlic Vadam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/garlic-vadam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-18T11:23:26+00:00",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/garlic-vadam/",
+            "url": "https://www.pavithramfoods.com/product/garlic-vadam/",
+            "name": "Garlic Vadam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:23:44+00:00",
+            "dateModified": "2026-07-18T11:23:26+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/garlic-vadam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/garlic-vadam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/garlic-vadam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Garlic Vadam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "garlic-vadam"
+    ]
+  },
+  {
+    "id": 993,
+    "name": "Omam Vadam",
+    "slug": "omam-vadam",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Omam Vadam is crafted from selected ingredients and omam (ajwain) to provide a unique flavour and crisp texture. Suitable for traditional meal occasions.",
+    "ingredients": "Rice Flour, Cumin Seeds,Asafoetida, Salt",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Flavoured with omam",
+      "Crispy and tasty",
+      "Traditional recipe",
+      "Easy to prepare",
+      "Ideal with everyday meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Omam Vadam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Omam Vadam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/omam-vadam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/omam-vadam/",
+            "url": "https://www.pavithramfoods.com/product/omam-vadam/",
+            "name": "Omam Vadam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:21:47+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/omam-vadam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Omam Vadam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "omam-vadam"
+    ]
+  },
+  {
+    "id": 992,
+    "name": "Rice Vadagam Murukku",
+    "slug": "rice-vadagam-murukku",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Rice Vadagam Murukku is crafted from quality rice ingredients to provide a delightful crunch and traditional flavour. Perfect for everyday meals and snacks.",
+    "ingredients": "Rice Flour, Salt ,Cumin ,Green chilly",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Crispy and flavourful",
+      "Traditional recipe",
+      "Delightful crunch",
+      "Easy to prepare",
+      "Ideal for snacks and meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Rice Vadagam Murukku - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Rice Vadagam Murukku - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
+            "url": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
+            "name": "Rice Vadagam Murukku - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:19:39+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/rice-vadagam-murukku/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rice Vadagam Murukku"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "rice-vadagam-murukku"
+    ]
+  },
+  {
+    "id": 991,
+    "name": "Rice Vadagam Stick",
+    "slug": "rice-vadagam-stick",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Rice Vadagam Stick is prepared using premium-quality rice and processed to deliver a crispy texture and authentic taste. Ideal as a traditional snack or meal accompaniment.",
+    "ingredients": "Rice Flour, Salt ,Cumin ,Green chilly",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Crispy texture",
+      "Traditional taste",
+      "Light and crunchy",
+      "Easy to prepare",
+      "Ideal for everyday use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Rice Vadagam Stick - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Rice Vadagam Stick - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
+            "url": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
+            "name": "Rice Vadagam Stick - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:17:25+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/rice-vadagam-stick/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rice Vadagam Stick"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "rice-vadagam-stick"
+    ]
+  },
+  {
+    "id": 986,
+    "name": "Pappadam",
+    "slug": "pappadam",
+    "category": "Appalam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Pappadam is prepared using selected ingredients to provide a light, crispy texture and authentic taste. Perfect as a side dish for traditional meals.",
+    "ingredients": "Mango Pieces, Salt, Green Chilli, Sesame Oil, Mustard, Ginger, Fenugreek, Asafoetida, Turmeric Powder, Non-Vinegar, Curry Leaves.",
+    "nutritionalInfo": "Energy: 326 KJ\r\nTotal Fat: 2g\r\nSaturated fat :0.1g  \r\nCarbohydrates: 0g\r\nProtein: 4g\r\nSodium : 0 g (per 100g)",
+    "benefits": [
+      "Crispy texture",
+      "Traditional taste",
+      "Made from quality ingredients",
+      "Easy to prepare",
+      "Ideal for every meals."
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Pappadam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Pappadam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/pappadam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/pappadam/",
+            "url": "https://www.pavithramfoods.com/product/pappadam/",
+            "name": "Pappadam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T07:00:27+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/pappadam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/pappadam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/pappadam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Pappadam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "pappadam"
+    ]
+  },
+  {
+    "id": 985,
+    "name": "Madras Pappdam",
+    "slug": "madras-pappdam",
+    "category": "Appalam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Madras Pappadam is made from carefully selected ingredients and processed under strict quality standards to deliver a crisp texture and authentic taste. Ideal as a traditional accompaniment to meals.",
+    "ingredients": "Urad dal flour Lodised salt, Sodium Bi-carbonate INS 500(!!),Compound asafoetida, Rice Flour.",
+    "nutritionalInfo": "Energy: 326 KJ\r\nTotal Fat: 2g\r\nSaturated fat :0 g  \r\nCarbohydrates: 58g\r\nProtein: 21g\r\nSodium : 1485 mg (per 100g)",
+    "benefits": [
+      "Crispy and flavourful",
+      "Made from quality ingredients",
+      "Traditional recipe",
+      "Easy to prepare",
+      "Ideal with everyday meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Madras Pappdam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Madras Pappdam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/madras-pappdam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/madras-pappdam/",
+            "url": "https://www.pavithramfoods.com/product/madras-pappdam/",
+            "name": "Madras Pappdam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T06:58:21+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/madras-pappdam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Madras Pappdam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "madras-pappdam"
+    ]
+  },
+  {
+    "id": 983,
+    "name": "Tea",
+    "slug": "tea",
+    "category": "Groceries",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Tea is sourced from quality tea leaves and processed to provide a refreshing taste and pleasant aroma. Suitable for everyday consumption.",
+    "ingredients": "Tea",
+    "nutritionalInfo": "Energy: 37 Kcal\r\nTotal Fat: 1 g\r\nCarbohydrates: 6g\r\nProtein: 1 g \r\nSodium 8 mg\r\nFiber 1g \r\nSugar 2 g,(per serving)",
+    "benefits": [
+      "Refreshing taste",
+      "Rich aroma",
+      "Consistent quality",
+      "Easy to prepare"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Tea - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Tea - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/tea/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/tea/",
+            "url": "https://www.pavithramfoods.com/product/tea/",
+            "name": "Tea - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T06:04:15+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/tea/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/tea/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/tea/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tea"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "tea"
+    ]
+  },
+  {
+    "id": 979,
+    "name": "Tender Mango Pickle",
+    "slug": "tender-mango-pickle",
+    "category": "Products",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "400g"
+    ],
+    "description": "Pavithram Tender Mango Pickle is made from carefully selected tender mangoes and blended with aromatic spices. Ideal for traditional Kerala-style meals.",
+    "ingredients": "Tender Mango (48.0%), Vegetable Oil (12.0%), Salt (12.0%), Synthetic Vinegar (10.0%) Chilli Powder (6.0%), Sugar (3.5%), Green Chilli (2.5%), Ginger (2.5%), Mustard Seeds (1.5%), Asafoetida (1.0%) , Fenugreek (0.5%), Turmeric Powder (0.3%), and Sodium Benzoate (0.2%) .",
+    "nutritionalInfo": "Energy:88 kcal\r\nTotal Fat:4g\r\nSaturated fat : 0g\r\nTrans fat: 0 mg  \r\nCarbohydrates: 12g\r\nProtein: 1g\r\nCholesterol: 0mg \r\nSodium:2200 mg\r\nDietary fiber : 3g \r\nTotal sugars:.0g\r\nAdded sugars:0g (per serving)",
+    "benefits": [
+      "Made from tender mangoes",
+      "Traditional recipe",
+      "Rich and flavourful taste",
+      "Enhances meal experience",
+      "Ideal with every dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Tender Mango Pickle - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Tender Mango Pickle - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/tender-mango-pickle/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/",
+            "url": "https://www.pavithramfoods.com/product/tender-mango-pickle/",
+            "name": "Tender Mango Pickle - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T05:52:34+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/tender-mango-pickle/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tender Mango Pickle"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "tender-mango-pickle"
+    ]
+  },
+  {
+    "id": 978,
+    "name": "White Mango Pickle",
+    "slug": "white-mango-pickle",
+    "category": "Jams & Pickles",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "400g"
+    ],
+    "description": "Pavithram White Mango Pickle is crafted from quality mangoes and selected ingredients for a mild and distinctive taste. Suitable for a variety of dishes.",
+    "ingredients": "Mango Pieces, Salt, Green Chilli, Sesame Oil, Mustard, Ginger, Fenugreek, Asafoetida, Turmeric Powder, Non-Vinegar, Curry Leaves.",
+    "nutritionalInfo": "Energy:90 kcal\r\nTotal Fat: 7g\r\nSaturated fat : 1g\r\nTrans fat: 0 mg  \r\nCarbohydrates: 6g \r\nProtein: 1g\r\nCholesterol: 0mg \r\nSodium:1200 mg\r\nDietary fiber :1g \r\nTotal sugars:.2g\r\nAdded sugars:0 g(per serving)",
+    "benefits": [
+      "Made from quality mangoes",
+      "Mild and distinctive taste",
+      "Traditional preparation",
+      "Complements various dishes",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "White Mango Pickle - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "White Mango Pickle - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/white-mango-pickle/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T05:50:39+00:00",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/",
+            "url": "https://www.pavithramfoods.com/product/white-mango-pickle/",
+            "name": "White Mango Pickle - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T05:50:20+00:00",
+            "dateModified": "2026-07-16T05:50:39+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/white-mango-pickle/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "White Mango Pickle"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "white-mango-pickle"
+    ]
+  },
+  {
+    "id": 977,
+    "name": "Vadukapuli Pickle",
+    "slug": "vadukapuli-pickle",
+    "category": "Jams & Pickles",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "400g"
+    ],
+    "description": "Pavithram Vadukapuli Pickle is prepared from carefully selected tamarind and traditional ingredients for an authentic flavour. A classic accompaniment to meals.",
+    "ingredients": "Vadukapuli  (45.0%), Vegetable Oil(12.0%), Salt (11.0%), Synthetic Vinegar (10.0%) , Red Chilli Powder (6.5%), Sugar (5.0%), Green Chilli (4.0%), Mustard Seeds (2.5%), Asafoetida (2.0%), Fenugreek (1.0%), Turmeric Powder (0.8%), and Sodium Benzoate (0.2%)",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Made from selected tamarind",
+      "Authentic traditional flavour",
+      "Rich taste profile",
+      "Enhances meal experience",
+      "Ideal with Kerala dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Vadukapuli Pickle - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Vadukapuli Pickle - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/vadukapuli-pickle/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/",
+            "url": "https://www.pavithramfoods.com/product/vadukapuli-pickle/",
+            "name": "Vadukapuli Pickle - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T05:47:41+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/vadukapuli-pickle/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Vadukapuli Pickle"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "vadukapuli-pickle"
+    ]
+  },
+  {
+    "id": 975,
+    "name": "Kadumango Pickle",
+    "slug": "kadumango-pickle",
+    "category": "Jams & Pickles",
+    "price": "₹0.00",
+    "isBulkOnly": true,
+    "images": [
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg"
+    ],
+    "packSizes": [
+      "400g"
+    ],
+    "description": "Pavithram Kadukamango Pickle is made from selected mangoes and mustard-based spices to deliver a traditional Kerala flavour. Ideal for everyday meals.",
+    "ingredients": "Mango Pieces (50.0%), Vegetable Oil (13.0%), Salt (12.0%), Synthetic Vinegar (8.0%) , Chilli Powder (6.0%), Green Chilli (3.0%), Ginger (2.5%), Mustard Seeds (2.0%), Asafoetida (2.0%) , Fenugreek (1.0%), Turmeric Powder (0.3%), and Sodium Benzoate (0.2%)",
+    "nutritionalInfo": "Energy:102 kcal\r\nTotal Fat:2g\r\nSaturated fat : 0.47g\r\nTrans fat: 0mg  \r\nCarbohydrates: 20g\r\nProtein: 0.91g \r\nCholesterol: 0mg \r\nSodium:999mg\r\nDietary fiber :0.50g \r\nTotal sugars:.0.50g\r\nAdded sugars:0(per serving)",
+    "benefits": [
+      "Traditional Kerala flavour",
+      "Rich and flavourful taste",
+      "Complements rice dishes",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural",
+      "Export Quality"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Kadumango Pickle - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Kadumango Pickle - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/kadumango-pickle/",
+      "og_site_name": "Pavithram Group of Companies",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/",
+            "url": "https://www.pavithramfoods.com/product/kadumango-pickle/",
+            "name": "Kadumango Pickle - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg",
+            "datePublished": "2026-07-16T05:43:13+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/kadumango-pickle/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg",
+            "width": 672,
+            "height": 864
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/kadumango-pickle/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kadumango Pickle"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "kadumango-pickle"
+    ]
+  },
+  {
+    "id": 974,
+    "name": "Puliyinchi",
+    "slug": "puliyinchi",
+    "category": "Jams & Pickles",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "400g"
+    ],
+    "description": "Pavithram Puliyinchi is a traditional blend of ginger, tamarind, and spices prepared for a rich and authentic taste. Perfect as an accompaniment to festive and regular meals",
+    "ingredients": "Tamarind (35.0%), Ginger (20.0%), Jaggery (15.0%), Vegetable Oil (10.0%), Salt (7.0%), Green Chilli (4.0%), Chilli Powder (3.5%), Garlic (3.0%), Mustard Seeds (1.0%), Fenugreek (0.8%), Curry Leaves (0.4%), Turmeric Powder (0.1%), and Sodium Benzoate (0.2%)",
+    "nutritionalInfo": "Energy:101 kcal\r\nTotal Fat:3.5g\r\nSaturated fat : 1.5g\r\nTrans fat: 0mg \r\nCarbohydrates: 14g\r\nProtein: 1 g\r\nCholesterol: 0mg \r\nSodium:1150 mg\r\nDietary fiber :1.5g \r\nTotal sugars:.9 g\r\nAdded sugars:7 g (per serving)",
+    "benefits": [
+      "Traditional ginger preparation",
+      "Sweet and tangy taste",
+      "Rich flavour profile",
+      "Ideal with festive meals",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Puliyinchi - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Puliyinchi - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/puliyinchi/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/puliyinchi/",
+            "url": "https://www.pavithramfoods.com/product/puliyinchi/",
+            "name": "Puliyinchi - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T05:41:00+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/puliyinchi/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/puliyinchi/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/puliyinchi/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Puliyinchi"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "puliyinchi"
+    ]
+  },
+  {
+    "id": 972,
+    "name": "White Rice Flour",
+    "slug": "white-rice-flour",
+    "category": "Breakfast items",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram White Rice Flour is made from carefully selected rice and finely milled for consistent quality. Ideal for cooking, baking, and traditional preparations.",
+    "ingredients": "White Rice Flour",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Finely milled for consistency",
+      "Versatile ingredient",
+      "Easy to use",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "White Rice Flour - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "White Rice Flour - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/white-rice-flour/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/white-rice-flour/",
+            "url": "https://www.pavithramfoods.com/product/white-rice-flour/",
+            "name": "White Rice Flour - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-16T05:32:03+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/white-rice-flour/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "White Rice Flour"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "white-rice-flour"
+    ]
+  },
+  {
+    "id": 968,
+    "name": "Kasuri Methi",
+    "slug": "kasuri-methi",
+    "category": "Groceries",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "50g"
+    ],
+    "description": "Pavithram Kasuri Methi is prepared from carefully dried fenugreek leaves to deliver authentic aroma and flavour. Ideal for enhancing a variety of dishes.",
+    "ingredients": "Kasuri Methi",
+    "nutritionalInfo": "Energy: 328 kcal\r\nTotal Fat:3.86 g\r\nSaturated fat :0.39g\r\nTrans fat:0 g\r\nCarbohydrates: 50g\r\nProtein: 23.16 g\r\nCholesterol: 0mg \r\nSodium: 1376mg \r\nDietary fiber  7g \r\nTotal sugar :0.g (per serving)",
+    "benefits": [
+      "Rich aroma and flavour",
+      "Enhances taste naturally",
+      "Traditional culinary ingredient",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Kasuri Methi - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Kasuri Methi - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/kasuri-methi/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/kasuri-methi/",
+            "url": "https://www.pavithramfoods.com/product/kasuri-methi/",
+            "name": "Kasuri Methi - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:31:49+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/kasuri-methi/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kasuri Methi"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "kasuri-methi"
+    ]
+  },
+  {
+    "id": 967,
+    "name": "Phool Makkana",
+    "slug": "phool-makkana",
+    "category": "Groceries",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Phool Makhana is sourced from quality lotus seeds and processed to ensure freshness and consistency. Suitable for snacking and a variety of recipes.",
+    "ingredients": "Energy: 346 kcal\r\nTotal Fat:0.9 g\r\nSaturated fat :0.2g\r\nTrans fat:0 g\r\nCarbohydrates: 75g\r\nProtein: 9.5 g\r\nCholesterol: 0mg \r\nSodium: 0mg \r\nDietary fiber : 9g\r\nTotal sugar :0.9g (per 100g)",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Light and crunchy",
+      "Naturally nutritious",
+      "Versatile ingredient",
+      "Suitable for snacking",
+      "Ideal for everyday consumption"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Phool Makkana - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Phool Makkana - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/phool-makkana/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/phool-makkana/",
+            "url": "https://www.pavithramfoods.com/product/phool-makkana/",
+            "name": "Phool Makkana - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:29:01+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/phool-makkana/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/phool-makkana/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/phool-makkana/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Phool Makkana"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "phool-makkana"
+    ]
+  },
+  {
+    "id": 966,
+    "name": "Coconut half (copra / dried)",
+    "slug": "coconut-half-copra-dried",
+    "category": "Groceries",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1 Pcs"
+    ],
+    "description": "Pavithram Coconut Half (Copra) is prepared from quality mature coconuts and carefully dried to retain its natural flavour and freshness. Suitable for cooking, traditional recipes, and various culinary applications.",
+    "ingredients": "Dried Coconut half",
+    "nutritionalInfo": "Energy: 360kcal\r\nTotal Fat:33g\r\nSaturated fat :29 g\r\nTrans fat:0 g\r\nCarbohydrates: 12g\r\nProtein: 3 g\r\nCholesterol: 0mg \r\nSodium: 20 mg \r\nDietary fiber :8 g \r\nTotal sugar :3g (per 100g)",
+    "benefits": [
+      "Made from quality coconuts",
+      "Rich natural flavour",
+      "Versatile ingredient",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Coconut half (copra / dried) - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Coconut half (copra / dried) - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/",
+            "url": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/",
+            "name": "Coconut half (copra / dried) - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:26:23+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/coconut-half-copra-dried/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Coconut half (copra / dried)"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "coconut-half-copra-dried"
+    ]
+  },
+  {
+    "id": 965,
+    "name": "Toor Dhal",
+    "slug": "toor-dhal",
+    "category": "Pulses",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Toor Dal is sourced from quality pigeon peas and processed to maintain freshness and purity. Perfect for preparing flavourful dals and curries.",
+    "ingredients": "Toor Dhal",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Source of protein",
+      "Rich in natural goodness",
+      "Easy to digest",
+      "Suitable for everyday meals",
+      "Versatile ingredient"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Toor Dhal - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Toor Dhal - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/toor-dhal/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/toor-dhal/",
+            "url": "https://www.pavithramfoods.com/product/toor-dhal/",
+            "name": "Toor Dhal - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:19:33+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/toor-dhal/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/toor-dhal/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/toor-dhal/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Toor Dhal"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "toor-dhal"
+    ]
+  },
+  {
+    "id": 964,
+    "name": "Tomato Vadagam",
+    "slug": "tomato-vadagam",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Tomato Vadagam is prepared using quality ingredients and tomato to deliver a rich and distinctive flavour. Perfect as a crispy accompaniment to meals.",
+    "ingredients": "Rice Flour, Tomato, Red chilly, Salt",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Rich tomato flavour",
+      "Crispy texture",
+      "Traditional preparation",
+      "Easy to prepare",
+      "Ideal with rice dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Tomato Vadagam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Tomato Vadagam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/tomato-vadagam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/",
+            "url": "https://www.pavithramfoods.com/product/tomato-vadagam/",
+            "name": "Tomato Vadagam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:17:20+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/tomato-vadagam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tomato Vadagam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "tomato-vadagam"
+    ]
+  },
+  {
+    "id": 963,
+    "name": "Sago Vadagam",
+    "slug": "sago-vadagam",
+    "category": "Vadagam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Sago Vadagam is produced from selected sago and processed under strict quality standards to ensure excellent taste and texture. Ideal for traditional meal preparations.",
+    "ingredients": "Rice Flour, Sago, Salt, Cumin, Asafoetida, Green chilly",
+    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2.5g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 15 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Light and crispy texture",
+      "Authentic traditional taste",
+      "Made with quality ingredients",
+      "Easy to prepare",
+      "Ideal with everyday meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Sago Vadagam - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Sago Vadagam - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/sago-vadagam/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/sago-vadagam/",
+            "url": "https://www.pavithramfoods.com/product/sago-vadagam/",
+            "name": "Sago Vadagam - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:14:29+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/sago-vadagam/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/sago-vadagam/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/sago-vadagam/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sago Vadagam"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "sago-vadagam"
+    ]
+  },
+  {
+    "id": 610,
+    "name": "Tamarind",
+    "slug": "tamarind",
+    "category": "Whole Spices",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Tamarind is sourced from quality tamarind and processed under strict quality standards to retain its natural flavour and freshness. Ideal for preparing a variety of traditional dishes, curries, and chutneys.",
+    "ingredients": "Tamarind ,Sodium Chloride",
+    "nutritionalInfo": "Energy: 327 kcal\r\nTotal Fat: 1 g\r\nCarbohydrates: 0g\r\nProtein: 4g\r\nCholesterol: 0mg (per 100g)",
+    "benefits": [
+      "Rich and tangy flavour",
+      "Essential cooking ingredient",
+      "Enhances taste naturally",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Tamarind - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Tamarind - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/tamarind/",
+      "og_site_name": "Pavithram Group of Companies",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/tamarind/",
+            "url": "https://www.pavithramfoods.com/product/tamarind/",
+            "name": "Tamarind - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2026-07-15T17:09:56+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/tamarind/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/tamarind/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/tamarind/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tamarind"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "tamarind"
+    ]
+  },
+  {
+    "id": 956,
+    "name": "Ragi Flour",
+    "slug": "ragi-flour",
+    "category": "Breakfast items",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Ragi-Puttupodi.jpg"
+    ],
+    "packSizes": [
+      "1kg"
+    ],
+    "description": "Pavithram Ragi Flour is made from carefully selected finger millet and processed to retain its natural goodness. Suitable for a variety of traditional and healthy recipes.",
+    "ingredients": "Ragi",
+    "nutritionalInfo": "Energy: 140 kcal\r\nTotal Fat:1 g\r\nSaturated fat : 0.2g\r\nTrans fat: 0 mg\r\nCarbohydrates: 29g\r\nProtein: 3g\r\nCholesterol: 0mg \r\nSodium : 5mg \r\nDietary fiber :3.5g ,(per serving)",
+    "benefits": [
+      "Made from quality finger millet",
+      "Rich in natural goodness",
+      "Versatile ingredient",
+      "Suitable for various recipes",
+      "Ideal for daily use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Ragi Flour - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Ragi Flour - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/ragi-flour/",
+      "og_site_name": "Pavithram Group of Companies",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ragi-Puttupodi.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/ragi-flour/",
+            "url": "https://www.pavithramfoods.com/product/ragi-flour/",
+            "name": "Ragi Flour - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/ragi-flour/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/ragi-flour/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ragi-Puttupodi.jpg",
+            "datePublished": "2026-07-15T16:37:14+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/ragi-flour/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/ragi-flour/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/ragi-flour/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ragi-Puttupodi.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ragi-Puttupodi.jpg",
+            "width": 672,
+            "height": 864,
+            "caption": "Ragi Puttupodi"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/ragi-flour/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Ragi Flour"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "ragi-flour"
+    ]
+  },
+  {
+    "id": 954,
+    "name": "Lamp Oil",
+    "slug": "lamp-oil",
+    "category": "Non Edible Oils",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg"
+    ],
+    "packSizes": [
+      "1L"
+    ],
+    "description": "Pavithram Lamp Oil is specially formulated, non-edible oil. Designed specifically for traditional rituals which bring peace, health, and positive energy.",
+    "ingredients": "Rice Bran Oil",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Clean and steady burning",
+      "Suitable for daily rituals",
+      "Helps maintain a bright flame",
+      "Easy to use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. Keep container tightly closed after use.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Lamp Oil - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Lamp Oil - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/lamp-oil/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-15T16:27:27+00:00",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/lamp-oil/",
+            "url": "https://www.pavithramfoods.com/product/lamp-oil/",
+            "name": "Lamp Oil - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/lamp-oil/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/lamp-oil/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
+            "datePublished": "2026-07-15T16:27:08+00:00",
+            "dateModified": "2026-07-15T16:27:27+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/lamp-oil/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/lamp-oil/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/lamp-oil/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
+            "width": 672,
+            "height": 864
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/lamp-oil/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Lamp Oil"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "lamp-oil"
+    ]
+  },
+  {
+    "id": 953,
+    "name": "Cold Pressed Groundnut Oil",
+    "slug": "cold-pressed-groundnut-oil",
+    "category": "Edible Oils",
+    "price": "₹0.00",
+    "isBulkOnly": true,
+    "images": [
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
+    ],
+    "packSizes": [
+      "500ml"
+    ],
+    "description": "Pavithram Cold Pressed Groundnut Oil is extracted from quality groundnuts using the cold-press method to preserve its natural taste and aroma. Suitable for everyday cooking and traditional recipes.",
+    "ingredients": "Groundnut Oil",
+    "nutritionalInfo": "",
+    "benefits": [
+      "Cold pressed for natural goodness",
+      "Rich in natural antioxidants",
+      "Contains healthy fats",
+      "Mild nutty flavour",
+      "Suitable for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. Keep container tightly closed after use.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural",
+      "Export Quality"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-18T10:42:27+00:00",
+      "og_image": [
+        {
+          "width": 688,
+          "height": 1532,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
+            "url": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
+            "name": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "datePublished": "2026-07-15T16:22:47+00:00",
+            "dateModified": "2026-07-18T10:42:27+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "width": 688,
+            "height": 1532
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Cold Pressed Groundnut Oil"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
+      "cold-pressed-groundnut-oil"
+    ]
+  },
+  {
     "id": 939,
     "name": "Barnyard Millet",
     "slug": "barnyard-millet",
@@ -231,7 +5028,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Barnyard-Millet.jpg"
     ],
     "packSizes": [
       "500g"
@@ -258,19 +5055,30 @@ export const products = [
     "seo": {
       "title": "Barnyard Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/barnyard-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Barnyard Millet - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/barnyard-millet/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-21T06:26:24+00:00",
+      "og_image": [
+        {
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
+          "width": 474,
+          "height": 570,
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -282,7 +5090,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/barnyard-millet/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/barnyard-millet/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
             "datePublished": "2026-07-15T06:29:55+00:00",
+            "dateModified": "2026-07-21T06:26:24+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/barnyard-millet/#breadcrumb"
             },
@@ -295,6 +5111,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/barnyard-millet/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
+            "width": 698,
+            "height": 840,
+            "caption": "Pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -350,7 +5176,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Foxtail-millet.png"
     ],
     "packSizes": [
       "500g"
@@ -377,19 +5203,30 @@ export const products = [
     "seo": {
       "title": "Foxtail Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/foxtail-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Foxtail Millet - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/foxtail-millet/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-18T11:24:13+00:00",
+      "og_image": [
+        {
+          "width": 670,
+          "height": 854,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Foxtail-millet.png",
+          "type": "image/png"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -401,7 +5238,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/foxtail-millet/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/foxtail-millet/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Foxtail-millet.png",
             "datePublished": "2026-07-15T06:16:47+00:00",
+            "dateModified": "2026-07-18T11:24:13+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/foxtail-millet/#breadcrumb"
             },
@@ -414,6 +5259,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/foxtail-millet/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Foxtail-millet.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Foxtail-millet.png",
+            "width": 670,
+            "height": 854
           },
           {
             "@type": "BreadcrumbList",
@@ -496,13 +5350,12 @@ export const products = [
     "seo": {
       "title": "Lime Hot & Sweet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/lime-hot-sweet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Lime Hot & Sweet - Pavithram Group of Companies",
@@ -614,13 +5467,12 @@ export const products = [
     "seo": {
       "title": "White Lime Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/white-lime-pickle/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "White Lime Pickle - Pavithram Group of Companies",
@@ -762,13 +5614,12 @@ export const products = [
     "seo": {
       "title": "Cold Pressed Sesame Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Cold Pressed Sesame Oil - Pavithram Group of Companies",
@@ -881,13 +5732,12 @@ export const products = [
     "seo": {
       "title": "Eucalptus Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/eucalptus-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Eucalptus Oil - Pavithram Group of Companies",
@@ -1031,13 +5881,12 @@ export const products = [
     "seo": {
       "title": "Coconut Whole (copra / dried) - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Coconut Whole (copra / dried) - Pavithram Group of Companies",
@@ -1150,13 +5999,12 @@ export const products = [
     "seo": {
       "title": "Rice Flakes White - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/rice-flakes-white/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Rice Flakes White - Pavithram Group of Companies",
@@ -1271,7 +6119,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "200g"
@@ -1298,13 +6146,12 @@ export const products = [
     "seo": {
       "title": "Biriyani Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Biriyani Gravy Mix - Pavithram Group of Companies",
@@ -1444,13 +6291,12 @@ export const products = [
     "seo": {
       "title": "Tandoori Chicken Masala Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tandoori Chicken Masala Paste - Pavithram Group of Companies",
@@ -1543,7 +6389,7 @@ export const products = [
     ],
     "description": "Pavithram Palm Candy is prepared from quality palm sap and processed to ensure purity and freshness. Ideal for beverages and traditional preparations.",
     "ingredients": "Cane Sugar",
-    "nutritionalInfo": "Energy: 180 kcal\r\nTotal Fat: 0 g\r\nCarbohydrates: 45g\r\nProtein: 0 g \r\nSodium 10 mg\r\nTotal sugar 45g\r\nAdded sugar 25g  (per serving )",
+    "nutritionalInfo": "Energy: 180 kcal\r\nTotal Fat: 0 g\r\nCarbohydrates: 45g\r\nProtein: 0 g \r\nSodium: 10 mg\r\nTotal sugar : 45g\r\nAdded sugar: 25g  (per serving )",
     "benefits": [
       "Natural sweetening option",
       "Mild and pleasant taste",
@@ -1563,18 +6409,18 @@ export const products = [
     "seo": {
       "title": "Palm Candy - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palm-candy/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palm Candy - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-candy/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T11:36:57+00:00",
       "twitter_card": "summary_large_image",
       "schema": {
         "@context": "https://schema.org",
@@ -1588,6 +6434,7 @@ export const products = [
               "@id": "https://www.pavithramfoods.com/#website"
             },
             "datePublished": "2026-07-14T16:58:44+00:00",
+            "dateModified": "2026-07-16T11:36:57+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-candy/#breadcrumb"
             },
@@ -1682,13 +6529,12 @@ export const products = [
     "seo": {
       "title": "Palm Sugar - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palm-sugar/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palm Sugar - Pavithram Group of Companies",
@@ -1768,7 +6614,7 @@ export const products = [
   },
   {
     "id": 917,
-    "name": "Coconut Sugar",
+    "name": "Desiccated Coconut Powder",
     "slug": "coconut-sugar",
     "category": "Jaggery",
     "price": "₹0.00",
@@ -1779,7 +6625,7 @@ export const products = [
     "packSizes": [
       "500g"
     ],
-    "description": "Pavithram Coconut Sugar is sourced from quality coconut palm sap and processed to maintain its natural flavour. Ideal for sweetening beverages and desserts.",
+    "description": "Pavithram Desiccated coconut powder is finely ground, unsweetened, and dehydrated white coconut meat that lasts 6 to 12 months and serves as a convenient substitute for fresh coconut in curries, chutneys, sweets, and baking.",
     "ingredients": "",
     "nutritionalInfo": "",
     "benefits": [
@@ -1799,20 +6645,20 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Coconut Sugar - Pavithram Group of Companies",
+      "title": "Desiccated Coconut Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-sugar/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Coconut Sugar - Pavithram Group of Companies",
+      "og_title": "Desiccated Coconut Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/coconut-sugar/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-18T10:33:13+00:00",
       "og_image": [
         {
           "width": 672,
@@ -1832,7 +6678,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/coconut-sugar/",
             "url": "https://www.pavithramfoods.com/product/coconut-sugar/",
-            "name": "Coconut Sugar - Pavithram Group of Companies",
+            "name": "Desiccated Coconut Powder - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -1844,6 +6690,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0038_Desiccated-Coconut-Powder-Fine@300x-8.jpg",
             "datePublished": "2026-07-14T16:54:18+00:00",
+            "dateModified": "2026-07-18T10:33:13+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/coconut-sugar/#breadcrumb"
             },
@@ -1879,7 +6726,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Coconut Sugar"
+                "name": "Desiccated Coconut Powder"
               }
             ]
           },
@@ -1947,13 +6794,12 @@ export const products = [
     "seo": {
       "title": "Palm Jaggery - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palm-jaggery/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palm Jaggery - Pavithram Group of Companies",
@@ -2068,13 +6914,12 @@ export const products = [
     "seo": {
       "title": "Palm Jaggery Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palm-jaggery-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palm Jaggery Powder - Pavithram Group of Companies",
@@ -2214,13 +7059,12 @@ export const products = [
     "seo": {
       "title": "Matta Rice Vadi - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/matta-rice-vadi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Matta Rice Vadi - Pavithram Group of Companies",
@@ -2360,13 +7204,12 @@ export const products = [
     "seo": {
       "title": "Matta Rice Unda - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/matta-rice-unda/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Matta Rice Unda - Pavithram Group of Companies",
@@ -2506,13 +7349,12 @@ export const products = [
     "seo": {
       "title": "Ponni Boiled Rice - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ponni-boiled-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ponni Boiled Rice - Pavithram Group of Companies",
@@ -2625,13 +7467,12 @@ export const products = [
     "seo": {
       "title": "Ponni Raw Rice - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ponni-raw-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ponni Raw Rice - Pavithram Group of Companies",
@@ -2744,13 +7585,12 @@ export const products = [
     "seo": {
       "title": "Jeerakasala Rice - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jeerakasala-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jeerakasala Rice - Pavithram Group of Companies",
@@ -2892,13 +7732,12 @@ export const products = [
     "seo": {
       "title": "Sunflower Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/sunflower-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Sunflower Oil - Pavithram Group of Companies",
@@ -3011,7 +7850,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Coconut-Oil-200ml.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
     ],
     "packSizes": [
       "500ml"
@@ -3038,23 +7877,23 @@ export const products = [
     "seo": {
       "title": "Groundnut Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/groundnut-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Groundnut Oil - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/groundnut-oil/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-18T11:27:59+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Coconut-Oil-200ml.jpg",
+          "width": 688,
+          "height": 1532,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -3079,8 +7918,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Coconut-Oil-200ml.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
             "datePublished": "2026-07-14T15:45:45+00:00",
+            "dateModified": "2026-07-18T11:27:59+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#breadcrumb"
             },
@@ -3098,10 +7938,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Coconut-Oil-200ml.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Coconut-Oil-200ml.jpg",
-            "width": 672,
-            "height": 864
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "width": 688,
+            "height": 1532
           },
           {
             "@type": "BreadcrumbList",
@@ -3150,127 +7990,6 @@ export const products = [
     ]
   },
   {
-    "id": 902,
-    "name": "Cold Pressed Coconut Oil",
-    "slug": "cold-pressed-coconut-oil",
-    "category": "Products",
-    "price": "₹0.00",
-    "isBulkOnly": true,
-    "images": [
-      "/images/products/placeholder.png"
-    ],
-    "packSizes": [
-      "1L"
-    ],
-    "description": "Pavithram Virgin Coconut Oil is pure oil extracted from fresh coconut milk . Known for its mild, natural aroma and rich nutritional profile, it is widely used for healthy cooking, massages, deep hair conditioning, and natural skin moisturizing.",
-    "ingredients": "100% Coconut Oil",
-    "nutritionalInfo": "Energy: 897 kcal\r\nTotal Fat: 99.7g\r\nSaturated Fat: 91.7g\r\nMonounsaturated Fat: 6.3g\r\nPolyunsaturated Fat: 1.8 g\r\nCarbohydrates: 0g\r\nProtein: 0g\r\nCholesterol: 0mg (per 100g)",
-    "benefits": [
-      "Rich in natural antioxidants",
-      "Cold-pressed to retain purity",
-      "Contains healthy fats",
-      "Enhances flavour and aroma",
-      "Suitable for cooking and wellness use"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight. Keep container tightly closed after use.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural",
-      "Export Quality"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Cold Pressed Coconut Oil - Pavithram Group of Companies",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Cold Pressed Coconut Oil - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T15:40:52+00:00",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/",
-            "url": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/",
-            "name": "Cold Pressed Coconut Oil - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-14T15:40:35+00:00",
-            "dateModified": "2026-07-14T15:40:52+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/cold-pressed-coconut-oil/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Cold Pressed Coconut Oil"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "cold-pressed-coconut-oil"
-    ]
-  },
-  {
     "id": 899,
     "name": "Pavithram Roasted Coconut Oil",
     "slug": "pavithram-roasted-coconut-oil-pure-natural-cooking-oil",
@@ -3301,13 +8020,12 @@ export const products = [
       "title": "Pavithram Roasted Coconut Oil - Pavithram Group of Companies",
       "description": "Pavithram Roasted Coconut Oil made from carefully selected coconuts. Pure, natural, and perfect for everyday cooking with rich aroma and quality.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pavithram Roasted Coconut Oil - Pavithram Group of Companies",
@@ -3432,13 +8150,12 @@ export const products = [
     "seo": {
       "title": "Pavithram Sesame Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pavithram Sesame Oil - Pavithram Group of Companies",
@@ -3547,13 +8264,12 @@ export const products = [
     "seo": {
       "title": "Castor Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/castor-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Castor Oil - Pavithram Group of Companies",
@@ -3680,13 +8396,12 @@ export const products = [
     "seo": {
       "title": "Desiccated Coconut Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/desiccated-coconut-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Desiccated Coconut Powder - Pavithram Group of Companies",
@@ -3813,13 +8528,12 @@ export const products = [
     "seo": {
       "title": "Eucalyptus Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/eucalyptus-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Eucalyptus Oil - Pavithram Group of Companies",
@@ -3946,13 +8660,12 @@ export const products = [
     "seo": {
       "title": "Garlic Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/garlic-paste/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Garlic Paste - Pavithram Group of Companies",
@@ -4079,13 +8792,12 @@ export const products = [
     "seo": {
       "title": "Ginger Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ginger-paste/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ginger Paste - Pavithram Group of Companies",
@@ -4212,13 +8924,12 @@ export const products = [
     "seo": {
       "title": "Green Chilli Sauce - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/green-chilli-sauce/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Green Chilli Sauce - Pavithram Group of Companies",
@@ -4345,13 +9056,12 @@ export const products = [
     "seo": {
       "title": "Guruvayoor Pappadam - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/guruvayoor-pappadam/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Guruvayoor Pappadam - Pavithram Group of Companies",
@@ -4478,13 +9188,12 @@ export const products = [
     "seo": {
       "title": "Instant Sadya Palada Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/instant-sadya-palada-mix/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Instant Sadya Palada Mix - Pavithram Group of Companies",
@@ -4611,13 +9320,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Ball Brown - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-ball-brown/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Ball Brown - Pavithram Group of Companies",
@@ -4754,13 +9462,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Cubes - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-cubes/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Cubes - Pavithram Group of Companies",
@@ -4902,13 +9609,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Powder - Pavithram Group of Companies",
@@ -5040,13 +9746,12 @@ export const products = [
     "seo": {
       "title": "Mustard seeds - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mustard-seeds/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Mustard seeds - Pavithram Group of Companies",
@@ -5182,13 +9887,12 @@ export const products = [
     "seo": {
       "title": "Neem Oil - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/neem-oil/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Neem Oil - Pavithram Group of Companies",
@@ -5297,7 +10001,7 @@ export const products = [
   },
   {
     "id": 637,
-    "name": "Nellikka kanthari",
+    "name": "Nellika Kanthari",
     "slug": "nellikka-kanthari",
     "category": "Groceries",
     "price": "₹0.00",
@@ -5306,32 +10010,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0026_Nellika-Kanthari@300x-8.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "750ml"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Nellika Kanthari is crafted using quality gooseberries and kanthari chillies for a unique blend of flavours. Ideal as a flavourful accompaniment to meals.",
+    "ingredients": "Gooseberry, Brids eye chillies, Ginger, Curryleaf",
+    "nutritionalInfo": "Energy: 18 kcal\r\nTotal Fat:0 g\r\nSaturated fat :0 g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0 g\r\nCholesterol: 0mg \r\nSodium: 0 mg\r\nDietary fiber :0.5g \r\nTotal sugar :0.6 g (per seving)",
+    "benefits": [
+      "Unique flavour combination",
+      "Traditional preparation",
+      "Rich and tangy taste",
+      "Enhances meal experience",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Nellikka kanthari - Pavithram Group of Companies",
+      "title": "Nellika Kanthari - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/nellikka-kanthari/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Nellikka kanthari - Pavithram Group of Companies",
+      "og_title": "Nellika Kanthari - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/nellikka-kanthari/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T05:57:55+00:00",
       "og_image": [
         {
           "width": 672,
@@ -5341,6 +10054,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -5348,7 +10064,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/nellikka-kanthari/",
             "url": "https://www.pavithramfoods.com/product/nellikka-kanthari/",
-            "name": "Nellikka kanthari - Pavithram Group of Companies",
+            "name": "Nellika Kanthari - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -5360,6 +10076,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0026_Nellika-Kanthari@300x-8.jpg",
             "datePublished": "2025-10-24T07:40:41+00:00",
+            "dateModified": "2026-07-16T05:57:55+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/nellikka-kanthari/#breadcrumb"
             },
@@ -5395,7 +10112,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Nellikka kanthari"
+                "name": "Nellika Kanthari"
               }
             ]
           },
@@ -5453,13 +10170,12 @@ export const products = [
     "seo": {
       "title": "Onion Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/onion-paste/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Onion Paste - Pavithram Group of Companies",
@@ -5586,13 +10302,12 @@ export const products = [
     "seo": {
       "title": "Red Chilli Sauce - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/red-chilli-sauce/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Red Chilli Sauce - Pavithram Group of Companies",
@@ -5729,13 +10444,12 @@ export const products = [
     "seo": {
       "title": "Rice Flakes Red - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/rice-flakes/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Rice Flakes Red - Pavithram Group of Companies",
@@ -5850,13 +10564,12 @@ export const products = [
     "seo": {
       "title": "Idly Rice - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/idly-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Idly Rice - Pavithram Group of Companies",
@@ -5988,13 +10701,12 @@ export const products = [
     "seo": {
       "title": "Jeeraka Sala - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jeeraka-sala/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jeeraka Sala - Pavithram Group of Companies",
@@ -6121,13 +10833,12 @@ export const products = [
     "seo": {
       "title": "Matta Rice Long Grain - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/matta-rice-long-grain/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Matta Rice Long Grain - Pavithram Group of Companies",
@@ -6254,13 +10965,12 @@ export const products = [
     "seo": {
       "title": "Matta Rice Short Grain - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/matta-rice-short-grain/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Matta Rice Short Grain - Pavithram Group of Companies",
@@ -6387,13 +11097,12 @@ export const products = [
     "seo": {
       "title": "Ponni Rice - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ponni-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ponni Rice - Pavithram Group of Companies",
@@ -6530,13 +11239,12 @@ export const products = [
     "seo": {
       "title": "Sona Masoori - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/sona-masoori/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Sona Masoori - Pavithram Group of Companies",
@@ -6668,13 +11376,12 @@ export const products = [
     "seo": {
       "title": "Tea Leaf - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tea-leaf/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tea Leaf - Pavithram Group of Companies",
@@ -6801,13 +11508,12 @@ export const products = [
     "seo": {
       "title": "Tomato Sauce - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tomato-sauce/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tomato Sauce - Pavithram Group of Companies",
@@ -6911,7 +11617,7 @@ export const products = [
   },
   {
     "id": 613,
-    "name": "Wayanadan Coffee Powder",
+    "name": "Coffee",
     "slug": "wayanadan-coffee-powder",
     "category": "Groceries",
     "price": "₹0.00",
@@ -6920,35 +11626,42 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0011_Wayanadan-Coffee-Powder@300x-8.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "100g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Coffee is prepared from quality coffee beans to deliver a rich aroma and satisfying taste. Perfect for enjoying a refreshing cup any time of the day.",
+    "ingredients": "Coffee",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Rich aroma and flavour",
+      "Refreshing beverage",
+      "Consistent quality",
+      "Easy to prepare"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Buy Wayanadan Coffee Powder Online Kerala | Pavithram",
       "description": "Buy Wayanadan Coffee Powder online from Pavithram. Authentic Kerala coffee with rich aroma and bold flavor for the perfect brew. Order fresh coffee online now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/wayanadan-coffee-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Wayanadan Coffee Powder Online Kerala | Pavithram",
       "og_description": "Buy Wayanadan Coffee Powder online from Pavithram. Authentic Kerala coffee with rich aroma and bold flavor for the perfect brew. Order fresh coffee online now.",
       "og_url": "https://www.pavithramfoods.com/product/wayanadan-coffee-powder/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T18:22:36+00:00",
+      "article_modified_time": "2026-07-15T17:33:23+00:00",
       "og_image": [
         {
           "width": 672,
@@ -6980,7 +11693,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0011_Wayanadan-Coffee-Powder@300x-8.jpg",
             "datePublished": "2025-10-24T07:03:58+00:00",
-            "dateModified": "2026-02-23T18:22:36+00:00",
+            "dateModified": "2026-07-15T17:33:23+00:00",
             "description": "Buy Wayanadan Coffee Powder online from Pavithram. Authentic Kerala coffee with rich aroma and bold flavor for the perfect brew. Order fresh coffee online now.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/wayanadan-coffee-powder/#breadcrumb"
@@ -7017,7 +11730,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Wayanadan Coffee Powder"
+                "name": "Coffee"
               }
             ]
           },
@@ -7075,13 +11788,12 @@ export const products = [
     "seo": {
       "title": "Urad Dal Split - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/urad-dal-split/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Urad Dal Split - Pavithram Group of Companies",
@@ -7208,13 +11920,12 @@ export const products = [
     "seo": {
       "title": "Urad Dal - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/urad-dal/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Urad Dal - Pavithram Group of Companies",
@@ -7341,13 +12052,12 @@ export const products = [
     "seo": {
       "title": "Red Masoor Dal - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/red-masoor-dal/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Red Masoor Dal - Pavithram Group of Companies",
@@ -7460,32 +12170,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0040_Green-Masoor-Dal@300x-8.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "500g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Green Moong Dal Split Yellow is processed from quality green gram to ensure freshness and consistency. Suitable for a variety of traditional recipes.",
+    "ingredients": "Green Moong Dal Split Yellow",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Source of protein",
+      "Rich in dietary fibre",
+      "Easy to cook",
+      "Suitable for various dishes",
+      "Ideal for wholesome meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Green Masoor Dal - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/green-masoor-dal/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Green Masoor Dal - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/green-masoor-dal/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-15T17:23:19+00:00",
       "og_image": [
         {
           "width": 672,
@@ -7495,6 +12214,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7514,6 +12236,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0040_Green-Masoor-Dal@300x-8.jpg",
             "datePublished": "2025-10-24T06:15:58+00:00",
+            "dateModified": "2026-07-15T17:23:19+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/green-masoor-dal/#breadcrumb"
             },
@@ -7593,32 +12316,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0042_Yellow-Masoor-Dal@300x-8.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "500g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Yellow Masoor Dal is prepared from premium-quality lentils and processed under strict quality standards. Perfect for soups, dals, and everyday cooking.",
+    "ingredients": "Yellow Masoor Dal ",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Naturally nutritious",
+      "Rich in dietary fibre",
+      "Quick cooking ingredient",
+      "Suitable for daily meals",
+      "Versatile ingredient"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Yellow Masoor Dal - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/yellow-masoor-dal/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Yellow Masoor Dal - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/yellow-masoor-dal/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-15T17:21:14+00:00",
       "og_image": [
         {
           "width": 672,
@@ -7628,6 +12360,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7647,6 +12382,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0042_Yellow-Masoor-Dal@300x-8.jpg",
             "datePublished": "2025-10-24T06:14:57+00:00",
+            "dateModified": "2026-07-15T17:21:14+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/yellow-masoor-dal/#breadcrumb"
             },
@@ -7726,33 +12462,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0009_Black-Chana@300x-8.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "500g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Black Channa is sourced from premium-quality chickpeas and processed under quality standards. Suitable for traditional Kerala dishes and everyday cooking.",
+    "ingredients": "Black Channa (Nadan Kadala)",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Rich in natural goodness",
+      "Source of dietary fibre",
+      "Supports wholesome meals",
+      "Suitable for traditional recipes",
+      "Ideal for daily consumption"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Black Chana - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/black-chana/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Black Chana - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/black-chana/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-10-24T06:13:43+00:00",
+      "article_modified_time": "2026-07-15T17:05:12+00:00",
       "og_image": [
         {
           "width": 672,
@@ -7762,6 +12506,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7781,7 +12528,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0009_Black-Chana@300x-8.jpg",
             "datePublished": "2025-10-24T06:12:28+00:00",
-            "dateModified": "2025-10-24T06:13:43+00:00",
+            "dateModified": "2026-07-15T17:05:12+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/black-chana/#breadcrumb"
             },
@@ -7876,13 +12623,12 @@ export const products = [
       "title": "Buy Nut Mace Online | Organic Spice Store | Pavithram",
       "description": "Buy Nut Mace online from Pavithram’s organic spice store. Authentic Kerala spices with rich aroma and warm flavor for traditional cooking. Order spices now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/nut-mace/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Nut Mace Online | Organic Spice Store | Pavithram",
@@ -7992,147 +12738,6 @@ export const products = [
     ]
   },
   {
-    "id": 593,
-    "name": "Nutmeg",
-    "slug": "nutmeg",
-    "category": "Whole Spices",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0003_Nutmeg-@300x-8.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Buy Nutmeg Online | Organic Spice Store | Pavithram",
-      "description": "Buy Nutmeg online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices online",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/nutmeg/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Buy Nutmeg Online | Organic Spice Store | Pavithram",
-      "og_description": "Buy Nutmeg online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices online",
-      "og_url": "https://www.pavithramfoods.com/product/nutmeg/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T18:15:04+00:00",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0003_Nutmeg-@300x-8.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/nutmeg/",
-            "url": "https://www.pavithramfoods.com/product/nutmeg/",
-            "name": "Buy Nutmeg Online | Organic Spice Store | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/nutmeg/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/nutmeg/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0003_Nutmeg-@300x-8.jpg",
-            "datePublished": "2025-10-24T06:09:06+00:00",
-            "dateModified": "2026-02-23T18:15:04+00:00",
-            "description": "Buy Nutmeg online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices online",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/nutmeg/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/nutmeg/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/nutmeg/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0003_Nutmeg-@300x-8.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0003_Nutmeg-@300x-8.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/nutmeg/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Nutmeg"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "nutmeg"
-    ]
-  },
-  {
     "id": 591,
     "name": "Cinnamon Stick",
     "slug": "cinnamon-stick",
@@ -8158,13 +12763,12 @@ export const products = [
       "title": "Buy Cinnamon Stick Online | Organic Spice Store | Pavithram",
       "description": "Buy Cinnamon Sticks online from Pavithram’s organic spice store. Authentic Kerala spices for rich aroma, flavor, and traditional dishes. Order spices today",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cinnamon-stick/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Cinnamon Stick Online | Organic Spice Store | Pavithram",
@@ -8299,13 +12903,12 @@ export const products = [
       "title": "Buy Bay Leaves Online | Organic Spice Store | Pavithram",
       "description": "Buy Bay Leaves online from Pavithram’s organic spice store. Premium Kerala spices for rich aroma and authentic flavor in traditional cooking. Order spices Now",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/bay-leaves/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Bay Leaves Online | Organic Spice Store | Pavithram",
@@ -8440,13 +13043,12 @@ export const products = [
       "title": "Buy Star Anise Online | Organic Spice Store | Pavithram",
       "description": "Buy Star Anise online from Pavithram’s organic spice store. Authentic Kerala spices with rich aroma and flavor for traditional cooking. Order the best spices now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/star-anise/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Star Anise Online | Organic Spice Store | Pavithram",
@@ -8581,20 +13183,19 @@ export const products = [
       "title": "Buy Fennel Seeds Online | Organic Spice Store | Pavithram",
       "description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/fennel-seeds/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Fennel Seeds Online | Organic Spice Store | Pavithram",
       "og_description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
       "og_url": "https://www.pavithramfoods.com/product/fennel-seeds/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T18:00:21+00:00",
+      "article_modified_time": "2026-07-18T10:52:34+00:00",
       "og_image": [
         {
           "width": 672,
@@ -8626,7 +13227,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
             "datePublished": "2025-10-24T05:51:04+00:00",
-            "dateModified": "2026-02-23T18:00:21+00:00",
+            "dateModified": "2026-07-18T10:52:34+00:00",
             "description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/fennel-seeds/#breadcrumb"
@@ -8722,13 +13323,12 @@ export const products = [
       "title": "Buy Sesame Seeds Online | Organic Spice Store | Pavithram",
       "description": "Buy Sesame Seeds online from Pavithram’s organic spice store. Premium Kerala spices for rich flavor, aroma, and healthy cooking. Order fresh spices online now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/sesame-seeds/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Sesame Seeds Online | Organic Spice Store | Pavithram",
@@ -8863,13 +13463,12 @@ export const products = [
       "title": "Buy Cumin Seeds Online | Organic Spice Store | Pavithram",
       "description": "Buy Cumin Seed online from Pavithram’s organic spice store. Authentic Kerala spices for rich aroma and flavor in traditional cooking. Order fresh spices Now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cumin-seed/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Cumin Seeds Online | Organic Spice Store | Pavithram",
@@ -9004,13 +13603,12 @@ export const products = [
       "title": "Buy Whole Chilli Online | Organic Spice Store | Pavithram",
       "description": "Buy whole chilli online from Pavithram’s organic spice store. Premium quality Kerala spices for authentic flavor, aroma, and spicy dishes. Order spices now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/whole-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Whole Chilli Online | Organic Spice Store | Pavithram",
@@ -9127,7 +13725,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0007_Cardamom@300x-8.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2025/10/Cardamom.jpg"
     ],
     "packSizes": [
       "Standard"
@@ -9145,25 +13743,24 @@ export const products = [
       "title": "Buy Cardamom Online | Organic Spice Store | Pavithram",
       "description": "Buy Cardamom online from Pavithram, your trusted online spice store. Explore authentic and organic Kerala spices online for rich flavor and aroma for your dishes.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cardamom/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Cardamom Online | Organic Spice Store | Pavithram",
       "og_description": "Buy Cardamom online from Pavithram, your trusted online spice store. Explore authentic and organic Kerala spices online for rich flavor and aroma for your dishes.",
       "og_url": "https://www.pavithramfoods.com/product/cardamom/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T12:41:50+00:00",
+      "article_modified_time": "2026-07-18T09:08:41+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0007_Cardamom@300x-8.jpg",
+          "width": 783,
+          "height": 875,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Cardamom.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -9188,9 +13785,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/cardamom/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0007_Cardamom@300x-8.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Cardamom.jpg",
             "datePublished": "2025-10-24T05:23:29+00:00",
-            "dateModified": "2026-02-23T12:41:50+00:00",
+            "dateModified": "2026-07-18T09:08:41+00:00",
             "description": "Buy Cardamom online from Pavithram, your trusted online spice store. Explore authentic and organic Kerala spices online for rich flavor and aroma for your dishes.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cardamom/#breadcrumb"
@@ -9209,10 +13806,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/cardamom/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0007_Cardamom@300x-8.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0007_Cardamom@300x-8.jpg",
-            "width": 672,
-            "height": 864
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Cardamom.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Cardamom.jpg",
+            "width": 783,
+            "height": 875
           },
           {
             "@type": "BreadcrumbList",
@@ -9286,13 +13883,12 @@ export const products = [
       "title": "Buy Whole Black Pepper Online | Organic Spices | Pavithram",
       "description": "Buy whole black pepper online from Pavithram, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Order Now",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/black-pepper-whole/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Whole Black Pepper Online | Organic Spices | Pavithram",
@@ -9426,13 +14022,12 @@ export const products = [
     "seo": {
       "title": "Tomato Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tomato-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tomato Murukku - Pavithram Group of Companies",
@@ -9559,13 +14154,12 @@ export const products = [
     "seo": {
       "title": "Thenkashi Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/thenkashi-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Thenkashi Murukku - Pavithram Group of Companies",
@@ -9692,13 +14286,12 @@ export const products = [
     "seo": {
       "title": "Stick Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/stick-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Stick Murukku - Pavithram Group of Companies",
@@ -9825,13 +14418,12 @@ export const products = [
     "seo": {
       "title": "Star Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/star-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Star Murukku - Pavithram Group of Companies",
@@ -9958,13 +14550,12 @@ export const products = [
     "seo": {
       "title": "Ring Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ring-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ring Murukku - Pavithram Group of Companies",
@@ -10091,13 +14682,12 @@ export const products = [
     "seo": {
       "title": "Rice Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/rice-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Rice Murukku - Pavithram Group of Companies",
@@ -10224,13 +14814,12 @@ export const products = [
     "seo": {
       "title": "Onion Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/onion-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Onion Murukku - Pavithram Group of Companies",
@@ -10357,13 +14946,12 @@ export const products = [
     "seo": {
       "title": "Onion Masala Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/onion-masala-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Onion Masala Murukku - Pavithram Group of Companies",
@@ -10490,13 +15078,12 @@ export const products = [
     "seo": {
       "title": "Kerala Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kerala-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Kerala Murukku - Pavithram Group of Companies",
@@ -10623,13 +15210,12 @@ export const products = [
     "seo": {
       "title": "Hand Murukku Chilli - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/hand-murukku-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Hand Murukku Chilli - Pavithram Group of Companies",
@@ -10756,13 +15342,12 @@ export const products = [
     "seo": {
       "title": "Ginger Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ginger-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ginger Murukku - Pavithram Group of Companies",
@@ -10889,13 +15474,12 @@ export const products = [
     "seo": {
       "title": "Garlic Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/garlic-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Garlic Murukku - Pavithram Group of Companies",
@@ -11022,13 +15606,12 @@ export const products = [
     "seo": {
       "title": "Coconut Milk Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-milk-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Coconut Milk Murukku - Pavithram Group of Companies",
@@ -11155,13 +15738,12 @@ export const products = [
     "seo": {
       "title": "Chit Chilli Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chit-chilli-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chit Chilli Murukku - Pavithram Group of Companies",
@@ -11288,13 +15870,12 @@ export const products = [
     "seo": {
       "title": "Chakki Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chakki-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chakki Murukku - Pavithram Group of Companies",
@@ -11421,13 +16002,12 @@ export const products = [
     "seo": {
       "title": "Butter Murukku - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/butter-murukku/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Butter Murukku - Pavithram Group of Companies",
@@ -11554,13 +16134,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Spanish Tomato - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-spanish-tomato/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Spanish Tomato - Pavithram Group of Companies",
@@ -11687,13 +16266,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Sour Cream & Onion - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-sour-cream-onion/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Sour Cream & Onion - Pavithram Group of Companies",
@@ -11820,13 +16398,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Salt & Pepper - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-salt-pepper/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Salt & Pepper - Pavithram Group of Companies",
@@ -11953,13 +16530,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Perky Pudina - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-perky-pudina/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Perky Pudina - Pavithram Group of Companies",
@@ -12086,13 +16662,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Peri Peri - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-peri-peri/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Peri Peri - Pavithram Group of Companies",
@@ -12219,13 +16794,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips Hot & Sweet Chilli - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips-hot-sweet-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips Hot & Sweet Chilli - Pavithram Group of Companies",
@@ -12352,13 +16926,12 @@ export const products = [
     "seo": {
       "title": "Tapioca Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tapioca-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tapioca Chips - Pavithram Group of Companies",
@@ -12485,13 +17058,12 @@ export const products = [
     "seo": {
       "title": "Pizza Tapioca Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pizza-tapioca-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pizza Tapioca Chips - Pavithram Group of Companies",
@@ -12618,13 +17190,12 @@ export const products = [
     "seo": {
       "title": "Masala Tapioca Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/masala-tapioca-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Masala Tapioca Chips - Pavithram Group of Companies",
@@ -12751,13 +17322,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Spanish Tomato - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-spanish-tomato/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Spanish Tomato - Pavithram Group of Companies",
@@ -12884,13 +17454,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Sour Cream & Onion - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-sour-cream-onion/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Sour Cream & Onion - Pavithram Group of Companies",
@@ -13017,13 +17586,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Salt & Pepper - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-salt-pepper/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Salt & Pepper - Pavithram Group of Companies",
@@ -13150,13 +17718,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Perky Pudina - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-perky-pudina/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Perky Pudina - Pavithram Group of Companies",
@@ -13283,13 +17850,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Peri Peri - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-peri-peri/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Peri Peri - Pavithram Group of Companies",
@@ -13418,13 +17984,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Lemon Chilli - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-lemon-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Lemon Chilli - Pavithram Group of Companies",
@@ -13551,13 +18116,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Hot and Sweet Chilli - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-hot-and-sweet-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Hot and Sweet Chilli - Pavithram Group of Companies",
@@ -13684,13 +18248,12 @@ export const products = [
     "seo": {
       "title": "Potato Chips Chilli Garlic - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/potato-chips-chilli-garlic/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Potato Chips Chilli Garlic - Pavithram Group of Companies",
@@ -13819,13 +18382,12 @@ export const products = [
     "seo": {
       "title": "Pizza Potato Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pizza-potato-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pizza Potato Chips - Pavithram Group of Companies",
@@ -13954,13 +18516,12 @@ export const products = [
     "seo": {
       "title": "Payolli Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/payolli-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Payolli Mixture - Pavithram Group of Companies",
@@ -14087,13 +18648,12 @@ export const products = [
     "seo": {
       "title": "Mysore Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mysore-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Mysore Mixture - Pavithram Group of Companies",
@@ -14220,13 +18780,12 @@ export const products = [
     "seo": {
       "title": "Malabar Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/malabar-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Malabar Mixture - Pavithram Group of Companies",
@@ -14353,13 +18912,12 @@ export const products = [
     "seo": {
       "title": "Kozhikodan Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kozhikodan-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Kozhikodan Mixture - Pavithram Group of Companies",
@@ -14486,13 +19044,12 @@ export const products = [
     "seo": {
       "title": "Kerala Mixture Spicy - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kerala-mixture-spicy/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Kerala Mixture Spicy - Pavithram Group of Companies",
@@ -14619,13 +19176,12 @@ export const products = [
     "seo": {
       "title": "Kerala Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kerala-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Kerala Mixture - Pavithram Group of Companies",
@@ -14752,13 +19308,12 @@ export const products = [
     "seo": {
       "title": "Garlic Mixture - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/garlic-mixture/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Garlic Mixture - Pavithram Group of Companies",
@@ -14861,272 +19416,6 @@ export const products = [
     ]
   },
   {
-    "id": 491,
-    "name": "Bombay Mixture",
-    "slug": "bombay-mixture",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Bombay-Mixture.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Bombay Mixture - Pavithram Group of Companies",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/bombay-mixture/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Bombay Mixture - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/bombay-mixture/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Bombay-Mixture.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/bombay-mixture/",
-            "url": "https://www.pavithramfoods.com/product/bombay-mixture/",
-            "name": "Bombay Mixture - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/bombay-mixture/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/bombay-mixture/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Bombay-Mixture.png",
-            "datePublished": "2025-10-23T13:32:54+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/bombay-mixture/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/bombay-mixture/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/bombay-mixture/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Bombay-Mixture.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Bombay-Mixture.png",
-            "width": 300,
-            "height": 300
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/bombay-mixture/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Bombay Mixture"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "bombay-mixture"
-    ]
-  },
-  {
-    "id": 489,
-    "name": "Andhra Mixture",
-    "slug": "andhra-mixture",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Andhra-Mixture.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Andhra Mixture - Pavithram Group of Companies",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/andhra-mixture/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Andhra Mixture - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/andhra-mixture/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Andhra-Mixture.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/andhra-mixture/",
-            "url": "https://www.pavithramfoods.com/product/andhra-mixture/",
-            "name": "Andhra Mixture - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/andhra-mixture/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/andhra-mixture/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Andhra-Mixture.png",
-            "datePublished": "2025-10-23T13:32:02+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/andhra-mixture/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/andhra-mixture/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/andhra-mixture/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Andhra-Mixture.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Andhra-Mixture.png",
-            "width": 300,
-            "height": 300
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/andhra-mixture/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Andhra Mixture"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "andhra-mixture"
-    ]
-  },
-  {
     "id": 487,
     "name": "Tomato Banana Chips",
     "slug": "tomato-banana-chips",
@@ -15151,13 +19440,12 @@ export const products = [
     "seo": {
       "title": "Tomato Banana Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/tomato-banana-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Tomato Banana Chips - Pavithram Group of Companies",
@@ -15284,13 +19572,12 @@ export const products = [
     "seo": {
       "title": "Ripe Banana Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ripe-banana-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ripe Banana Chips - Pavithram Group of Companies",
@@ -15417,13 +19704,12 @@ export const products = [
     "seo": {
       "title": "Pizza Banana Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pizza-banana-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pizza Banana Chips - Pavithram Group of Companies",
@@ -15550,13 +19836,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Coated Banana Chips - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Coated Banana Chips - Pavithram Group of Companies",
@@ -15659,139 +19944,6 @@ export const products = [
     ]
   },
   {
-    "id": 479,
-    "name": "Banana Chips Spanish Tomato",
-    "slug": "banana-chips-spanish-tomato",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Banana-Chips-Spanish-Tomato.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Banana Chips Spanish Tomato - Pavithram Group of Companies",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Banana Chips Spanish Tomato - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Spanish-Tomato.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/",
-            "url": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/",
-            "name": "Banana Chips Spanish Tomato - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Spanish-Tomato.png",
-            "datePublished": "2025-10-23T10:53:29+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Spanish-Tomato.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Spanish-Tomato.png",
-            "width": 300,
-            "height": 300
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-spanish-tomato/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Banana Chips Spanish Tomato"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "banana-chips-spanish-tomato"
-    ]
-  },
-  {
     "id": 477,
     "name": "Banana Chips Sour Cream & Onion",
     "slug": "banana-chips-sour-cream-onion",
@@ -15816,13 +19968,12 @@ export const products = [
     "seo": {
       "title": "Banana Chips Sour Cream & Onion - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-sour-cream-onion/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Banana Chips Sour Cream & Onion - Pavithram Group of Companies",
@@ -15950,13 +20101,12 @@ export const products = [
       "title": "Salt & Pepper Banana Chips | Best Banana Chips in Kerala",
       "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's crispy salt & pepper banana chips — bold, classic & preservative-free!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-salt-pepper/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Salt & Pepper Banana Chips | Best Banana Chips in Kerala",
@@ -16092,13 +20242,12 @@ export const products = [
       "title": "Perky Pudina Banana Chips – Best Banana Chips in Kerala",
       "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's cool, minty pudina banana chips — crispy, fresh & preservative-free!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-perky-pudina/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Perky Pudina Banana Chips – Best Banana Chips in Kerala",
@@ -16209,148 +20358,6 @@ export const products = [
     ]
   },
   {
-    "id": 471,
-    "name": "Banana Chips Peri Peri",
-    "slug": "banana-chips-peri-peri",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Banana-Chips-Peri-Peri.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Peri Peri Banana Chips | Best Banana Chips in Kerala",
-      "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's fiery peri peri banana chips, crispy & bold with no preservatives!",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Peri Peri Banana Chips | Best Banana Chips in Kerala",
-      "og_description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's fiery peri peri banana chips, crispy & bold with no preservatives!",
-      "og_url": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T05:02:57+00:00",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Peri-Peri.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/",
-            "url": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/",
-            "name": "Peri Peri Banana Chips | Best Banana Chips in Kerala",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Peri-Peri.png",
-            "datePublished": "2025-10-23T10:43:03+00:00",
-            "dateModified": "2026-06-12T05:02:57+00:00",
-            "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's fiery peri peri banana chips, crispy & bold with no preservatives!",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/banana-chips-peri-peri/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Peri-Peri.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Peri-Peri.png",
-            "width": 300,
-            "height": 300,
-            "caption": "Peri Peri Banana Chips"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-peri-peri/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Banana Chips Peri Peri"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "banana-chips-peri-peri"
-    ]
-  },
-  {
     "id": 469,
     "name": "Banana Chips Pepper",
     "slug": "banana-chips-pepper",
@@ -16376,13 +20383,12 @@ export const products = [
       "title": "Pepper Banana Chips – Best Banana Chips in Kerala | Pavithram",
       "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's crispy pepper banana chips with a bold, spicy Kerala black pepper kick!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-pepper/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pepper Banana Chips – Best Banana Chips in Kerala | Pavithram",
@@ -16518,13 +20524,12 @@ export const products = [
       "title": "Banana Chips Lemon Chilli | Buy Kerala Chips Online",
       "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's tangy lemon chilli banana chips, crispy & preservative-free. Order!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-lemon-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Banana Chips Lemon Chilli | Buy Kerala Chips Online",
@@ -16660,13 +20665,12 @@ export const products = [
       "title": "Dry Ginger Banana Chips – Buy Kerala Chips Online | Pavithram",
       "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy dry ginger banana chips with a warm, zesty Kerala flavour!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Dry Ginger Banana Chips – Buy Kerala Chips Online | Pavithram",
@@ -16802,13 +20806,12 @@ export const products = [
       "title": "Banana Chips Cinnamon – Buy Kerala Chips Online | Pavithram",
       "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy cinnamon banana chips, warmly spiced & preservative-free!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-cinnamon/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Banana Chips Cinnamon – Buy Kerala Chips Online | Pavithram",
@@ -16944,13 +20947,12 @@ export const products = [
       "title": "Chilli Banana Chips – Buy Kerala Chips Online | Pavithram",
       "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Fiery chilli Nendran banana chips fried in pure coconut oil. Order today!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips-chilli/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chilli Banana Chips – Buy Kerala Chips Online | Pavithram",
@@ -17086,13 +21088,12 @@ export const products = [
       "title": "Banana Chips – Buy Kerala Banana Chips Online | Pavithram",
       "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Order today!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chips/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Banana Chips – Buy Kerala Banana Chips Online | Pavithram",
@@ -17228,13 +21229,12 @@ export const products = [
       "title": "Chilli Garlic Banana Chips – Buy Kerala Chips Online",
       "description": "Snack now! Buy Kerala banana chips online, 4 cut banana Chips-Cochin Snacks - Kerala snacks online. Bold chilli garlic chips fried in coconut oil. Order today!",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/banana-chilli-garlic/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chilli Garlic Banana Chips – Buy Kerala Chips Online",
@@ -17345,290 +21345,6 @@ export const products = [
     ]
   },
   {
-    "id": 455,
-    "name": "4 cut chilli banana chips",
-    "slug": "4-cut-chilli-banana-chips",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/4-Cut-Chilli-Banana-Chips.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Chilli Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "description": "Snack now! best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Spicy, crispy chilli chips fried in pure coconut oil. Order!",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Chilli Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "og_description": "Snack now! best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Spicy, crispy chilli chips fried in pure coconut oil. Order!",
-      "og_url": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:56:08+00:00",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Chilli-Banana-Chips.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/",
-            "url": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/",
-            "name": "Chilli Banana Chips – Best Banana Chips in Kerala | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Chilli-Banana-Chips.png",
-            "datePublished": "2025-10-23T10:33:09+00:00",
-            "dateModified": "2026-06-12T04:56:08+00:00",
-            "description": "Snack now! best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Spicy, crispy chilli chips fried in pure coconut oil. Order!",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Chilli-Banana-Chips.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Chilli-Banana-Chips.png",
-            "width": 300,
-            "height": 300,
-            "caption": "Chilli Banana Chips"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-chilli-banana-chips/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "4 cut chilli banana chips"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "4-cut-chilli-banana-chips"
-    ]
-  },
-  {
-    "id": 453,
-    "name": "4 cut banana Chips",
-    "slug": "4-cut-banana-chips",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/4-Cut-Banana-Chips-copy.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "4 Cut Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "description": "Snack now! Best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Golden crispy chips fried in pure coconut oil. Order today!",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/4-cut-banana-chips/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "4 Cut Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "og_description": "Snack now! Best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Golden crispy chips fried in pure coconut oil. Order today!",
-      "og_url": "https://www.pavithramfoods.com/product/4-cut-banana-chips/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:55:03+00:00",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Banana-Chips-copy.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/",
-            "url": "https://www.pavithramfoods.com/product/4-cut-banana-chips/",
-            "name": "4 Cut Banana Chips – Best Banana Chips in Kerala | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Banana-Chips-copy.png",
-            "datePublished": "2025-10-23T10:32:06+00:00",
-            "dateModified": "2026-06-12T04:55:03+00:00",
-            "description": "Snack now! Best banana chips in Kerala, 4 cut banana Chips-Cochin Snacks -traditional Kerala snacks. Golden crispy chips fried in pure coconut oil. Order today!",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/4-cut-banana-chips/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Banana-Chips-copy.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/4-Cut-Banana-Chips-copy.png",
-            "width": 300,
-            "height": 300,
-            "caption": "4 Cut Banana Chips"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/4-cut-banana-chips/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "4 cut banana Chips"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "4-cut-banana-chips"
-    ]
-  },
-  {
     "id": 335,
     "name": "Vinegar",
     "slug": "vinegar-1000ml",
@@ -17636,38 +21352,44 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Vinegar-1000ml.jpg",
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Vinegar-500ml.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Vinegar-1000ml.jpg"
     ],
     "packSizes": [
-      "1000ml",
       "500ml"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Vinegar is prepared under strict quality standards to deliver consistent taste and quality. Suitable for cooking, pickling, and seasoning.",
+    "ingredients": "Water 95% , Acetic acid",
+    "nutritionalInfo": "Energy: 66 KJ\r\nTotal Fat: 0 g\r\nCarbohydrates: 0g\r\nProtein: 0 g \r\nSodium 4 mg (per 100g)",
+    "benefits": [
+      "Versatile kitchen ingredient",
+      "Enhances flavour naturally",
+      "Suitable for cooking and pickling",
+      "Easy to use",
+      "Ideal for everyday recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Vinegar 1000ml - Pavithram Group of Companies",
+      "title": "Vinegar - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/vinegar-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Vinegar 1000ml - Pavithram Group of Companies",
+      "og_title": "Vinegar - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/vinegar-1000ml/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:02:06+00:00",
+      "article_modified_time": "2026-07-15T17:38:19+00:00",
       "og_image": [
         {
           "width": 672,
@@ -17677,6 +21399,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -17684,7 +21409,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/vinegar-1000ml/",
             "url": "https://www.pavithramfoods.com/product/vinegar-1000ml/",
-            "name": "Vinegar 1000ml - Pavithram Group of Companies",
+            "name": "Vinegar - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -17696,7 +21421,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Vinegar-1000ml.jpg",
             "datePublished": "2025-09-22T13:13:09+00:00",
-            "dateModified": "2025-09-24T06:02:06+00:00",
+            "dateModified": "2026-07-15T17:38:19+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/vinegar-1000ml/#breadcrumb"
             },
@@ -17732,7 +21457,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Vinegar 1000ml"
+                "name": "Vinegar"
               }
             ]
           },
@@ -17762,58 +21487,55 @@ export const products = [
       }
     },
     "allSlugs": [
-      "vinegar-1000ml",
-      "vinegar-500ml"
+      "vinegar-1000ml"
     ]
   },
   {
     "id": 331,
-    "name": "Plain Pappadm",
+    "name": "Spicy Rice Pappad",
     "slug": "plain-pappad-200gm",
-    "category": "Groceries",
+    "category": "Appalam",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Plain-Pappad-200g.jpg",
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Plain-Pappad-100g.jpg"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
-      "200g",
       "100g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Spicy Rice Pappad is made from selected rice and blended with spices for a flavourful crunch. Perfect as a snack or meal accompaniment.",
+    "ingredients": "Rice Powder, Sago Powder, Vegetable Oil, Sesame Seed, Chilly Powder, Cumin Seed, Chilli Flakes",
+    "nutritionalInfo": "Energy: 35 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 8g\r\nProtein: 1g\r\nCholesterol: 0mg \r\nSodium: 140 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Made from selected rice",
+      "Spicy and flavourful",
+      "Crispy texture",
+      "Easy to prepare",
+      "Ideal with meals and snacks"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Plain Pappad 200gm - Pavithram Group of Companies",
+      "title": "Spicy Rice Pappad - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Plain Pappad 200gm - Pavithram Group of Companies",
+      "og_title": "Spicy Rice Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:00:18+00:00",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Plain-Pappad-200g.jpg",
-          "type": "image/jpeg"
-        }
-      ],
+      "article_modified_time": "2026-07-16T07:14:53+00:00",
       "twitter_card": "summary_large_image",
       "schema": {
         "@context": "https://schema.org",
@@ -17822,19 +21544,12 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
             "url": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
-            "name": "Plain Pappad 200gm - Pavithram Group of Companies",
+            "name": "Spicy Rice Pappad - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Plain-Pappad-200g.jpg",
             "datePublished": "2025-09-22T13:10:48+00:00",
-            "dateModified": "2025-09-24T06:00:18+00:00",
+            "dateModified": "2026-07-16T07:14:53+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#breadcrumb"
             },
@@ -17849,15 +21564,6 @@ export const products = [
             ]
           },
           {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Plain-Pappad-200g.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Plain-Pappad-200g.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
             "@type": "BreadcrumbList",
             "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#breadcrumb",
             "itemListElement": [
@@ -17870,7 +21576,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Plain Pappad 200gm"
+                "name": "Spicy Rice Pappad"
               }
             ]
           },
@@ -17900,15 +21606,133 @@ export const products = [
       }
     },
     "allSlugs": [
-      "plain-pappad-200gm",
+      "plain-pappad-200gm"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Rice Pappad",
+    "slug": "plain-pappad-100gm",
+    "category": "Appalam",
+    "price": "₹0.00",
+    "isBulkOnly": false,
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "packSizes": [
+      "100g"
+    ],
+    "description": "Pavithram Rice Pappad is made from selected rice and processed to achieve a light and crispy texture. Perfect for serving alongside a variety of dishes.",
+    "ingredients": "Rice Powder, Sago Powder, Vegetable Oil, Salt, Cumin Seed",
+    "nutritionalInfo": "Energy: 35 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 8g\r\nProtein: 1g\r\nCholesterol: 0mg \r\nSodium: 120 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Made from selected rice",
+      "Light and crispy",
+      "Traditional recipe",
+      "Easy to prepare",
+      "Suitable for everyday meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
+    "fssai": "",
+    "sku": "",
+    "seo": {
+      "title": "Rice Pappad - Pavithram Group of Companies",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Rice Pappad - Pavithram Group of Companies",
+      "og_url": "https://www.pavithramfoods.com/product/plain-pappad-100gm/",
+      "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T07:09:57+00:00",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/",
+            "url": "https://www.pavithramfoods.com/product/plain-pappad-100gm/",
+            "name": "Rice Pappad - Pavithram Group of Companies",
+            "isPartOf": {
+              "@id": "https://www.pavithramfoods.com/#website"
+            },
+            "datePublished": "2025-09-22T13:09:58+00:00",
+            "dateModified": "2026-07-16T07:09:57+00:00",
+            "breadcrumb": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://www.pavithramfoods.com/product/plain-pappad-100gm/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.pavithramfoods.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Rice Pappad"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.pavithramfoods.com/#website",
+            "url": "https://www.pavithramfoods.com/",
+            "name": "Pavithram Group of Companies",
+            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    },
+    "allSlugs": [
       "plain-pappad-100gm"
     ]
   },
   {
     "id": 327,
-    "name": "Pepper Pappadm",
+    "name": "Pepper Pappad",
     "slug": "pepper-pappad-100gm",
-    "category": "Groceries",
+    "category": "Appalam",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -17917,31 +21741,39 @@ export const products = [
     "packSizes": [
       "100g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Pepper Pappadam is crafted using selected ingredients and pepper for a bold and flavourful taste. Perfect for enhancing everyday meals.",
+    "ingredients": "Urad Dal Flour, Rice Flour, Salt, Baking Powder, Pepper, Asafoetida, Vegetable Oil",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Flavoured with pepper",
+      "Crispy texture",
+      "Rich and flavourful taste",
+      "Easy to prepare",
+      "Ideal with rice dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Pepper Pappad 100gm - Pavithram Group of Companies",
+      "title": "Pepper Pappad - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pepper-pappad-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Pepper Pappad 100gm - Pavithram Group of Companies",
+      "og_title": "Pepper Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/pepper-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:00:25+00:00",
+      "article_modified_time": "2026-07-16T07:03:33+00:00",
       "og_image": [
         {
           "width": 672,
@@ -17951,6 +21783,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -17958,7 +21793,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/pepper-pappad-100gm/",
             "url": "https://www.pavithramfoods.com/product/pepper-pappad-100gm/",
-            "name": "Pepper Pappad 100gm - Pavithram Group of Companies",
+            "name": "Pepper Pappad - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -17970,7 +21805,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Peppr-Pappad-100g.jpg",
             "datePublished": "2025-09-22T13:09:13+00:00",
-            "dateModified": "2025-09-24T06:00:25+00:00",
+            "dateModified": "2026-07-16T07:03:33+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/pepper-pappad-100gm/#breadcrumb"
             },
@@ -18006,7 +21841,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Pepper Pappad 100gm"
+                "name": "Pepper Pappad"
               }
             ]
           },
@@ -18052,31 +21887,39 @@ export const products = [
     "packSizes": [
       "750ml"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Nannari Sarbath is prepared using quality ingredients to deliver a refreshing and flavourful drink experience. Perfect for serving chilled.",
+    "ingredients": "Sugar, Water, Glucose, Sarsaparilla Extract, (0.4%) Acidity Regulator Emulsifier(INS415), and Caramel(E 150 a).",
+    "nutritionalInfo": "Energy: 48 kcal\r\nTotal Fat:0 g\r\nSaturated fat :0 g\r\nTrans fat:0 g \r\nCarbohydrates: 12g\r\nProtein: 0 g\r\nCholesterol: 0mg \r\nSodium: 0 mg \r\nDietary fiber :0g \r\nTotal sugar :12 g (per seving)",
+    "benefits": [
+      "Refreshing flavour",
+      "Easy to prepare",
+      "Traditional beverage",
+      "Pleasant aroma",
+      "Ideal for serving chilled"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Nannari Sarbath 750ml - Pavithram Group of Companies",
+      "title": "Nannari Sarbath - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/nannari-sarbath-750ml/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Nannari Sarbath 750ml - Pavithram Group of Companies",
+      "og_title": "Nannari Sarbath - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/nannari-sarbath-750ml/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:00:38+00:00",
+      "article_modified_time": "2026-07-16T05:59:50+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18086,6 +21929,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18093,7 +21939,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/nannari-sarbath-750ml/",
             "url": "https://www.pavithramfoods.com/product/nannari-sarbath-750ml/",
-            "name": "Nannari Sarbath 750ml - Pavithram Group of Companies",
+            "name": "Nannari Sarbath - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -18105,7 +21951,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Nannari-Sarbath-750ml.jpg",
             "datePublished": "2025-09-22T13:08:01+00:00",
-            "dateModified": "2025-09-24T06:00:38+00:00",
+            "dateModified": "2026-07-16T05:59:50+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/nannari-sarbath-750ml/#breadcrumb"
             },
@@ -18141,7 +21987,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Nannari Sarbath 750ml"
+                "name": "Nannari Sarbath"
               }
             ]
           },
@@ -18176,9 +22022,9 @@ export const products = [
   },
   {
     "id": 321,
-    "name": "Kappa Pappadm",
+    "name": "Kappa Pappad",
     "slug": "kappa-pappad-100gm",
-    "category": "Groceries",
+    "category": "Appalam",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -18187,31 +22033,39 @@ export const products = [
     "packSizes": [
       "100g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Kappa Pappad is prepared from quality tapioca and processed for a unique taste and crisp texture. Ideal for traditional Kerala-style meals.",
+    "ingredients": "Tapioca Powder, Rice Powder, Red Chilli, Cumin Seed, Sesame Seed, Asafoetida, Salt",
+    "nutritionalInfo": "Energy: 35 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 9g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 110 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
+    "benefits": [
+      "Made from quality tapioca",
+      "Crispy texture",
+      "Unique traditional taste",
+      "Easy to prepare",
+      "Ideal with Kerala dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Kappa Pappad 100gm - Pavithram Group of Companies",
+      "title": "Kappa Pappad - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kappa-pappad-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Kappa Pappad 100gm - Pavithram Group of Companies",
+      "og_title": "Kappa Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kappa-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:58:56+00:00",
+      "article_modified_time": "2026-07-16T07:12:34+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18221,6 +22075,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18228,7 +22085,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/kappa-pappad-100gm/",
             "url": "https://www.pavithramfoods.com/product/kappa-pappad-100gm/",
-            "name": "Kappa Pappad 100gm - Pavithram Group of Companies",
+            "name": "Kappa Pappad - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -18240,7 +22097,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kappa-Pappad-100g.jpg",
             "datePublished": "2025-09-22T13:07:17+00:00",
-            "dateModified": "2025-09-24T05:58:56+00:00",
+            "dateModified": "2026-07-16T07:12:34+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kappa-pappad-100gm/#breadcrumb"
             },
@@ -18276,7 +22133,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Kappa Pappad 100gm"
+                "name": "Kappa Pappad"
               }
             ]
           },
@@ -18334,13 +22191,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Cube 500g - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-cube-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Cube 500g - Pavithram Group of Companies",
@@ -18482,13 +22338,12 @@ export const products = [
     "seo": {
       "title": "Jaggery Ball - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/jaggery-cube-1kg/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Jaggery Ball - Pavithram Group of Companies",
@@ -18597,7 +22452,7 @@ export const products = [
   },
   {
     "id": 315,
-    "name": "Ginger Garlic Pastem",
+    "name": "Ginger Garlic Paste",
     "slug": "ginger-garlic-paste-300gm",
     "category": "Groceries",
     "price": "₹0.00",
@@ -18608,31 +22463,39 @@ export const products = [
     "packSizes": [
       "300g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Ginger Garlic Paste is made using quality ginger and garlic for convenience and consistent flavour. Ideal for a wide range of culinary preparations.",
+    "ingredients": "Garlic, Ginger, Salt, Vinegar, Stabilizer E415",
+    "nutritionalInfo": "Energy: 1333 KJ\r\nTotal Fat: 480 g \r\nSaturated fat 20 g\r\nCarbohydrates:133g\r\nProtein: 27g \r\nSodium 9000 mg (per 100g)",
+    "benefits": [
+      "Convenient to use",
+      "Rich flavour and aroma",
+      "Saves preparation time",
+      "Suitable for various recipes",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Ginger Garlic Paste 300gm - Pavithram Group of Companies",
+      "title": "Ginger Garlic Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ginger-garlic-paste-300gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Ginger Garlic Paste 300gm - Pavithram Group of Companies",
+      "og_title": "Ginger Garlic Paste - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ginger-garlic-paste-300gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:57:59+00:00",
+      "article_modified_time": "2026-07-15T17:36:08+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18642,6 +22505,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18649,7 +22515,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/ginger-garlic-paste-300gm/",
             "url": "https://www.pavithramfoods.com/product/ginger-garlic-paste-300gm/",
-            "name": "Ginger Garlic Paste 300gm - Pavithram Group of Companies",
+            "name": "Ginger Garlic Paste - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -18661,7 +22527,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ginger-Garlic-Paste-300g.jpg",
             "datePublished": "2025-09-22T13:05:06+00:00",
-            "dateModified": "2025-09-24T05:57:59+00:00",
+            "dateModified": "2026-07-15T17:36:08+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ginger-garlic-paste-300gm/#breadcrumb"
             },
@@ -18697,7 +22563,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Ginger Garlic Paste 300gm"
+                "name": "Ginger Garlic Paste"
               }
             ]
           },
@@ -18732,9 +22598,9 @@ export const products = [
   },
   {
     "id": 313,
-    "name": "Cumin Pappadm",
+    "name": "Cumin Pappad",
     "slug": "cummin-pappad-100gm",
-    "category": "Groceries",
+    "category": "Appalam",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -18743,31 +22609,39 @@ export const products = [
     "packSizes": [
       "100g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Cumin Pappadam is made from quality ingredients and flavoured with cumin to deliver a distinctive taste and aroma. A perfect accompaniment to everyday meals.",
+    "ingredients": "Urad Dal Flour, Rice Flour, Salt, Baking Powder, Cumin, Asafoetida, Vegetable Oil",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Flavoured with cumin",
+      "Crispy and tasty",
+      "Rich aroma",
+      "Easy to prepare",
+      "Ideal with traditional dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Cumin Pappad 100gm - Pavithram Group of Companies",
+      "title": "Cumin Pappad - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cummin-pappad-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Cumin Pappad 100gm - Pavithram Group of Companies",
+      "og_title": "Cumin Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/cummin-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:57:36+00:00",
+      "article_modified_time": "2026-07-16T07:02:04+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18777,6 +22651,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18784,7 +22661,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/cummin-pappad-100gm/",
             "url": "https://www.pavithramfoods.com/product/cummin-pappad-100gm/",
-            "name": "Cumin Pappad 100gm - Pavithram Group of Companies",
+            "name": "Cumin Pappad - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -18796,7 +22673,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Cummin-Pappad-100g.jpg",
             "datePublished": "2025-09-22T13:04:00+00:00",
-            "dateModified": "2025-09-24T05:57:36+00:00",
+            "dateModified": "2026-07-16T07:02:04+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cummin-pappad-100gm/#breadcrumb"
             },
@@ -18832,7 +22709,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Cumin Pappad 100gm"
+                "name": "Cumin Pappad"
               }
             ]
           },
@@ -18867,7 +22744,7 @@ export const products = [
   },
   {
     "id": 311,
-    "name": "Chukku kappim",
+    "name": "Chukkukapi",
     "slug": "chukku-kappi-150gm",
     "category": "Groceries",
     "price": "₹0.00",
@@ -18878,31 +22755,38 @@ export const products = [
     "packSizes": [
       "150g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Chukkukapi is a traditional blend prepared from quality ingredients to deliver authentic flavour and aroma. Ideal for enjoying a warm and comforting beverage.",
+    "ingredients": "Palm Jaggery, Dried Ginger, Coriander, Coffee, Black Pepper, Cumin, and Long Pepper.",
+    "nutritionalInfo": "Energy: 202 KJ \r\nTotal Fat: 2 g\r\nSaturated fat : 1 g \r\nCarbohydrates: 48 g\r\nProtein: 2 g \r\nSodium 36 mg (per 100g)",
+    "benefits": [
+      "Traditional beverage mix",
+      "Rich flavour and aroma",
+      "Easy to prepare",
+      "Authentic taste"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Buy Chukku Kappi Powder Online | Spiced Coffee | Pavithram",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chukku-kappi-150gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Chukku Kappi Powder Online | Spiced Coffee | Pavithram",
       "og_url": "https://www.pavithramfoods.com/product/chukku-kappi-150gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T18:29:32+00:00",
+      "article_modified_time": "2026-07-16T06:02:06+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18934,7 +22818,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chukku-Kappi-150g.jpg",
             "datePublished": "2025-09-22T13:03:27+00:00",
-            "dateModified": "2026-02-23T18:29:32+00:00",
+            "dateModified": "2026-07-16T06:02:06+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chukku-kappi-150gm/#breadcrumb"
             },
@@ -18970,7 +22854,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Chukku kappi 150gm"
+                "name": "Chukkukapi"
               }
             ]
           },
@@ -19005,9 +22889,9 @@ export const products = [
   },
   {
     "id": 309,
-    "name": "Chilli Pappadm",
+    "name": "Chilli Pappad",
     "slug": "chilli-pappad-100gm",
-    "category": "Groceries",
+    "category": "Appalam",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -19016,31 +22900,39 @@ export const products = [
     "packSizes": [
       "100g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Chilly Pappadam is prepared with quality ingredients and chilli for a spicy and delicious flavour. Ideal as a crunchy accompaniment to meals.",
+    "ingredients": "Urad Dal Flour, Rice Flour, Salt, Baking Powder, Asafoetida, Vegetable Oil, Chilli Powder.",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Spicy and flavourful",
+      "Crispy texture",
+      "Made from quality ingredients",
+      "Easy to prepare",
+      "Ideal with traditional meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chilli Pappad 100gm - Pavithram Group of Companies",
+      "title": "Chilli Pappad - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chilli-pappad-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chilli Pappad 100gm - Pavithram Group of Companies",
+      "og_title": "Chilli Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/chilli-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:56:11+00:00",
+      "article_modified_time": "2026-07-16T07:07:11+00:00",
       "og_image": [
         {
           "width": 672,
@@ -19050,6 +22942,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -19057,7 +22952,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chilli-pappad-100gm/",
             "url": "https://www.pavithramfoods.com/product/chilli-pappad-100gm/",
-            "name": "Chilli Pappad 100gm - Pavithram Group of Companies",
+            "name": "Chilli Pappad - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -19069,7 +22964,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chilli-Pappad-100g.jpg",
             "datePublished": "2025-09-22T13:02:39+00:00",
-            "dateModified": "2025-09-24T05:56:11+00:00",
+            "dateModified": "2026-07-16T07:07:11+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chilli-pappad-100gm/#breadcrumb"
             },
@@ -19105,7 +23000,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Chilli Pappad 100gm"
+                "name": "Chilli Pappad"
               }
             ]
           },
@@ -19140,7 +23035,7 @@ export const products = [
   },
   {
     "id": 307,
-    "name": "Asafoetida Powderm",
+    "name": "Asafoetida Powder",
     "slug": "asafoetida-powder-100gm",
     "category": "Groceries",
     "price": "₹0.00",
@@ -19149,32 +23044,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Asafoetida-Powder-100g.jpg"
     ],
     "packSizes": [
-      "100g"
+      "50g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Asafoetida Powder is processed from quality ingredients to provide a strong aroma and authentic flavour. Ideal for seasoning traditional dishes.",
+    "ingredients": "Asafoetida (70 %), Wheat Flour, Arabic Gum",
+    "nutritionalInfo": "Energy: 30 KJ \r\nTotal Fat: 0 g\r\nCarbohydrates: 3g\r\nProtein: 0 g \r\nSodium 0 mg (per 100g)",
+    "benefits": [
+      "Rich aroma and flavour",
+      "Enhances taste naturally",
+      "Essential seasoning ingredient",
+      "Suitable for various cuisines",
+      "Ideal for everyday cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Asafoetida Powder 100gm - Pavithram Group of Companies",
+      "title": "Asafoetida Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Asafoetida Powder 100gm - Pavithram Group of Companies",
+      "og_title": "Asafoetida Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-16T07:28:24+00:00",
       "og_image": [
         {
           "width": 672,
@@ -19184,6 +23088,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -19191,7 +23098,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
             "url": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
-            "name": "Asafoetida Powder 100gm - Pavithram Group of Companies",
+            "name": "Asafoetida Powder - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -19203,6 +23110,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Powder-100g.jpg",
             "datePublished": "2025-09-22T13:02:03+00:00",
+            "dateModified": "2026-07-16T07:28:24+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/#breadcrumb"
             },
@@ -19238,7 +23146,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Asafoetida Powder 100gm"
+                "name": "Asafoetida Powder"
               }
             ]
           },
@@ -19273,7 +23181,7 @@ export const products = [
   },
   {
     "id": 305,
-    "name": "Asafoetida Cakem",
+    "name": "Asafoetida Cake",
     "slug": "asafoetida-cake-100gm",
     "category": "Groceries",
     "price": "₹0.00",
@@ -19282,33 +23190,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Asafoetida-Cake-100g.jpg"
     ],
     "packSizes": [
-      "100g"
+      "50g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Asafoetida Cake is prepared to deliver authentic aroma and flavour for traditional cooking. Suitable for seasoning a variety of dishes.",
+    "ingredients": "Asafoetida (70 %), Wheat Flour, Arabic Gum",
+    "nutritionalInfo": "Energy: 30 KJ \r\nTotal Fat: 0 g\r\nCarbohydrates: 3g \r\nProtein: 0 g \r\nSodium 0 mg (per 100g)",
+    "benefits": [
+      "Strong and authentic flavour",
+      "Rich aroma",
+      "Traditional cooking essential",
+      "Enhances taste naturally",
+      "Suitable for various recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Asafoetida Cake 100gm - Pavithram Group of Companies",
+      "title": "Asafoetida Cake - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Asafoetida Cake 100gm - Pavithram Group of Companies",
+      "og_title": "Asafoetida Cake - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:51:53+00:00",
+      "article_modified_time": "2026-07-16T07:26:45+00:00",
       "og_image": [
         {
           "width": 672,
@@ -19318,6 +23234,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -19325,7 +23244,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
             "url": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
-            "name": "Asafoetida Cake 100gm - Pavithram Group of Companies",
+            "name": "Asafoetida Cake - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -19337,7 +23256,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Cake-100g.jpg",
             "datePublished": "2025-09-22T13:01:31+00:00",
-            "dateModified": "2025-09-24T05:51:53+00:00",
+            "dateModified": "2026-07-16T07:26:45+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/#breadcrumb"
             },
@@ -19373,7 +23292,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Asafoetida Cake 100gm"
+                "name": "Asafoetida Cake"
               }
             ]
           },
@@ -19441,13 +23360,12 @@ export const products = [
     "seo": {
       "title": "Kambu Pearl Millets - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kambu-pearl-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Kambu Pearl Millets - Pavithram Group of Companies",
@@ -19589,13 +23507,12 @@ export const products = [
     "seo": {
       "title": "Proso Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/porso-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Proso Millet - Pavithram Group of Companies",
@@ -19736,13 +23653,12 @@ export const products = [
     "seo": {
       "title": "Ragi Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ragi-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ragi Millet - Pavithram Group of Companies",
@@ -19884,13 +23800,12 @@ export const products = [
     "seo": {
       "title": "Samai Little millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/samai-little-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Samai Little millet - Pavithram Group of Companies",
@@ -20032,13 +23947,12 @@ export const products = [
     "seo": {
       "title": "Sorghum Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/sorghum-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Sorghum Millet - Pavithram Group of Companies",
@@ -20180,13 +24094,12 @@ export const products = [
     "seo": {
       "title": "Varagu Kodu Millet - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/varagu-kodu-millet/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Varagu Kodu Millet - Pavithram Group of Companies",
@@ -20304,33 +24217,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Pineapple.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "340g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Pineapple Jam is crafted from quality pineapples to provide a sweet and refreshing fruit flavour. Perfect for breakfast and snack preparations.",
+    "ingredients": "Sugar, Pineapple pulp, Pectin (440), Acidity Regulator (330), Synthetic food colour (E102), Added flavour, Class II Preservative E211.",
+    "nutritionalInfo": "Energy: 309 kcal\r\nTotal Fat:  0.1g\r\nCarbohydrates: 77g\r\nProtein: 2g\r\nSugars 70 g\r\nSodium 1 mg (per 100g)",
+    "benefits": [
+      "Made from quality pineapples",
+      "Sweet and refreshing taste",
+      "Smooth texture",
+      "Easy to spread",
+      "Perfect for breakfast and snacks"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Pineapple Jam - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pineapple-jam/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pineapple Jam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/pineapple-jam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:00:23+00:00",
+      "article_modified_time": "2026-07-15T17:01:36+00:00",
       "og_image": [
         {
           "width": 672,
@@ -20340,6 +24261,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -20359,7 +24283,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pineapple.jpg",
             "datePublished": "2025-09-22T12:52:37+00:00",
-            "dateModified": "2025-09-24T06:00:23+00:00",
+            "dateModified": "2026-07-15T17:01:36+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/pineapple-jam/#breadcrumb"
             },
@@ -20439,33 +24363,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Mixed-Fruits.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "340g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Mixed Fruit Jam is prepared from a blend of selected fruits for a rich and delightful taste. Ideal for spreading, baking, and desserts.",
+    "ingredients": "Sugar, Pineapple pulp, Mango pulp, Strawberry pulp, Orange pulp, Pectin, Citric acid, Synthetic food colour (E 122), Added flavour, Class II preservative E 211.",
+    "nutritionalInfo": "Energy: 285 kcal\r\nTotal Fat:  0.1g\r\nCarbohydrates: 70g\r\nProtein: 2g\r\nSugars : 13.8 g\r\nSodium 3.2 mg (per 100g)",
+    "benefits": [
+      "Made from selected fruits",
+      "Rich fruity flavour",
+      "Smooth texture",
+      "Easy to spread",
+      "Ideal for breakfast"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Mixed Fruits Jam - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mixed-fruits-jam/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Mixed Fruits Jam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/mixed-fruits-jam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:59:15+00:00",
+      "article_modified_time": "2026-07-15T16:59:44+00:00",
       "og_image": [
         {
           "width": 672,
@@ -20475,6 +24407,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -20494,7 +24429,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Mixed-Fruits.jpg",
             "datePublished": "2025-09-22T12:51:50+00:00",
-            "dateModified": "2025-09-24T05:59:15+00:00",
+            "dateModified": "2026-07-15T16:59:44+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/mixed-fruits-jam/#breadcrumb"
             },
@@ -20574,33 +24509,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Strawberry.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "340g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Strawberry Jam is made from quality strawberries to deliver a delicious fruity flavour and smooth texture. Perfect for bread, sandwiches, and desserts.",
+    "ingredients": "Sugar, Strawberry Pulp, Pectin (E440), Citric Acid (E330), Synthetic Food Colour - Sunset Yellow (E110), Carmoisin (E122)",
+    "nutritionalInfo": "Energy: 606 kcal\r\nTotal Fat:  0.1g\r\nCarbohydrates: 57g\r\nProtein: 2g\r\nSugars 12g\r\nSodium 6 mg (per 100g)",
+    "benefits": [
+      "Made from quality strawberries",
+      "Smooth and fruity taste",
+      "Easy to spread",
+      "Ideal for breakfast",
+      "Perfect for desserts"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Strawberry Jam - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/strawberry-jam/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Strawberry Jam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/strawberry-jam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:01:56+00:00",
+      "article_modified_time": "2026-07-15T16:57:52+00:00",
       "og_image": [
         {
           "width": 672,
@@ -20610,6 +24553,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -20629,7 +24575,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Strawberry.jpg",
             "datePublished": "2025-09-22T12:51:08+00:00",
-            "dateModified": "2025-09-24T06:01:56+00:00",
+            "dateModified": "2026-07-15T16:57:52+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/strawberry-jam/#breadcrumb"
             },
@@ -20732,13 +24678,12 @@ export const products = [
     "seo": {
       "title": "Lime Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/white-lime-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Lime Pickle - Pavithram Group of Companies",
@@ -20847,7 +24792,7 @@ export const products = [
   },
   {
     "id": 283,
-    "name": "Mixed Vegetable Picklem",
+    "name": "Mixed Vegetable Pickle",
     "slug": "mixed-vegetable-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -20858,31 +24803,39 @@ export const products = [
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Mixed Vegetable Pickle is made from a blend of carefully selected vegetables and traditional spices. Ideal for adding flavour to any meal.",
+    "ingredients": "Mixed Vegetables (50.0%), Vegetable Oil (12.0%), Salt (11.0%), Synthetic Vinegar (9.0%) , Red Chilli Powder (6.0%), Green Chilli (4.0%), Mustard Seeds (3.0%), Asafoetida (2.5%) , Fenugreek (1.5%), Turmeric (0.8%), and Sodium Benzoate (0.2%).",
+    "nutritionalInfo": "Energy:91 kcal\r\nTotal Fat:7g\r\nSaturated fat : 1g\r\nTrans fat: 0mg  \r\nCarbohydrates: 6g\r\nProtein: 1g\r\nCholesterol: 0mg \r\nSodium:1200mg\r\nDietary fiber :2g \r\nTotal sugars:.1g\r\nAdded sugars:1g(per serving)",
+    "benefits": [
+      "Made from selected vegetables",
+      "Rich blend of flavours",
+      "Traditional recipe",
+      "Complements everyday meals",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Mixed Vegetable Pickle 400gm - Pavithram Group of Companies",
+      "title": "Mixed Vegetable Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mixed-vegetable-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Mixed Vegetable Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Mixed Vegetable Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/mixed-vegetable-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:59:16+00:00",
+      "article_modified_time": "2026-07-15T16:51:28+00:00",
       "og_image": [
         {
           "width": 672,
@@ -20892,6 +24845,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -20899,7 +24855,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/mixed-vegetable-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/mixed-vegetable-pickle-400gm/",
-            "name": "Mixed Vegetable Pickle 400gm - Pavithram Group of Companies",
+            "name": "Mixed Vegetable Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -20911,7 +24867,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Mixed-Vegetable-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:49:10+00:00",
-            "dateModified": "2025-09-24T05:59:16+00:00",
+            "dateModified": "2026-07-15T16:51:28+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/mixed-vegetable-pickle-400gm/#breadcrumb"
             },
@@ -20947,7 +24903,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Mixed Vegetable Pickle 400gm"
+                "name": "Mixed Vegetable Pickle"
               }
             ]
           },
@@ -20982,7 +24938,7 @@ export const products = [
   },
   {
     "id": 281,
-    "name": "Lemon Picklem",
+    "name": "Lemon Pickle",
     "slug": "lemon-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -20991,33 +24947,39 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Lemon-Pickle-400g.jpg"
     ],
     "packSizes": [
-      "400g"
+      "5kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Lemon Pickle is prepared from carefully selected lemons and traditional spices for a tangy and flavourful experience. Ideal with rice and curries.",
+    "ingredients": "Lemon (45.0%), Vegetable Oil (15.0%), Salt (12.0%), Synthetic Vinegar (8.0%) , Chilli Powder (5.0%), Sugar (4.0%), Ginger (3.5%), Garlic (3.0%), Mustard Seeds (2.0%), Asafoetida (1.2%) , Fenugreek (1.0%), Turmeric (0.1%), and Sodium Benzoate (0.2%)",
+    "nutritionalInfo": "Energy: 418 kJ\r\nTotal Fat:  2g\r\nCarbohydrates: 20g\r\nProtein: 2g, sugars 0g\r\nSodium 2400 mg (per 100g)",
+    "benefits": [
+      "Tangy and flavourful taste",
+      "Traditional recipe",
+      "Enhances meal experience."
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Lemon Pickle 400gm - Pavithram Group of Companies",
+      "title": "Lemon Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/lemon-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Lemon Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Lemon Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/lemon-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:59:00+00:00",
+      "article_modified_time": "2026-07-15T16:53:09+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21027,6 +24989,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21034,7 +24999,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/lemon-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/lemon-pickle-400gm/",
-            "name": "Lemon Pickle 400gm - Pavithram Group of Companies",
+            "name": "Lemon Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21046,7 +25011,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Lemon-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:48:25+00:00",
-            "dateModified": "2025-09-24T05:59:00+00:00",
+            "dateModified": "2026-07-15T16:53:09+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/lemon-pickle-400gm/#breadcrumb"
             },
@@ -21082,7 +25047,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Lemon Pickle 400gm"
+                "name": "Lemon Pickle"
               }
             ]
           },
@@ -21117,7 +25082,7 @@ export const products = [
   },
   {
     "id": 279,
-    "name": "Kadu Mango Picklem",
+    "name": "Mango Pickle",
     "slug": "kadu-mango-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -21128,31 +25093,38 @@ export const products = [
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Mango Pickle is made from handpicked raw mangoes and aromatic spices to deliver authentic taste and texture. A favourite accompaniment for traditional meals.",
+    "ingredients": "Mango Pieces (52.0%), Vegetable Oil (15.0%), Salt (12.0%), Synthetic Vinegar (8.0%) , Chilli Powder (6.0%), Mustard Seeds (3.5%), Fenugreek (2.0%), Asafoetida (1.3%) , and Sodium Benzoate (0.2%)",
+    "nutritionalInfo": "Energy: 418 kJ \r\nTotal Fat:  2g\r\nCarbohydrates: 20g\r\nProtein: 2g\r\nSugars 0g\r\nSodium 2400 mg (per 100g)",
+    "benefits": [
+      "Authentic traditional taste",
+      "Rich in flavour",
+      "Complements everyday meals",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Kadu Mango Pickle 400gm - Pavithram Group of Companies",
+      "title": "Mango Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kadu-mango-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Kadu Mango Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Mango Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kadu-mango-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:58:52+00:00",
+      "article_modified_time": "2026-07-16T05:36:55+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21162,6 +25134,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21169,7 +25144,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/kadu-mango-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/kadu-mango-pickle-400gm/",
-            "name": "Kadu Mango Pickle 400gm - Pavithram Group of Companies",
+            "name": "Mango Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21181,7 +25156,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Kadu-Mango-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:46:57+00:00",
-            "dateModified": "2025-09-24T05:58:52+00:00",
+            "dateModified": "2026-07-16T05:36:55+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kadu-mango-pickle-400gm/#breadcrumb"
             },
@@ -21217,7 +25192,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Kadu Mango Pickle 400gm"
+                "name": "Mango Pickle"
               }
             ]
           },
@@ -21252,7 +25227,7 @@ export const products = [
   },
   {
     "id": 277,
-    "name": "Idly Chutney Powderm",
+    "name": "Idly Chutney Powder",
     "slug": "idly-chutney-powder-200gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -21261,33 +25236,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Idly-Chutney-Powder-200g.jpg"
     ],
     "packSizes": [
-      "200g"
+      "400g"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Idly Chutney Powder is prepared using quality ingredients and traditional recipes for a rich and flavourful taste. Perfect with idli, dosa, and other breakfast dishes.",
+    "ingredients": "Black Gram (45.0%), Bengal Gram (30.0%), Chilli Powder (12.0%), Salt (8.0%), Black Pepper (3.0%), and Asafoetida (2.0%)",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Made from quality ingredients",
+      "Rich and flavourful taste",
+      "Convenient to use",
+      "Ideal with idli and dosa",
+      "Traditional recipe"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Idly Chutney Powder 200gm - Pavithram Group of Companies",
+      "title": "Idly Chutney Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/idly-chutney-powder-200gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Idly Chutney Powder 200gm - Pavithram Group of Companies",
+      "og_title": "Idly Chutney Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/idly-chutney-powder-200gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:58:45+00:00",
+      "article_modified_time": "2026-07-15T16:48:32+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21297,6 +25280,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21304,7 +25290,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/idly-chutney-powder-200gm/",
             "url": "https://www.pavithramfoods.com/product/idly-chutney-powder-200gm/",
-            "name": "Idly Chutney Powder 200gm - Pavithram Group of Companies",
+            "name": "Idly Chutney Powder - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21316,7 +25302,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Chutney-Powder-200g.jpg",
             "datePublished": "2025-09-22T12:46:21+00:00",
-            "dateModified": "2025-09-24T05:58:45+00:00",
+            "dateModified": "2026-07-15T16:48:32+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/idly-chutney-powder-200gm/#breadcrumb"
             },
@@ -21352,7 +25338,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Idly Chutney Powder 200gm"
+                "name": "Idly Chutney Powder"
               }
             ]
           },
@@ -21387,7 +25373,7 @@ export const products = [
   },
   {
     "id": 275,
-    "name": "Ginger Picklem",
+    "name": "Ginger Pickle",
     "slug": "ginger-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -21398,31 +25384,39 @@ export const products = [
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Ginger Pickle is prepared using fresh ginger and traditional spices to create a flavourful accompaniment. Perfect for enhancing everyday meals.",
+    "ingredients": "Ginger (45.0%), Vegetable Oil (12.0%), Salt (11.0%), Sugar (10.0%), Synthetic Vinegar (8.0%) , Chilli Powder (6.0%), Green Chilli (3.0%), Mustard Seeds (2.0%), Asafoetida (1.5%) , Fenugreek (0.8%), Turmeric Powder (0.5%), and Sodium Benzoate (0.2%) .",
+    "nutritionalInfo": "Energy:54 kcal\r\nTotal Fat:2.5g\r\nSaturated fat : 0g\r\nTrans fat: 0 mg  \r\nCarbohydrates: 7g\r\nProtein: 1g \r\nCholesterol: 0mg \r\nSodium:990mg\r\nDietary fiber :0.4g \r\nTotal sugars:.0g\r\nAdded sugars:0.5g(per serving)",
+    "benefits": [
+      "Made from fresh ginger",
+      "Rich and flavourful taste",
+      "Traditional recipe",
+      "Enhances meal experience",
+      "Ideal with everyday meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Ginger Pickle 400gm - Pavithram Group of Companies",
+      "title": "Ginger Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ginger-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Ginger Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Ginger Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ginger-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:58:43+00:00",
+      "article_modified_time": "2026-07-15T16:41:39+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21432,6 +25426,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21439,7 +25436,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/ginger-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/ginger-pickle-400gm/",
-            "name": "Ginger Pickle 400gm - Pavithram Group of Companies",
+            "name": "Ginger Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21451,7 +25448,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Ginger-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:45:40+00:00",
-            "dateModified": "2025-09-24T05:58:43+00:00",
+            "dateModified": "2026-07-15T16:41:39+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ginger-pickle-400gm/#breadcrumb"
             },
@@ -21487,7 +25484,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Ginger Pickle 400gm"
+                "name": "Ginger Pickle"
               }
             ]
           },
@@ -21522,7 +25519,7 @@ export const products = [
   },
   {
     "id": 273,
-    "name": "Garlic Picklem",
+    "name": "Garlic Pickle",
     "slug": "garlic-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -21533,31 +25530,38 @@ export const products = [
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Garlic Pickle is made from selected garlic cloves and blended with spices for a rich and savoury taste. Ideal for serving with rice and curries.",
+    "ingredients": "Garlic (46.0%), Vegetable Oil (15.0%), Salt (12.0%), Synthetic Vinegar (8.0%) , Chilli Powder (7.0%), Sugar (5.5%), Mustard Seeds (3.0%), Asafoetida (2.0%) , Fenugreek (1.3%), and Sodium Benzoate (0.2%) .",
+    "nutritionalInfo": "Energy:180.06 kcal\r\nTotal Fat:9.97g\r\nSaturated fat : 1.45g\r\nTrans fat: 0.01mg\r\n Carbohydrates: 20.04g\r\n Protein: 2.01g\r\nCholesterol: 0mg \r\nSodium:999.85mg\r\nDietary fiber :0.50g \r\nTotal sugars:.2.15g\r\nAdded sugars:0.52g(per serving)",
+    "benefits": [
+      "Rich and savoury taste",
+      "Traditional preparation",
+      "Complements rice dishes",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Garlic Pickle 400gm - Pavithram Group of Companies",
+      "title": "Garlic Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/garlic-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Garlic Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Garlic Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/garlic-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:57:57+00:00",
+      "article_modified_time": "2026-07-15T16:43:43+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21567,6 +25571,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21574,7 +25581,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/garlic-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/garlic-pickle-400gm/",
-            "name": "Garlic Pickle 400gm - Pavithram Group of Companies",
+            "name": "Garlic Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21586,7 +25593,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Garlic-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:45:03+00:00",
-            "dateModified": "2025-09-24T05:57:57+00:00",
+            "dateModified": "2026-07-15T16:43:43+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/garlic-pickle-400gm/#breadcrumb"
             },
@@ -21622,7 +25629,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Garlic Pickle 400gm"
+                "name": "Garlic Pickle"
               }
             ]
           },
@@ -21657,42 +25664,51 @@ export const products = [
   },
   {
     "id": 271,
-    "name": "Dates Picklem",
+    "name": "Dates Pickle",
     "slug": "dates-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
-    "isBulkOnly": false,
+    "isBulkOnly": true,
     "images": [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Dates-Pickle-400g.jpg"
     ],
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Dates Pickle combines quality dates with selected spices to create a unique sweet and tangy taste. Perfect for festive and everyday meals.",
+    "ingredients": "Seedless Dates (48.0%), Sugar (15.0%), Vegetable Oil (10.0%), Synthetic Vinegar (8.0%) , Salt (7.0%), Ginger (5.0%), Green Chilli (4.0%), Mustard Seeds (1.5%), Curry Leaves (0.8%), Turmeric Powder (0.5%), and Sodium Benzoate (0.2%).",
+    "nutritionalInfo": "Energy: 119.50 kcal\r\nTotal Fat: 16g\r\nSaturated fat : 3.20g\r\nTrans fat: 0mg  \r\nCarbohydrates: 19g\r\nProtein: 2g\r\nCholesterol: 0mg (per 100 g)",
+    "benefits": [
+      "Made from quality dates",
+      "Sweet and tangy taste",
+      "Unique flavour profile",
+      "Traditional preparation",
+      "Ideal with festive meals"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural",
+      "Export Quality"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Dates Pickle 400gm - Pavithram Group of Companies",
+      "title": "Dates Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/dates-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Dates Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Dates Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/dates-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:57:40+00:00",
+      "article_modified_time": "2026-07-16T05:45:04+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21702,6 +25718,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21709,7 +25728,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/dates-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/dates-pickle-400gm/",
-            "name": "Dates Pickle 400gm - Pavithram Group of Companies",
+            "name": "Dates Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21721,7 +25740,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Dates-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:44:20+00:00",
-            "dateModified": "2025-09-24T05:57:40+00:00",
+            "dateModified": "2026-07-16T05:45:04+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/dates-pickle-400gm/#breadcrumb"
             },
@@ -21757,7 +25776,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Dates Pickle 400gm"
+                "name": "Dates Pickle"
               }
             ]
           },
@@ -21792,7 +25811,7 @@ export const products = [
   },
   {
     "id": 269,
-    "name": "Cut Mango Picklem",
+    "name": "Cut Mango Pickle",
     "slug": "cut-mango-pickle-400gm",
     "category": "Jams & Pickles",
     "price": "₹0.00",
@@ -21803,31 +25822,38 @@ export const products = [
     "packSizes": [
       "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Cut Mango Pickle is prepared from handpicked raw mangoes and traditional spices for an authentic flavour. A delicious addition to everyday dining.",
+    "ingredients": "Mango Pieces (50.0%), Vegetable Oil (15.0%), Salt (12.0%), Synthetic Vinegar (8.0%), Chilli Powder (5.5%), Mustard Seeds (4.0%), Fenugreek (3.0%), Asafoetida (2.0%) , Turmeric (0.3%), and Sodium Benzoate (0.2%) .",
+    "nutritionalInfo": "Energy: 100.12 kcal\r\nTotal Fat:2.01g\r\nSaturated fat : 0.47g\r\nTrans fat: 0.1 mg \r\nCarbohydrates: 20.05g\r\nProtein: 0.91g\r\nCholesterol: 0mg \r\nSodium:999.87mg\r\nDietary fiber :0.50g \r\nTotal sugars:.50g\r\nAdded sugars:0.10g(per serving)",
+    "benefits": [
+      "Authentic traditional taste",
+      "Rich in flavour",
+      "Complements everyday meals",
+      "Ready to serve"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight. After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Cut Mango Pickle 400gm - Pavithram Group of Companies",
+      "title": "Cut Mango Pickle - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cut-mango-pickle-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Cut Mango Pickle 400gm - Pavithram Group of Companies",
+      "og_title": "Cut Mango Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/cut-mango-pickle-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:57:39+00:00",
+      "article_modified_time": "2026-07-16T05:34:49+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21837,6 +25863,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21844,7 +25873,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/cut-mango-pickle-400gm/",
             "url": "https://www.pavithramfoods.com/product/cut-mango-pickle-400gm/",
-            "name": "Cut Mango Pickle 400gm - Pavithram Group of Companies",
+            "name": "Cut Mango Pickle - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21856,7 +25885,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Cut-Mango-Pickle-400g.jpg",
             "datePublished": "2025-09-22T12:43:39+00:00",
-            "dateModified": "2025-09-24T05:57:39+00:00",
+            "dateModified": "2026-07-16T05:34:49+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cut-mango-pickle-400gm/#breadcrumb"
             },
@@ -21892,7 +25921,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Cut Mango Pickle 400gm"
+                "name": "Cut Mango Pickle"
               }
             ]
           },
@@ -21936,33 +25965,41 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Coconut-Chutney-Powder-200g.jpg"
     ],
     "packSizes": [
-      "200g"
+      "400g"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Coconut Chutney Powder is crafted from selected ingredients and aromatic spices for authentic taste and convenience. Ideal with idli, dosa, and snacks.",
+    "ingredients": "Grated Coconut (50.0%), Black Gram (18.0%), Pulse (10.0%), Common Salt (6.5%), Red Chilli (5.0%), Tamarind (4.5%), Black Pepper (2.0%), Ginger Powder (1.5%), Asafoetida (1.5%) and Curry Leaves (1.0%).",
+    "nutritionalInfo": "Energy: 269 kcal\r\nTotal Fat:21g \r\nSaturated fat : 18g\r\nTrans fat: 0mg  \r\nCarbohydrates: 14g\r\nProtein: 6g\r\nCholesterol: 0mg \r\nSodium: 480mg\r\nDietary fiber : 8g \r\nTotal sugars:2 g\r\nAdded sugars:0(per serving)",
+    "benefits": [
+      "Made from selected ingredients",
+      "Rich and aromatic flavour",
+      "Convenient to use",
+      "Ideal with breakfast dishes",
+      "Traditional taste"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.After opening keep the container closed.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Coconut Chutney Powder 200g - Pavithram Group of Companies",
+      "title": "Coconut Chutney Powder - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-chutney-powder-200g/",
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Coconut Chutney Powder 200g - Pavithram Group of Companies",
+      "og_title": "Coconut Chutney Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/coconut-chutney-powder-200g/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T05:56:17+00:00",
+      "article_modified_time": "2026-07-15T16:46:38+00:00",
       "og_image": [
         {
           "width": 672,
@@ -21972,6 +26009,9 @@ export const products = [
         }
       ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -21979,7 +26019,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/coconut-chutney-powder-200g/",
             "url": "https://www.pavithramfoods.com/product/coconut-chutney-powder-200g/",
-            "name": "Coconut Chutney Powder 200g - Pavithram Group of Companies",
+            "name": "Coconut Chutney Powder - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -21991,7 +26031,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Coconut-Chutney-Powder-200g.jpg",
             "datePublished": "2025-09-22T12:42:59+00:00",
-            "dateModified": "2025-09-24T05:56:17+00:00",
+            "dateModified": "2026-07-15T16:46:38+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/coconut-chutney-powder-200g/#breadcrumb"
             },
@@ -22027,7 +26067,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Coconut Chutney Powder 200g"
+                "name": "Coconut Chutney Powder"
               }
             ]
           },
@@ -22085,13 +26125,12 @@ export const products = [
     "seo": {
       "title": "Virgin Coconut oil 1000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/virgin-coconut-oil-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Virgin Coconut oil 1000ml - Pavithram Group of Companies",
@@ -22224,13 +26263,12 @@ export const products = [
     "seo": {
       "title": "Seesame Oil 1000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/seesame-oil-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Seesame Oil 1000ml - Pavithram Group of Companies",
@@ -22373,13 +26411,12 @@ export const products = [
     "seo": {
       "title": "Rice Bran Oil 1000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/rice-bran-oil-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Rice Bran Oil 1000ml - Pavithram Group of Companies",
@@ -22512,13 +26549,12 @@ export const products = [
     "seo": {
       "title": "Pooja Oil 1000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pooja Oil 1000ml - Pavithram Group of Companies",
@@ -22661,13 +26697,12 @@ export const products = [
     "seo": {
       "title": "Mustard Oil 1000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mustard-oil-1000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Mustard Oil 1000ml - Pavithram Group of Companies",
@@ -22805,13 +26840,12 @@ export const products = [
     "seo": {
       "title": "Coconut Oil 5000ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-oil-5000ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Coconut Oil 5000ml - Pavithram Group of Companies",
@@ -22952,13 +26986,12 @@ export const products = [
     "seo": {
       "title": "Fish Fry Masala Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/fish-fry-masala-paste-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Fish Fry Masala Paste - Pavithram Group of Companies",
@@ -23100,13 +27133,12 @@ export const products = [
     "seo": {
       "title": "Fish Curry Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/fish-curry-gravy-mix-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Fish Curry Gravy Mix - Pavithram Group of Companies",
@@ -23248,13 +27280,12 @@ export const products = [
     "seo": {
       "title": "Coconut Varuthara Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coconut-varuthara-gravy-mix-200gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Coconut Varuthara Gravy Mix - Pavithram Group of Companies",
@@ -23396,13 +27427,12 @@ export const products = [
     "seo": {
       "title": "Chicken Tikka Paste - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chicken-tikka-paste-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chicken Tikka Paste - Pavithram Group of Companies",
@@ -23544,13 +27574,12 @@ export const products = [
     "seo": {
       "title": "Chicken Curry Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chicken-curry-gravy-mix-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chicken Curry Gravy Mix - Pavithram Group of Companies",
@@ -23692,13 +27721,12 @@ export const products = [
     "seo": {
       "title": "Butter Chicken Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/butter-chichen-gravy-mix-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Butter Chicken Gravy Mix - Pavithram Group of Companies",
@@ -23840,13 +27868,12 @@ export const products = [
     "seo": {
       "title": "Meat Curry Gravy Mix - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/meat-curry-gravy-mix-400gm/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Meat Curry Gravy Mix - Pavithram Group of Companies",
@@ -23979,13 +28006,12 @@ export const products = [
       "title": "Buy Chilli Powder Online | Spices Store | Pavithram",
       "description": "Buy Chilli Powder online from Pavithram’s trusted spice store. Premium Kerala spices enhance rich flavor and aroma in traditional dishes. Order spices now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chilli-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Chilli Powder Online | Spices Store | Pavithram",
@@ -24120,13 +28146,12 @@ export const products = [
       "title": "Buy Kashmiri Chilli Powder Online | Spices Store | Pavithram",
       "description": "Buy Kashmiri Chilli Powder online from Pavithram’s trusted spice store. Premium Kerala spices with vibrant color, mild heat, and rich flavor. Order online now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/kashmiri-chilli-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Kashmiri Chilli Powder Online | Spices Store | Pavithram",
@@ -24261,13 +28286,12 @@ export const products = [
       "title": "Buy Coriander Powder Online | Spices Store | Pavithram",
       "description": "Buy Coriander Powder online from Pavithram’s trusted spice store. Premium Kerala spices with fresh aroma and authentic flavor for everyday cooking. Order now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/coriander-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Coriander Powder Online | Spices Store | Pavithram",
@@ -24402,13 +28426,12 @@ export const products = [
       "title": "Buy Organic Turmeric Powder | Online Spice Store | Pavithram",
       "description": "Buy organic Turmeric Powder online from Pavithram’s trusted online spice store. Premium Kerala spices with rich color, aroma, and authentic flavor. Order today.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/turmeric-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Organic Turmeric Powder | Online Spice Store | Pavithram",
@@ -24548,13 +28571,12 @@ export const products = [
     "seo": {
       "title": "Cow Ghee 100ml - Pavithram Group of Companies",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/cow-ghee-100ml/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Cow Ghee 100ml - Pavithram Group of Companies",
@@ -24697,13 +28719,12 @@ export const products = [
       "title": "Whole Wheat Flour – Kerala Products Online | Pavithram",
       "description": "Shop now! Kerala products online, Whole Wheat Flour -Breakfast items -buy groceries online. Pavithram's pure, nutrient-rich flour for soft rotis & chapatis.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/whole-wheat-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Whole Wheat Flour – Kerala Products Online | Pavithram",
@@ -24849,13 +28870,12 @@ export const products = [
       "title": "White Corn Flour – Kerala Products Online | Pavithram",
       "description": "Buy now! Kerala products online, White Corn Flour -Breakfast items -buy groceries online. Pavithram's pure gluten-free corn flour for baking, cooking & gravies.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/white-corn-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "White Corn Flour – Kerala Products Online | Pavithram",
@@ -24991,13 +29011,12 @@ export const products = [
       "title": "Wheat Puttupodi – Kerala Products Online | Pavithram",
       "description": "Shop now! Kerala products online, Wheat Puttupodi -Breakfast items -buy groceries online. Pavithram's pure wheat podi for soft, fibre-rich Kerala-style puttu.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/wheat-puttupodi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Wheat Puttupodi – Kerala Products Online | Pavithram",
@@ -25118,35 +29137,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Upma-Rava.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Upma Rava is carefully processed for a uniform texture and great taste. Perfect for preparing delicious upma and other savoury dishes.",
+    "ingredients": "Wheat",
+    "nutritionalInfo": "Energy: 175 kcal\r\nTotal Fat:3g\r\nSaturated fat : 0.5g\r\nTrans fat:0 g\r\nCarbohydrates: 33 g\r\nProtein:4g\r\nCholesterol: 0mg \r\nSodium: 14 mg \r\nDietary fiber :0 g \r\nTotal sugar :5.5g (per serving)",
+    "benefits": [
+      "Consistent grain texture",
+      "Easy to prepare",
+      "Versatile ingredient",
+      "Suitable for savoury dishes",
+      "Ideal for breakfast recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Upma Rava – Kerala Products Online | Pavithram Foods",
       "description": "Shop now! Kerala products online, Upma Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for fluffy Kerala-style uppumavu & rava dishes.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/upma-rava/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Upma Rava – Kerala Products Online | Pavithram Foods",
       "og_description": "Shop now! Kerala products online, Upma Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for fluffy Kerala-style uppumavu & rava dishes.",
       "og_url": "https://www.pavithramfoods.com/product/upma-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:51:16+00:00",
+      "article_modified_time": "2026-07-16T09:42:45+00:00",
       "og_image": [
         {
           "width": 672,
@@ -25178,7 +29205,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Upma-Rava.jpg",
             "datePublished": "2025-09-22T10:20:23+00:00",
-            "dateModified": "2026-06-12T04:51:16+00:00",
+            "dateModified": "2026-07-16T09:42:45+00:00",
             "description": "Shop now! Kerala products online, Upma Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for fluffy Kerala-style uppumavu & rava dishes.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/upma-rava/#breadcrumb"
@@ -25275,13 +29302,12 @@ export const products = [
       "title": "Samba Rava – Kerala Products Online | Pavithram Products",
       "description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/samba-rava/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Samba Rava – Kerala Products Online | Pavithram Products",
@@ -25402,35 +29428,42 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Roasted-Rice-Flour.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
+    "description": "Pavithram Roasted Red Rice Flour is prepared from premium red rice and roasted to enhance its flavour and usability. Ideal for traditional Kerala recipes.",
+    "ingredients": "Red Rice Flour",
     "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "benefits": [
+      "Made from quality red rice",
+      "Rich in natural goodness",
+      "Convenient to use",
+      "Suitable for various recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Roasted Rice Flour – Kerala Products Online | Pavithram",
       "description": "Order now! Kerala products online, Roasted Rice Flour -Breakfast items -buy groceries online. Pavithram's pure roasted flour for pathiri, idiyappam & appam.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/roasted-rice-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Roasted Rice Flour – Kerala Products Online | Pavithram",
       "og_description": "Order now! Kerala products online, Roasted Rice Flour -Breakfast items -buy groceries online. Pavithram's pure roasted flour for pathiri, idiyappam & appam.",
       "og_url": "https://www.pavithramfoods.com/product/roasted-rice-flour/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:49:41+00:00",
+      "article_modified_time": "2026-07-16T09:44:05+00:00",
       "og_image": [
         {
           "width": 672,
@@ -25462,7 +29495,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Roasted-Rice-Flour.jpg",
             "datePublished": "2025-09-22T10:18:48+00:00",
-            "dateModified": "2026-06-12T04:49:41+00:00",
+            "dateModified": "2026-07-16T09:44:05+00:00",
             "description": "Order now! Kerala products online, Roasted Rice Flour -Breakfast items -buy groceries online. Pavithram's pure roasted flour for pathiri, idiyappam & appam.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/roasted-rice-flour/#breadcrumb"
@@ -25544,35 +29577,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Roasted-Rava.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Roasted Rava is carefully roasted for convenience and consistent quality. Perfect for preparing upma, kesari, and other traditional dishes.",
+    "ingredients": "Wheat",
+    "nutritionalInfo": "Energy: 349 kcal\r\nTotal Fat:1g\r\nCarbohydrates: 75g\r\nProtein: 10g\r\nCholesterol: 0mg \r\nSodium 21:mg\r\nDietary fiber :1 g ,(per 100g)",
+    "benefits": [
+      "Ready to use",
+      "Saves preparation time",
+      "Consistent texture",
+      "Versatile ingredient",
+      "Ideal for traditional dishes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Roasted Rava – Kerala Products Online | Pavithram",
       "description": "Buy now! Kerala products online, Roasted Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for upma, rava dosa, idli & Kerala breakfasts.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/roasted-rava/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Roasted Rava – Kerala Products Online | Pavithram",
       "og_description": "Buy now! Kerala products online, Roasted Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for upma, rava dosa, idli & Kerala breakfasts.",
       "og_url": "https://www.pavithramfoods.com/product/roasted-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:48:51+00:00",
+      "article_modified_time": "2026-07-16T09:32:57+00:00",
       "og_image": [
         {
           "width": 672,
@@ -25604,7 +29645,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Roasted-Rava.jpg",
             "datePublished": "2025-09-22T10:17:39+00:00",
-            "dateModified": "2026-06-12T04:48:51+00:00",
+            "dateModified": "2026-07-16T09:32:57+00:00",
             "description": "Buy now! Kerala products online, Roasted Rava -Breakfast items -buy groceries online. Pavithram's pure semolina for upma, rava dosa, idli & Kerala breakfasts.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/roasted-rava/#breadcrumb"
@@ -25711,13 +29752,12 @@ export const products = [
       "title": "Red Rice Flour – Kerala Products Online | Pavithram",
       "description": "Shop now! Kerala products online, Red Rice Flour -Breakfast items -buy groceries online. Pavithram's pure matta rice flour for healthy idlis, appams & puttu.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/red-rice-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Red Rice Flour – Kerala Products Online | Pavithram",
@@ -25863,13 +29903,12 @@ export const products = [
       "title": "Ragi Whole – Kerala Products Online | Pavithram Foods",
       "description": "Order now! Kerala products online, Ragi Whole -Breakfast items -buy groceries online. Pavithram's pure finger millet grain rich in calcium, iron & fibre.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ragi-whole/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ragi Whole – Kerala Products Online | Pavithram Foods",
@@ -26005,13 +30044,12 @@ export const products = [
       "title": "Ragi Puttupodi – Kerala Products Online | Pavithram",
       "description": "Try now! Kerala products online, Ragi Puttupodi -Breakfast items -buy groceries online. Pavithram's pure finger millet podi for soft, nutritious Kerala puttu.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/ragi-puttupodi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Ragi Puttupodi – Kerala Products Online | Pavithram",
@@ -26132,35 +30170,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Puttu-Podi.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Puttupodi is made from carefully selected rice and processed to deliver the perfect texture for soft and delicious puttu. Ideal for traditional breakfast preparations.",
+    "ingredients": "White Rice Flour",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:0.5g\r\nCarbohydrates: 32g\r\nProtein: 3g\r\nCholesterol: 0mg \r\nSodium 0:mg\r\nDietary fiber :1 g ,(per serving)",
+    "benefits": [
+      "Made from quality rice",
+      "Easy to prepare",
+      "Delivers soft texture",
+      "Ideal for breakfast",
+      "Suitable for traditional recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Puttu Podi – Kerala Products Online | Pavithram Products",
       "description": "Shop now! Kerala products online, Puttu Podi -Breakfast items -buy groceries online. Pavithram's pure rice podi for soft, fluffy & aromatic Kerala-style puttu.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/puttu-podi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Puttu Podi – Kerala Products Online | Pavithram Products",
       "og_description": "Shop now! Kerala products online, Puttu Podi -Breakfast items -buy groceries online. Pavithram's pure rice podi for soft, fluffy & aromatic Kerala-style puttu.",
       "og_url": "https://www.pavithramfoods.com/product/puttu-podi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:44:44+00:00",
+      "article_modified_time": "2026-07-16T09:31:07+00:00",
       "og_image": [
         {
           "width": 672,
@@ -26192,7 +30238,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Puttu-Podi.jpg",
             "datePublished": "2025-09-22T10:14:17+00:00",
-            "dateModified": "2026-06-12T04:44:44+00:00",
+            "dateModified": "2026-07-16T09:31:07+00:00",
             "description": "Shop now! Kerala products online, Puttu Podi -Breakfast items -buy groceries online. Pavithram's pure rice podi for soft, fluffy & aromatic Kerala-style puttu.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/puttu-podi/#breadcrumb"
@@ -26289,13 +30335,12 @@ export const products = [
       "title": "Puffed Rice – Kerala Products Online | Pavithram Products",
       "description": "Order now! Kerala products online, Puffed Rice -Breakfast items -buy groceries online. Pavithram's pure, crispy Kerala malar for snacks, bhel & breakfast bowls.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/puffed-rice/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Puffed Rice – Kerala Products Online | Pavithram Products",
@@ -26407,7 +30452,7 @@ export const products = [
   },
   {
     "id": 163,
-    "name": "Pathiri Idiyappom Podi",
+    "name": "Pathiri/Idiyappom Podi",
     "slug": "pathiri-idiyappom-podi",
     "category": "Breakfast items",
     "price": "₹0.00",
@@ -26416,35 +30461,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Pathiri-Idiyappom-Podi.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Pathiri/Idiyappam Podi is finely milled from selected rice to ensure smooth texture and excellent results. Suitable for preparing soft pathiris and idiyappams.",
+    "ingredients": "White Rice Flour",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:0.5g\r\nSaturated fat : 0g\r\nTrans fat: 0 mg  \r\nCarbohydrates: 32g \r\nProtein: 3g\r\nCholesterol: 0mg \r\nSodium: 0 mg\r\nDietary fiber :1 g (per serving)",
+    "benefits": [
+      "Finely processed rice flour",
+      "Easy to prepare",
+      "Delivers smooth texture",
+      "Suitable for traditional dishes",
+      "Ideal for everyday use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Pathiri Idiyappom Podi – Kerala Products Online | Pavithram",
       "description": "Shop now! Kerala products online, Pathiri Idiyappom Podi -Breakfast items -buy groceries online. Pure rice podi for soft Kerala pathiri & delicate idiyappam.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/pathiri-idiyappom-podi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Pathiri Idiyappom Podi – Kerala Products Online | Pavithram",
       "og_description": "Shop now! Kerala products online, Pathiri Idiyappom Podi -Breakfast items -buy groceries online. Pure rice podi for soft Kerala pathiri & delicate idiyappam.",
       "og_url": "https://www.pavithramfoods.com/product/pathiri-idiyappom-podi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:42:33+00:00",
+      "article_modified_time": "2026-07-16T09:36:49+00:00",
       "og_image": [
         {
           "width": 672,
@@ -26476,7 +30529,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pathiri-Idiyappom-Podi.jpg",
             "datePublished": "2025-09-22T10:11:43+00:00",
-            "dateModified": "2026-06-12T04:42:33+00:00",
+            "dateModified": "2026-07-16T09:36:49+00:00",
             "description": "Shop now! Kerala products online, Pathiri Idiyappom Podi -Breakfast items -buy groceries online. Pure rice podi for soft Kerala pathiri & delicate idiyappam.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/pathiri-idiyappom-podi/#breadcrumb"
@@ -26514,7 +30567,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Pathiri Idiyappom Podi"
+                "name": "Pathiri/Idiyappom Podi"
               }
             ]
           },
@@ -26573,13 +30626,12 @@ export const products = [
       "title": "Palappam Powder – Kerala Products Online | Pavithram",
       "description": "Order now! Kerala products online, Palappam Powder -Breakfast items -buy groceries online. Pavithram's pure rice powder for soft, fluffy Kerala-style palappam.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palappam-powder/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palappam Powder – Kerala Products Online | Pavithram",
@@ -26715,13 +30767,12 @@ export const products = [
       "title": "Palappam Mix – Kerala Products Online | Pavithram Foods",
       "description": "Try now! Kerala products online, Palappam Mix -Breakfast items -buy groceries online. Pavithram's easy mix for fluffy, lacy Kerala palappam with crispy edges.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/palappam-mix/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Palappam Mix – Kerala Products Online | Pavithram Foods",
@@ -26857,13 +30908,12 @@ export const products = [
       "title": "Maida Flour – Kerala Products Online | Pavithram | Products",
       "description": "Shop now! Kerala products online, Maida Flour -Breakfast items -buy groceries online. Pavithram's pure refined flour for Kerala porotta, naan, cakes & pastries.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/maida-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Maida Flour – Kerala Products Online | Pavithram | Products",
@@ -27008,13 +31058,12 @@ export const products = [
       "title": "Idly Flour – Kerala Products Online | Pavithram Products",
       "description": "Buy now! Kerala products online, Idly Flour -Breakfast items -buy groceries online. Pavithram's pure idly flour for soft, fluffy & authentic South Indian idlis.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/idly-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Idly Flour – Kerala Products Online | Pavithram Products",
@@ -27135,35 +31184,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Dosa-Flour.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Dosa Flour is prepared from selected ingredients to deliver tasty and crispy dosas. Ideal for everyday breakfast preparations.",
+    "ingredients": "Rice, Urad Dal, Fenugreek",
+    "nutritionalInfo": "Energy: 183 kcal\r\nTotal Fat:3g\r\nSaturated fat : 0.5g\r\nTrans fat:0 g\r\nCarbohydrates: 38 g\r\nProtein:7g\r\nCholesterol: 0mg \r\nSodium: 0 mg \r\nDietary fiber :0 g \r\nTotal sugar :0 g (per serving )",
+    "benefits": [
+      "Easy to prepare",
+      "Helps make crispy dosa",
+      "Consistent texture",
+      "Suitable for breakfast recipes",
+      "Convenient for daily cooking"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Dosa Flour – Kerala Products Online | Pavithram Products",
       "description": "Order now! Kerala products online, Dosa Flour -Breakfast items -buy groceries online. Pavithram's pure rice dosa flour for crispy, golden South Indian dosas.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/dosa-flour/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Dosa Flour – Kerala Products Online | Pavithram Products",
       "og_description": "Order now! Kerala products online, Dosa Flour -Breakfast items -buy groceries online. Pavithram's pure rice dosa flour for crispy, golden South Indian dosas.",
       "og_url": "https://www.pavithramfoods.com/product/dosa-flour/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:34:18+00:00",
+      "article_modified_time": "2026-07-15T16:31:16+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27195,7 +31252,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Dosa-Flour.jpg",
             "datePublished": "2025-09-22T10:08:24+00:00",
-            "dateModified": "2026-06-12T04:34:18+00:00",
+            "dateModified": "2026-07-15T16:31:16+00:00",
             "description": "Order now! Kerala products online, Dosa Flour -Breakfast items -buy groceries online. Pavithram's pure rice dosa flour for crispy, golden South Indian dosas.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/dosa-flour/#breadcrumb"
@@ -27302,13 +31359,12 @@ export const products = [
       "title": "Chemba Puttupodi – Kerala Products Online | Pavithram",
       "description": "Shop now! Kerala products online, Chemba Puttupodi -Breakfast items -buy groceries online. Pavithram's pure red rice podi for soft, healthy Kerala-style puttu.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chemba-puttupodi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chemba Puttupodi – Kerala Products Online | Pavithram",
@@ -27454,13 +31510,12 @@ export const products = [
       "title": "Chemba Idiyappam Podi – Kerala Products Online | Pavithram",
       "description": "Order now! Kerala products online, Chemba Idiyappam podi -Breakfast items -buy groceries online. Pavithram's red rice podi for soft, aromatic Kerala idiyappams.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chemba-idiyappam-podi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chemba Idiyappam Podi – Kerala Products Online | Pavithram",
@@ -27596,13 +31651,12 @@ export const products = [
       "title": "Chakki Atta – Kerala Products Online | Pavithram Products",
       "description": "Buy now! Kerala products online, Chakki Atta -Breakfast items -buy groceries online. Pavithram's pure stone-ground atta for soft rotis, chapatis & parathas.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chakki-atta/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Chakki Atta – Kerala Products Online | Pavithram Products",
@@ -27718,7 +31772,7 @@ export const products = [
     "slug": "broken-wheat",
     "category": "Breakfast items",
     "price": "₹0.00",
-    "isBulkOnly": true,
+    "isBulkOnly": false,
     "images": [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Broken-Wheat.jpg"
     ],
@@ -27739,8 +31793,7 @@ export const products = [
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [
       "FSSAI Certified",
-      "100% Natural",
-      "Export Quality"
+      "100% Natural"
     ],
     "fssai": "",
     "sku": "",
@@ -27748,20 +31801,19 @@ export const products = [
       "title": "Broken Wheat – Kerala Products Online | Pavithram Products",
       "description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/broken-wheat/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Broken Wheat – Kerala Products Online | Pavithram Products",
       "og_description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
       "og_url": "https://www.pavithramfoods.com/product/broken-wheat/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T13:42:05+00:00",
+      "article_modified_time": "2026-07-16T05:28:31+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27793,7 +31845,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Broken-Wheat.jpg",
             "datePublished": "2025-09-22T10:04:39+00:00",
-            "dateModified": "2026-07-14T13:42:05+00:00",
+            "dateModified": "2026-07-16T05:28:31+00:00",
             "description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/broken-wheat/#breadcrumb"
@@ -27865,148 +31917,6 @@ export const products = [
     ]
   },
   {
-    "id": 142,
-    "name": "Atta",
-    "slug": "atta",
-    "category": "Breakfast items",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Atta.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Atta – Kerala Products Online | Buy Groceries | Pavithram",
-      "description": "Shop now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pavithram pure whole wheat Atta for soft rotis, chapatis & healthy meals.",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/atta/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Atta – Kerala Products Online | Buy Groceries | Pavithram",
-      "og_description": "Shop now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pavithram pure whole wheat Atta for soft rotis, chapatis & healthy meals.",
-      "og_url": "https://www.pavithramfoods.com/product/atta/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:27:58+00:00",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Atta.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/atta/",
-            "url": "https://www.pavithramfoods.com/product/atta/",
-            "name": "Atta – Kerala Products Online | Buy Groceries | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/atta/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/atta/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Atta.jpg",
-            "datePublished": "2025-09-22T10:03:50+00:00",
-            "dateModified": "2026-06-12T04:27:58+00:00",
-            "description": "Shop now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pavithram pure whole wheat Atta for soft rotis, chapatis & healthy meals.",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/atta/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/atta/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/atta/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Atta.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Atta.jpg",
-            "width": 672,
-            "height": 864,
-            "caption": "Pavithram Online Atta Podi"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/atta/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Atta"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "atta"
-    ]
-  },
-  {
     "id": 140,
     "name": "Appam Podi",
     "slug": "appam-podi",
@@ -28017,35 +31927,43 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Appom-Podi.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "Pavithram Appam Podi is made from quality rice and finely processed to help prepare soft and fluffy appams. Ideal for authentic breakfast recipes.",
+    "ingredients": "White Rice Flour",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:0.5g\r\nSaturated fat : 0g\r\nTrans fat: 0 mg  \r\nCarbohydrates: 32g\r\nProtein: 3g\r\nCholesterol: 0mg \r\nSodium: 0 mg\r\nDietary fiber :1 g (per serving)",
+    "benefits": [
+      "Made from selected rice",
+      "Easy to prepare",
+      "Helps achieve soft appams",
+      "Consistent quality",
+      "Ideal for breakfast recipes"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
+    "certifications": [
+      "FSSAI Certified",
+      "100% Natural"
+    ],
     "fssai": "",
     "sku": "",
     "seo": {
       "title": "Appam Podi | Breakfast Items | Buy Groceries Online",
       "description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/appam-podi/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Appam Podi | Breakfast Items | Buy Groceries Online",
       "og_description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
       "og_url": "https://www.pavithramfoods.com/product/appam-podi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:21:30+00:00",
+      "article_modified_time": "2026-07-16T09:34:42+00:00",
       "og_image": [
         {
           "width": 672,
@@ -28077,7 +31995,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Appom-Podi.jpg",
             "datePublished": "2025-09-22T10:03:05+00:00",
-            "dateModified": "2026-06-12T04:21:30+00:00",
+            "dateModified": "2026-07-16T09:34:42+00:00",
             "description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/appam-podi/#breadcrumb"
@@ -28176,13 +32094,12 @@ export const products = [
       "title": "Buy Sambar Powder Online 165g | Blended Masalas | Pavithram",
       "description": "Buy 165g Sambar Powder online from Pavithram’s blended masalas range. Authentic, aromatic spice mix for rich and flavorful South Indian sambar. Order fresh today.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/sambar-powder-165g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Sambar Powder Online 165g | Blended Masalas | Pavithram",
@@ -28322,13 +32239,12 @@ export const products = [
       "title": "Buy Mutton Masala 200g Online | Blended Masalas | Pavithram",
       "description": "Buy Mutton Masala 200g online from Pavithram’s blended masalas. Authentic spice mix for rich, flavorful Kerala-style mutton curries. Order fresh today.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/mutton-masala-200g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Mutton Masala 200g Online | Blended Masalas | Pavithram",
@@ -28467,13 +32383,12 @@ export const products = [
       "title": "Buy Meat Masala 165g Online | Blended Masalas | Pavithram",
       "description": "Buy Meat Masala 165g online from Pavithram’s blended masalas collection. Perfect spice mix for flavorful, aromatic Kerala meat curries and gravies. Order today.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/meat-masala-165g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Meat Masala 165g Online | Blended Masalas | Pavithram",
@@ -28609,13 +32524,12 @@ export const products = [
       "title": "Buy Garam Masala 160g Online | Blended Masalas | Pavithram",
       "description": "Buy Garam Masala 160g online from Pavithram’s blended masala collection. Aromatic, premium spice blend to enhance curries, gravies and everyday Kerala dishes.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/garam-masala-160g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Garam Masala 160g Online | Blended Masalas | Pavithram",
@@ -28752,13 +32666,12 @@ export const products = [
       "title": "Buy Fish Masala 165g Online | Blended Masalas | Pavithram",
       "description": "Buy Fish Masala 165g online from Pavithram’s blended masalas range. Premium spice blend for authentic Kerala fish curry and fish fry with perfect taste. Order now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/fish-masala-165g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Fish Masala 165g Online | Blended Masalas | Pavithram",
@@ -28896,20 +32809,19 @@ export const products = [
       "title": "Buy Chicken Masala Online 165g | Blended Masalas | Pavithram",
       "description": "Buy Chicken Masala 165g online from Pavithram’s blended masalas range. Authentic spice mix for rich aroma and delicious homemade chicken dishes. Order now.",
       "robots": {
-        "index": "index",
+        "index": "noindex",
         "follow": "follow",
         "max-snippet": "max-snippet:-1",
         "max-image-preview": "max-image-preview:large",
         "max-video-preview": "max-video-preview:-1"
       },
-      "canonical": "https://www.pavithramfoods.com/product/chicken-masala-165g/",
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Buy Chicken Masala Online 165g | Blended Masalas | Pavithram",
       "og_description": "Buy Chicken Masala 165g online from Pavithram’s blended masalas range. Authentic spice mix for rich aroma and delicious homemade chicken dishes. Order now.",
       "og_url": "https://www.pavithramfoods.com/product/chicken-masala-165g/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T12:25:20+00:00",
+      "article_modified_time": "2026-07-18T07:54:04+00:00",
       "og_image": [
         {
           "width": 672,
@@ -28941,7 +32853,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chicken-Masala-165g.jpg",
             "datePublished": "2025-09-21T21:27:15+00:00",
-            "dateModified": "2026-02-23T12:25:20+00:00",
+            "dateModified": "2026-07-18T07:54:04+00:00",
             "description": "Buy Chicken Masala 165g online from Pavithram’s blended masalas range. Authentic spice mix for rich aroma and delicious homemade chicken dishes. Order now.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chicken-masala-165g/#breadcrumb"
@@ -29010,147 +32922,6 @@ export const products = [
     "allSlugs": [
       "chicken-masala-165g",
       "chicken-masala-160g"
-    ]
-  },
-  {
-    "id": 105,
-    "name": "Biriyani Masala",
-    "slug": "biriyani-masala-100g",
-    "category": "Blended Masalas",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Biriyani Masala 100g",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Buy Biriyani Masala Online | Blended Masalas | Pavithram",
-      "description": "Buy Biriyani Masala Online from Pavithram for authentic aroma and rich taste. Premium Blended Masalas crafted with fresh spices for perfect biriyani. Order now",
-      "robots": {
-        "index": "index",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "canonical": "https://www.pavithramfoods.com/product/biriyani-masala-100g/",
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Buy Biriyani Masala Online | Blended Masalas | Pavithram",
-      "og_description": "Buy Biriyani Masala Online from Pavithram for authentic aroma and rich taste. Premium Blended Masalas crafted with fresh spices for perfect biriyani. Order now",
-      "og_url": "https://www.pavithramfoods.com/product/biriyani-masala-100g/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T12:23:35+00:00",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/",
-            "url": "https://www.pavithramfoods.com/product/biriyani-masala-100g/",
-            "name": "Buy Biriyani Masala Online | Blended Masalas | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-            "datePublished": "2025-09-21T21:21:05+00:00",
-            "dateModified": "2026-02-23T12:23:35+00:00",
-            "description": "Buy Biriyani Masala Online from Pavithram for authentic aroma and rich taste. Premium Blended Masalas crafted with fresh spices for perfect biriyani. Order now",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/biriyani-masala-100g/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/biriyani-masala-100g/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Biriyani Masala 100g"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "biriyani-masala-100g"
     ]
   }
 ];
