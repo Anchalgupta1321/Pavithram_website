@@ -11,6 +11,10 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
     ],
   },
+  experimental: {
+    workerThreads: false,
+    cpus: 1
+  },
   // NOTE: `redirects()` is not supported with `output: 'export'`.
   // The /certificate and /certificates redirects now live in `public/_redirects`
   // (Cloudflare Pages redirect rules).
