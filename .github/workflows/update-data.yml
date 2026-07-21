@@ -5,7 +5,7 @@ on:
     types: [update_wp_data]
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *' # Automatically syncs every 30 minutes as a fallback
+    - cron: '*/5 * * * *' # Automatically syncs every 5 minutes
 
 jobs:
   update-data:
