@@ -93,76 +93,86 @@ export async function fetchProductCategories() {
  * Fetches gallery items from WordPress.
  * Extracts the featured image URL from the embedded data.
  */
+let _galleryPromise = null;
 export async function fetchGalleryImages() {
-  try {
-    // 1. Fetch all Gallery "Albums"
-    const galleries = await wpFetchJson(`${WP_API_BASE}/gallery?_embed=1&per_page=100`, {
-      next: { revalidate: 60 } // Revalidate every 60 seconds (Incremental Static Regeneration)
-    });
+  if (_galleryPromise) return _galleryPromise;
+  _galleryPromise = (async () => {
+    try {
+      // 1. Fetch all Gallery "Albums"
+      const galleries = await wpFetchJson(`${WP_API_BASE}/gallery?_embed=1&per_page=100`, {
+        next: { revalidate: 60 } // Revalidate every 60 seconds (Incremental Static Regeneration)
+      });
 
-    let allImages = [];
+      let allImages = [];
 
-    // 2. For each Gallery album, fetch all the photos uploaded inside it
-    for (const gallery of galleries) {
-      try {
-        const mediaItems = await wpFetchJson(`${WP_API_BASE}/media?parent=${gallery.id}&per_page=100`, {
-          next: { revalidate: 60 }
-        });
+      // 2. For each Gallery album, fetch all the photos uploaded inside it
+      for (const gallery of galleries) {
+        try {
+          const mediaItems = await wpFetchJson(`${WP_API_BASE}/media?parent=${gallery.id}&per_page=100`, {
+            next: { revalidate: 60 }
+          });
 
-        // Extract the clean image URLs from the media attachments
-        const photos = mediaItems.map(media => {
-          return {
-            id: media.id,
-            title: media.title?.rendered || gallery.title.rendered,
-            url: media.source_url,
-            album: gallery.title.rendered // Keep track of which album it belongs to
-          };
-        }).filter(img => img.url); // Remove any broken items
-        
-        allImages = [...allImages, ...photos];
-      } catch (mediaError) {
-        // Skip this album if its media fetch fails; keep the rest.
-        console.error(`Error fetching media for gallery ${gallery.id}:`, mediaError);
+          // Extract the clean image URLs from the media attachments
+          const photos = mediaItems.map(media => {
+            return {
+              id: media.id,
+              title: media.title?.rendered || gallery.title.rendered,
+              url: media.source_url,
+              album: gallery.title.rendered // Keep track of which album it belongs to
+            };
+          }).filter(img => img.url); // Remove any broken items
+          
+          allImages = [...allImages, ...photos];
+        } catch (mediaError) {
+          // Skip this album if its media fetch fails; keep the rest.
+          console.error(`Error fetching media for gallery ${gallery.id}:`, mediaError);
+        }
       }
-    }
 
-    return allImages;
-  } catch (error) {
-    console.error('Error fetching WordPress gallery:', error);
-    return fallbackGallery || [];
-  }
+      return allImages;
+    } catch (error) {
+      console.error('Error fetching WordPress gallery:', error);
+      return fallbackGallery || [];
+    }
+  })();
+  return _galleryPromise;
 }
 
 /**
  * Fetches testimonials from WordPress.
  */
+let _testimonialsPromise = null;
 export async function fetchTestimonials() {
-  try {
-    const data = await wpFetchJson(`${WP_API_BASE}/testimonial?_embed=1&per_page=10`, {
-      next: { revalidate: 60 }
-    });
+  if (_testimonialsPromise) return _testimonialsPromise;
+  _testimonialsPromise = (async () => {
+    try {
+      const data = await wpFetchJson(`${WP_API_BASE}/testimonial?_embed=1&per_page=10`, {
+        next: { revalidate: 60 }
+      });
 
-    return data.map(post => {
-      let imageUrl = null;
-      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
-        imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
-      }
+      return data.map(post => {
+        let imageUrl = null;
+        if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+          imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+        }
 
-      // Strip HTML tags from content since WP returns <p> tags
-      const rawContent = post.content.rendered;
-      const cleanContent = rawContent.replace(/<[^>]+>/g, '').trim();
+        // Strip HTML tags from content since WP returns <p> tags
+        const rawContent = post.content.rendered;
+        const cleanContent = rawContent.replace(/<[^>]+>/g, '').trim();
 
-      return {
-        id: post.id,
-        name: post.title.rendered,
-        content: cleanContent,
-        image: imageUrl
-      };
-    });
-  } catch (error) {
-    console.error('Error fetching WordPress testimonials:', error);
-    return fallbackTestimonials || [];
-  }
+        return {
+          id: post.id,
+          name: post.title.rendered,
+          content: cleanContent,
+          image: imageUrl
+        };
+      });
+    } catch (error) {
+      console.error('Error fetching WordPress testimonials:', error);
+      return fallbackTestimonials || [];
+    }
+  })();
+  return _testimonialsPromise;
 }
 
 /**
@@ -208,67 +218,77 @@ export async function submitForm(formId, formData) {
 /**
  * Fetches the latest promotional banner from a specific WordPress category "Homepage Banner" (or fallback).
  */
+let _promoBannerPromise = null;
 export async function fetchPromoBanner() {
-  try {
-    // We fetch a specific Page to avoid affecting the live website's blog feed
-    const pages = await wpFetchJson(`${WP_API_BASE}/pages?slug=promo-banner&_embed=1`, {
-      next: { revalidate: 60 }
-    });
+  if (_promoBannerPromise) return _promoBannerPromise;
+  _promoBannerPromise = (async () => {
+    try {
+      // We fetch a specific Page to avoid affecting the live website's blog feed
+      const pages = await wpFetchJson(`${WP_API_BASE}/pages?slug=promo-banner&_embed=1`, {
+        next: { revalidate: 60 }
+      });
 
-    if (pages.length > 0) {
-      const page = pages[0];
-      if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]) {
-        return page._embedded['wp:featuredmedia'][0].source_url;
+      if (pages.length > 0) {
+        const page = pages[0];
+        if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]) {
+          return page._embedded['wp:featuredmedia'][0].source_url;
+        }
       }
+      return null;
+    } catch (error) {
+      console.error('Error fetching promo banner:', error);
+      return fallbackPromo || null;
     }
-    return null;
-  } catch (error) {
-    console.error('Error fetching promo banner:', error);
-    return fallbackPromo || null;
-  }
+  })();
+  return _promoBannerPromise;
 }
 
 /**
  * Fetches the home videos from the "home_video" Custom Post Type (or fallback).
  */
+let _homeVideosPromise = null;
 export async function fetchHomeVideos() {
-  try {
-    const posts = await wpFetchJson(`${WP_API_BASE}/home_video?_embed=1&per_page=10`, {
-      next: { revalidate: 60 }
-    });
+  if (_homeVideosPromise) return _homeVideosPromise;
+  _homeVideosPromise = (async () => {
+    try {
+      const posts = await wpFetchJson(`${WP_API_BASE}/home_video?_embed=1&per_page=10`, {
+        next: { revalidate: 60 }
+      });
 
-    if (posts && posts.length > 0) {
-      return posts.map(post => {
-        let videoUrl = post.acf?.video_url;
-        
-        if (!videoUrl) {
-          const content = post.content?.rendered || '';
-          const title = post.title?.rendered || '';
-          const srcMatch = content.match(/src="([^"]+)"/i);
-          if (srcMatch) videoUrl = srcMatch[1];
-          else {
-            const urlMatch = content.match(/(https?:\/\/[^\s<]+)/i) || title.match(/(https?:\/\/[^\s<]+)/i);
-            if (urlMatch) videoUrl = urlMatch[1].replace(/&amp;/g, '&');
+      if (posts && posts.length > 0) {
+        return posts.map(post => {
+          let videoUrl = post.acf?.video_url;
+          
+          if (!videoUrl) {
+            const content = post.content?.rendered || '';
+            const title = post.title?.rendered || '';
+            const srcMatch = content.match(/src="([^"]+)"/i);
+            if (srcMatch) videoUrl = srcMatch[1];
+            else {
+              const urlMatch = content.match(/(https?:\/\/[^\s<]+)/i) || title.match(/(https?:\/\/[^\s<]+)/i);
+              if (urlMatch) videoUrl = urlMatch[1].replace(/&amp;/g, '&');
+            }
           }
-        }
-        
-        if (videoUrl) {
-          // Format Instagram links for embed
-          if (videoUrl.includes('instagram.com/reel/')) {
-            const cleanUrl = videoUrl.split('?')[0]; // Remove utm params
-            return cleanUrl.endsWith('/') ? `${cleanUrl}embed/` : `${cleanUrl}/embed/`;
+          
+          if (videoUrl) {
+            // Format Instagram links for embed
+            if (videoUrl.includes('instagram.com/reel/')) {
+              const cleanUrl = videoUrl.split('?')[0]; // Remove utm params
+              return cleanUrl.endsWith('/') ? `${cleanUrl}embed/` : `${cleanUrl}/embed/`;
+            }
+            return videoUrl;
           }
-          return videoUrl;
-        }
-        
-        return null;
-      }).filter(url => url);
+          
+          return null;
+        }).filter(url => url);
+      }
+      return fallbackHomeVideos || null;
+    } catch (error) {
+      console.error('Error fetching home videos:', error);
+      return fallbackHomeVideos || null;
     }
-    return fallbackHomeVideos || null;
-  } catch (error) {
-    console.error('Error fetching home videos:', error);
-    return fallbackHomeVideos || null;
-  }
+  })();
+  return _homeVideosPromise;
 }
 
 /**
