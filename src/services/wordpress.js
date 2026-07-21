@@ -331,7 +331,7 @@ export async function fetchProducts() {
     }
 
     // Extract mapping logic to a standalone function so it can be reused
-    const mapWpProduct = async (post) => {
+    const mapWpProduct = (post) => {
       const rawContent = post.content?.rendered || '';
       
       // Extract main image
