@@ -47,7 +47,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       title: 'Liquid Gold',
       story: 'Extracted using traditional methods to preserve every ounce of nutrition and aroma. Our pure oils are the heart of every great meal.',
       image: '/images/oils_home_page.jpg',
-      link: '/products?category=Edible Oils',
+      link: '/products?category=Edible%20Oils',
       products: [
         { name: 'Pure Sesame Oil', img: '/images/Sesame_oil.jpg' },
         { name: 'Coconut Oil', img: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg' },
@@ -59,7 +59,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
       title: 'Traditional Breakfast',
       story: 'Start your day right with our authentic Kerala breakfast mixes. Quick to prepare and packed with traditional nutrition for the whole family.',
       image: '/images/brkfst1.jpg',
-      link: '/products?category=Breakfast',
+      link: '/products?category=Breakfast%20items',
       products: [
         { name: 'Appam Podi', img: '/images/Appam_podi.jpg' },
         { name: 'Idiyappam Podi', img: '/images/Idiyappam_podi.jpg' },
@@ -144,20 +144,20 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const bestSellers = [
     { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/Sesame_oil.jpg', category: 'Oils' },
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
-    { name: 'Rice Bran Oil', slug: 'rice-bran-oil', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
-    { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
+    { name: 'Rice Bran Oil', slug: 'rice-bran-oil-1000ml', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
+    { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste-300gm', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
     { name: 'Kerala Murukku', slug: 'kerala-murukku', image: '/images/products/Pavithram%20Mockups/Snacks/Star%20Murukku%20Mockup.jpg', category: 'Snacks' },
-    { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
-    { name: 'Chemba Puttupodi', slug: 'chemba-puttu-podi', image: '/images/Puttu_podi.jpg', category: 'Breakfast' },
+    { name: 'Pure Coconut Oil', slug: 'pavithram-roasted-coconut-oil-pure-natural-cooking-oil', image: '/images/products/Pavithram%20Mockups/Oils/coconut%20oil.jpg', category: 'Oils' },
+    { name: 'Chemba Puttupodi', slug: 'chemba-puttupodi', image: '/images/Puttu_podi.jpg', category: 'Breakfast' },
     { name: 'Banana Chilli Chips', slug: 'banana-chips', image: '/images/products/Pavithram%20Mockups/Snacks/Banana%20Lemon%20Chilli%20Chips%20Mockup.jpg', category: 'Snacks' }
   ];
 
   const collections = [
-    { title: 'Breakfast Essentials', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg', link: '/products?category=Breakfast' },
-    { title: 'Beverages', image: '/images/products/Pavithram%20Mockups/Tea%20Coffee%20Mockups/Tea%20Powder%20Mockup.jpg', link: '/products?category=Beverages' },
-    { title: 'Condiments', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', link: '/products?category=Condiments' },
+    { title: 'Breakfast Essentials', image: '/images/products/Pavithram%20Mockups/Breakfast%20Mockups/Palappam%20Mix%20Mockup.jpg', link: '/products?category=Breakfast%20items' },
+    { title: 'Beverages', image: '/images/products/Pavithram%20Mockups/Tea%20Coffee%20Mockups/Tea%20Powder%20Mockup.jpg', link: '/products?category=Groceries' },
+    { title: 'Condiments', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', link: '/products?category=Groceries' },
     { title: 'Premium Pulses', image: '/images/products/Pavithram%20Mockups/Pulses%20Mockups/Black%20Channa%20Mockup.jpg', link: '/products?category=Pulses' },
-    { title: 'Everyday Grocery', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Jaggery%20Ball.jpg', link: '/products?category=Grocery' }
+    { title: 'Everyday Grocery', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Jaggery%20Ball.jpg', link: '/products?category=Groceries' }
   ];
 
   const mapPins = [
@@ -562,14 +562,14 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           style={{ position: 'relative', zIndex: 10 }}
         >
           {bestSellers.map((item, idx) => (
-            <motion.div className="product-card-premium" key={idx} variants={fadeInUp} style={{ backgroundColor: getCategoryColor(item.category) }}>
+            <motion.div className="product-card-premium" key={idx} variants={fadeInUp}>
               <div className="product-img-wrapper">
                 <Image 
                   src={item.image} 
                   alt={item.name} 
                   layout="fill" 
                   objectFit="contain" 
-                  style={{ transform: ['Chemba Puttupodi', 'Ginger Garlic Paste'].includes(item.name) ? 'scale(0.75)' : 'none' }}
+                  className="product-image"
                 />
                 <div className="product-hover-overlay">
                   <Link 
@@ -577,7 +577,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                     className="quick-view-btn"
                     {...(item.category === 'Snacks' ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   >
-                    View Product
+                    View Details
                   </Link>
                 </div>
               </div>

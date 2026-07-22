@@ -531,80 +531,97 @@ body {
 .products-grid-premium {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
   max-width: 1400px;
   margin: 0 auto;
 }
 .product-card-premium {
-  background: #FFFDF8;
+  background: #FAF6EF;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
-  border: 1px solid rgba(218, 165, 32, 0.1);
-  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  border: 1px solid rgba(218, 165, 32, 0.05);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .product-img-wrapper {
   position: relative;
-  height: 350px;
+  flex: 0 0 70%;
+  min-height: 320px;
   background: transparent;
+  padding: 1.5rem;
 }
 .product-img-wrapper img {
   mix-blend-mode: multiply;
-  filter: brightness(1.08) contrast(1.05); /* Blow out light grey to white so multiply makes it transparent */
+  filter: brightness(1.08) contrast(1.05);
   transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 1rem;
 }
 .product-hover-overlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.25);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+  z-index: 2;
 }
 .product-card-premium:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(218, 165, 32, 0.15);
-  border-color: rgba(218, 165, 32, 0.4);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
 .product-card-premium:hover .product-img-wrapper img {
-  transform: scale(1.08);
+  transform: scale(1.12);
 }
 .product-card-premium:hover .product-hover-overlay {
   opacity: 1;
 }
 .quick-view-btn {
-  background: #fff;
-  color: var(--color-dark);
-  padding: 0.8rem 1.5rem;
+  background: #D4AF37;
+  color: #fff;
+  padding: 0.9rem 1.8rem;
   text-decoration: none;
   font-weight: 600;
   border-radius: 50px;
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   letter-spacing: 1px;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+  transition: all 0.3s ease;
+  border: none;
 }
 .quick-view-btn:hover {
-  background: var(--color-primary-red);
-  color: #fff;
+  background: #C5A030;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
 }
 .product-info-premium {
   padding: 1.5rem;
   text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', 'Inter', sans-serif;
 }
 .product-cat {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #888;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   margin-bottom: 0.5rem;
 }
 .product-info-premium h4 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--color-dark);
+  font-weight: 600;
 }
 
 /* 7. Why Pavithram */
