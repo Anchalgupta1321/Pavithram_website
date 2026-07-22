@@ -30,36 +30,6 @@ export const gallery = [
     "album": "Exports"
   },
   {
-    "id": 946,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p5.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 945,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p1.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 944,
-    "title": "p3",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p3-1.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 943,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p2.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 942,
-    "title": "p3",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p3.jpeg",
-    "album": "Exports"
-  },
-  {
     "id": 447,
     "title": "DSC02631",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02631-scaled.jpg",
@@ -84,12 +54,6 @@ export const gallery = [
     "album": "Exports"
   },
   {
-    "id": 443,
-    "title": "DSC02669 (1)",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02669-1-scaled.jpg",
-    "album": "Exports"
-  },
-  {
     "id": 442,
     "title": "DSC02676 (1)",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02676-1-scaled.jpg",
@@ -105,12 +69,6 @@ export const gallery = [
     "id": 430,
     "title": "DSC02410",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02410-scaled.jpg",
-    "album": "Office &#038; Facilities"
-  },
-  {
-    "id": 429,
-    "title": "DSC02639",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02639-scaled.jpg",
     "album": "Office &#038; Facilities"
   },
   {
@@ -168,12 +126,6 @@ export const gallery = [
     "album": "Staffs"
   },
   {
-    "id": 418,
-    "title": "b",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/09/b-1-scaled.jpg",
-    "album": "Staffs"
-  },
-  {
     "id": 417,
     "title": "b",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/09/b-scaled.jpg",
@@ -213,12 +165,6 @@ export const gallery = [
     "id": 411,
     "title": "DSC02611",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/09/DSC02611-scaled.jpg",
-    "album": "Staffs"
-  },
-  {
-    "id": 410,
-    "title": "f",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/09/f-scaled.jpg",
     "album": "Staffs"
   }
 ];
@@ -4767,7 +4713,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg"
     ],
     "packSizes": [
       "500ml"
@@ -4805,12 +4751,12 @@ export const products = [
       "og_title": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-18T10:42:27+00:00",
+      "article_modified_time": "2026-07-22T09:32:18+00:00",
       "og_image": [
         {
-          "width": 688,
-          "height": 1532,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+          "width": 485,
+          "height": 1260,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -4835,9 +4781,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
             "datePublished": "2026-07-15T16:22:47+00:00",
-            "dateModified": "2026-07-18T10:42:27+00:00",
+            "dateModified": "2026-07-22T09:32:18+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#breadcrumb"
             },
@@ -4855,10 +4801,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
-            "width": 688,
-            "height": 1532
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "width": 485,
+            "height": 1260
           },
           {
             "@type": "BreadcrumbList",
@@ -6005,7 +5951,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg"
     ],
     "packSizes": [
       "200g"
@@ -6043,11 +5989,12 @@ export const products = [
       "og_title": "Biriyani Gravy Mix - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-22T09:25:21+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
+          "width": 1825,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -6072,8 +6019,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
             "datePublished": "2026-07-14T17:24:03+00:00",
+            "dateModified": "2026-07-22T09:25:21+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/#breadcrumb"
             },
@@ -6091,10 +6039,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Biriyani-Masala-100g.jpg",
-            "width": 672,
-            "height": 864
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
+            "width": 1825,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -7736,7 +7684,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg"
     ],
     "packSizes": [
       "500ml"
@@ -7804,7 +7752,7 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
             "datePublished": "2026-07-14T15:45:45+00:00",
             "dateModified": "2026-07-18T11:27:59+00:00",
             "breadcrumb": {
@@ -7824,10 +7772,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
-            "width": 688,
-            "height": 1532
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "width": 485,
+            "height": 1260
           },
           {
             "@type": "BreadcrumbList",
@@ -7883,13 +7831,13 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Photo-from-Anchal-Gupta.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Roasted-C-O.jpeg"
     ],
     "packSizes": [
       "200ml"
     ],
     "description": "Pavithram Coconut Oil is a premium-quality, 100% pure coconut oil. Naturally rich in nutrients and aroma, it is ideal for cooking, hair care, and skincare, offering purity and trusted quality.",
-    "ingredients": "100% Coconut Oil",
+    "ingredients": "100% Coconut Oil\r\n",
     "nutritionalInfo": "Energy: 897 kcal, Total Fat: 99.7g, Saturated Fat: 91.7g, Monounsaturated Fat: 6.3g, Polyunsaturated Fat: 1.8 g, Carbohydrates: 0g, Protein: 0g, Cholesterol: 0mg (per 100g)",
     "benefits": [
       "Rich in natural healthy fats",
@@ -7903,8 +7851,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Pavithram Roasted Coconut Oil - Pavithram Group of Companies",
-      "description": "Pavithram Roasted Coconut Oil made from carefully selected coconuts. Pure, natural, and perfect for everyday cooking with rich aroma and quality.",
+      "title": "Roasted Coconut Oil–Best and Premium Quality |Pavithram Foods",
+      "description": "Roasted Coconut Oil: 100% pure & natural & rich in natural healthy fats. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -7914,12 +7862,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Pavithram Roasted Coconut Oil - Pavithram Group of Companies",
-      "og_description": "Pavithram Roasted Coconut Oil made from carefully selected coconuts. Pure, natural, and perfect for everyday cooking with rich aroma and quality.",
+      "og_title": "Roasted Coconut Oil–Best and Premium Quality |Pavithram Foods",
+      "og_description": "Roasted Coconut Oil: 100% pure & natural & rich in natural healthy fats. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T06:25:39+00:00",
+      "article_modified_time": "2026-07-22T07:38:24+00:00",
+      "og_image": [
+        {
+          "width": 953,
+          "height": 1280,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-C-O.jpeg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7927,13 +7886,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/",
             "url": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/",
-            "name": "Pavithram Roasted Coconut Oil - Pavithram Group of Companies",
+            "name": "Roasted Coconut Oil–Best and Premium Quality |Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-C-O.jpeg",
             "datePublished": "2026-07-14T06:24:51+00:00",
-            "dateModified": "2026-07-14T06:25:39+00:00",
-            "description": "Pavithram Roasted Coconut Oil made from carefully selected coconuts. Pure, natural, and perfect for everyday cooking with rich aroma and quality.",
+            "dateModified": "2026-07-22T07:38:24+00:00",
+            "description": "Roasted Coconut Oil: 100% pure & natural & rich in natural healthy fats. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/#breadcrumb"
             },
@@ -7946,6 +7912,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/pavithram-roasted-coconut-oil-pure-natural-cooking-oil/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-C-O.jpeg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-C-O.jpeg",
+            "width": 953,
+            "height": 1280,
+            "caption": "PavithramFoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -7996,7 +7972,7 @@ export const products = [
   {
     "id": 891,
     "name": "Pavithram Sesame Oil",
-    "slug": "pavithram-sesame-oil",
+    "slug": "sesame-oil",
     "category": "Edible Oils",
     "price": "₹0.00",
     "isBulkOnly": false,
@@ -8004,7 +7980,7 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
       "https://www.pavithram.online/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
       "https://www.pavithram.online/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.48.57-PM.jpeg",
-      "https://www.pavithram.online/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.48.23-PM.jpeg",
+      "https://www.pavithram.online/wp-content/uploads/2026/01/sesame-350.jpeg",
       "https://www.pavithram.online/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.47.58-PM.jpeg"
     ],
     "packSizes": [
@@ -8034,7 +8010,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Pavithram Sesame Oil - Pavithram Group of Companies",
+      "title": "Best Sesame Oil in Kerala – Premium Quality | Pavithram Foods",
+      "description": "Sesame Oil – pure & neat product, rich in natural antioxidants. FSSAI & ISO certified. Quality assured & lab-tested, Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -8044,40 +8021,70 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Pavithram Sesame Oil - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/",
+      "og_title": "Best Sesame Oil in Kerala – Premium Quality | Pavithram Foods",
+      "og_description": "Sesame Oil – pure & neat product, rich in natural antioxidants. FSSAI & ISO certified. Quality assured & lab-tested, Pavithram Foods, Kerala.",
+      "og_url": "https://www.pavithramfoods.com/product/sesame-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-15T05:46:42+00:00",
+      "article_modified_time": "2026-07-22T07:31:39+00:00",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/",
-            "url": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/",
-            "name": "Pavithram Sesame Oil - Pavithram Group of Companies",
+            "@id": "https://www.pavithramfoods.com/product/sesame-oil/",
+            "url": "https://www.pavithramfoods.com/product/sesame-oil/",
+            "name": "Best Sesame Oil in Kerala – Premium Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/sesame-oil/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/sesame-oil/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
             "datePublished": "2026-07-09T05:59:22+00:00",
-            "dateModified": "2026-07-15T05:46:42+00:00",
+            "dateModified": "2026-07-22T07:31:39+00:00",
+            "description": "Sesame Oil – pure & neat product, rich in natural antioxidants. FSSAI & ISO certified. Quality assured & lab-tested, Pavithram Foods, Kerala.",
             "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/#breadcrumb"
+              "@id": "https://www.pavithramfoods.com/product/sesame-oil/#breadcrumb"
             },
             "inLanguage": "en-US",
             "potentialAction": [
               {
                 "@type": "ReadAction",
                 "target": [
-                  "https://www.pavithramfoods.com/product/pavithram-sesame-oil/"
+                  "https://www.pavithramfoods.com/product/sesame-oil/"
                 ]
               }
             ]
           },
           {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/sesame-oil/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-21-at-3.49.10-PM.jpeg",
+            "width": 672,
+            "height": 864,
+            "caption": "pavithramfoods"
+          },
+          {
             "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/pavithram-sesame-oil/#breadcrumb",
+            "@id": "https://www.pavithramfoods.com/product/sesame-oil/#breadcrumb",
             "itemListElement": [
               {
                 "@type": "ListItem",
@@ -8118,7 +8125,7 @@ export const products = [
       }
     },
     "allSlugs": [
-      "pavithram-sesame-oil",
+      "sesame-oil",
       "sesame-oil-1000ml",
       "sesame-oil-500ml",
       "sesame-oil-350ml",
@@ -16396,138 +16403,6 @@ export const products = [
     ]
   },
   {
-    "id": 481,
-    "name": "Jaggery Coated Banana Chips",
-    "slug": "jaggery-coated-banana-chips",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Jaggery-Coated-Banana-Chips.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Jaggery Coated Banana Chips - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Jaggery Coated Banana Chips - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Jaggery-Coated-Banana-Chips.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/",
-            "url": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/",
-            "name": "Jaggery Coated Banana Chips - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Jaggery-Coated-Banana-Chips.png",
-            "datePublished": "2025-10-23T10:55:00+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Jaggery-Coated-Banana-Chips.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Jaggery-Coated-Banana-Chips.png",
-            "width": 300,
-            "height": 300
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/jaggery-coated-banana-chips/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Jaggery Coated Banana Chips"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "jaggery-coated-banana-chips"
-    ]
-  },
-  {
     "id": 477,
     "name": "Banana Chips Sour Cream & Onion",
     "slug": "banana-chips-sour-cream-onion",
@@ -16798,147 +16673,6 @@ export const products = [
     },
     "allSlugs": [
       "banana-chips-pepper"
-    ]
-  },
-  {
-    "id": 465,
-    "name": "Banana Chips Dry Ginger",
-    "slug": "banana-chips-dry-ginger",
-    "category": "Cochin Snacks",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/Banana-Chips-Dry-Ginger.png"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Dry Ginger Banana Chips – Buy Kerala Chips Online | Pavithram",
-      "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy dry ginger banana chips with a warm, zesty Kerala flavour!",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Dry Ginger Banana Chips – Buy Kerala Chips Online | Pavithram",
-      "og_description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy dry ginger banana chips with a warm, zesty Kerala flavour!",
-      "og_url": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T05:00:25+00:00",
-      "og_image": [
-        {
-          "width": 300,
-          "height": 300,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Dry-Ginger.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/",
-            "url": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/",
-            "name": "Dry Ginger Banana Chips – Buy Kerala Chips Online | Pavithram",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Dry-Ginger.png",
-            "datePublished": "2025-10-23T10:39:28+00:00",
-            "dateModified": "2026-06-12T05:00:25+00:00",
-            "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy dry ginger banana chips with a warm, zesty Kerala flavour!",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Dry-Ginger.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Dry-Ginger.png",
-            "width": 300,
-            "height": 300,
-            "caption": "Dry Ginger Banana Chips"
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/banana-chips-dry-ginger/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Banana Chips Dry Ginger"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "banana-chips-dry-ginger"
     ]
   },
   {
