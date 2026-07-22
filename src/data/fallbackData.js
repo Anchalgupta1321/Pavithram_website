@@ -30,36 +30,6 @@ export const gallery = [
     "album": "Exports"
   },
   {
-    "id": 946,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p5.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 945,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p1.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 944,
-    "title": "p3",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p3-1.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 943,
-    "title": "Pavithramfoods",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p2.jpeg",
-    "album": "Exports"
-  },
-  {
-    "id": 942,
-    "title": "p3",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/p3.jpeg",
-    "album": "Exports"
-  },
-  {
     "id": 447,
     "title": "DSC02631",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02631-scaled.jpg",
@@ -84,12 +54,6 @@ export const gallery = [
     "album": "Exports"
   },
   {
-    "id": 443,
-    "title": "DSC02669 (1)",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02669-1-scaled.jpg",
-    "album": "Exports"
-  },
-  {
     "id": 442,
     "title": "DSC02676 (1)",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02676-1-scaled.jpg",
@@ -105,12 +69,6 @@ export const gallery = [
     "id": 430,
     "title": "DSC02410",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02410-scaled.jpg",
-    "album": "Office &#038; Facilities"
-  },
-  {
-    "id": 429,
-    "title": "DSC02639",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/10/DSC02639-scaled.jpg",
     "album": "Office &#038; Facilities"
   },
   {
@@ -168,12 +126,6 @@ export const gallery = [
     "album": "Staffs"
   },
   {
-    "id": 418,
-    "title": "b",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/09/b-1-scaled.jpg",
-    "album": "Staffs"
-  },
-  {
     "id": 417,
     "title": "b",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/09/b-scaled.jpg",
@@ -213,12 +165,6 @@ export const gallery = [
     "id": 411,
     "title": "DSC02611",
     "url": "https://www.pavithram.online/wp-content/uploads/2025/09/DSC02611-scaled.jpg",
-    "album": "Staffs"
-  },
-  {
-    "id": 410,
-    "title": "f",
-    "url": "https://www.pavithram.online/wp-content/uploads/2025/09/f-scaled.jpg",
     "album": "Staffs"
   }
 ];
