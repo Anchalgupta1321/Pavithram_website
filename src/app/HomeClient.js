@@ -142,7 +142,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   };
 
   const bestSellers = [
-    { name: 'Pure Sesame Oil', slug: 'pavithram-sesame-oil', image: '/images/Sesame_oil.jpg', category: 'Oils' },
+    { name: 'Pure Sesame Oil', slug: 'sesame-oil', image: '/images/Sesame_oil.jpg', category: 'Oils' },
     { name: 'Kerala Mixture', slug: 'kerala-mixture', image: '/images/products/Pavithram%20Mockups/Snacks/Kerala%20Mixture%20Mockup.jpg', category: 'Snacks' },
     { name: 'Rice Bran Oil', slug: 'rice-bran-oil-1000ml', image: '/images/products/Pavithram%20Mockups/Oils/rice%20bran%20oil.jpg', category: 'Oils' },
     { name: 'Ginger Garlic Paste', slug: 'ginger-garlic-paste-300gm', image: '/images/products/Pavithram%20Mockups/Ginger%20Garlic%20Mockups/Ginger%20Garlic%20Paste%20Mockup.jpg', category: 'Condiments' },
