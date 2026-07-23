@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pavithram Foods Website
 
-## Getting Started
+Welcome to the official frontend repository for [Pavithram Foods](https://www.pavithramfoods.com/). This is a modern, high-performance e-commerce and brand showcase application built with Next.js and React.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router, Static Export)
+- **UI Library:** [React 19](https://react.dev/)
+- **Styling:** Custom CSS, Framer Motion (for smooth animations)
+- **Data Source:** WordPress Headless CMS / Static JSON Fallbacks
+- **Deployment:** Cloudflare Pages
+
+## 🛠️ Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🏗️ Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create an optimized production build (static export):
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+The statically exported HTML/CSS/JS files will be generated in the `out/` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app/` - Next.js App Router pages, global styles, and layouts.
+- `src/components/` - Reusable React components (e.g., Navbar, Footer).
+- `src/services/` - API integration logic (WordPress fetchers, CF7 form submissions).
+- `src/data/` - Static fallback data to ensure the site builds even if the CMS is unreachable.
+- `public/` - Static assets (images, videos, and Cloudflare `_redirects`).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔗 Live Site
+[https://www.pavithramfoods.com](https://www.pavithramfoods.com)
