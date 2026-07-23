@@ -7,7 +7,15 @@ import ProductClient from './ProductClient';
 // the rendered data always agree (live WP when reachable, static fallback else).
 export async function generateStaticParams() {
   const products = await getAllProducts();
-  const slugs = new Set(products.map((product) => product.slug).filter(Boolean));
+  const slugs = new Set();
+  products.forEach((product) => {
+    if (product.slug) slugs.add(product.slug);
+    if (Array.isArray(product.allSlugs)) {
+      product.allSlugs.forEach(slug => {
+        if (slug) slugs.add(slug);
+      });
+    }
+  });
   return Array.from(slugs).map((slug) => ({ slug }));
 }
 

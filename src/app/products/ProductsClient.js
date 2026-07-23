@@ -29,8 +29,16 @@ function ProductsContent({ products }) {
   const categories = ["All", ...Array.from(new Set(products.map(p => p.category).filter(Boolean)))];
 
   useEffect(() => {
-    if (categoryParam) {
-      setActiveCategory(categoryParam);
+    let currentCat = categoryParam;
+    
+    // Fallback for Next.js static export hydration bug where useSearchParams is empty
+    if (!currentCat && typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      currentCat = params.get('category');
+    }
+
+    if (currentCat) {
+      setActiveCategory(currentCat);
     } else {
       setActiveCategory("All");
     }

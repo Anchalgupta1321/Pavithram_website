@@ -464,6 +464,10 @@ export async function fetchProducts() {
           allSlugs: [p.slug], // keep track of all merged slugs so getProductBySlug works
           seo: p.seo
         };
+        // Ensure sesame-oil is an accepted slug for backwards compatibility with hardcoded links
+        if (baseName.toLowerCase() === 'sesame oil') {
+          master.allSlugs.push('sesame-oil');
+        }
         productGroups[groupKey] = master;
         finalProducts.push(master);
       } else {
