@@ -477,7 +477,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Idly-Flour.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -501,7 +501,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Idly Rava - Pavithram Group of Companies",
+      "title": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
+      "description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -511,10 +512,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Idly Rava - Pavithram Group of Companies",
+      "og_title": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
+      "og_description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/idly-rava/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:48:21+00:00",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -522,11 +536,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/idly-rava/",
             "url": "https://www.pavithramfoods.com/product/idly-rava/",
-            "name": "Idly Rava - Pavithram Group of Companies",
+            "name": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
             "datePublished": "2026-07-16T09:38:55+00:00",
+            "dateModified": "2026-07-24T06:48:21+00:00",
+            "description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/idly-rava/#breadcrumb"
             },
@@ -539,6 +562,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+            "width": 672,
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -26804,7 +26837,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
             "width": 672,
             "height": 864,
-            "caption": "Idly Flour -Pavithram Products"
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
