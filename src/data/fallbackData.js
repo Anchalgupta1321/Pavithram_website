@@ -327,7 +327,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -351,7 +351,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -361,10 +362,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "og_title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "og_description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:44:55+00:00",
+      "og_image": [
+        {
+          "width": 704,
+          "height": 746,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -372,11 +386,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
             "url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
-            "name": "Samba Wheat Rava - Pavithram Group of Companies",
+            "name": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
             "datePublished": "2026-07-16T09:40:47+00:00",
+            "dateModified": "2026-07-24T06:44:55+00:00",
+            "description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#breadcrumb"
             },
@@ -389,6 +412,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+            "width": 704,
+            "height": 746,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
