@@ -420,7 +420,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           <div className="bento-grid">
             {/* Large Item (Rice/Breakfast) */}
             <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <a href="/products?category=Rice">
+              <a href="/products?category=Rices">
                 <div className="bento-img">
                   <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -434,7 +434,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
             {/* Tall Item (Spices) */}
             <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <a href="/products?category=Spices">
+              <a href="/products?category=Whole%20spices">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -462,7 +462,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
             {/* Small Item (Pickles) - Fills the blank space! */}
             <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <a href="/products?category=Pickles">
+              <a href="/products?category=Jam%26pickles">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
