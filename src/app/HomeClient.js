@@ -462,7 +462,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
 
             {/* Small Item (Pickles) - Fills the blank space! */}
             <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <a href="/products?category=Jam%26pickles">
+              <a href="/products?category=Jams%20%26%20Pickles">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
