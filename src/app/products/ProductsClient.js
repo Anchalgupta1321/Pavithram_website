@@ -57,8 +57,20 @@ function ProductsContent({ products }) {
 
   const filteredProducts = productsData.filter(product => {
     const safeProductCat = (product.category || "").trim().toLowerCase();
-    const safeActiveCat = (activeCategory || "").trim().toLowerCase();
-    const matchesCategory = activeCategory === "All" || safeProductCat === safeActiveCat;
+    let rawActiveCat = (activeCategory || "").trim().toLowerCase();
+    
+    // Strip trailing slashes that might come from redirects (e.g., ?category=breakfast-items/)
+    rawActiveCat = rawActiveCat.replace(/\/$/, '');
+    
+    let matchesCategory = activeCategory === "All" || safeProductCat === rawActiveCat;
+    
+    // If not an exact match, try matching with hyphens replaced by spaces (for old WP links)
+    if (activeCategory !== "All" && !matchesCategory) {
+      if (safeProductCat === rawActiveCat.replace(/-/g, ' ')) {
+        matchesCategory = true;
+      }
+    }
+
     const matchesSearch = searchQueryParam
       ? (product.name || "").toLowerCase().includes(searchQueryParam.toLowerCase())
       : true;
