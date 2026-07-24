@@ -2,7 +2,12 @@
 # (replaces next.config redirects(), which is unsupported with output: 'export')
 /certificate    /certifications   301
 /certificates   /certifications   301
+/certification  /certifications   301
 /blog           /blogs            301
 /blog/*         /blogs/:splat     301
 /about-us       /heritage         301
 /about          /heritage         301
+/from-kitchen-to-feast-finding-the-best-biriyani-masala-in-an-online-spice-store /blogs/from-kitchen-to-feast-finding-the-best-biriyani-masala-in-an-online-spice-store 301
+/craving-authentic-flavours-explore-the-best-homemade-kerala-snacks-online /blogs/craving-authentic-flavours-explore-the-best-homemade-kerala-snacks-online 301
+/organic-sesame-oil-benefits-the-secret-to-healthier-cooking-every-day /blogs/organic-sesame-oil-benefits-the-secret-to-healthier-cooking-every-day 301
+/product-category/* /products?category=:splat 301
