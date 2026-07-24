@@ -4883,7 +4883,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
     ],
     "packSizes": [
       "500ml"
@@ -4908,7 +4908,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+      "title": "Cold Pressed Coconut Oil – Traditional Quality | Pavithram Foods",
+      "description": "Cold Pressed Coconut Oil: traditionally made in Kerala & rich in natural antioxidants. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -4918,15 +4919,16 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+      "og_title": "Cold Pressed Coconut Oil – Traditional Quality | Pavithram Foods",
+      "og_description": "Cold Pressed Coconut Oil: traditionally made in Kerala & rich in natural antioxidants. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-22T09:32:18+00:00",
+      "article_modified_time": "2026-07-24T10:35:18+00:00",
       "og_image": [
         {
-          "width": 485,
-          "height": 1260,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+          "width": 688,
+          "height": 1532,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -4941,7 +4943,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
             "url": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/",
-            "name": "Cold Pressed Groundnut Oil - Pavithram Group of Companies",
+            "name": "Cold Pressed Coconut Oil – Traditional Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -4951,9 +4953,10 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
             "datePublished": "2026-07-15T16:22:47+00:00",
-            "dateModified": "2026-07-22T09:32:18+00:00",
+            "dateModified": "2026-07-24T10:35:18+00:00",
+            "description": "Cold Pressed Coconut Oil: traditionally made in Kerala & rich in natural antioxidants. quality assured & lab-tested. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#breadcrumb"
             },
@@ -4971,10 +4974,11 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/cold-pressed-groundnut-oil/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
-            "width": 485,
-            "height": 1260
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "width": 688,
+            "height": 1532,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -5589,7 +5593,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-04_08_44-PM.png"
     ],
     "packSizes": [
       "500ml"
@@ -5614,7 +5618,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Cold Pressed Sesame Oil - Pavithram Group of Companies",
+      "title": "Cold Pressed Sesame Oil – Authentic Quality | Pavithram Foods",
+      "description": "Cold Pressed Sesame Oil: hygienically packed & cold pressed for natural goodness. FSSAI & ISO certified. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -5624,10 +5629,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Cold Pressed Sesame Oil - Pavithram Group of Companies",
+      "og_title": "Cold Pressed Sesame Oil – Authentic Quality | Pavithram Foods",
+      "og_description": "Cold Pressed Sesame Oil: hygienically packed & cold pressed for natural goodness. FSSAI & ISO certified. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T10:40:11+00:00",
+      "og_image": [
+        {
+          "width": 1254,
+          "height": 1254,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-04_08_44-PM.png",
+          "type": "image/png"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -5635,11 +5653,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/",
             "url": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/",
-            "name": "Cold Pressed Sesame Oil - Pavithram Group of Companies",
+            "name": "Cold Pressed Sesame Oil – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-04_08_44-PM.png",
             "datePublished": "2026-07-14T18:00:19+00:00",
+            "dateModified": "2026-07-24T10:40:11+00:00",
+            "description": "Cold Pressed Sesame Oil: hygienically packed & cold pressed for natural goodness. FSSAI & ISO certified. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/#breadcrumb"
             },
@@ -5652,6 +5679,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/cold-pressed-sesame-oil/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-04_08_44-PM.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-24-2026-04_08_44-PM.png",
+            "width": 1254,
+            "height": 1254,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -7854,7 +7891,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Groundnut-Oil.jpg"
     ],
     "packSizes": [
       "500ml"
@@ -7922,7 +7959,7 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
             "datePublished": "2026-07-14T15:45:45+00:00",
             "dateModified": "2026-07-18T11:27:59+00:00",
             "breadcrumb": {
@@ -7942,10 +7979,11 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/groundnut-oil/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil-e1784712705898.jpg",
-            "width": 485,
-            "height": 1260
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Groundnut-Oil.jpg",
+            "width": 688,
+            "height": 1532,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -22732,7 +22770,7 @@ export const products = [
     "allSlugs": [
       "coconut-oil-5000ml",
       "coconut-oil-2000ml",
-      "coconut-oi-500ml"
+      "coconut-oil-500ml"
     ]
   },
   {
@@ -25071,20 +25109,26 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Samba-Rava.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "<span data-sheets-root=\"1\">Pavithram Samba Wheat Rava is made from selected wheat grains and processed under quality standards. Ideal for wholesome breakfast and meal preparations.</span>\r\n\r\n&nbsp;",
+    "ingredients": "Wheat",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:  0.8g\r\nSaturated fat : 0.2g\r\nTrans fat:  0g\r\nCarbohydrates: 29 g\r\nProtein: 5g\r\nCholesterol: 0mg\r\nsodium: 5 mg\r\nDietary fiber :4 g \r\nTotal sugar :1g (per serving)",
+    "benefits": [
+      "• Made from quality wheat",
+      "• Rich in natural goodness",
+      "• Versatile ingredient",
+      "• Suitable for traditional dishes",
+      "• Ideal for daily use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Samba Rava – Kerala Products Online | Pavithram Products",
-      "description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+      "title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -25094,11 +25138,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Samba Rava – Kerala Products Online | Pavithram Products",
-      "og_description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+      "og_title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "og_description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
       "og_url": "https://www.pavithramfoods.com/product/samba-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:50:28+00:00",
+      "article_modified_time": "2026-07-24T11:38:38+00:00",
       "og_image": [
         {
           "width": 672,
@@ -25118,7 +25162,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/samba-rava/",
             "url": "https://www.pavithramfoods.com/product/samba-rava/",
-            "name": "Samba Rava – Kerala Products Online | Pavithram Products",
+            "name": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -25130,8 +25174,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Samba-Rava.jpg",
             "datePublished": "2025-09-22T10:19:48+00:00",
-            "dateModified": "2026-06-12T04:50:28+00:00",
-            "description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+            "dateModified": "2026-07-24T11:38:38+00:00",
+            "description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/samba-rava/#breadcrumb"
             },
