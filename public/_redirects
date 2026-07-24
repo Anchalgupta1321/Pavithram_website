@@ -2,3 +2,7 @@
 # (replaces next.config redirects(), which is unsupported with output: 'export')
 /certificate    /certifications   301
 /certificates   /certifications   301
+/blog           /blogs            301
+/blog/*         /blogs/:splat     301
+/about-us       /heritage         301
+/about          /heritage         301

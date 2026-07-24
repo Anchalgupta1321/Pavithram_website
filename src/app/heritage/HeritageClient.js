@@ -288,17 +288,35 @@ export default function HeritagePage({ testimonials = [] }) {
           viewport={{ once: true }}
           variants={staggerContainer}
         >
-          <motion.h2 variants={fadeInUp}>Our Essence</motion.h2>
-          <motion.p variants={fadeInUp}>From a small Oil Mill in Aluva to a name trusted across the world, Pavithram stands for purity, tradition, and innovation. Every product we make carries the same promise, authentic taste, uncompromised quality, and the warmth of Kerala’s legacy.</motion.p>
-          
-          <motion.div className="video-wrapper" variants={fadeInUp}>
-            <iframe 
-              src="https://www.youtube.com/embed/lh2vZLgutII?autoplay=0&rel=0" 
-              title="Pavithram Story" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen>
-            </iframe>
-          </motion.div>
+          <div className="video-section-inner centered-layout">
+            <motion.div className="video-text-content" variants={fadeInUp}>
+              <h2>Our Essence</h2>
+              <div className="title-divider centered-divider"></div>
+              <p>From a small Oil Mill in Aluva to a name trusted across the world, Pavithram stands for purity, tradition, and innovation. Every product we make carries the same promise, authentic taste, uncompromised quality, and the warmth of Kerala’s legacy.</p>
+              <a href="https://www.youtube.com/@pavithram.online" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ display: 'inline-block' }}>Explore Our Channel</a>
+            </motion.div>
+            
+            <motion.div 
+              className="video-media full-width-media" 
+              variants={{
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { 
+                  opacity: 1, 
+                  scale: 1,
+                  transition: { type: 'spring', bounce: 0.4, duration: 1 }
+                }
+              }}
+            >
+              <div className="video-wrapper">
+                <iframe 
+                  src="https://www.youtube.com/embed/zParW5oqew8?start=8&autoplay=0&rel=0" 
+                  title="Pavithram Story" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen>
+                </iframe>
+              </div>
+            </motion.div>
+          </div>
         </motion.div>
       </section>
 
