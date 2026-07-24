@@ -171,13 +171,13 @@ export const gallery = [
 export const products = [
   {
     "id": 1016,
-    "name": "UnRoasted White Rice Flour",
+    "name": "Unroasted White Rice Flour",
     "slug": "unroasted-white-rice-flour",
     "category": "Breakfast items",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -201,7 +201,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "title": "UnRoasted White Rice Flour – Best Quality | Pavithram",
+      "description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -211,10 +212,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "og_title": "UnRoasted White Rice Flour – Best Quality | Pavithram",
+      "og_description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T07:06:11+00:00",
+      "og_image": [
+        {
+          "width": 704,
+          "height": 746,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -222,11 +236,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
             "url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
-            "name": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+            "name": "UnRoasted White Rice Flour – Best Quality | Pavithram",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
             "datePublished": "2026-07-16T09:45:34+00:00",
+            "dateModified": "2026-07-24T07:06:11+00:00",
+            "description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#breadcrumb"
             },
@@ -241,6 +264,16 @@ export const products = [
             ]
           },
           {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+            "width": 704,
+            "height": 746,
+            "caption": "pavithramfoods"
+          },
+          {
             "@type": "BreadcrumbList",
             "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#breadcrumb",
             "itemListElement": [
@@ -253,7 +286,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "UnRoasted White Rice Flour"
+                "name": "Unroasted White Rice Flour"
               }
             ]
           },
@@ -294,7 +327,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -318,7 +351,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -328,10 +362,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Samba Wheat Rava - Pavithram Group of Companies",
+      "og_title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "og_description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:44:55+00:00",
+      "og_image": [
+        {
+          "width": 704,
+          "height": 746,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -339,11 +386,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
             "url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
-            "name": "Samba Wheat Rava - Pavithram Group of Companies",
+            "name": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
             "datePublished": "2026-07-16T09:40:47+00:00",
+            "dateModified": "2026-07-24T06:44:55+00:00",
+            "description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#breadcrumb"
             },
@@ -356,6 +412,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+            "width": 704,
+            "height": 746,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -411,7 +477,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Idly-Flour.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -435,7 +501,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Idly Rava - Pavithram Group of Companies",
+      "title": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
+      "description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -445,10 +512,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Idly Rava - Pavithram Group of Companies",
+      "og_title": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
+      "og_description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/idly-rava/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:48:21+00:00",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -456,11 +536,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/idly-rava/",
             "url": "https://www.pavithramfoods.com/product/idly-rava/",
-            "name": "Idly Rava - Pavithram Group of Companies",
+            "name": "Pure Idly Rava Online – FSSAI Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
             "datePublished": "2026-07-16T09:38:55+00:00",
+            "dateModified": "2026-07-24T06:48:21+00:00",
+            "description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/idly-rava/#breadcrumb"
             },
@@ -473,6 +562,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+            "width": 672,
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -552,7 +651,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chick Peas - Pavithram Group of Companies",
+      "title": "Pure Chick Peas Avaliable – FSSAI Certified | Pavithram Foods",
+      "description": "Chick Peas – chemical-free & authentic, source of protein. certified for purity & safety. Available in 500 g. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -562,9 +662,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chick Peas - Pavithram Group of Companies",
+      "og_title": "Pure Chick Peas Avaliable – FSSAI Certified | Pavithram Foods",
+      "og_description": "Chick Peas – chemical-free & authentic, source of protein. certified for purity & safety. Available in 500 g. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/chick-peas/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:58:44+00:00",
       "twitter_card": "summary_large_image",
       "schema": {
         "@context": "https://schema.org",
@@ -573,11 +675,13 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chick-peas/",
             "url": "https://www.pavithramfoods.com/product/chick-peas/",
-            "name": "Chick Peas - Pavithram Group of Companies",
+            "name": "Pure Chick Peas Avaliable – FSSAI Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
             "datePublished": "2026-07-16T08:09:10+00:00",
+            "dateModified": "2026-07-24T06:58:44+00:00",
+            "description": "Chick Peas – chemical-free & authentic, source of protein. certified for purity & safety. Available in 500 g. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chick-peas/#breadcrumb"
             },
@@ -879,7 +983,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg"
     ],
     "packSizes": [
       "100g"
@@ -903,7 +1007,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Fennel - Pavithram Group of Companies",
+      "title": "Pure Fennel Online – FSSAI and ISO Certified | Pavithram Foods",
+      "description": "Fennel – chemical-free & authentic, rich aroma and flavour. certified for purity & safety. Available in 100 g. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -913,10 +1018,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Fennel - Pavithram Group of Companies",
+      "og_title": "Pure Fennel Online – FSSAI and ISO Certified | Pavithram Foods",
+      "og_description": "Fennel – chemical-free & authentic, rich aroma and flavour. certified for purity & safety. Available in 100 g. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/fennel/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T07:06:29+00:00",
+      "og_image": [
+        {
+          "width": 672,
+          "height": 864,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -924,11 +1042,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/fennel/",
             "url": "https://www.pavithramfoods.com/product/fennel/",
-            "name": "Fennel - Pavithram Group of Companies",
+            "name": "Pure Fennel Online – FSSAI and ISO Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/fennel/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/fennel/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
             "datePublished": "2026-07-16T08:04:13+00:00",
+            "dateModified": "2026-07-24T07:06:29+00:00",
+            "description": "Fennel – chemical-free & authentic, rich aroma and flavour. certified for purity & safety. Available in 100 g. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/fennel/#breadcrumb"
             },
@@ -941,6 +1068,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/fennel/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
+            "width": 672,
+            "height": 864,
+            "caption": "Pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -3487,7 +3624,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Puffed-Rice-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -3511,7 +3648,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "White Rice Flour - Pavithram Group of Companies",
+      "title": "Best White Rice Flour Online – ISO Certified | Pavithram Foods",
+      "description": "White Rice Flour – pure & neat product, finely milled for consistency. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -3521,10 +3659,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "White Rice Flour - Pavithram Group of Companies",
+      "og_title": "Best White Rice Flour Online – ISO Certified | Pavithram Foods",
+      "og_description": "White Rice Flour – pure & neat product, finely milled for consistency. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/white-rice-flour/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:52:46+00:00",
+      "og_image": [
+        {
+          "width": 707,
+          "height": 746,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puffed-Rice-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3532,11 +3683,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/white-rice-flour/",
             "url": "https://www.pavithramfoods.com/product/white-rice-flour/",
-            "name": "White Rice Flour - Pavithram Group of Companies",
+            "name": "Best White Rice Flour Online – ISO Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puffed-Rice-Mockup.jpg",
             "datePublished": "2026-07-16T05:32:03+00:00",
+            "dateModified": "2026-07-24T06:52:46+00:00",
+            "description": "White Rice Flour – pure & neat product, finely milled for consistency. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#breadcrumb"
             },
@@ -3549,6 +3709,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puffed-Rice-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puffed-Rice-Mockup.jpg",
+            "width": 707,
+            "height": 746,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -13073,8 +13243,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Buy Fennel Seeds Online | Organic Spice Store | Pavithram",
-      "description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
+      "title": "Buy Fennel Seeds Online | Organic Spice Store | PavithramFoods",
+      "description": "Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor,aroma, and traditional cooking.Pavithram",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -13084,11 +13254,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Buy Fennel Seeds Online | Organic Spice Store | Pavithram",
-      "og_description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
+      "og_title": "Buy Fennel Seeds Online | Organic Spice Store | PavithramFoods",
+      "og_description": "Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor,aroma, and traditional cooking.Pavithram",
       "og_url": "https://www.pavithramfoods.com/product/fennel-seeds/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-18T10:52:34+00:00",
+      "article_modified_time": "2026-07-24T07:04:18+00:00",
       "og_image": [
         {
           "width": 672,
@@ -13108,7 +13278,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/fennel-seeds/",
             "url": "https://www.pavithramfoods.com/product/fennel-seeds/",
-            "name": "Buy Fennel Seeds Online | Organic Spice Store | Pavithram",
+            "name": "Buy Fennel Seeds Online | Organic Spice Store | PavithramFoods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -13120,8 +13290,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
             "datePublished": "2025-10-24T05:51:04+00:00",
-            "dateModified": "2026-07-18T10:52:34+00:00",
-            "description": "Buy Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor, aroma, and traditional cooking. Order fresh spices Now",
+            "dateModified": "2026-07-24T07:04:18+00:00",
+            "description": "Fennel Seeds online from Pavithram’s organic spice store. Premium Kerala spices for authentic flavor,aroma, and traditional cooking.Pavithram",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/fennel-seeds/#breadcrumb"
             },
@@ -13142,7 +13312,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "Pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -26738,7 +26909,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
             "width": 672,
             "height": 864,
-            "caption": "Idly Flour -Pavithram Products"
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
