@@ -19,7 +19,10 @@ export async function getWordPressPosts() {
         // Extract featured image
         let imageUrl = 'https://www.pavithram.online/wp-content/uploads/2025/10/Groceries_.png'; // Fallback
         if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
-          imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+          const sourceUrl = post._embedded['wp:featuredmedia'][0].source_url;
+          if (typeof sourceUrl === 'string' && sourceUrl.trim() !== '') {
+            imageUrl = sourceUrl;
+          }
         }
         
         // Extract category (just take the first one if available)

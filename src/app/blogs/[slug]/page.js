@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from "next/legacy/image";
 import { getWordPressPosts } from '../../../utils/wp';
 import './blog-details.css';
+import '../blogs.css';
 
 // Enumerate every blog post page at build time.
 // New posts appear after the next build (triggered by the WordPress deploy hook).

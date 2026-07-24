@@ -64,7 +64,7 @@ export default function BlogsClient({ posts }) {
           <div className="blog-hero-container">
             <div className="hero-img-wrapper" style={{ background: '#FFFDF8' }}>
               <Link href={`/blogs/${featuredPost.slug}`} style={{ display: 'block', width: '100%', height: '100%' }}>
-                <Image src={featuredPost.image} alt={featuredPost.title} width={800} height={500} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} priority />
+                <Image src={typeof featuredPost.image === 'string' && featuredPost.image ? featuredPost.image : 'https://www.pavithram.online/wp-content/uploads/2025/10/Groceries_.png'} alt={featuredPost.title} width={800} height={500} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} priority />
               </Link>
             </div>
             <div className="blog-hero-content">
@@ -102,7 +102,7 @@ export default function BlogsClient({ posts }) {
             >
               <div className="card-img" style={{ background: '#FFFDF8' }}>
                 <Link href={`/blogs/${post.slug}`} style={{ display: 'block', width: '100%', height: '100%' }}>
-                  <Image src={post.image} alt={post.title} width={400} height={250} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  <Image src={typeof post.image === 'string' && post.image ? post.image : 'https://www.pavithram.online/wp-content/uploads/2025/10/Groceries_.png'} alt={post.title} width={400} height={250} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </Link>
               </div>
               <div className="card-content">
