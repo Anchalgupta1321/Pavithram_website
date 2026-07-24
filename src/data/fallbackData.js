@@ -177,7 +177,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -201,7 +201,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "title": "UnRoasted White Rice Flour – Best Quality | Pavithram",
+      "description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -211,10 +212,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+      "og_title": "UnRoasted White Rice Flour – Best Quality | Pavithram",
+      "og_description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-24T06:37:08+00:00",
+      "og_image": [
+        {
+          "width": 704,
+          "height": 746,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -222,11 +236,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
             "url": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/",
-            "name": "UnRoasted White Rice Flour - Pavithram Group of Companies",
+            "name": "UnRoasted White Rice Flour – Best Quality | Pavithram",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
             "datePublished": "2026-07-16T09:45:34+00:00",
+            "dateModified": "2026-07-24T06:37:08+00:00",
+            "description": "UnRoasted White Rice Flour: pure & neat product & finely milled for consistency. FSSAI & ISO certified. Shop Now - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#breadcrumb"
             },
@@ -239,6 +262,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/unroasted-white-rice-flour/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Roasted-Rice-Flour-Mockup.jpg",
+            "width": 704,
+            "height": 746,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
