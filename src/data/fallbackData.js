@@ -25109,20 +25109,26 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/09/Samba-Rava.jpg"
     ],
     "packSizes": [
-      "Standard"
+      "1kg"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
+    "description": "<span data-sheets-root=\"1\">Pavithram Samba Wheat Rava is made from selected wheat grains and processed under quality standards. Ideal for wholesome breakfast and meal preparations.</span>\r\n\r\n&nbsp;",
+    "ingredients": "Wheat",
+    "nutritionalInfo": "Energy: 145 kcal\r\nTotal Fat:  0.8g\r\nSaturated fat : 0.2g\r\nTrans fat:  0g\r\nCarbohydrates: 29 g\r\nProtein: 5g\r\nCholesterol: 0mg\r\nsodium: 5 mg\r\nDietary fiber :4 g \r\nTotal sugar :1g (per serving)",
+    "benefits": [
+      "• Made from quality wheat",
+      "• Rich in natural goodness",
+      "• Versatile ingredient",
+      "• Suitable for traditional dishes",
+      "• Ideal for daily use"
+    ],
+    "storage": "Store in a cool, dry place away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Samba Rava – Kerala Products Online | Pavithram Products",
-      "description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+      "title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -25132,11 +25138,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Samba Rava – Kerala Products Online | Pavithram Products",
-      "og_description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+      "og_title": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
+      "og_description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
       "og_url": "https://www.pavithramfoods.com/product/samba-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:50:28+00:00",
+      "article_modified_time": "2026-07-24T11:38:38+00:00",
       "og_image": [
         {
           "width": 672,
@@ -25156,7 +25162,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/samba-rava/",
             "url": "https://www.pavithramfoods.com/product/samba-rava/",
-            "name": "Samba Rava – Kerala Products Online | Pavithram Products",
+            "name": "Samba Wheat Rava – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -25168,8 +25174,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Samba-Rava.jpg",
             "datePublished": "2025-09-22T10:19:48+00:00",
-            "dateModified": "2026-06-12T04:50:28+00:00",
-            "description": "Try now! Kerala products online, Samba Rava -Breakfast items -buy groceries online. Pavithram's pure samba wheat rava for soft idlis, upma & healthy Kerala meals.",
+            "dateModified": "2026-07-24T11:38:38+00:00",
+            "description": "Kerala's products onine, Samba Rava -Breakfast items. Pavithram's pure samba wheat rava for soft idlis, upma & healthy meals.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/samba-rava/#breadcrumb"
             },
