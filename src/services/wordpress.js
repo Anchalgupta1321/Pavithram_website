@@ -38,7 +38,14 @@ export async function getAllProducts() {
  */
 export async function getProductBySlug(slug) {
   const all = await getAllProducts();
-  return all.find((p) => p.slug === slug || (p.allSlugs && p.allSlugs.includes(slug))) || fallbackProducts.find((p) => p.slug === slug) || null;
+  const safeSlug = (slug || "").trim().toLowerCase();
+  
+  return all.find((p) => {
+    const pSlug = (p.slug || "").trim().toLowerCase();
+    const matchesMain = pSlug === safeSlug;
+    const matchesAny = p.allSlugs && p.allSlugs.some(s => (s || "").trim().toLowerCase() === safeSlug);
+    return matchesMain || matchesAny;
+  }) || fallbackProducts.find((p) => (p.slug || "").trim().toLowerCase() === safeSlug) || null;
 }
 
 /**

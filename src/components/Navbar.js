@@ -118,7 +118,14 @@ export function NavbarContent({ categories = [] }) {
             <div className="dropdown-menu">
               <Link href="/products" className="dropdown-item" onClick={() => setIsMobileMenuOpen(false)}>All Products</Link>
               {categories.map(cat => (
-                <Link key={cat} href={`/products?category=${encodeURIComponent(cat)}`} className="dropdown-item" onClick={() => setIsMobileMenuOpen(false)}>{cat}</Link>
+                <a 
+                  key={cat} 
+                  href={`/products?category=${encodeURIComponent(cat)}`} 
+                  className="dropdown-item" 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {cat}
+                </a>
               ))}
             </div>
           </div>

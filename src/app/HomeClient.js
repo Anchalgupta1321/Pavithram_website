@@ -420,7 +420,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
           <div className="bento-grid">
             {/* Large Item (Rice/Breakfast) */}
             <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Rice">
+              <a href="/products?category=Rice">
                 <div className="bento-img">
                   <Image src="/images/products/Pavithram%20Mockups/Rice%20Mockups/Rice/Sona%20Masoori%20Rice%20Mockup.jpg" alt="Premium Rice" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -429,12 +429,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Rice</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Tall Item (Spices) */}
             <motion.div className="bento-item tall" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Spices">
+              <a href="/products?category=Spices">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/09/Chicken-Masala-160g.jpg" alt="Spices" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -443,12 +443,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Authentic Spices</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Large Item (Millets) */}
             <motion.div className="bento-item large-alt" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Millets">
+              <a href="/products?category=Millets">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Millets_.png" alt="Millets" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -457,12 +457,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Millets & Pulses</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Small Item (Pickles) - Fills the blank space! */}
             <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Pickles">
+              <a href="/products?category=Pickles">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Jams-Pickles_.png" alt="Jams and Pickles" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -471,12 +471,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Jams & Pickles</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Wide Item (Snacks) */}
             <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Cochin%20Snacks">
+              <a href="/products?category=Cochin%20Snacks">
                 <div className="bento-img">
                   <Image src="https://www.pavithram.online/wp-content/uploads/2025/10/Cochin-Snacks.png" alt="Snacks" layout="fill" objectFit="cover" />
                   <div className="bento-overlay"></div>
@@ -485,12 +485,12 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Cochin Snacks</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Small Item (Oils) */}
             <motion.div className="bento-item wide" whileHover="hover" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-              <Link href="/products?category=Edible%20Oils">
+              <a href="/products?category=Edible%20Oils">
                 <div className="bento-img">
                   <Image src="/images/Pure_oil.jpg" alt="Oils" layout="fill" objectFit="cover" unoptimized={true} priority />
                   <div className="bento-overlay"></div>
@@ -499,7 +499,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
                   <h3>Pure Oils</h3>
                   <span className="bento-link">Discover <BsArrowRight /></span>
                 </div>
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>
