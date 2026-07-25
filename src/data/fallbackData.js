@@ -17036,20 +17036,20 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/Banana-Chips.png"
     ],
     "packSizes": [
-      "Standard"
+      "175 GM"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
+    "description": "<span data-sheets-root=\"1\">Crispy, thin-sliced Nendran banana chips fried in vegetable oil with a hint of salt &amp; turmeric. </span>",
+    "ingredients": "Raw Banana, \r\nTurmeric Powder, \r\nSalt, \r\nVegetable Oil.",
+    "nutritionalInfo": "Serving Size 100g\r\nAmount per serving | % \r\nDaily Value Total Calories 484kcal/2025 KJ | \r\nCalories from fat 252kcal/1054kJ Total Fat 28g | \r\n35% Saturated Fat 6.0g | 80%\r\nTrans Fat 0g | 0%\r\nCholesterol 0g | 0%\r\nSodium 24mg | 1%\r\nTotal Carbohydrate 56g | 17%\r\nDietary Fiber 5.2g | 18%\r\nSugar 1.8mg\r\nProtein 2.0g | 3%\r\nVitamin C 0mcg | 0%\r\nVitamin A 0mcg | 0%\r\nIron 0.4mg | 4%\r\nCalcium 260mg | 21%\r\nPotassium 398mg | 11%\"",
     "benefits": [],
-    "storage": "",
+    "storage": "Once the pack is open, store the content in an airtight container, away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Banana Chips – Buy Kerala Banana Chips Online | Pavithram",
-      "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Order today!",
+      "title": "Banana Chips – Best Banana Chips Online | Pavithram Foods",
+      "description": "Snack now! Buy , Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Pavithram foods kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -17059,11 +17059,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Banana Chips – Buy Kerala Banana Chips Online | Pavithram",
-      "og_description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Order today!",
+      "og_title": "Banana Chips – Best Banana Chips Online | Pavithram Foods",
+      "og_description": "Snack now! Buy , Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Pavithram foods kerala.",
       "og_url": "https://www.pavithramfoods.com/product/banana-chips/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:57:56+00:00",
+      "article_modified_time": "2026-07-25T06:38:03+00:00",
       "og_image": [
         {
           "width": 300,
@@ -17083,7 +17083,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/banana-chips/",
             "url": "https://www.pavithramfoods.com/product/banana-chips/",
-            "name": "Banana Chips – Buy Kerala Banana Chips Online | Pavithram",
+            "name": "Banana Chips – Best Banana Chips Online | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -17095,8 +17095,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips.png",
             "datePublished": "2025-10-23T10:34:37+00:00",
-            "dateModified": "2026-06-12T04:57:56+00:00",
-            "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Order today!",
+            "dateModified": "2026-07-25T06:38:03+00:00",
+            "description": "Snack now! Buy , Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Pavithram foods kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/banana-chips/#breadcrumb"
             },
@@ -17118,7 +17118,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips.png",
             "width": 300,
             "height": 300,
-            "caption": "best banana chips in Kerala"
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -18887,7 +18887,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Asafoetida Powder - Pavithram Group of Companies",
+      "title": "Asafoetida Powder – Premium Quality | Pavithram Foods",
+      "description": "Asafoetida Powder – 100% pure & natural, rich aroma and flavour. quality assured & lab-tested. Explore Range with Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -18897,10 +18898,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Asafoetida Powder - Pavithram Group of Companies",
+      "og_title": "Asafoetida Powder – Premium Quality | Pavithram Foods",
+      "og_description": "Asafoetida Powder – 100% pure & natural, rich aroma and flavour. quality assured & lab-tested. Explore Range with Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:28:24+00:00",
+      "article_modified_time": "2026-07-25T06:25:19+00:00",
       "og_image": [
         {
           "width": 672,
@@ -18920,7 +18922,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
             "url": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/",
-            "name": "Asafoetida Powder - Pavithram Group of Companies",
+            "name": "Asafoetida Powder – Premium Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -18932,7 +18934,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Powder-100g.jpg",
             "datePublished": "2025-09-22T13:02:03+00:00",
-            "dateModified": "2026-07-16T07:28:24+00:00",
+            "dateModified": "2026-07-25T06:25:19+00:00",
+            "description": "Asafoetida Powder – 100% pure & natural, rich aroma and flavour. quality assured & lab-tested. Explore Range with Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/asafoetida-powder-100gm/#breadcrumb"
             },
@@ -18953,7 +18956,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Powder-100g.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Powder-100g.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -19033,7 +19037,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Asafoetida Cake - Pavithram Group of Companies",
+      "title": "Pure Asafoetida Cake Online – FSSAI Certified | Pavithram Foods",
+      "description": "Asafoetida Cake: chemical-free & authentic & strong and authentic flavour. certified for purity & safety. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -19043,10 +19048,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Asafoetida Cake - Pavithram Group of Companies",
+      "og_title": "Pure Asafoetida Cake Online – FSSAI Certified | Pavithram Foods",
+      "og_description": "Asafoetida Cake: chemical-free & authentic & strong and authentic flavour. certified for purity & safety. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:26:45+00:00",
+      "article_modified_time": "2026-07-25T06:26:12+00:00",
       "og_image": [
         {
           "width": 672,
@@ -19066,7 +19072,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
             "url": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/",
-            "name": "Asafoetida Cake - Pavithram Group of Companies",
+            "name": "Pure Asafoetida Cake Online – FSSAI Certified | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -19078,7 +19084,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Cake-100g.jpg",
             "datePublished": "2025-09-22T13:01:31+00:00",
-            "dateModified": "2026-07-16T07:26:45+00:00",
+            "dateModified": "2026-07-25T06:26:12+00:00",
+            "description": "Asafoetida Cake: chemical-free & authentic & strong and authentic flavour. certified for purity & safety. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/asafoetida-cake-100gm/#breadcrumb"
             },
@@ -19099,7 +19106,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Cake-100g.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Asafoetida-Cake-100g.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -27777,7 +27785,7 @@ export const products = [
     "sku": "",
     "seo": {
       "title": "Appam Podi | Breakfast Items | Buy Groceries Online",
-      "description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
+      "description": "Kerala products online, Appam Podi, Breakfast items. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh. Pavithram Foods",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -27788,10 +27796,10 @@ export const products = [
       "og_locale": "en_US",
       "og_type": "article",
       "og_title": "Appam Podi | Breakfast Items | Buy Groceries Online",
-      "og_description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
+      "og_description": "Kerala products online, Appam Podi, Breakfast items. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh. Pavithram Foods",
       "og_url": "https://www.pavithramfoods.com/product/appam-podi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T09:34:42+00:00",
+      "article_modified_time": "2026-07-25T06:22:14+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27823,8 +27831,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Appom-Podi.jpg",
             "datePublished": "2025-09-22T10:03:05+00:00",
-            "dateModified": "2026-07-16T09:34:42+00:00",
-            "description": "Order now! Kerala products online, Appam Podi -Breakfast items -buy groceries online. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh.",
+            "dateModified": "2026-07-25T06:22:14+00:00",
+            "description": "Kerala products online, Appam Podi, Breakfast items. Pure rice flour for soft, fluffy, authentic Kerala appams delivered fresh. Pavithram Foods",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/appam-podi/#breadcrumb"
             },
@@ -27846,7 +27854,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Appom-Podi.jpg",
             "width": 672,
             "height": 864,
-            "caption": "Pavithram Appam Podi"
+            "caption": "Pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
