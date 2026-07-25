@@ -5059,7 +5059,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Barnyard Millet - Pavithram Group of Companies",
+      "title": "Barnyard Millet – Traditional Quality | Pavithram Foods",
+      "description": "Barnyard Millet: traditionally made in Kerala & naturally rich in fibre. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -5069,10 +5070,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Barnyard Millet - Pavithram Group of Companies",
+      "og_title": "Barnyard Millet – Traditional Quality | Pavithram Foods",
+      "og_description": "Barnyard Millet: traditionally made in Kerala & naturally rich in fibre. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/barnyard-millet/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-21T06:26:24+00:00",
+      "article_modified_time": "2026-07-25T06:59:45+00:00",
       "og_image": [
         {
           "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
@@ -5092,7 +5094,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/barnyard-millet/",
             "url": "https://www.pavithramfoods.com/product/barnyard-millet/",
-            "name": "Barnyard Millet - Pavithram Group of Companies",
+            "name": "Barnyard Millet – Traditional Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -5104,7 +5106,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Barnyard-Millet.jpg",
             "datePublished": "2026-07-15T06:29:55+00:00",
-            "dateModified": "2026-07-21T06:26:24+00:00",
+            "dateModified": "2026-07-25T06:59:45+00:00",
+            "description": "Barnyard Millet: traditionally made in Kerala & naturally rich in fibre. quality assured & lab-tested. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/barnyard-millet/#breadcrumb"
             },
@@ -6183,7 +6186,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Biriyani Gravy Mix - Pavithram Group of Companies",
+      "title": "Biriyani Gravy Mix – Premium Quality | Pavithram Foods",
+      "description": "Biriyani Gravy Mix – 100% pure & natural, rich biriyani flavour. quality assured & lab-tested. Available in 200g. Know More at Pavithram Foods.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -6193,10 +6197,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Biriyani Gravy Mix - Pavithram Group of Companies",
+      "og_title": "Biriyani Gravy Mix – Premium Quality | Pavithram Foods",
+      "og_description": "Biriyani Gravy Mix – 100% pure & natural, rich biriyani flavour. quality assured & lab-tested. Available in 200g. Know More at Pavithram Foods.",
       "og_url": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-22T09:25:21+00:00",
+      "article_modified_time": "2026-07-25T07:04:29+00:00",
       "og_image": [
         {
           "width": 1825,
@@ -6216,7 +6221,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/",
             "url": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/",
-            "name": "Biriyani Gravy Mix - Pavithram Group of Companies",
+            "name": "Biriyani Gravy Mix – Premium Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -6228,7 +6233,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
             "datePublished": "2026-07-14T17:24:03+00:00",
-            "dateModified": "2026-07-22T09:25:21+00:00",
+            "dateModified": "2026-07-25T07:04:29+00:00",
+            "description": "Biriyani Gravy Mix – 100% pure & natural, rich biriyani flavour. quality assured & lab-tested. Available in 200g. Know More at Pavithram Foods.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/biriyani-gravy-mix/#breadcrumb"
             },
@@ -6249,7 +6255,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Biriyani-Gravy-Mix-scaled.jpg",
             "width": 1825,
-            "height": 2560
+            "height": 2560,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -13001,7 +13008,7 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Buy Bay Leaves Online | Organic Spice Store | Pavithram",
+      "title": "Bay Leaves Online | Organic Spice Store | Pavithram Foods",
       "description": "Buy Bay Leaves online from Pavithram’s organic spice store. Premium Kerala spices for rich aroma and authentic flavor in traditional cooking. Order spices Now",
       "robots": {
         "index": "noindex",
@@ -13012,11 +13019,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Buy Bay Leaves Online | Organic Spice Store | Pavithram",
+      "og_title": "Bay Leaves Online | Organic Spice Store | Pavithram Foods",
       "og_description": "Buy Bay Leaves online from Pavithram’s organic spice store. Premium Kerala spices for rich aroma and authentic flavor in traditional cooking. Order spices Now",
       "og_url": "https://www.pavithramfoods.com/product/bay-leaves/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T18:13:15+00:00",
+      "article_modified_time": "2026-07-25T07:02:01+00:00",
       "og_image": [
         {
           "width": 672,
@@ -13036,7 +13043,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/bay-leaves/",
             "url": "https://www.pavithramfoods.com/product/bay-leaves/",
-            "name": "Buy Bay Leaves Online | Organic Spice Store | Pavithram",
+            "name": "Bay Leaves Online | Organic Spice Store | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -13048,7 +13055,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0010_Bay-Leaves@300x-8.jpg",
             "datePublished": "2025-10-24T06:07:14+00:00",
-            "dateModified": "2026-02-23T18:13:15+00:00",
+            "dateModified": "2026-07-25T07:02:01+00:00",
             "description": "Buy Bay Leaves online from Pavithram’s organic spice store. Premium Kerala spices for rich aroma and authentic flavor in traditional cooking. Order spices Now",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/bay-leaves/#breadcrumb"
@@ -16754,20 +16761,20 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/banana-chips-pepper.png"
     ],
     "packSizes": [
-      "Standard"
+      "340 gm"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
+    "description": "<span data-sheets-root=\"1\">Uniformly sliced, golden yellow in colour, crisp in texture, coated with pepper powder, have a characteristic spicy aroma and taste, and be free from rancidity, excess oil, and any foreign matter.</span>",
+    "ingredients": "\"Raw Banana, Turmeric Powder, Pepper Powder, Salt,\r\nVegetable Oil.\"",
+    "nutritionalInfo": "\"Calories 370  Total Fat 22.8g, | 29%\r\nSaturated Fat 19.7g, | 98%\r\nTrans Fat 0g\r\nCholesterol 0mg, | 0%\r\nSodium 4mg, | 0%\r\nTotal Carbohydrate 40.8g, | 14%\r\nDietary Fiber 5.2g, | 18%\r\nTotal Sugars 20g\r\nIncludes 0g Added Sugars, | 0%\r\nProtein 1.6g\r\nVitamin D 0mcg, | 0%\r\nCalcium 12mg, | 0%\r\nIron 0.8mg, | 4%\r\nPotassium 364mg, | 8%\"",
     "benefits": [],
-    "storage": "",
+    "storage": "Once the pack is open, store the content in an airtight container, away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Pepper Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's crispy pepper banana chips with a bold, spicy Kerala black pepper kick!",
+      "title": "Pepper Banana Chips – Best Chips in Kerala | Pavithram Foods",
+      "description": "Snack now! best banana chips in Kerala, -Cochin Snacks. Crispy pepper banana chips with a bold, spicy Kerala pepper kick! Pavithram Foods",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -16777,11 +16784,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Pepper Banana Chips – Best Banana Chips in Kerala | Pavithram",
-      "og_description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's crispy pepper banana chips with a bold, spicy Kerala black pepper kick!",
+      "og_title": "Pepper Banana Chips – Best Chips in Kerala | Pavithram Foods",
+      "og_description": "Snack now! best banana chips in Kerala, -Cochin Snacks. Crispy pepper banana chips with a bold, spicy Kerala pepper kick! Pavithram Foods",
       "og_url": "https://www.pavithramfoods.com/product/banana-chips-pepper/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T05:02:14+00:00",
+      "article_modified_time": "2026-07-25T06:58:34+00:00",
       "og_image": [
         {
           "width": 300,
@@ -16801,7 +16808,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/banana-chips-pepper/",
             "url": "https://www.pavithramfoods.com/product/banana-chips-pepper/",
-            "name": "Pepper Banana Chips – Best Banana Chips in Kerala | Pavithram",
+            "name": "Pepper Banana Chips – Best Chips in Kerala | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -16813,8 +16820,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/banana-chips-pepper.png",
             "datePublished": "2025-10-23T10:41:43+00:00",
-            "dateModified": "2026-06-12T05:02:14+00:00",
-            "description": "Snack now! best banana chips in Kerala, -Cochin Snacks -Kerala snacks online. Pavithram's crispy pepper banana chips with a bold, spicy Kerala black pepper kick!",
+            "dateModified": "2026-07-25T06:58:34+00:00",
+            "description": "Snack now! best banana chips in Kerala, -Cochin Snacks. Crispy pepper banana chips with a bold, spicy Kerala pepper kick! Pavithram Foods",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/banana-chips-pepper/#breadcrumb"
             },
@@ -16836,7 +16843,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/banana-chips-pepper.png",
             "width": 300,
             "height": 300,
-            "caption": "Pepper Banana Chips"
+            "caption": "pavvithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -16895,20 +16902,20 @@ export const products = [
       "https://www.pavithram.online/wp-content/uploads/2025/10/Banana-Chips-Cinnamon.png"
     ],
     "packSizes": [
-      "Standard"
+      "340 gm"
     ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
+    "description": "<span data-sheets-root=\"1\">Uniformly sliced, golden yellow in colour, crisp in texture, coated with cinnamon powder, have a characteristic spicy aroma and taste, and be free from rancidity, excess oil, and any foreign matter.</span>",
+    "ingredients": "\"Raw Banana, Turmeric Powder, Cinnamon Powder, Salt,\r\nVegetable Oil.\"",
+    "nutritionalInfo": "Calories 370  \r\nTotal Fat 22.8g, | 29%\r\nSaturated Fat 19.7g,| 98%\r\nTrans Fat 0g\r\nCholesterol 0mg, | 0%\r\nSodium 4mg, | 0%\r\nTotal Carbohydrate 40.8g, | 14%\r\nDietary Fiber 5.2g, | 18%\r\nTotal Sugars 20g\r\nIncludes 0g Added Sugars, | 0%\r\nProtein 1.6g\r\nVitamin D 0mcg, | 0%\r\nCalcium 12mg, | 0%\r\nIron 0.8mg, | 4%\r\nPotassium 364mg, | 8%\"",
     "benefits": [],
-    "storage": "",
+    "storage": "Once the pack is open, store the content in an airtight container, away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [],
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Banana Chips Cinnamon – Buy Kerala Chips Online | Pavithram",
-      "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy cinnamon banana chips, warmly spiced & preservative-free!",
+      "title": "Banana Chips Cinnamon – Best Kerala Chips | Pavithram Foods",
+      "description": "Snack now! Kerala banana chips online, Cochin Snacks. Crispy cinnamon banana chips, warmly spiced & preservative-free! Pavithram Foods",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -16918,11 +16925,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Banana Chips Cinnamon – Buy Kerala Chips Online | Pavithram",
-      "og_description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy cinnamon banana chips, warmly spiced & preservative-free!",
+      "og_title": "Banana Chips Cinnamon – Best Kerala Chips | Pavithram Foods",
+      "og_description": "Snack now! Kerala banana chips online, Cochin Snacks. Crispy cinnamon banana chips, warmly spiced & preservative-free! Pavithram Foods",
       "og_url": "https://www.pavithramfoods.com/product/banana-chips-cinnamon/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-06-12T04:59:24+00:00",
+      "article_modified_time": "2026-07-25T06:54:47+00:00",
       "og_image": [
         {
           "width": 300,
@@ -16942,7 +16949,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/banana-chips-cinnamon/",
             "url": "https://www.pavithramfoods.com/product/banana-chips-cinnamon/",
-            "name": "Banana Chips Cinnamon – Buy Kerala Chips Online | Pavithram",
+            "name": "Banana Chips Cinnamon – Best Kerala Chips | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -16954,8 +16961,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Cinnamon.png",
             "datePublished": "2025-10-23T10:36:39+00:00",
-            "dateModified": "2026-06-12T04:59:24+00:00",
-            "description": "Snack now! Buy Kerala banana chips online, -Cochin Snacks -Kerala snacks online. Pavithram's crispy cinnamon banana chips, warmly spiced & preservative-free!",
+            "dateModified": "2026-07-25T06:54:47+00:00",
+            "description": "Snack now! Kerala banana chips online, Cochin Snacks. Crispy cinnamon banana chips, warmly spiced & preservative-free! Pavithram Foods",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/banana-chips-cinnamon/#breadcrumb"
             },
@@ -16977,7 +16984,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips-Cinnamon.png",
             "width": 300,
             "height": 300,
-            "caption": "Banana Chips Cinnamon"
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -17038,9 +17045,9 @@ export const products = [
     "packSizes": [
       "175 GM"
     ],
-    "description": "<span data-sheets-root=\"1\">Crispy, thin-sliced Nendran banana chips fried in vegetable oil with a hint of salt &amp; turmeric. </span>",
+    "description": "<span data-sheets-root=\"1\">Crispy, thin-sliced Nendran banana chips fried in vegetable oil with a hint of salt &amp; turmeric.</span>",
     "ingredients": "Raw Banana, \r\nTurmeric Powder, \r\nSalt, \r\nVegetable Oil.",
-    "nutritionalInfo": "Serving Size 100g\r\nAmount per serving | % \r\nDaily Value Total Calories 484kcal/2025 KJ | \r\nCalories from fat 252kcal/1054kJ Total Fat 28g | \r\n35% Saturated Fat 6.0g | 80%\r\nTrans Fat 0g | 0%\r\nCholesterol 0g | 0%\r\nSodium 24mg | 1%\r\nTotal Carbohydrate 56g | 17%\r\nDietary Fiber 5.2g | 18%\r\nSugar 1.8mg\r\nProtein 2.0g | 3%\r\nVitamin C 0mcg | 0%\r\nVitamin A 0mcg | 0%\r\nIron 0.4mg | 4%\r\nCalcium 260mg | 21%\r\nPotassium 398mg | 11%\"",
+    "nutritionalInfo": "Serving Size 100g\r\nAmount per serving | % \r\nDaily Value Total Calories 484kcal/2025 KJ | \r\nCalories from fat 252kcal/1054kJ \r\nTotal Fat 28g | \r\n35% Saturated Fat 6.0g | 80%\r\nTrans Fat 0g | 0%\r\nCholesterol 0g | 0%\r\nSodium 24mg | 1%\r\nTotal Carbohydrate 56g | 17%\r\nDietary Fiber 5.2g | 18%\r\nSugar 1.8mg\r\nProtein 2.0g | 3%\r\nVitamin C 0mcg | 0%\r\nVitamin A 0mcg | 0%\r\nIron 0.4mg | 4%\r\nCalcium 260mg | 21%\r\nPotassium 398mg | 11%\"",
     "benefits": [],
     "storage": "Once the pack is open, store the content in an airtight container, away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
@@ -17063,7 +17070,7 @@ export const products = [
       "og_description": "Snack now! Buy , Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Pavithram foods kerala.",
       "og_url": "https://www.pavithramfoods.com/product/banana-chips/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-25T06:38:03+00:00",
+      "article_modified_time": "2026-07-25T06:47:02+00:00",
       "og_image": [
         {
           "width": 300,
@@ -17095,7 +17102,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Banana-Chips.png",
             "datePublished": "2025-10-23T10:34:37+00:00",
-            "dateModified": "2026-07-25T06:38:03+00:00",
+            "dateModified": "2026-07-25T06:47:02+00:00",
             "description": "Snack now! Buy , Cochin Snacks -Kerala snacks online. Pavithram's crispy, pure banana chips with no artificial colours. Pavithram foods kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/banana-chips/#breadcrumb"
