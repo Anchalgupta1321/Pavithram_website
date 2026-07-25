@@ -83,14 +83,14 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
   const heroSlides = [
     {
       id: 1,
-      image: '/images/Hero Banner.jpg',
+      image: '/images/hero-banner-opt.webp',
       title: "Kerala’s Purest\nFor Your Kitchen",
       buttonText: "Explore Products",
       buttonLink: "/products"
     },
     {
       id: 2,
-      image: '/images/Banner2.jpg',
+      image: '/images/banner2-opt.webp',
       title: "The Goodness of\nPure Sesame Oil",
       subtitle: "Crafted to preserve the natural aroma and nutritional value of premium sesame seeds.",
       buttonText: "Shop All Products",
