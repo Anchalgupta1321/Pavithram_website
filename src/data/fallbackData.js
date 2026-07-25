@@ -2487,7 +2487,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg"
     ],
     "packSizes": [
       "100g"
@@ -2524,7 +2524,19 @@ export const products = [
       "og_title": "Omam Vadam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/omam-vadam/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T10:41:22+00:00",
+      "og_image": [
+        {
+          "width": 437,
+          "height": 571,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2536,7 +2548,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
             "datePublished": "2026-07-16T07:21:47+00:00",
+            "dateModified": "2026-07-25T10:41:22+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb"
             },
@@ -2549,6 +2569,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
+            "width": 437,
+            "height": 571
           },
           {
             "@type": "BreadcrumbList",
@@ -4707,7 +4736,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Tamarind-200g-Arabco-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -4744,7 +4773,19 @@ export const products = [
       "og_title": "Tamarind - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/tamarind/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T10:21:35+00:00",
+      "og_image": [
+        {
+          "width": 1665,
+          "height": 2386,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tamarind-200g-Arabco-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4756,7 +4797,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/tamarind/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/tamarind/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tamarind-200g-Arabco-Mockup.jpg",
             "datePublished": "2026-07-15T17:09:56+00:00",
+            "dateModified": "2026-07-25T10:21:35+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/tamarind/#breadcrumb"
             },
@@ -4769,6 +4818,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/tamarind/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tamarind-200g-Arabco-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tamarind-200g-Arabco-Mockup.jpg",
+            "width": 1665,
+            "height": 2386
           },
           {
             "@type": "BreadcrumbList",
