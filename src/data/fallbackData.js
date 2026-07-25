@@ -3021,7 +3021,7 @@ export const products = [
       "og_title": "Madras Pappdam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/madras-pappdam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-25T08:45:34+00:00",
+      "article_modified_time": "2026-07-25T08:54:11+00:00",
       "og_image": [
         {
           "width": 833,
@@ -3053,7 +3053,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg",
             "datePublished": "2026-07-16T06:58:21+00:00",
-            "dateModified": "2026-07-25T08:45:34+00:00",
+            "dateModified": "2026-07-25T08:54:11+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#breadcrumb"
             },
@@ -3130,7 +3130,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Tender-Mango-Pickle-Orchid-Mockup-scaled.jpg"
     ],
     "packSizes": [
       "400g"
@@ -3167,8 +3167,19 @@ export const products = [
       "og_title": "Tender Mango Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/tender-mango-pickle/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-21T10:02:27+00:00",
+      "article_modified_time": "2026-07-25T09:47:02+00:00",
+      "og_image": [
+        {
+          "width": 2132,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tender-Mango-Pickle-Orchid-Mockup-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3180,8 +3191,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tender-Mango-Pickle-Orchid-Mockup-scaled.jpg",
             "datePublished": "2026-07-16T05:52:34+00:00",
-            "dateModified": "2026-07-21T10:02:27+00:00",
+            "dateModified": "2026-07-25T09:47:02+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#breadcrumb"
             },
@@ -3194,6 +3212,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/tender-mango-pickle/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tender-Mango-Pickle-Orchid-Mockup-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Tender-Mango-Pickle-Orchid-Mockup-scaled.jpg",
+            "width": 2132,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -3249,7 +3276,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/White-Mango-Pickle-Mockup-Orchid-scaled.jpg"
     ],
     "packSizes": [
       "400g"
@@ -3286,8 +3313,19 @@ export const products = [
       "og_title": "White Mango Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/white-mango-pickle/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T05:50:39+00:00",
+      "article_modified_time": "2026-07-25T09:50:24+00:00",
+      "og_image": [
+        {
+          "width": 2000,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/White-Mango-Pickle-Mockup-Orchid-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3299,8 +3337,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/White-Mango-Pickle-Mockup-Orchid-scaled.jpg",
             "datePublished": "2026-07-16T05:50:20+00:00",
-            "dateModified": "2026-07-16T05:50:39+00:00",
+            "dateModified": "2026-07-25T09:50:24+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#breadcrumb"
             },
@@ -3313,6 +3358,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/white-mango-pickle/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/White-Mango-Pickle-Mockup-Orchid-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/White-Mango-Pickle-Mockup-Orchid-scaled.jpg",
+            "width": 2000,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -3368,7 +3422,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Vadukapuli-Pickle-Orchid-Mockup-scaled.jpg"
     ],
     "packSizes": [
       "400g"
@@ -3405,7 +3459,19 @@ export const products = [
       "og_title": "Vadukapuli Pickle - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/vadukapuli-pickle/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T09:56:37+00:00",
+      "og_image": [
+        {
+          "width": 2148,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Vadukapuli-Pickle-Orchid-Mockup-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3417,7 +3483,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Vadukapuli-Pickle-Orchid-Mockup-scaled.jpg",
             "datePublished": "2026-07-16T05:47:41+00:00",
+            "dateModified": "2026-07-25T09:56:37+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#breadcrumb"
             },
@@ -3430,6 +3504,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/vadukapuli-pickle/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Vadukapuli-Pickle-Orchid-Mockup-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Vadukapuli-Pickle-Orchid-Mockup-scaled.jpg",
+            "width": 2148,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -3626,7 +3709,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Puliyinchi-Pickle-Orchid-Mockup-scaled.jpg"
     ],
     "packSizes": [
       "400g"
@@ -3663,7 +3746,19 @@ export const products = [
       "og_title": "Puliyinchi - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/puliyinchi/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T10:01:38+00:00",
+      "og_image": [
+        {
+          "width": 2133,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puliyinchi-Pickle-Orchid-Mockup-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3675,7 +3770,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/puliyinchi/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/puliyinchi/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puliyinchi-Pickle-Orchid-Mockup-scaled.jpg",
             "datePublished": "2026-07-16T05:41:00+00:00",
+            "dateModified": "2026-07-25T10:01:38+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/puliyinchi/#breadcrumb"
             },
@@ -3688,6 +3791,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/puliyinchi/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puliyinchi-Pickle-Orchid-Mockup-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Puliyinchi-Pickle-Orchid-Mockup-scaled.jpg",
+            "width": 2133,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -5451,7 +5563,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Lime-Hot-Sweet-Pickle-Orchid-Mockup.jpg"
     ],
     "packSizes": [
       "400g"
@@ -5489,7 +5601,19 @@ export const products = [
       "og_title": "Lime Hot & Sweet - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/lime-hot-sweet/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T10:06:01+00:00",
+      "og_image": [
+        {
+          "width": 833,
+          "height": 988,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Lime-Hot-Sweet-Pickle-Orchid-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -5501,7 +5625,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/lime-hot-sweet/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/lime-hot-sweet/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Lime-Hot-Sweet-Pickle-Orchid-Mockup.jpg",
             "datePublished": "2026-07-15T05:56:23+00:00",
+            "dateModified": "2026-07-25T10:06:01+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/lime-hot-sweet/#breadcrumb"
             },
@@ -5514,6 +5646,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/lime-hot-sweet/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Lime-Hot-Sweet-Pickle-Orchid-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Lime-Hot-Sweet-Pickle-Orchid-Mockup.jpg",
+            "width": 833,
+            "height": 988
           },
           {
             "@type": "BreadcrumbList",
@@ -6431,7 +6572,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/TANDOORI-CHICKEN-MASALA-PASTE-Photoroom.jpg"
     ],
     "packSizes": [
       "400g"
@@ -6469,7 +6610,19 @@ export const products = [
       "og_title": "Tandoori Chicken Masala Paste - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T10:13:00+00:00",
+      "og_image": [
+        {
+          "width": 980,
+          "height": 1205,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/TANDOORI-CHICKEN-MASALA-PASTE-Photoroom.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -6481,7 +6634,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/TANDOORI-CHICKEN-MASALA-PASTE-Photoroom.jpg",
             "datePublished": "2026-07-14T17:18:30+00:00",
+            "dateModified": "2026-07-25T10:13:00+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/#breadcrumb"
             },
@@ -6494,6 +6655,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/tandoori-chicken-masala-paste/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/TANDOORI-CHICKEN-MASALA-PASTE-Photoroom.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/TANDOORI-CHICKEN-MASALA-PASTE-Photoroom.jpg",
+            "width": 980,
+            "height": 1205
           },
           {
             "@type": "BreadcrumbList",
