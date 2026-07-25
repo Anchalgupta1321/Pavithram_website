@@ -627,14 +627,14 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Chick-peas.jpeg"
     ],
     "packSizes": [
       "500g"
     ],
     "description": "Pavithram Chick Peas are carefully processed to ensure quality and consistency. Ideal for curries, salads, and a variety of recipes.",
-    "ingredients": "Chick Peas",
-    "nutritionalInfo": "",
+    "ingredients": "100% Whole Chickpeas (No additives or preservatives when bought dry).\r\n\r\nNote: Canned versions usually include water and salt",
+    "nutritionalInfo": "Nutrition Facts (Per 100g Cooked)\r\n\r\nCalories: 164 kcal\r\nProtein: 8.9 g (Raw seeds contain about 19g)\r\nCarbohydrates: 27.4 g\r\nDietary Fiber: 7.6 g\r\nFat: 2.6 g (Mostly healthy polyunsaturated fats)",
     "benefits": [
       "Source of protein",
       "Rich in dietary fibre",
@@ -666,8 +666,19 @@ export const products = [
       "og_description": "Chick Peas – chemical-free & authentic, source of protein. certified for purity & safety. Available in 500 g. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/chick-peas/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-24T06:58:44+00:00",
+      "article_modified_time": "2026-07-25T07:36:17+00:00",
+      "og_image": [
+        {
+          "width": 1286,
+          "height": 1223,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Chick-peas.jpeg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -679,8 +690,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/chick-peas/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/chick-peas/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Chick-peas.jpeg",
             "datePublished": "2026-07-16T08:09:10+00:00",
-            "dateModified": "2026-07-24T06:58:44+00:00",
+            "dateModified": "2026-07-25T07:36:17+00:00",
             "description": "Chick Peas – chemical-free & authentic, source of protein. certified for purity & safety. Available in 500 g. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chick-peas/#breadcrumb"
@@ -694,6 +712,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/chick-peas/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Chick-peas.jpeg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Chick-peas.jpeg",
+            "width": 1286,
+            "height": 1223,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
