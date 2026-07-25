@@ -23357,7 +23357,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chicken Tikka Paste - Pavithram Group of Companies",
+      "title": "Chicken Tikka Paste – Traditional Quality | Pavithram Foods",
+      "description": "Chicken Tikka Paste: traditionally made in Kerala & authentic tikka flavour. quality assured & lab-tested. - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -23367,10 +23368,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chicken Tikka Paste - Pavithram Group of Companies",
+      "og_title": "Chicken Tikka Paste – Traditional Quality | Pavithram Foods",
+      "og_description": "Chicken Tikka Paste: traditionally made in Kerala & authentic tikka flavour. quality assured & lab-tested. - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/chicken-tikka-paste-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T17:15:08+00:00",
+      "article_modified_time": "2026-07-25T07:50:15+00:00",
       "og_image": [
         {
           "width": 672,
@@ -23390,7 +23392,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chicken-tikka-paste-400gm/",
             "url": "https://www.pavithramfoods.com/product/chicken-tikka-paste-400gm/",
-            "name": "Chicken Tikka Paste - Pavithram Group of Companies",
+            "name": "Chicken Tikka Paste – Traditional Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -23402,7 +23404,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chicken-Tikka-Paste-400gm.jpg",
             "datePublished": "2025-09-22T10:39:18+00:00",
-            "dateModified": "2026-07-14T17:15:08+00:00",
+            "dateModified": "2026-07-25T07:50:15+00:00",
+            "description": "Chicken Tikka Paste: traditionally made in Kerala & authentic tikka flavour. quality assured & lab-tested. - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chicken-tikka-paste-400gm/#breadcrumb"
             },
@@ -23423,7 +23426,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chicken-Tikka-Paste-400gm.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chicken-Tikka-Paste-400gm.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -23504,7 +23508,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chicken Curry Gravy Mix - Pavithram Group of Companies",
+      "title": "Chicken Curry Gravy Mix – Finest Quality | Pavithram Foods",
+      "description": "Chicken Curry Gravy Mix: no additives or preservatives & authentic curry flavour. certified for purity & safety. Explore with-Pavithram Foods",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -23514,10 +23519,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chicken Curry Gravy Mix - Pavithram Group of Companies",
+      "og_title": "Chicken Curry Gravy Mix – Finest Quality | Pavithram Foods",
+      "og_description": "Chicken Curry Gravy Mix: no additives or preservatives & authentic curry flavour. certified for purity & safety. Explore with-Pavithram Foods",
       "og_url": "https://www.pavithramfoods.com/product/chicken-curry-gravy-mix-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T17:28:55+00:00",
+      "article_modified_time": "2026-07-25T07:46:39+00:00",
       "og_image": [
         {
           "width": 672,
@@ -23537,7 +23543,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chicken-curry-gravy-mix-400gm/",
             "url": "https://www.pavithramfoods.com/product/chicken-curry-gravy-mix-400gm/",
-            "name": "Chicken Curry Gravy Mix - Pavithram Group of Companies",
+            "name": "Chicken Curry Gravy Mix – Finest Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -23549,7 +23555,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chicken-Curry-Gravy-Mix-400gm.jpg",
             "datePublished": "2025-09-22T10:38:27+00:00",
-            "dateModified": "2026-07-14T17:28:55+00:00",
+            "dateModified": "2026-07-25T07:46:39+00:00",
+            "description": "Chicken Curry Gravy Mix: no additives or preservatives & authentic curry flavour. certified for purity & safety. Explore with-Pavithram Foods",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chicken-curry-gravy-mix-400gm/#breadcrumb"
             },
@@ -23651,7 +23658,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Butter Chicken Gravy Mix - Pavithram Group of Companies",
+      "title": "Butter Chicken Gravy Mix – Traditional Quality | Pavithram Foods",
+      "description": "Butter Chicken Gravy Mix: traditionally made in Kerala & rich and creamy flavour. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -23661,10 +23669,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Butter Chicken Gravy Mix - Pavithram Group of Companies",
+      "og_title": "Butter Chicken Gravy Mix – Traditional Quality | Pavithram Foods",
+      "og_description": "Butter Chicken Gravy Mix: traditionally made in Kerala & rich and creamy flavour. quality assured & lab-tested. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/butter-chichen-gravy-mix-400gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T17:30:50+00:00",
+      "article_modified_time": "2026-07-25T07:39:02+00:00",
       "og_image": [
         {
           "width": 672,
@@ -23684,7 +23693,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/butter-chichen-gravy-mix-400gm/",
             "url": "https://www.pavithramfoods.com/product/butter-chichen-gravy-mix-400gm/",
-            "name": "Butter Chicken Gravy Mix - Pavithram Group of Companies",
+            "name": "Butter Chicken Gravy Mix – Traditional Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -23696,7 +23705,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/BUTTER-CHICKEN-GRAVY-MIX-400gm.jpg",
             "datePublished": "2025-09-22T10:37:48+00:00",
-            "dateModified": "2026-07-14T17:30:50+00:00",
+            "dateModified": "2026-07-25T07:39:02+00:00",
+            "description": "Butter Chicken Gravy Mix: traditionally made in Kerala & rich and creamy flavour. quality assured & lab-tested. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/butter-chichen-gravy-mix-400gm/#breadcrumb"
             },
@@ -23717,7 +23727,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/BUTTER-CHICKEN-GRAVY-MIX-400gm.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/BUTTER-CHICKEN-GRAVY-MIX-400gm.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -27284,7 +27295,7 @@ export const products = [
       "Suitable for traditional recipes",
       "Ideal for breakfast dishes"
     ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
+    "storage": "Once the pack is open, store the content in an airtight container, away from direct sunlight.",
     "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
     "certifications": [
       "FSSAI Certified",
@@ -27294,8 +27305,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chemba Puttupodi – Kerala Products Online | Pavithram",
-      "description": "Shop now! Kerala products online, Chemba Puttupodi -Breakfast items -buy groceries online. Pavithram's pure red rice podi for soft, healthy Kerala-style puttu.",
+      "title": "Chemba Puttu Podi – Traditional Quality | Pavithram Foods",
+      "description": "Chemba Puttu Podi: traditionally made in Kerala & made from selected red rice. quality assured & lab-tested. Now - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -27305,11 +27316,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chemba Puttupodi – Kerala Products Online | Pavithram",
-      "og_description": "Shop now! Kerala products online, Chemba Puttupodi -Breakfast items -buy groceries online. Pavithram's pure red rice podi for soft, healthy Kerala-style puttu.",
+      "og_title": "Chemba Puttu Podi – Traditional Quality | Pavithram Foods",
+      "og_description": "Chemba Puttu Podi: traditionally made in Kerala & made from selected red rice. quality assured & lab-tested. Now - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/chemba-puttupodi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-15T05:25:27+00:00",
+      "article_modified_time": "2026-07-25T07:44:31+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27329,7 +27340,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chemba-puttupodi/",
             "url": "https://www.pavithramfoods.com/product/chemba-puttupodi/",
-            "name": "Chemba Puttupodi – Kerala Products Online | Pavithram",
+            "name": "Chemba Puttu Podi – Traditional Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -27341,8 +27352,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chemba-Puttu-Podi.jpg",
             "datePublished": "2025-09-22T10:07:30+00:00",
-            "dateModified": "2026-07-15T05:25:27+00:00",
-            "description": "Shop now! Kerala products online, Chemba Puttupodi -Breakfast items -buy groceries online. Pavithram's pure red rice podi for soft, healthy Kerala-style puttu.",
+            "dateModified": "2026-07-25T07:44:31+00:00",
+            "description": "Chemba Puttu Podi: traditionally made in Kerala & made from selected red rice. quality assured & lab-tested. Now - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chemba-puttupodi/#breadcrumb"
             },
@@ -27414,7 +27425,7 @@ export const products = [
   },
   {
     "id": 149,
-    "name": "Chemba Idiyappam podi",
+    "name": "Chemba Idiyappam Podi",
     "slug": "chemba-idiyappam-podi",
     "category": "Breakfast items",
     "price": "₹0.00",
@@ -27445,8 +27456,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Chemba Idiyappam Podi – Kerala Products Online | Pavithram",
-      "description": "Order now! Kerala products online, Chemba Idiyappam podi -Breakfast items -buy groceries online. Pavithram's red rice podi for soft, aromatic Kerala idiyappams.",
+      "title": "Chemba Idiyappam Podi – Authentic Quality | Pavithram Foods",
+      "description": "Chemba Idiyappam Podi – hygienically packed, made from quality red rice. FSSAI & ISO certified. Buy Now with Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -27456,11 +27467,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Chemba Idiyappam Podi – Kerala Products Online | Pavithram",
-      "og_description": "Order now! Kerala products online, Chemba Idiyappam podi -Breakfast items -buy groceries online. Pavithram's red rice podi for soft, aromatic Kerala idiyappams.",
+      "og_title": "Chemba Idiyappam Podi – Authentic Quality | Pavithram Foods",
+      "og_description": "Chemba Idiyappam Podi – hygienically packed, made from quality red rice. FSSAI & ISO certified. Buy Now with Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/chemba-idiyappam-podi/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-15T05:27:23+00:00",
+      "article_modified_time": "2026-07-25T07:43:12+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27480,7 +27491,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/chemba-idiyappam-podi/",
             "url": "https://www.pavithramfoods.com/product/chemba-idiyappam-podi/",
-            "name": "Chemba Idiyappam Podi – Kerala Products Online | Pavithram",
+            "name": "Chemba Idiyappam Podi – Authentic Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -27492,8 +27503,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chemba-Idiyappam-Podi.jpg",
             "datePublished": "2025-09-22T10:06:51+00:00",
-            "dateModified": "2026-07-15T05:27:23+00:00",
-            "description": "Order now! Kerala products online, Chemba Idiyappam podi -Breakfast items -buy groceries online. Pavithram's red rice podi for soft, aromatic Kerala idiyappams.",
+            "dateModified": "2026-07-25T07:43:12+00:00",
+            "description": "Chemba Idiyappam Podi – hygienically packed, made from quality red rice. FSSAI & ISO certified. Buy Now with Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/chemba-idiyappam-podi/#breadcrumb"
             },
@@ -27515,7 +27526,7 @@ export const products = [
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Chemba-Idiyappam-Podi.jpg",
             "width": 672,
             "height": 864,
-            "caption": "Chemba Idiyappam Podi By Pavithram"
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -27530,7 +27541,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Chemba Idiyappam podi"
+                "name": "Chemba Idiyappam Podi"
               }
             ]
           },
