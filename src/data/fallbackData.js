@@ -2073,14 +2073,14 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/black-sesame-seed.jpeg"
     ],
     "packSizes": [
       "100g"
     ],
     "description": "Pavithram Black Sesame Seeds are sourced from quality seeds and processed to maintain freshness and flavour. Suitable for traditional recipes and garnishing.",
-    "ingredients": "Black Sesame Seed",
-    "nutritionalInfo": "",
+    "ingredients": "100% Raw Black Sesame Seeds (Contains no additives, preservatives, or artificial colorings).\r\nAllergen Note: Contains Sesame.",
+    "nutritionalInfo": "Nutrition Facts (Per 100g Serving)\r\nCalories: 573 kcal\r\nProtein: 18 g\r\nHealthy Fats: 50 g (primarily monounsaturated and polyunsaturated fats)\r\nCarbohydrates: 23 g\r\nDietary Fiber: 12 g",
     "benefits": [
       "Rich in natural goodness",
       "Source of essential nutrients",
@@ -2097,7 +2097,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Black Sesame Seed - Pavithram Group of Companies",
+      "title": "Black Sesame Seed – Premium Quality | Pavithram Foods",
+      "description": "Black Sesame Seed – 100% pure & natural, rich in natural goodness. quality assured & lab-tested. Available in 100 g. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -2107,10 +2108,23 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Black Sesame Seed - Pavithram Group of Companies",
+      "og_title": "Black Sesame Seed – Premium Quality | Pavithram Foods",
+      "og_description": "Black Sesame Seed – 100% pure & natural, rich in natural goodness. quality assured & lab-tested. Available in 100 g. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/black-sesame-seed/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T07:26:54+00:00",
+      "og_image": [
+        {
+          "width": 1289,
+          "height": 1221,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/black-sesame-seed.jpeg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2118,11 +2132,20 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/",
             "url": "https://www.pavithramfoods.com/product/black-sesame-seed/",
-            "name": "Black Sesame Seed - Pavithram Group of Companies",
+            "name": "Black Sesame Seed – Premium Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/black-sesame-seed.jpeg",
             "datePublished": "2026-07-16T07:47:31+00:00",
+            "dateModified": "2026-07-25T07:26:54+00:00",
+            "description": "Black Sesame Seed – 100% pure & natural, rich in natural goodness. quality assured & lab-tested. Available in 100 g. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#breadcrumb"
             },
@@ -2135,6 +2158,16 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/black-sesame-seed/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/black-sesame-seed.jpeg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/black-sesame-seed.jpeg",
+            "width": 1289,
+            "height": 1221,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -2777,7 +2810,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Papadam-removebg-preview.jpg"
     ],
     "packSizes": [
       "100g"
@@ -2814,7 +2847,19 @@ export const products = [
       "og_title": "Pappadam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/pappadam/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T07:28:25+00:00",
+      "og_image": [
+        {
+          "width": 575,
+          "height": 434,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Papadam-removebg-preview.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2826,7 +2871,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/pappadam/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/pappadam/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Papadam-removebg-preview.jpg",
             "datePublished": "2026-07-16T07:00:27+00:00",
+            "dateModified": "2026-07-25T07:28:25+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/pappadam/#breadcrumb"
             },
@@ -2839,6 +2892,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/pappadam/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Papadam-removebg-preview.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Papadam-removebg-preview.jpg",
+            "width": 575,
+            "height": 434
           },
           {
             "@type": "BreadcrumbList",
@@ -12574,7 +12636,7 @@ export const products = [
     ],
     "description": "Pavithram Black Channa is sourced from premium-quality chickpeas and processed under quality standards. Suitable for traditional Kerala dishes and everyday cooking.",
     "ingredients": "Black Channa (Nadan Kadala)",
-    "nutritionalInfo": "",
+    "nutritionalInfo": "Nutrition Facts (Per 100g Cooked)\r\nCalories: 164 kcal\r\nProtein: 8.9 g (Raw form has about 20–22g)\r\nDietary Fiber: 7.6 g\r\nCarbohydrates: 27.4 g\r\nFat: 2.6 gIron: 2.89 mg\r\nPotassium: 291 mg",
     "benefits": [
       "Rich in natural goodness",
       "Source of dietary fibre",
@@ -12591,7 +12653,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Black Chana - Pavithram Group of Companies",
+      "title": "Black Channa (nadan Kadala) – Premium Quality | Pavithram Foods",
+      "description": "Black Channa : 100% pure & natural & rich in natural goodness. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -12601,10 +12664,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Black Chana - Pavithram Group of Companies",
+      "og_title": "Black Channa (nadan Kadala) – Premium Quality | Pavithram Foods",
+      "og_description": "Black Channa : 100% pure & natural & rich in natural goodness. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/black-chana/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-15T17:05:12+00:00",
+      "article_modified_time": "2026-07-25T07:10:53+00:00",
       "og_image": [
         {
           "width": 672,
@@ -12624,7 +12688,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/black-chana/",
             "url": "https://www.pavithramfoods.com/product/black-chana/",
-            "name": "Black Chana - Pavithram Group of Companies",
+            "name": "Black Channa (nadan Kadala) – Premium Quality | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -12636,7 +12700,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0009_Black-Chana@300x-8.jpg",
             "datePublished": "2025-10-24T06:12:28+00:00",
-            "dateModified": "2026-07-15T17:05:12+00:00",
+            "dateModified": "2026-07-25T07:10:53+00:00",
+            "description": "Black Channa : 100% pure & natural & rich in natural goodness. quality assured & lab-tested. Explore Now - Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/black-chana/#breadcrumb"
             },
@@ -12657,7 +12722,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0009_Black-Chana@300x-8.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0009_Black-Chana@300x-8.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -13989,8 +14055,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Buy Whole Black Pepper Online | Organic Spices | Pavithram",
-      "description": "Buy whole black pepper online from Pavithram, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Order Now",
+      "title": "Buy Whole Black Pepper | Organic Spices | Pavithram Foods",
+      "description": "Buy whole black pepper, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Pavithram",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -14000,11 +14066,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Buy Whole Black Pepper Online | Organic Spices | Pavithram",
-      "og_description": "Buy whole black pepper online from Pavithram, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Order Now",
+      "og_title": "Buy Whole Black Pepper | Organic Spices | Pavithram Foods",
+      "og_description": "Buy whole black pepper, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Pavithram",
       "og_url": "https://www.pavithramfoods.com/product/black-pepper-whole/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-02-23T12:41:01+00:00",
+      "article_modified_time": "2026-07-25T07:13:58+00:00",
       "og_image": [
         {
           "width": 672,
@@ -14024,7 +14090,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/black-pepper-whole/",
             "url": "https://www.pavithramfoods.com/product/black-pepper-whole/",
-            "name": "Buy Whole Black Pepper Online | Organic Spices | Pavithram",
+            "name": "Buy Whole Black Pepper | Organic Spices | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -14036,8 +14102,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0008_Black-Pepper-Whole@300x-8.jpg",
             "datePublished": "2025-10-24T05:15:49+00:00",
-            "dateModified": "2026-02-23T12:41:01+00:00",
-            "description": "Buy whole black pepper online from Pavithram, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Order Now",
+            "dateModified": "2026-07-25T07:13:58+00:00",
+            "description": "Buy whole black pepper, part of authentic Kerala spices. Premium organic spice for rich flavor and aroma in traditional dishes. Pavithram",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/black-pepper-whole/#breadcrumb"
             },
@@ -14058,7 +14124,8 @@ export const products = [
             "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0008_Black-Pepper-Whole@300x-8.jpg",
             "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0008_Black-Pepper-Whole@300x-8.jpg",
             "width": 672,
-            "height": 864
+            "height": 864,
+            "caption": "pavithramfoods"
           },
           {
             "@type": "BreadcrumbList",
@@ -27641,8 +27708,8 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Broken Wheat – Kerala Products Online | Pavithram Products",
-      "description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
+      "title": "Broken Wheat – Best Kerala Product Avalaible | Pavithram Foods",
+      "description": "Broken Wheat – 100% pure & natural, made from quality wheat. quality assured & lab-tested. Available in 1 kg. Pavithram Foods, Kerala.",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -27652,11 +27719,11 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Broken Wheat – Kerala Products Online | Pavithram Products",
-      "og_description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
+      "og_title": "Broken Wheat – Best Kerala Product Avalaible | Pavithram Foods",
+      "og_description": "Broken Wheat – 100% pure & natural, made from quality wheat. quality assured & lab-tested. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/broken-wheat/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T05:28:31+00:00",
+      "article_modified_time": "2026-07-25T07:28:33+00:00",
       "og_image": [
         {
           "width": 672,
@@ -27676,7 +27743,7 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/broken-wheat/",
             "url": "https://www.pavithramfoods.com/product/broken-wheat/",
-            "name": "Broken Wheat – Kerala Products Online | Pavithram Products",
+            "name": "Broken Wheat – Best Kerala Product Avalaible | Pavithram Foods",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
@@ -27688,8 +27755,8 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Broken-Wheat.jpg",
             "datePublished": "2025-09-22T10:04:39+00:00",
-            "dateModified": "2026-07-16T05:28:31+00:00",
-            "description": "Order now! Kerala products online, Broken Wheat -Breakfast items -buy groceries online. Pavithram's pure broken wheat for upma, payasam & healthy daily meals.",
+            "dateModified": "2026-07-25T07:28:33+00:00",
+            "description": "Broken Wheat – 100% pure & natural, made from quality wheat. quality assured & lab-tested. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/broken-wheat/#breadcrumb"
             },
