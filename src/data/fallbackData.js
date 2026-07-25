@@ -2984,7 +2984,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg"
     ],
     "packSizes": [
       "100g"
@@ -3021,7 +3021,19 @@ export const products = [
       "og_title": "Madras Pappdam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/madras-pappdam/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-07-25T08:45:34+00:00",
+      "og_image": [
+        {
+          "width": 833,
+          "height": 667,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -3033,7 +3045,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg",
             "datePublished": "2026-07-16T06:58:21+00:00",
+            "dateModified": "2026-07-25T08:45:34+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#breadcrumb"
             },
@@ -3046,6 +3066,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/madras-pappdam/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Madras-Papad-Orchid-Mockup-Backside-Photoroom.jpg",
+            "width": 833,
+            "height": 667
           },
           {
             "@type": "BreadcrumbList",
