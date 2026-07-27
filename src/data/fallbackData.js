@@ -2484,7 +2484,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png"
     ],
     "packSizes": [
       "100g"
@@ -2521,13 +2521,13 @@ export const products = [
       "og_title": "Omam Vadam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/omam-vadam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-25T10:41:22+00:00",
+      "article_modified_time": "2026-07-27T07:24:30+00:00",
       "og_image": [
         {
-          "width": 437,
-          "height": 571,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
-          "type": "image/jpeg"
+          "width": 1020,
+          "height": 1360,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
+          "type": "image/png"
         }
       ],
       "twitter_card": "summary_large_image",
@@ -2551,9 +2551,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
             "datePublished": "2026-07-16T07:21:47+00:00",
-            "dateModified": "2026-07-25T10:41:22+00:00",
+            "dateModified": "2026-07-27T07:24:30+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb"
             },
@@ -2571,10 +2571,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Omam_Vadagam-removebg-preview.jpg",
-            "width": 437,
-            "height": 571
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
+            "width": 1020,
+            "height": 1360
           },
           {
             "@type": "BreadcrumbList",
