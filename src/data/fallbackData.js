@@ -2521,7 +2521,7 @@ export const products = [
       "og_title": "Omam Vadam - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/omam-vadam/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-27T07:24:30+00:00",
+      "article_modified_time": "2026-07-27T07:29:36+00:00",
       "og_image": [
         {
           "width": 1020,
@@ -2553,7 +2553,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
             "datePublished": "2026-07-16T07:21:47+00:00",
-            "dateModified": "2026-07-27T07:24:30+00:00",
+            "dateModified": "2026-07-27T07:29:36+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb"
             },
