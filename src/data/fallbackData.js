@@ -327,7 +327,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_41_05-PM.png"
     ],
     "packSizes": [
       "1kg"
@@ -366,13 +366,13 @@ export const products = [
       "og_description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/samba-wheat-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-24T06:44:55+00:00",
+      "article_modified_time": "2026-07-27T07:12:47+00:00",
       "og_image": [
         {
-          "width": 704,
-          "height": 746,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
-          "type": "image/jpeg"
+          "width": 1173,
+          "height": 1341,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_41_05-PM.png",
+          "type": "image/png"
         }
       ],
       "twitter_card": "summary_large_image",
@@ -396,9 +396,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_41_05-PM.png",
             "datePublished": "2026-07-16T09:40:47+00:00",
-            "dateModified": "2026-07-24T06:44:55+00:00",
+            "dateModified": "2026-07-27T07:12:47+00:00",
             "description": "Samba Wheat Rava – hygienically packed, made from quality wheat. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#breadcrumb"
@@ -417,11 +417,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/samba-wheat-rava/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Samba-Rava-Mockup.jpg",
-            "width": 704,
-            "height": 746,
-            "caption": "pavithramfoods"
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_41_05-PM.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_41_05-PM.png",
+            "width": 1173,
+            "height": 1341
           },
           {
             "@type": "BreadcrumbList",
@@ -477,7 +476,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Idly-Flour.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_35_52-PM-e1785136198756.png"
     ],
     "packSizes": [
       "1kg"
@@ -516,13 +515,13 @@ export const products = [
       "og_description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/idly-rava/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-24T06:48:21+00:00",
+      "article_modified_time": "2026-07-27T07:10:20+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
-          "type": "image/jpeg"
+          "width": 1300,
+          "height": 1170,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_35_52-PM-e1785136198756.png",
+          "type": "image/png"
         }
       ],
       "twitter_card": "summary_large_image",
@@ -546,9 +545,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_35_52-PM-e1785136198756.png",
             "datePublished": "2026-07-16T09:38:55+00:00",
-            "dateModified": "2026-07-24T06:48:21+00:00",
+            "dateModified": "2026-07-27T07:10:20+00:00",
             "description": "Idly Rava – chemical-free & authentic, helps prepare soft idlis. certified for purity & safety. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/idly-rava/#breadcrumb"
@@ -567,11 +566,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/idly-rava/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Idly-Flour.jpg",
-            "width": 672,
-            "height": 864,
-            "caption": "pavithramfoods"
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_35_52-PM-e1785136198756.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_35_52-PM-e1785136198756.png",
+            "width": 1300,
+            "height": 1170
           },
           {
             "@type": "BreadcrumbList",
