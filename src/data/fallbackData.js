@@ -1011,7 +1011,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_04_06-PM.png"
     ],
     "packSizes": [
       "100g"
@@ -1050,13 +1050,13 @@ export const products = [
       "og_description": "Fennel – chemical-free & authentic, rich aroma and flavour. certified for purity & safety. Available in 100 g. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/fennel/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-24T07:06:29+00:00",
+      "article_modified_time": "2026-07-27T06:42:41+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
-          "type": "image/jpeg"
+          "width": 1314,
+          "height": 1197,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_04_06-PM.png",
+          "type": "image/png"
         }
       ],
       "twitter_card": "summary_large_image",
@@ -1080,9 +1080,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/fennel/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_04_06-PM.png",
             "datePublished": "2026-07-16T08:04:13+00:00",
-            "dateModified": "2026-07-24T07:06:29+00:00",
+            "dateModified": "2026-07-27T06:42:41+00:00",
             "description": "Fennel – chemical-free & authentic, rich aroma and flavour. certified for purity & safety. Available in 100 g. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/fennel/#breadcrumb"
@@ -1101,11 +1101,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/fennel/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0004_Fennel-Seed@300x-8.jpg",
-            "width": 672,
-            "height": 864,
-            "caption": "Pavithramfoods"
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_04_06-PM.png",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-27-2026-12_04_06-PM.png",
+            "width": 1314,
+            "height": 1197
           },
           {
             "@type": "BreadcrumbList",
