@@ -320,7 +320,6 @@ export async function fetchProducts() {
         // WAF blocks we fail fast to it rather than burning a long retry budget
         // per worker (which would slow or time out the build).
         batch = await wpFetchJson(`${WP_API_BASE}/product?_embed=1&per_page=${perPage}&page=${page}`, {
-          next: { revalidate: 0 }, // Set to 0 so Cloudflare build cache doesn't serve stale data
           retries: 2
         });
       } catch (pageError) {
