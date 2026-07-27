@@ -5024,7 +5024,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1L"
@@ -7957,7 +7957,7 @@ export const products = [
     ],
     "description": "Pavithram Jeerakasala Rice is a premium aromatic rice variety known for its unique fragrance and texture. Ideal for biriyani and special dishes.",
     "ingredients": "Rice",
-    "nutritionalInfo": "Energy: 157 kcal\r\nTotal Fat: 0.27g\r\nCarbohydrates: 35.55g\r\nProtein: 3.15 g \r\nSodium 6.7 mg\r\nTotal sugar 0.36 g\r\nDietary fibre 1.17 g (per serving )",
+    "nutritionalInfo": "Energy: 157 kcal\r\nTotal Fat: 0.27g\r\nCarbohydrates: 35.55g\r\nProtein: 3.15 g \r\nSodium : 6.7 mg\r\nTotal sugar: 0.36 g\r\nDietary fibre : 1.17 g (per serving )",
     "benefits": [
       "Naturally aromatic",
       "Premium rice variety",
@@ -7988,7 +7988,7 @@ export const products = [
       "og_title": "Jeerakasala Rice - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/jeerakasala-rice/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T16:29:28+00:00",
+      "article_modified_time": "2026-07-27T09:02:48+00:00",
       "og_image": [
         {
           "width": 672,
@@ -8020,7 +8020,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0019_Jeerakasala-Rice@300x-8.jpg",
             "datePublished": "2026-07-14T16:28:11+00:00",
-            "dateModified": "2026-07-14T16:29:28+00:00",
+            "dateModified": "2026-07-27T09:02:48+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/jeerakasala-rice/#breadcrumb"
             },
@@ -22708,140 +22708,6 @@ export const products = [
     "allSlugs": [
       "rice-bran-oil-1000ml",
       "rice-bran-oil-500ml"
-    ]
-  },
-  {
-    "id": 250,
-    "name": "Pooja Oil",
-    "slug": "pooja-oil-1000ml",
-    "category": "Edible Oils",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg"
-    ],
-    "packSizes": [
-      "1000ml"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Pooja Oil 1000ml - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Pooja Oil 1000ml - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2025-09-24T06:00:16+00:00",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/",
-            "url": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/",
-            "name": "Pooja Oil 1000ml - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
-            "datePublished": "2025-09-22T12:26:58+00:00",
-            "dateModified": "2025-09-24T06:00:16+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/pooja-oil-1000ml/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/pooja-oil-1000ml/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Pooja Oil 1000ml"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "pooja-oil-1000ml"
     ]
   },
   {
