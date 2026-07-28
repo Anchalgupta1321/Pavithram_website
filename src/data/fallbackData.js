@@ -3919,7 +3919,7 @@ export const products = [
       "og_description": "White Rice Flour – pure & neat product, finely milled for consistency. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
       "og_url": "https://www.pavithramfoods.com/product/white-rice-flour/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-28T07:39:56+00:00",
+      "article_modified_time": "2026-07-28T07:42:54+00:00",
       "og_image": [
         {
           "width": 1086,
@@ -3951,7 +3951,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/White-Rice-Flour.png",
             "datePublished": "2026-07-16T05:32:03+00:00",
-            "dateModified": "2026-07-28T07:39:56+00:00",
+            "dateModified": "2026-07-28T07:42:54+00:00",
             "description": "White Rice Flour – pure & neat product, finely milled for consistency. FSSAI & ISO certified. Available in 1 kg. Pavithram Foods, Kerala.",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/white-rice-flour/#breadcrumb"
