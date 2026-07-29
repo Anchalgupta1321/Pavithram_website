@@ -251,7 +251,7 @@ function ProductsContent({ products }) {
                     {product.badge && <span className="product-badge">{product.badge}</span>}
 
                     <div className="product-img-wrapper" style={{ backgroundColor: getCategoryColor(product.category) }}>
-                      <Image src={product.images ? product.images[0] : ''} alt={product.name} width={400} height={400} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+                      <Image src={product.images ? product.images[0] : ''} alt={product.name} layout="fill" objectFit="contain" />
                     </div>
 
                     <div className="product-details">

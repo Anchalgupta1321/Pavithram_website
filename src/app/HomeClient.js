@@ -640,7 +640,7 @@ export default function HomeClient({ testimonials, galleryPreview = [], promoBan
             <div className="marquee">
               {countries.concat(countries).map((country, idx) => (
                 <div className="country-tag" key={idx}>
-                  <Image src={`https://flagcdn.com/w40/${country.code}.png`} alt={`${country.name} flag`} width={40} height={30} className="country-flag" /> {country.name}
+                  <img src={`https://flagcdn.com/w40/${country.code}.png`} alt={`${country.name} flag`} width="40" height="30" className="country-flag" /> {country.name}
                 </div>
               ))}
             </div>

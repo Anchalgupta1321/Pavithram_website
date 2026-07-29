@@ -92,7 +92,7 @@
 /* Product Grid Area */
 .shop-content {
   flex-grow: 1;
-  width: 100%;
+  min-width: 0;
 }
 
 .products-grid {
