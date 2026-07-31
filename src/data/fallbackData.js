@@ -774,7 +774,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -891,7 +891,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -1157,7 +1157,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -1274,7 +1274,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -1391,7 +1391,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1kg"
@@ -1508,7 +1508,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -1627,7 +1627,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -1746,7 +1746,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -1863,7 +1863,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -1980,7 +1980,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1kg"
@@ -2247,7 +2247,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "200g"
@@ -2364,7 +2364,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -2629,7 +2629,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -2746,7 +2746,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -4029,7 +4029,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "50g"
@@ -4146,7 +4146,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -4263,7 +4263,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1 Pcs"
@@ -4380,7 +4380,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1kg"
@@ -4497,7 +4497,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -4614,7 +4614,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -5022,7 +5022,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1L"
@@ -6207,7 +6207,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "1 Pcs"
@@ -6772,7 +6772,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "200g"
@@ -6892,7 +6892,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -7157,7 +7157,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -7277,7 +7277,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "400g"
@@ -7712,7 +7712,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "5 kg"
@@ -7830,7 +7830,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "5 kg"
@@ -10867,7 +10867,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "500g"
@@ -17674,7 +17674,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"
@@ -17793,7 +17793,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "/logo_cropped.png"
     ],
     "packSizes": [
       "100g"

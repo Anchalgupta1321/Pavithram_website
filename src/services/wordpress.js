@@ -159,7 +159,7 @@ export async function fetchTestimonials() {
 
       return data.map(post => {
         let imageUrl = null;
-        if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+        if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]?.source_url) {
           imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
         }
 
@@ -237,7 +237,7 @@ export async function fetchPromoBanner() {
 
       if (pages.length > 0) {
         const page = pages[0];
-        if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]) {
+        if (page._embedded && page._embedded['wp:featuredmedia'] && page._embedded['wp:featuredmedia'][0]?.source_url) {
           return page._embedded['wp:featuredmedia'][0].source_url;
         }
       }
@@ -342,8 +342,13 @@ export async function fetchProducts() {
       
       // Extract main image
       let imageUrl = null;
-      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]) {
+      if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0]?.source_url) {
         imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+      }
+      
+      // Fallback: Check Yoast SEO for og_image
+      if (!imageUrl && post.yoast_head_json?.og_image?.[0]?.url) {
+        imageUrl = post.yoast_head_json.og_image[0].url;
       }
       
       // Fallback: Check if they inserted an image into the main content editor
@@ -388,7 +393,7 @@ export async function fetchProducts() {
       
       // We will fallback to a placeholder if absolutely no valid string image is found.
       if (images.length === 0) {
-        images.push('/images/products/placeholder.png'); // Fallback to prevent crash
+        images.push('/logo_cropped.png'); // Fallback to prevent crash
       }
 
       // Decode HTML entities in title
