@@ -774,7 +774,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -891,7 +891,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -1157,7 +1157,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -1274,7 +1274,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -1391,7 +1391,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1kg"
@@ -1508,7 +1508,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -1627,7 +1627,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -1746,7 +1746,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -1863,7 +1863,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -1980,7 +1980,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1kg"
@@ -2247,7 +2247,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "200g"
@@ -2364,7 +2364,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -2629,7 +2629,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -2746,7 +2746,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -4029,7 +4029,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "50g"
@@ -4146,7 +4146,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -4263,7 +4263,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1 Pcs"
@@ -4380,7 +4380,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1kg"
@@ -4497,7 +4497,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -4614,7 +4614,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -5022,7 +5022,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1L"
@@ -5058,7 +5058,7 @@ export const products = [
       "og_title": "Lamp Oil - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/lamp-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-31T07:05:51+00:00",
+      "article_modified_time": "2026-07-31T07:10:41+00:00",
       "og_image": [
         {
           "width": 672,
@@ -5090,7 +5090,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
             "datePublished": "2026-07-15T16:27:08+00:00",
-            "dateModified": "2026-07-31T07:05:51+00:00",
+            "dateModified": "2026-07-31T07:10:41+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/lamp-oil/#breadcrumb"
             },
@@ -6207,7 +6207,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1 Pcs"
@@ -6772,7 +6772,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "200g"
@@ -6892,7 +6892,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -7157,7 +7157,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -7277,7 +7277,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "400g"
@@ -7712,7 +7712,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "5 kg"
@@ -7830,7 +7830,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "5 kg"
@@ -10867,7 +10867,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -17674,7 +17674,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
@@ -17793,7 +17793,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "100g"
