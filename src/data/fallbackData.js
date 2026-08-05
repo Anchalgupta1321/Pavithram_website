@@ -774,7 +774,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -811,7 +811,19 @@ export const products = [
       "og_title": "Horse Gram - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/horse-gram/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:06:11+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -823,7 +835,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
             "datePublished": "2026-07-16T08:07:08+00:00",
+            "dateModified": "2026-08-05T05:06:11+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/horse-gram/#breadcrumb"
             },
@@ -836,6 +856,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -891,7 +920,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -928,7 +957,19 @@ export const products = [
       "og_title": "Red Kidney Beans (Rajma) - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:04:03+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -940,7 +981,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
             "datePublished": "2026-07-16T08:05:46+00:00",
+            "dateModified": "2026-08-05T05:04:03+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#breadcrumb"
             },
@@ -953,6 +1002,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1391,7 +1449,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -1428,7 +1486,19 @@ export const products = [
       "og_title": "Green Moong - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/green-moong/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:11:34+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1440,7 +1510,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
             "datePublished": "2026-07-16T07:56:52+00:00",
+            "dateModified": "2026-08-05T05:11:34+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/green-moong/#breadcrumb"
             },
@@ -1453,6 +1531,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1627,7 +1714,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Urad-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -1664,8 +1751,19 @@ export const products = [
       "og_title": "Urad Ghotta - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/urad-ghotta/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T08:00:06+00:00",
+      "article_modified_time": "2026-08-05T05:13:59+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1677,8 +1775,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
             "datePublished": "2026-07-16T07:54:22+00:00",
-            "dateModified": "2026-07-16T08:00:06+00:00",
+            "dateModified": "2026-08-05T05:13:59+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#breadcrumb"
             },
@@ -1691,6 +1796,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
