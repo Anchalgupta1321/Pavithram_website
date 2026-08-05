@@ -4697,7 +4697,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -4734,7 +4734,19 @@ export const products = [
       "og_title": "Toor Dhal - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/toor-dhal/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:46:29+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4746,7 +4758,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
             "datePublished": "2026-07-15T17:19:33+00:00",
+            "dateModified": "2026-08-05T06:46:29+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/toor-dhal/#breadcrumb"
             },
@@ -4759,6 +4779,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
