@@ -7147,7 +7147,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg"
     ],
     "packSizes": [
       "200g"
@@ -7185,8 +7185,19 @@ export const products = [
       "og_title": "Palm Candy - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-candy/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T11:36:57+00:00",
+      "article_modified_time": "2026-08-05T06:53:12+00:00",
+      "og_image": [
+        {
+          "width": 2336,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7198,8 +7209,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
             "datePublished": "2026-07-14T16:58:44+00:00",
-            "dateModified": "2026-07-16T11:36:57+00:00",
+            "dateModified": "2026-08-05T06:53:12+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-candy/#breadcrumb"
             },
@@ -7212,6 +7230,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+            "width": 2336,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -7267,7 +7294,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -7305,6 +7332,15 @@ export const products = [
       "og_title": "Palm Sugar - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-sugar/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:55:54+00:00",
+      "og_image": [
+        {
+          "width": 833,
+          "height": 1246,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
       "schema": {
         "@context": "https://schema.org",
@@ -7317,7 +7353,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
             "datePublished": "2026-07-14T16:56:33+00:00",
+            "dateModified": "2026-08-05T06:55:54+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-sugar/#breadcrumb"
             },
@@ -7330,6 +7374,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+            "width": 833,
+            "height": 1246
           },
           {
             "@type": "BreadcrumbList",
@@ -7532,7 +7585,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -7570,8 +7623,19 @@ export const products = [
       "og_title": "Palm Jaggery - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-jaggery/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T16:52:05+00:00",
+      "article_modified_time": "2026-08-05T06:57:21+00:00",
+      "og_image": [
+        {
+          "width": 400,
+          "height": 528,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7583,8 +7647,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
             "datePublished": "2026-07-14T16:49:55+00:00",
-            "dateModified": "2026-07-14T16:52:05+00:00",
+            "dateModified": "2026-08-05T06:57:21+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#breadcrumb"
             },
@@ -7597,6 +7668,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+            "width": 400,
+            "height": 528
           },
           {
             "@type": "BreadcrumbList",
@@ -7652,7 +7732,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg"
     ],
     "packSizes": [
       "400g"
@@ -7690,11 +7770,12 @@ export const products = [
       "og_title": "Palm Jaggery Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-jaggery-powder/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:58:37+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
+          "width": 400,
+          "height": 528,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -7719,8 +7800,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
             "datePublished": "2026-07-14T16:45:32+00:00",
+            "dateModified": "2026-08-05T06:58:37+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#breadcrumb"
             },
@@ -7738,10 +7820,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
-            "width": 672,
-            "height": 864
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
+            "width": 400,
+            "height": 528
           },
           {
             "@type": "BreadcrumbList",
@@ -8087,7 +8169,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg"
     ],
     "packSizes": [
       "5 kg"
@@ -8125,7 +8207,19 @@ export const products = [
       "og_title": "Ponni Boiled Rice - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ponni-boiled-rice/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T07:01:18+00:00",
+      "og_image": [
+        {
+          "width": 1600,
+          "height": 1600,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -8137,7 +8231,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
             "datePublished": "2026-07-14T16:34:25+00:00",
+            "dateModified": "2026-08-05T07:01:18+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#breadcrumb"
             },
@@ -8150,6 +8252,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+            "width": 1600,
+            "height": 1600
           },
           {
             "@type": "BreadcrumbList",
@@ -8205,7 +8316,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg"
     ],
     "packSizes": [
       "5 kg"
@@ -8243,7 +8354,19 @@ export const products = [
       "og_title": "Ponni Raw Rice - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ponni-raw-rice/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T07:03:08+00:00",
+      "og_image": [
+        {
+          "width": 1600,
+          "height": 1600,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -8255,7 +8378,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
             "datePublished": "2026-07-14T16:31:35+00:00",
+            "dateModified": "2026-08-05T07:03:08+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#breadcrumb"
             },
@@ -8268,6 +8399,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+            "width": 1600,
+            "height": 1600
           },
           {
             "@type": "BreadcrumbList",
