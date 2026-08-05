@@ -4259,7 +4259,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg"
     ],
     "packSizes": [
       "50g"
@@ -4296,7 +4296,19 @@ export const products = [
       "og_title": "Kasuri Methi - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kasuri-methi/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:40:33+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4308,7 +4320,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
             "datePublished": "2026-07-15T17:31:49+00:00",
+            "dateModified": "2026-08-05T06:40:33+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#breadcrumb"
             },
@@ -4321,6 +4341,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4376,7 +4405,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -4413,7 +4442,19 @@ export const products = [
       "og_title": "Phool Makkana - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/phool-makkana/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:41:36+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4425,7 +4466,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
             "datePublished": "2026-07-15T17:29:01+00:00",
+            "dateModified": "2026-08-05T06:41:36+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/phool-makkana/#breadcrumb"
             },
@@ -4438,6 +4487,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4493,7 +4551,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg"
     ],
     "packSizes": [
       "1 Pcs"
@@ -4530,7 +4588,19 @@ export const products = [
       "og_title": "Coconut half (copra / dried) - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:42:56+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4542,7 +4612,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
             "datePublished": "2026-07-15T17:26:23+00:00",
+            "dateModified": "2026-08-05T06:42:56+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#breadcrumb"
             },
@@ -4555,6 +4633,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
