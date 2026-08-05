@@ -1208,240 +1208,6 @@ export const products = [
     ]
   },
   {
-    "id": 1006,
-    "name": "Fenugreek",
-    "slug": "fenugreek",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/images/products/placeholder.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Fenugreek Seeds are processed under quality standards to ensure freshness and purity. Ideal for seasoning and traditional recipes.",
-    "ingredients": "Fenugreek",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich in natural goodness",
-      "Distinctive flavour",
-      "Traditional kitchen essential",
-      "Suitable for seasoning",
-      "Versatile ingredient"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Fenugreek - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Fenugreek - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/fenugreek/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/fenugreek/",
-            "url": "https://www.pavithramfoods.com/product/fenugreek/",
-            "name": "Fenugreek - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T08:03:08+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/fenugreek/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Fenugreek"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "fenugreek"
-    ]
-  },
-  {
-    "id": 1005,
-    "name": "Mustard Seed",
-    "slug": "mustard-seed",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/images/products/placeholder.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Mustard Seeds are carefully processed to deliver freshness, aroma, and authentic flavour. Ideal for seasoning and tempering dishes.",
-    "ingredients": "Mustard Seed",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich aroma and flavour",
-      "Essential seasoning ingredient",
-      "Enhances taste",
-      "Suitable for various cuisines",
-      "Ideal for everyday cooking"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Mustard Seed - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Mustard Seed - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/mustard-seed/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seed/",
-            "url": "https://www.pavithramfoods.com/product/mustard-seed/",
-            "name": "Mustard Seed - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T08:01:23+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/mustard-seed/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Mustard Seed"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "mustard-seed"
-    ]
-  },
-  {
     "id": 1004,
     "name": "Green Moong",
     "slug": "green-moong",
@@ -1585,125 +1351,6 @@ export const products = [
     },
     "allSlugs": [
       "green-moong"
-    ]
-  },
-  {
-    "id": 1003,
-    "name": "Urad Split",
-    "slug": "urad-split",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/images/products/placeholder.png"
-    ],
-    "packSizes": [
-      "500g"
-    ],
-    "description": "Pavithram Urad Split is prepared from quality urad beans and processed under strict quality standards. Ideal for preparing a range of traditional dishes.",
-    "ingredients": "Urad Split",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich in plant-based protein",
-      "Source of dietary fibre",
-      "Easy to cook",
-      "Suitable for various recipes",
-      "Ideal for daily use"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Urad Split - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Urad Split - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/urad-split/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:57:54+00:00",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/urad-split/",
-            "url": "https://www.pavithramfoods.com/product/urad-split/",
-            "name": "Urad Split - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T07:55:39+00:00",
-            "dateModified": "2026-07-16T07:57:54+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/urad-split/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Urad Split"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "urad-split"
     ]
   },
   {
@@ -2590,7 +2237,7 @@ export const products = [
     "id": 994,
     "name": "Garlic Vadam",
     "slug": "garlic-vadam",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2709,7 +2356,7 @@ export const products = [
     "id": 993,
     "name": "Omam Vadam",
     "slug": "omam-vadam",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2855,7 +2502,7 @@ export const products = [
     "id": 992,
     "name": "Rice Vadagam Murukku",
     "slug": "rice-vadagam-murukku",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -2972,7 +2619,7 @@ export const products = [
     "id": 991,
     "name": "Rice Vadagam Stick",
     "slug": "rice-vadagam-stick",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -4839,7 +4486,7 @@ export const products = [
     "id": 964,
     "name": "Tomato Vadagam",
     "slug": "tomato-vadagam",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -4956,7 +4603,7 @@ export const products = [
     "id": 963,
     "name": "Sago Vadagam",
     "slug": "sago-vadagam",
-    "category": "Vadagam",
+    "category": "Products",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
@@ -10687,138 +10334,6 @@ export const products = [
     ]
   },
   {
-    "id": 641,
-    "name": "Mustard seeds",
-    "slug": "mustard-seeds",
-    "category": "Groceries",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Mustard seeds - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Mustard seeds - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/mustard-seeds/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/",
-            "url": "https://www.pavithramfoods.com/product/mustard-seeds/",
-            "name": "Mustard seeds - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "datePublished": "2025-10-24T07:42:31+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/mustard-seeds/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Mustard seeds"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "mustard-seeds"
-    ]
-  },
-  {
     "id": 639,
     "name": "Neem Oil",
     "slug": "neem-oil",
@@ -12753,138 +12268,6 @@ export const products = [
     },
     "allSlugs": [
       "wayanadan-coffee-powder"
-    ]
-  },
-  {
-    "id": 608,
-    "name": "Urad Dal Split",
-    "slug": "urad-dal-split",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Urad Dal Split - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Urad Dal Split - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/urad-dal-split/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/",
-            "url": "https://www.pavithramfoods.com/product/urad-dal-split/",
-            "name": "Urad Dal Split - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "datePublished": "2025-10-24T06:19:51+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/urad-dal-split/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Urad Dal Split"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "urad-dal-split"
     ]
   },
   {
