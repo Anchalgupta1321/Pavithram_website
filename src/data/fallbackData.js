@@ -11382,7 +11382,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -11420,8 +11420,19 @@ export const products = [
       "og_title": "Rice Flakes Red - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/rice-flakes/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T17:42:00+00:00",
+      "article_modified_time": "2026-08-05T07:07:53+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -11433,8 +11444,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
             "datePublished": "2025-10-24T07:29:55+00:00",
-            "dateModified": "2026-07-14T17:42:00+00:00",
+            "dateModified": "2026-08-05T07:07:53+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/rice-flakes/#breadcrumb"
             },
@@ -11447,6 +11465,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -18189,7 +18216,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -18226,8 +18253,19 @@ export const products = [
       "og_title": "Spicy Rice Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:14:53+00:00",
+      "article_modified_time": "2026-08-05T07:15:45+00:00",
+      "og_image": [
+        {
+          "width": 918,
+          "height": 726,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18239,8 +18277,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
             "datePublished": "2025-09-22T13:10:48+00:00",
-            "dateModified": "2026-07-16T07:14:53+00:00",
+            "dateModified": "2026-08-05T07:15:45+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#breadcrumb"
             },
@@ -18253,6 +18298,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+            "width": 918,
+            "height": 726
           },
           {
             "@type": "BreadcrumbList",
@@ -18308,7 +18362,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -18345,8 +18399,19 @@ export const products = [
       "og_title": "Rice Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/plain-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:09:57+00:00",
+      "article_modified_time": "2026-08-05T07:16:47+00:00",
+      "og_image": [
+        {
+          "width": 918,
+          "height": 724,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -18358,8 +18423,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
             "datePublished": "2025-09-22T13:09:58+00:00",
-            "dateModified": "2026-07-16T07:09:57+00:00",
+            "dateModified": "2026-08-05T07:16:47+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#breadcrumb"
             },
@@ -18372,6 +18444,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+            "width": 918,
+            "height": 724
           },
           {
             "@type": "BreadcrumbList",
