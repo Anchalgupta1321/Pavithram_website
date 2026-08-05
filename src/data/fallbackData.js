@@ -1860,7 +1860,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Sago-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -1897,7 +1897,19 @@ export const products = [
       "og_title": "Sago - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/sago/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:38:22+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1909,7 +1921,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
             "datePublished": "2026-07-16T07:52:02+00:00",
+            "dateModified": "2026-08-05T05:38:22+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/sago/#breadcrumb"
             },
@@ -1922,6 +1942,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1977,7 +2006,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -2014,7 +2043,19 @@ export const products = [
       "og_title": "Soya Big - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/soya-big/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:40:45+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2026,7 +2067,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
             "datePublished": "2026-07-16T07:50:43+00:00",
+            "dateModified": "2026-08-05T05:40:45+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/soya-big/#breadcrumb"
             },
@@ -2039,6 +2088,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -2094,7 +2152,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -2131,7 +2189,19 @@ export const products = [
       "og_title": "Soya Medium - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/soya-medium/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:42:28+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2143,7 +2213,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
             "datePublished": "2026-07-16T07:49:15+00:00",
+            "dateModified": "2026-08-05T05:42:28+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/soya-medium/#breadcrumb"
             },
@@ -2156,6 +2234,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -2355,13 +2442,13 @@ export const products = [
   },
   {
     "id": 997,
-    "name": "Kokum",
+    "name": "cambodge",
     "slug": "kokum",
     "category": "Groceries",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg"
     ],
     "packSizes": [
       "200g"
@@ -2385,7 +2472,7 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Kokum - Pavithram Group of Companies",
+      "title": "cambodge - Pavithram Group of Companies",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -2395,10 +2482,22 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Kokum - Pavithram Group of Companies",
+      "og_title": "cambodge - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kokum/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:52:08+00:00",
+      "og_image": [
+        {
+          "width": 1319,
+          "height": 1918,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2406,11 +2505,19 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/kokum/",
             "url": "https://www.pavithramfoods.com/product/kokum/",
-            "name": "Kokum - Pavithram Group of Companies",
+            "name": "cambodge - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
             "datePublished": "2026-07-16T07:30:14+00:00",
+            "dateModified": "2026-08-05T05:52:08+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb"
             },
@@ -2425,6 +2532,15 @@ export const products = [
             ]
           },
           {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+            "width": 1319,
+            "height": 1918
+          },
+          {
             "@type": "BreadcrumbList",
             "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb",
             "itemListElement": [
@@ -2437,7 +2553,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Kokum"
+                "name": "cambodge"
               }
             ]
           },
