@@ -774,7 +774,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -811,7 +811,19 @@ export const products = [
       "og_title": "Horse Gram - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/horse-gram/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:06:11+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -823,7 +835,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
             "datePublished": "2026-07-16T08:07:08+00:00",
+            "dateModified": "2026-08-05T05:06:11+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/horse-gram/#breadcrumb"
             },
@@ -836,6 +856,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/horse-gram/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Horse-Gram-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -891,7 +920,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -928,7 +957,19 @@ export const products = [
       "og_title": "Red Kidney Beans (Rajma) - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:04:03+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -940,7 +981,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
             "datePublished": "2026-07-16T08:05:46+00:00",
+            "dateModified": "2026-08-05T05:04:03+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#breadcrumb"
             },
@@ -953,6 +1002,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/red-kidney-beans-rajma/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Red-Kidney-Beans-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1150,240 +1208,6 @@ export const products = [
     ]
   },
   {
-    "id": 1006,
-    "name": "Fenugreek",
-    "slug": "fenugreek",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Fenugreek Seeds are processed under quality standards to ensure freshness and purity. Ideal for seasoning and traditional recipes.",
-    "ingredients": "Fenugreek",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich in natural goodness",
-      "Distinctive flavour",
-      "Traditional kitchen essential",
-      "Suitable for seasoning",
-      "Versatile ingredient"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Fenugreek - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Fenugreek - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/fenugreek/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/fenugreek/",
-            "url": "https://www.pavithramfoods.com/product/fenugreek/",
-            "name": "Fenugreek - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T08:03:08+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/fenugreek/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/fenugreek/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Fenugreek"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "fenugreek"
-    ]
-  },
-  {
-    "id": 1005,
-    "name": "Mustard Seed",
-    "slug": "mustard-seed",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Mustard Seeds are carefully processed to deliver freshness, aroma, and authentic flavour. Ideal for seasoning and tempering dishes.",
-    "ingredients": "Mustard Seed",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich aroma and flavour",
-      "Essential seasoning ingredient",
-      "Enhances taste",
-      "Suitable for various cuisines",
-      "Ideal for everyday cooking"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Mustard Seed - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Mustard Seed - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/mustard-seed/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seed/",
-            "url": "https://www.pavithramfoods.com/product/mustard-seed/",
-            "name": "Mustard Seed - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T08:01:23+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/mustard-seed/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seed/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Mustard Seed"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "mustard-seed"
-    ]
-  },
-  {
     "id": 1004,
     "name": "Green Moong",
     "slug": "green-moong",
@@ -1391,7 +1215,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -1428,7 +1252,19 @@ export const products = [
       "og_title": "Green Moong - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/green-moong/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:11:34+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1440,7 +1276,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
             "datePublished": "2026-07-16T07:56:52+00:00",
+            "dateModified": "2026-08-05T05:11:34+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/green-moong/#breadcrumb"
             },
@@ -1453,6 +1297,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/green-moong/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Green-Moong-Dal-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1501,125 +1354,6 @@ export const products = [
     ]
   },
   {
-    "id": 1003,
-    "name": "Urad Split",
-    "slug": "urad-split",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "500g"
-    ],
-    "description": "Pavithram Urad Split is prepared from quality urad beans and processed under strict quality standards. Ideal for preparing a range of traditional dishes.",
-    "ingredients": "Urad Split",
-    "nutritionalInfo": "",
-    "benefits": [
-      "Rich in plant-based protein",
-      "Source of dietary fibre",
-      "Easy to cook",
-      "Suitable for various recipes",
-      "Ideal for daily use"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Urad Split - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Urad Split - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/urad-split/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:57:54+00:00",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/urad-split/",
-            "url": "https://www.pavithramfoods.com/product/urad-split/",
-            "name": "Urad Split - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T07:55:39+00:00",
-            "dateModified": "2026-07-16T07:57:54+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/urad-split/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/urad-split/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Urad Split"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "urad-split"
-    ]
-  },
-  {
     "id": 1002,
     "name": "Urad Ghotta",
     "slug": "urad-ghotta",
@@ -1627,7 +1361,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Urad-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -1664,8 +1398,19 @@ export const products = [
       "og_title": "Urad Ghotta - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/urad-ghotta/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T08:00:06+00:00",
+      "article_modified_time": "2026-08-05T05:13:59+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1677,8 +1422,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
             "datePublished": "2026-07-16T07:54:22+00:00",
-            "dateModified": "2026-07-16T08:00:06+00:00",
+            "dateModified": "2026-08-05T05:13:59+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#breadcrumb"
             },
@@ -1691,6 +1443,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/urad-ghotta/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Urad-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1746,7 +1507,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Sago-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -1783,7 +1544,19 @@ export const products = [
       "og_title": "Sago - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/sago/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:38:22+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1795,7 +1568,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
             "datePublished": "2026-07-16T07:52:02+00:00",
+            "dateModified": "2026-08-05T05:38:22+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/sago/#breadcrumb"
             },
@@ -1808,6 +1589,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/sago/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Sago-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1863,7 +1653,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -1900,7 +1690,19 @@ export const products = [
       "og_title": "Soya Big - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/soya-big/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:40:45+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1912,7 +1714,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
             "datePublished": "2026-07-16T07:50:43+00:00",
+            "dateModified": "2026-08-05T05:40:45+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/soya-big/#breadcrumb"
             },
@@ -1925,6 +1735,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/soya-big/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Big-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -1980,7 +1799,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -2017,7 +1836,19 @@ export const products = [
       "og_title": "Soya Medium - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/soya-medium/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:42:28+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2029,7 +1860,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
             "datePublished": "2026-07-16T07:49:15+00:00",
+            "dateModified": "2026-08-05T05:42:28+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/soya-medium/#breadcrumb"
             },
@@ -2042,6 +1881,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/soya-medium/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Soya-Medium-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -2241,13 +2089,13 @@ export const products = [
   },
   {
     "id": 997,
-    "name": "Kokum",
+    "name": "cambodge",
     "slug": "kokum",
     "category": "Groceries",
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg"
     ],
     "packSizes": [
       "200g"
@@ -2271,7 +2119,7 @@ export const products = [
     "fssai": "",
     "sku": "",
     "seo": {
-      "title": "Kokum - Pavithram Group of Companies",
+      "title": "cambodge - Pavithram Group of Companies",
       "robots": {
         "index": "noindex",
         "follow": "follow",
@@ -2281,10 +2129,22 @@ export const products = [
       },
       "og_locale": "en_US",
       "og_type": "article",
-      "og_title": "Kokum - Pavithram Group of Companies",
+      "og_title": "cambodge - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kokum/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T05:52:08+00:00",
+      "og_image": [
+        {
+          "width": 1319,
+          "height": 1918,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -2292,11 +2152,19 @@ export const products = [
             "@type": "WebPage",
             "@id": "https://www.pavithramfoods.com/product/kokum/",
             "url": "https://www.pavithramfoods.com/product/kokum/",
-            "name": "Kokum - Pavithram Group of Companies",
+            "name": "cambodge - Pavithram Group of Companies",
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
             "datePublished": "2026-07-16T07:30:14+00:00",
+            "dateModified": "2026-08-05T05:52:08+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb"
             },
@@ -2311,6 +2179,15 @@ export const products = [
             ]
           },
           {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/kokum/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Cambodge-Arabco-Mockup.jpg",
+            "width": 1319,
+            "height": 1918
+          },
+          {
             "@type": "BreadcrumbList",
             "@id": "https://www.pavithramfoods.com/product/kokum/#breadcrumb",
             "itemListElement": [
@@ -2323,7 +2200,7 @@ export const products = [
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Kokum"
+                "name": "cambodge"
               }
             ]
           },
@@ -2354,505 +2231,6 @@ export const products = [
     },
     "allSlugs": [
       "kokum"
-    ]
-  },
-  {
-    "id": 994,
-    "name": "Garlic Vadam",
-    "slug": "garlic-vadam",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Garlic Vadam is prepared using quality ingredients and garlic to deliver a rich and savoury flavour. Perfect as a crunchy accompaniment to traditional dishes.",
-    "ingredients": "Rice Flour, Garlic, Red Chilli, Salt",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Rich garlic flavour",
-      "Crispy texture",
-      "Traditional taste",
-      "Easy to prepare",
-      "Ideal with rice dishes and meals"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Garlic Vadam - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Garlic Vadam - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/garlic-vadam/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-18T11:23:26+00:00",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/garlic-vadam/",
-            "url": "https://www.pavithramfoods.com/product/garlic-vadam/",
-            "name": "Garlic Vadam - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T07:23:44+00:00",
-            "dateModified": "2026-07-18T11:23:26+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/garlic-vadam/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/garlic-vadam/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/garlic-vadam/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Garlic Vadam"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "garlic-vadam"
-    ]
-  },
-  {
-    "id": 993,
-    "name": "Omam Vadam",
-    "slug": "omam-vadam",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Omam Vadam is crafted from selected ingredients and omam (ajwain) to provide a unique flavour and crisp texture. Suitable for traditional meal occasions.",
-    "ingredients": "Rice Flour, Cumin Seeds,Asafoetida, Salt",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Flavoured with omam",
-      "Crispy and tasty",
-      "Traditional recipe",
-      "Easy to prepare",
-      "Ideal with everyday meals"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Omam Vadam - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Omam Vadam - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/omam-vadam/",
-      "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-27T07:29:36+00:00",
-      "og_image": [
-        {
-          "width": 1020,
-          "height": 1360,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
-          "type": "image/png"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "twitter_misc": {
-        "Est. reading time": "1 minute"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/omam-vadam/",
-            "url": "https://www.pavithramfoods.com/product/omam-vadam/",
-            "name": "Omam Vadam - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
-            "datePublished": "2026-07-16T07:21:47+00:00",
-            "dateModified": "2026-07-27T07:29:36+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/omam-vadam/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/omam-vadam/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/OMMAM-VADAGAM-e1785137021412.png",
-            "width": 1020,
-            "height": 1360
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/omam-vadam/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Omam Vadam"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "omam-vadam"
-    ]
-  },
-  {
-    "id": 992,
-    "name": "Rice Vadagam Murukku",
-    "slug": "rice-vadagam-murukku",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Rice Vadagam Murukku is crafted from quality rice ingredients to provide a delightful crunch and traditional flavour. Perfect for everyday meals and snacks.",
-    "ingredients": "Rice Flour, Salt ,Cumin ,Green chilly",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Crispy and flavourful",
-      "Traditional recipe",
-      "Delightful crunch",
-      "Easy to prepare",
-      "Ideal for snacks and meals"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Rice Vadagam Murukku - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Rice Vadagam Murukku - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
-            "url": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/",
-            "name": "Rice Vadagam Murukku - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T07:19:39+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/rice-vadagam-murukku/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-murukku/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Rice Vadagam Murukku"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "rice-vadagam-murukku"
-    ]
-  },
-  {
-    "id": 991,
-    "name": "Rice Vadagam Stick",
-    "slug": "rice-vadagam-stick",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Rice Vadagam Stick is prepared using premium-quality rice and processed to deliver a crispy texture and authentic taste. Ideal as a traditional snack or meal accompaniment.",
-    "ingredients": "Rice Flour, Salt ,Cumin ,Green chilly",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg\r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Crispy texture",
-      "Traditional taste",
-      "Light and crunchy",
-      "Easy to prepare",
-      "Ideal for everyday use"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Rice Vadagam Stick - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Rice Vadagam Stick - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
-            "url": "https://www.pavithramfoods.com/product/rice-vadagam-stick/",
-            "name": "Rice Vadagam Stick - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-16T07:17:25+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/rice-vadagam-stick/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/rice-vadagam-stick/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Rice Vadagam Stick"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "rice-vadagam-stick"
     ]
   },
   {
@@ -4029,7 +3407,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg"
     ],
     "packSizes": [
       "50g"
@@ -4066,7 +3444,19 @@ export const products = [
       "og_title": "Kasuri Methi - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/kasuri-methi/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:40:33+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4078,7 +3468,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
             "datePublished": "2026-07-15T17:31:49+00:00",
+            "dateModified": "2026-08-05T06:40:33+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#breadcrumb"
             },
@@ -4091,6 +3489,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/kasuri-methi/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Kassori-Methi-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4146,7 +3553,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -4183,7 +3590,19 @@ export const products = [
       "og_title": "Phool Makkana - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/phool-makkana/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:41:36+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4195,7 +3614,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
             "datePublished": "2026-07-15T17:29:01+00:00",
+            "dateModified": "2026-08-05T06:41:36+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/phool-makkana/#breadcrumb"
             },
@@ -4208,6 +3635,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/phool-makkana/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Phool-Makhana-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4263,7 +3699,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg"
     ],
     "packSizes": [
       "1 Pcs"
@@ -4300,7 +3736,19 @@ export const products = [
       "og_title": "Coconut half (copra / dried) - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:42:56+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4312,7 +3760,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
             "datePublished": "2026-07-15T17:26:23+00:00",
+            "dateModified": "2026-08-05T06:42:56+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#breadcrumb"
             },
@@ -4325,6 +3781,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/coconut-half-copra-dried/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-Half-Copra-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4380,7 +3845,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg"
     ],
     "packSizes": [
       "1kg"
@@ -4417,7 +3882,19 @@ export const products = [
       "og_title": "Toor Dhal - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/toor-dhal/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:46:29+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -4429,7 +3906,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
             "datePublished": "2026-07-15T17:19:33+00:00",
+            "dateModified": "2026-08-05T06:46:29+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/toor-dhal/#breadcrumb"
             },
@@ -4442,6 +3927,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/toor-dhal/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Toor-Dhal-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -4487,240 +3981,6 @@ export const products = [
     },
     "allSlugs": [
       "toor-dhal"
-    ]
-  },
-  {
-    "id": 964,
-    "name": "Tomato Vadagam",
-    "slug": "tomato-vadagam",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Tomato Vadagam is prepared using quality ingredients and tomato to deliver a rich and distinctive flavour. Perfect as a crispy accompaniment to meals.",
-    "ingredients": "Rice Flour, Tomato, Red chilly, Salt",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 20 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Rich tomato flavour",
-      "Crispy texture",
-      "Traditional preparation",
-      "Easy to prepare",
-      "Ideal with rice dishes"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Tomato Vadagam - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Tomato Vadagam - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/tomato-vadagam/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/",
-            "url": "https://www.pavithramfoods.com/product/tomato-vadagam/",
-            "name": "Tomato Vadagam - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-15T17:17:20+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/tomato-vadagam/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/tomato-vadagam/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Tomato Vadagam"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "tomato-vadagam"
-    ]
-  },
-  {
-    "id": 963,
-    "name": "Sago Vadagam",
-    "slug": "sago-vadagam",
-    "category": "Vadagam",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "/logo_cropped.png"
-    ],
-    "packSizes": [
-      "100g"
-    ],
-    "description": "Pavithram Sago Vadagam is produced from selected sago and processed under strict quality standards to ensure excellent taste and texture. Ideal for traditional meal preparations.",
-    "ingredients": "Rice Flour, Sago, Salt, Cumin, Asafoetida, Green chilly",
-    "nutritionalInfo": "Energy: 10 kcal\r\nTotal Fat:0g\r\nSaturated fat : 0g\r\nTrans fat:0 g\r\nCarbohydrates: 2.5g\r\nProtein: 0g\r\nCholesterol: 0mg \r\nSodium: 15 mg \r\nDietary fiber :0g \r\nTotal sugar :0g (per serving)",
-    "benefits": [
-      "Light and crispy texture",
-      "Authentic traditional taste",
-      "Made with quality ingredients",
-      "Easy to prepare",
-      "Ideal with everyday meals"
-    ],
-    "storage": "Store in a cool, dry place away from direct sunlight.",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [
-      "FSSAI Certified",
-      "100% Natural"
-    ],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Sago Vadagam - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Sago Vadagam - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/sago-vadagam/",
-      "og_site_name": "Pavithram Group of Companies",
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/sago-vadagam/",
-            "url": "https://www.pavithramfoods.com/product/sago-vadagam/",
-            "name": "Sago Vadagam - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "datePublished": "2026-07-15T17:14:29+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/sago-vadagam/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/sago-vadagam/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/sago-vadagam/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Sago Vadagam"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "sago-vadagam"
     ]
   },
   {
@@ -5022,7 +4282,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "1L"
@@ -5058,7 +4318,7 @@ export const products = [
       "og_title": "Lamp Oil - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/lamp-oil/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-31T07:05:51+00:00",
+      "article_modified_time": "2026-07-31T07:10:41+00:00",
       "og_image": [
         {
           "width": 672,
@@ -5090,7 +4350,7 @@ export const products = [
             },
             "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg",
             "datePublished": "2026-07-15T16:27:08+00:00",
-            "dateModified": "2026-07-31T07:05:51+00:00",
+            "dateModified": "2026-07-31T07:10:41+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/lamp-oil/#breadcrumb"
             },
@@ -5469,7 +4729,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "https://www.pavithram.online/wp-content/uploads/2026/07/Foxtail-millet.png"
+      "/images/products/placeholder.png"
     ],
     "packSizes": [
       "500g"
@@ -6207,7 +5467,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Coconut-full-Copra-Mockup.jpg"
     ],
     "packSizes": [
       "1 Pcs"
@@ -6247,7 +5507,19 @@ export const products = [
       "og_title": "Coconut Whole (copra / dried) - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:49:44+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-full-Copra-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -6259,7 +5531,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-full-Copra-Mockup.jpg",
             "datePublished": "2026-07-14T17:44:56+00:00",
+            "dateModified": "2026-08-05T06:49:44+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/#breadcrumb"
             },
@@ -6272,6 +5552,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/coconut-whole-copra-dried/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-full-Copra-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Coconut-full-Copra-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -6772,7 +6061,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg"
     ],
     "packSizes": [
       "200g"
@@ -6810,8 +6099,19 @@ export const products = [
       "og_title": "Palm Candy - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-candy/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T11:36:57+00:00",
+      "article_modified_time": "2026-08-05T06:53:12+00:00",
+      "og_image": [
+        {
+          "width": 2336,
+          "height": 2560,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -6823,8 +6123,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
             "datePublished": "2026-07-14T16:58:44+00:00",
-            "dateModified": "2026-07-16T11:36:57+00:00",
+            "dateModified": "2026-08-05T06:53:12+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-candy/#breadcrumb"
             },
@@ -6837,6 +6144,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-candy/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Candy-Mockup-scaled.jpg",
+            "width": 2336,
+            "height": 2560
           },
           {
             "@type": "BreadcrumbList",
@@ -6892,7 +6208,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -6930,6 +6246,15 @@ export const products = [
       "og_title": "Palm Sugar - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-sugar/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:55:54+00:00",
+      "og_image": [
+        {
+          "width": 833,
+          "height": 1246,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
       "schema": {
         "@context": "https://schema.org",
@@ -6942,7 +6267,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
             "datePublished": "2026-07-14T16:56:33+00:00",
+            "dateModified": "2026-08-05T06:55:54+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-sugar/#breadcrumb"
             },
@@ -6955,6 +6288,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-sugar/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Sugar-Mockup.jpg",
+            "width": 833,
+            "height": 1246
           },
           {
             "@type": "BreadcrumbList",
@@ -7157,7 +6499,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -7195,8 +6537,19 @@ export const products = [
       "og_title": "Palm Jaggery - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-jaggery/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T16:52:05+00:00",
+      "article_modified_time": "2026-08-05T06:57:21+00:00",
+      "og_image": [
+        {
+          "width": 400,
+          "height": 528,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7208,8 +6561,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
             "datePublished": "2026-07-14T16:49:55+00:00",
-            "dateModified": "2026-07-14T16:52:05+00:00",
+            "dateModified": "2026-08-05T06:57:21+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#breadcrumb"
             },
@@ -7222,6 +6582,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/palm-jaggery/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Mockup.jpg",
+            "width": 400,
+            "height": 528
           },
           {
             "@type": "BreadcrumbList",
@@ -7277,7 +6646,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg"
     ],
     "packSizes": [
       "400g"
@@ -7315,11 +6684,12 @@ export const products = [
       "og_title": "Palm Jaggery Powder - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/palm-jaggery-powder/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T06:58:37+00:00",
       "og_image": [
         {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
+          "width": 400,
+          "height": 528,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
           "type": "image/jpeg"
         }
       ],
@@ -7344,8 +6714,9 @@ export const products = [
             "image": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#primaryimage"
             },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
             "datePublished": "2026-07-14T16:45:32+00:00",
+            "dateModified": "2026-08-05T06:58:37+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#breadcrumb"
             },
@@ -7363,10 +6734,10 @@ export const products = [
             "@type": "ImageObject",
             "inLanguage": "en-US",
             "@id": "https://www.pavithramfoods.com/product/palm-jaggery-powder/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Palm-Jaggery-400g.jpg",
-            "width": 672,
-            "height": 864
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Palm-Jaggery-Powder-Mockup.jpg",
+            "width": 400,
+            "height": 528
           },
           {
             "@type": "BreadcrumbList",
@@ -7712,7 +7083,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg"
     ],
     "packSizes": [
       "5 kg"
@@ -7750,7 +7121,19 @@ export const products = [
       "og_title": "Ponni Boiled Rice - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ponni-boiled-rice/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T07:01:18+00:00",
+      "og_image": [
+        {
+          "width": 1600,
+          "height": 1600,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7762,7 +7145,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
             "datePublished": "2026-07-14T16:34:25+00:00",
+            "dateModified": "2026-08-05T07:01:18+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#breadcrumb"
             },
@@ -7775,6 +7166,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/ponni-boiled-rice/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Boiled-Rice-5-kg-Mockup.jpg",
+            "width": 1600,
+            "height": 1600
           },
           {
             "@type": "BreadcrumbList",
@@ -7830,7 +7230,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg"
     ],
     "packSizes": [
       "5 kg"
@@ -7868,7 +7268,19 @@ export const products = [
       "og_title": "Ponni Raw Rice - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/ponni-raw-rice/",
       "og_site_name": "Pavithram Group of Companies",
+      "article_modified_time": "2026-08-05T07:03:08+00:00",
+      "og_image": [
+        {
+          "width": 1600,
+          "height": 1600,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -7880,7 +7292,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
             "datePublished": "2026-07-14T16:31:35+00:00",
+            "dateModified": "2026-08-05T07:03:08+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#breadcrumb"
             },
@@ -7893,6 +7313,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/ponni-raw-rice/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2026/07/Ponni-Raw-Rice-5-kg-Mockup.jpg",
+            "width": 1600,
+            "height": 1600
           },
           {
             "@type": "BreadcrumbList",
@@ -10172,138 +9601,6 @@ export const products = [
     ]
   },
   {
-    "id": 641,
-    "name": "Mustard seeds",
-    "slug": "mustard-seeds",
-    "category": "Groceries",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Mustard seeds - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Mustard seeds - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/mustard-seeds/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/",
-            "url": "https://www.pavithramfoods.com/product/mustard-seeds/",
-            "name": "Mustard seeds - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "datePublished": "2025-10-24T07:42:31+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/mustard-seeds/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0028_Layer-4-copy-16.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/mustard-seeds/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Mustard seeds"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "mustard-seeds"
-    ]
-  },
-  {
     "id": 639,
     "name": "Neem Oil",
     "slug": "neem-oil",
@@ -10867,7 +10164,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": true,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg"
     ],
     "packSizes": [
       "500g"
@@ -10905,8 +10202,19 @@ export const products = [
       "og_title": "Rice Flakes Red - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/rice-flakes/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-14T17:42:00+00:00",
+      "article_modified_time": "2026-08-05T07:07:53+00:00",
+      "og_image": [
+        {
+          "width": 768,
+          "height": 736,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -10918,8 +10226,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
             "datePublished": "2025-10-24T07:29:55+00:00",
-            "dateModified": "2026-07-14T17:42:00+00:00",
+            "dateModified": "2026-08-05T07:07:53+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/rice-flakes/#breadcrumb"
             },
@@ -10932,6 +10247,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/rice-flakes/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/Rice-Flakes-Red-Mockup.jpg",
+            "width": 768,
+            "height": 736
           },
           {
             "@type": "BreadcrumbList",
@@ -12211,138 +11535,6 @@ export const products = [
     },
     "allSlugs": [
       "wayanadan-coffee-powder"
-    ]
-  },
-  {
-    "id": 608,
-    "name": "Urad Dal Split",
-    "slug": "urad-dal-split",
-    "category": "Pulses",
-    "price": "₹0.00",
-    "isBulkOnly": false,
-    "images": [
-      "https://www.pavithram.online/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg"
-    ],
-    "packSizes": [
-      "Standard"
-    ],
-    "description": "",
-    "ingredients": "",
-    "nutritionalInfo": "",
-    "benefits": [],
-    "storage": "",
-    "manufacturer": "Pavithram Foods Pvt. Ltd., Kerala, India",
-    "certifications": [],
-    "fssai": "",
-    "sku": "",
-    "seo": {
-      "title": "Urad Dal Split - Pavithram Group of Companies",
-      "robots": {
-        "index": "noindex",
-        "follow": "follow",
-        "max-snippet": "max-snippet:-1",
-        "max-image-preview": "max-image-preview:large",
-        "max-video-preview": "max-video-preview:-1"
-      },
-      "og_locale": "en_US",
-      "og_type": "article",
-      "og_title": "Urad Dal Split - Pavithram Group of Companies",
-      "og_url": "https://www.pavithramfoods.com/product/urad-dal-split/",
-      "og_site_name": "Pavithram Group of Companies",
-      "og_image": [
-        {
-          "width": 672,
-          "height": 864,
-          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-          "type": "image/jpeg"
-        }
-      ],
-      "twitter_card": "summary_large_image",
-      "schema": {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebPage",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/",
-            "url": "https://www.pavithramfoods.com/product/urad-dal-split/",
-            "name": "Urad Dal Split - Pavithram Group of Companies",
-            "isPartOf": {
-              "@id": "https://www.pavithramfoods.com/#website"
-            },
-            "primaryImageOfPage": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage"
-            },
-            "image": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage"
-            },
-            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "datePublished": "2025-10-24T06:19:51+00:00",
-            "breadcrumb": {
-              "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [
-              {
-                "@type": "ReadAction",
-                "target": [
-                  "https://www.pavithramfoods.com/product/urad-dal-split/"
-                ]
-              }
-            ]
-          },
-          {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#primaryimage",
-            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/10/MP_0044_Urad-Dal-Split@300x-8.jpg",
-            "width": 672,
-            "height": 864
-          },
-          {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.pavithramfoods.com/product/urad-dal-split/#breadcrumb",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.pavithramfoods.com/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Urad Dal Split"
-              }
-            ]
-          },
-          {
-            "@type": "WebSite",
-            "@id": "https://www.pavithramfoods.com/#website",
-            "url": "https://www.pavithramfoods.com/",
-            "name": "Pavithram Group of Companies",
-            "description": "Trusted edible oil manufacturer into a complete food brand loved in Kerala and abroad. From pure oils and ghee to millets, spices, pickles, jams, and breakfast essentials, we bring authentic taste and quality to every kitchen. Our latest venture, Cochin Snacks, adds a modern twist to traditional flavors. With ingredients sourced directly from farmers, we ensure purity, nutrition, and freshness in every product, continuing a legacy of health and tradition for over 75 years.",
-            "potentialAction": [
-              {
-                "@type": "SearchAction",
-                "target": {
-                  "@type": "EntryPoint",
-                  "urlTemplate": "https://www.pavithramfoods.com/?s={search_term_string}"
-                },
-                "query-input": {
-                  "@type": "PropertyValueSpecification",
-                  "valueRequired": true,
-                  "valueName": "search_term_string"
-                }
-              }
-            ],
-            "inLanguage": "en-US"
-          }
-        ]
-      }
-    },
-    "allSlugs": [
-      "urad-dal-split"
     ]
   },
   {
@@ -17674,7 +16866,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -17711,8 +16903,19 @@ export const products = [
       "og_title": "Spicy Rice Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/plain-pappad-200gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:14:53+00:00",
+      "article_modified_time": "2026-08-05T07:15:45+00:00",
+      "og_image": [
+        {
+          "width": 918,
+          "height": 726,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -17724,8 +16927,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
             "datePublished": "2025-09-22T13:10:48+00:00",
-            "dateModified": "2026-07-16T07:14:53+00:00",
+            "dateModified": "2026-08-05T07:15:45+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#breadcrumb"
             },
@@ -17738,6 +16948,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-200gm/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Spicy-Rice-Papad-Mockup.jpg",
+            "width": 918,
+            "height": 726
           },
           {
             "@type": "BreadcrumbList",
@@ -17793,7 +17012,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/logo_cropped.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg"
     ],
     "packSizes": [
       "100g"
@@ -17830,8 +17049,19 @@ export const products = [
       "og_title": "Rice Pappad - Pavithram Group of Companies",
       "og_url": "https://www.pavithramfoods.com/product/plain-pappad-100gm/",
       "og_site_name": "Pavithram Group of Companies",
-      "article_modified_time": "2026-07-16T07:09:57+00:00",
+      "article_modified_time": "2026-08-05T07:16:47+00:00",
+      "og_image": [
+        {
+          "width": 918,
+          "height": 724,
+          "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+          "type": "image/jpeg"
+        }
+      ],
       "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Est. reading time": "1 minute"
+      },
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -17843,8 +17073,15 @@ export const products = [
             "isPartOf": {
               "@id": "https://www.pavithramfoods.com/#website"
             },
+            "primaryImageOfPage": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage"
+            },
+            "image": {
+              "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage"
+            },
+            "thumbnailUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
             "datePublished": "2025-09-22T13:09:58+00:00",
-            "dateModified": "2026-07-16T07:09:57+00:00",
+            "dateModified": "2026-08-05T07:16:47+00:00",
             "breadcrumb": {
               "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#breadcrumb"
             },
@@ -17857,6 +17094,15 @@ export const products = [
                 ]
               }
             ]
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://www.pavithramfoods.com/product/plain-pappad-100gm/#primaryimage",
+            "url": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+            "contentUrl": "https://www.pavithramfoods.com/wp-content/uploads/2025/09/Rice-Papad-Mockup.jpg",
+            "width": 918,
+            "height": 724
           },
           {
             "@type": "BreadcrumbList",
