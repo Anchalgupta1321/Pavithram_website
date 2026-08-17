@@ -236,7 +236,7 @@ function ProductsContent({ products }) {
             animate="visible"
             key={activeCategory} // forces re-animation on category change
           >
-            <AnimatePresence mode="popLayout">
+            <AnimatePresence>
               {paginatedProducts.map((product) => (
                 <motion.div
                   key={product.id}
