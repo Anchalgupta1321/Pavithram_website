@@ -44,6 +44,11 @@ export const metadata = {
     icon: '/icon.png',
     apple: '/icon.png',
   },
+  verification: {
+    other: {
+      'facebook-domain-verification': ['o3vngfe0lvkhxo1lvx9zdjpfs513xd'],
+    },
+  },
 };
 
 export default async function RootLayout({ children }) {
@@ -72,7 +77,6 @@ export default async function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://www.pavithram.online" />
-        <meta name="facebook-domain-verification" content="o3vngfe0lvkhxo1lvx9zdjpfs513xd" />
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         {/* Google Analytics Setup */}
