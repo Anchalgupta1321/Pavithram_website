@@ -3,8 +3,7 @@
 import Script from 'next/script';
 
 export default function MetaPixel() {
-  // Replace this with the actual pixel ID when you receive it
-  const pixelId = 'YOUR_PIXEL_ID_HERE';
+  const pixelId = '2342620809840537';
 
   return (
     <>
