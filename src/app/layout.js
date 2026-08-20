@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import MetaPixel from "../components/MetaPixel";
 import { FaWhatsapp } from "react-icons/fa";
 import { fetchProductCategories } from "../services/wordpress";
 
@@ -71,6 +72,7 @@ export default async function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://www.pavithram.online" />
+        <meta name="facebook-domain-verification" content="o3vngfe0lvkhxo1lvx9zdjpfs513xd" />
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         {/* Google Analytics Setup */}
@@ -95,6 +97,8 @@ export default async function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
+
+        <MetaPixel />
 
         <Navbar categories={productCategories} />
         {children}
