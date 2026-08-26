@@ -4282,7 +4282,7 @@ export const products = [
     "price": "₹0.00",
     "isBulkOnly": false,
     "images": [
-      "/images/products/placeholder.png"
+      "https://www.pavithram.online/wp-content/uploads/2025/09/Pooja-Oil-1000ml.jpg"
     ],
     "packSizes": [
       "1L"
