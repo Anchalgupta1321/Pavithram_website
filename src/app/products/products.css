@@ -142,6 +142,8 @@
   overflow: hidden;
   position: relative;
   background: transparent;
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .product-img-wrapper img {
