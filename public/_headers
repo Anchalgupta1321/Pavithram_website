@@ -1,0 +1,44 @@
+# Cloudflare Pages – Cache-Control Headers
+# These rules prevent CDN/browser from serving stale HTML pages.
+# Static assets (JS, CSS, images) are still aggressively cached.
+
+# HTML pages – always revalidate, never serve stale
+/*.html
+  Cache-Control: no-cache, must-revalidate
+
+# Root and deep routes (Cloudflare Pages serves these as HTML)
+/
+  Cache-Control: no-cache, must-revalidate
+
+/products
+  Cache-Control: no-cache, must-revalidate
+
+/products/*
+  Cache-Control: no-cache, must-revalidate
+
+/blogs
+  Cache-Control: no-cache, must-revalidate
+
+/blogs/*
+  Cache-Control: no-cache, must-revalidate
+
+/gallery
+  Cache-Control: no-cache, must-revalidate
+
+/contact-us
+  Cache-Control: no-cache, must-revalidate
+
+/our-story
+  Cache-Control: no-cache, must-revalidate
+
+# Next.js static assets – cache forever (they use content hashes in filenames)
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Public images – cache for 1 week
+/images/*
+  Cache-Control: public, max-age=604800
+
+# Videos – cache for 1 day
+/videos/*
+  Cache-Control: public, max-age=86400
