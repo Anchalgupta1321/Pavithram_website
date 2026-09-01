@@ -2,11 +2,11 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
-import Image from "next/legacy/image";
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaGlobeAsia, FaIndustry } from 'react-icons/fa';
 import './products.css';
+
 
 const getCategoryColor = (category) => {
   return '#FFFFFF'; // White background for all products
@@ -251,7 +251,7 @@ function ProductsContent({ products }) {
                     {product.badge && <span className="product-badge">{product.badge}</span>}
 
                     <div className="product-img-wrapper" style={{ backgroundColor: getCategoryColor(product.category) }}>
-                      <Image src={product.images ? product.images[0] : ''} alt={product.name} layout="fill" objectFit="contain" />
+                      <img src={product.images ? product.images[0] : ''} alt={product.name} className="product-img" />
                     </div>
 
                     <div className="product-details">
