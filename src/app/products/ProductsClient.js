@@ -247,7 +247,7 @@ function ProductsContent({ products }) {
                   whileHover={{ y: -5, boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }}
                   transition={{ duration: 0.3 }}
                 >
-                  <Link href={`/products/${product.slug}`} className="product-card" style={{ textDecoration: 'none', height: '100%', display: 'block' }}>
+                  <Link href={`/products/${product.slug}`} className="product-card" style={{ textDecoration: 'none', height: '100%', display: 'flex', flexDirection: 'column' }}>
                     {product.badge && <span className="product-badge">{product.badge}</span>}
 
                     <div className="product-img-wrapper" style={{ backgroundColor: getCategoryColor(product.category) }}>
