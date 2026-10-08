@@ -1,5 +1,10 @@
 # Cloudflare Pages redirect rules
 # (replaces next.config redirects(), which is unsupported with output: 'export')
+# Canonical domain redirects (WWW to non-WWW & HTTP to HTTPS)
+https://www.pavithramfoods.com/*  https://pavithramfoods.com/:splat  301
+http://www.pavithramfoods.com/*   https://pavithramfoods.com/:splat  301
+http://pavithramfoods.com/*       https://pavithramfoods.com/:splat  301
+
 /certificate    /certifications   301
 /certificates   /certifications   301
 /certification  /certifications   301
