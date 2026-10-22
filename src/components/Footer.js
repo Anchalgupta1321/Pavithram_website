@@ -111,7 +111,7 @@ export default function Footer() {
         <motion.div className="footer-col" variants={fadeInUp}>
           <h3 className="footer-heading">Explore</h3>
           <ul className="footer-links">
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="/terms">Terms & Conditions</a></li>
           </ul>
         </motion.div>

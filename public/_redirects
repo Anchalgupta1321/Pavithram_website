@@ -16,3 +16,5 @@ http://pavithramfoods.com/*       https://pavithramfoods.com/:splat  301
 /craving-authentic-flavours-explore-the-best-homemade-kerala-snacks-online /blogs/craving-authentic-flavours-explore-the-best-homemade-kerala-snacks-online 301
 /organic-sesame-oil-benefits-the-secret-to-healthier-cooking-every-day /blogs/organic-sesame-oil-benefits-the-secret-to-healthier-cooking-every-day 301
 /product-category/* /products?category=:splat 301
+/privacy-policy    /privacy          301
+/privacy-policy/*  /privacy          301
