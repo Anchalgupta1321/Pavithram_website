@@ -313,6 +313,11 @@ async function main() {
   console.log("Fetching Products...");
   const products = await fetchProducts();
   
+  if (!products || !Array.isArray(products) || products.length === 0) {
+    console.error("Product fetch failed or returned 0 products. Aborting update to protect fallbackData.js.");
+    process.exit(1);
+  }
+  
   const dataFile = path.join(__dirname, '../src/data/fallbackData.js');
   const content = `// AUTO-GENERATED snapshot of live WordPress data
 // Generated manually to bypass WAF blocks on Cloudflare

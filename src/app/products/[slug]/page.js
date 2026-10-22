@@ -8,9 +8,9 @@ import ProductClient from './ProductClient';
 export async function generateStaticParams() {
   const products = await getAllProducts();
   const slugs = new Set();
-  products.forEach((product) => {
-    if (product.slug) slugs.add(product.slug);
-    if (Array.isArray(product.allSlugs)) {
+  (products || []).forEach((product) => {
+    if (product && product.slug) slugs.add(product.slug);
+    if (product && Array.isArray(product.allSlugs)) {
       product.allSlugs.forEach(slug => {
         if (slug) slugs.add(slug);
       });

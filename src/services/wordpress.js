@@ -20,13 +20,13 @@ export async function getAllProducts() {
   // In local development, always fetch fresh data so you don't have to restart the server
   if (process.env.NODE_ENV === 'development') {
     const wp = await fetchProducts();
-    return wp && wp.length > 0 ? wp : fallbackProducts;
+    return (wp && wp.length > 0 ? wp : fallbackProducts) || [];
   }
 
   if (!_allProductsPromise) {
     _allProductsPromise = (async () => {
       const wp = await fetchProducts();
-      return wp && wp.length > 0 ? wp : fallbackProducts;
+      return (wp && wp.length > 0 ? wp : fallbackProducts) || [];
     })();
   }
   return _allProductsPromise;
@@ -37,7 +37,7 @@ export async function getAllProducts() {
  * static data if the live list is missing it.
  */
 export async function getProductBySlug(slug) {
-  const all = await getAllProducts();
+  const all = (await getAllProducts()) || [];
   const safeSlug = (slug || "").trim().toLowerCase();
   
   return all.find((p) => {
@@ -45,7 +45,7 @@ export async function getProductBySlug(slug) {
     const matchesMain = pSlug === safeSlug;
     const matchesAny = p.allSlugs && p.allSlugs.some(s => (s || "").trim().toLowerCase() === safeSlug);
     return matchesMain || matchesAny;
-  }) || fallbackProducts.find((p) => (p.slug || "").trim().toLowerCase() === safeSlug) || null;
+  }) || (fallbackProducts || []).find((p) => (p.slug || "").trim().toLowerCase() === safeSlug) || null;
 }
 
 /**
@@ -68,7 +68,7 @@ export async function fetchProductCategories() {
     // Fallback derives from the committed product snapshot so the nav dropdown
     // still matches the products page sidebar when WordPress is unreachable. The
     // snapshot is accurate, so we fail fast (few retries) rather than stalling.
-    const fallback = () => Array.from(new Set(fallbackProducts.map((p) => p.category).filter(Boolean)));
+    const fallback = () => Array.from(new Set((fallbackProducts || []).map((p) => p.category).filter(Boolean)));
     try {
       const terms = await wpFetchJson(`${WP_API_BASE}/product-cat?per_page=100&orderby=count&order=desc`, {
         next: { revalidate: 60 },
