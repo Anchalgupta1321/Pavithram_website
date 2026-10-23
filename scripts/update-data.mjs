@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { promoBanner as existingPromo, homeVideos as existingVideos, testimonials as existingTestimonials, gallery as existingGallery, products as existingProducts } from '../src/data/fallbackData.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -314,19 +315,25 @@ async function main() {
   const products = await fetchProducts();
   
   if (!products || !Array.isArray(products) || products.length === 0) {
-    console.error("Product fetch failed or returned 0 products. Aborting update to protect fallbackData.js.");
-    process.exit(1);
+    console.warn("WordPress backend is unreachable or returned 0 products. Preserving existing fallback data and skipping update.");
+    return;
   }
   
+  const finalPromo = promoBanner || existingPromo || null;
+  const finalVideos = (homeVideos && homeVideos.length > 0) ? homeVideos : (existingVideos || []);
+  const finalTestimonials = (testimonials && testimonials.length > 0) ? testimonials : (existingTestimonials || []);
+  const finalGallery = (gallery && gallery.length > 0) ? gallery : (existingGallery || []);
+  const finalProducts = products;
+
   const dataFile = path.join(__dirname, '../src/data/fallbackData.js');
   const content = `// AUTO-GENERATED snapshot of live WordPress data
 // Generated manually to bypass WAF blocks on Cloudflare
 
-export const promoBanner = ${JSON.stringify(promoBanner, null, 2)};
-export const homeVideos = ${JSON.stringify(homeVideos, null, 2)};
-export const testimonials = ${JSON.stringify(testimonials, null, 2)};
-export const gallery = ${JSON.stringify(gallery, null, 2)};
-export const products = ${JSON.stringify(products, null, 2)};
+export const promoBanner = ${JSON.stringify(finalPromo, null, 2)};
+export const homeVideos = ${JSON.stringify(finalVideos, null, 2)};
+export const testimonials = ${JSON.stringify(finalTestimonials, null, 2)};
+export const gallery = ${JSON.stringify(finalGallery, null, 2)};
+export const products = ${JSON.stringify(finalProducts, null, 2)};
 `;
   fs.writeFileSync(dataFile, content, 'utf8');
   console.log("Successfully updated " + dataFile);
